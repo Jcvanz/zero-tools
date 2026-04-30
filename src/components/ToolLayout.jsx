@@ -9,23 +9,29 @@ export default function ToolLayout({ tool, children, seo = {} }) {
   return (
     <>
       <Helmet>
-        <title>{title}</title>
-        <meta name="description" content={desc} />
-        <meta name="keywords" content={tool.keywords} />
+        <title>{tool.name} — ZeroTools</title>
+        <meta name="description" content={tool.description} />
+        <meta name="keywords" content={tool.keywords.join(', ')} />
         <link rel="canonical" href={`https://myzerotools.online${tool.path}`} />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebApplication",
+            "name": tool.name,
+            "description": tool.description,
+            "url": `https://myzerotools.online${tool.path}`,
+            "applicationCategory": "BrowserApplication",
+            "operatingSystem": "All",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            }
+          })}
+        </script>
         <meta property="og:title" content={title} />
         <meta property="og:description" content={desc} />
         <meta property="og:type" content="website" />
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "WebApplication",
-          "name": tool.name,
-          "url": `https://myzerotools.online${tool.path}`,
-          "description": desc,
-          "applicationCategory": "UtilitiesApplication",
-          "operatingSystem": "All",
-          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
-        })}</script>
       </Helmet>
 
       <AdSlot slot="Top Leaderboard 728×90" />
