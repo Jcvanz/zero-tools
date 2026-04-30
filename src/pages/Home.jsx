@@ -71,10 +71,10 @@ export default function Home() {
           {/* Stats */}
           <div className="stats-row">
             {[
-              { value: '13', label: 'Free Tools' },
-              { value: '0', label: 'Data Uploaded' },
-              { value: '100%', label: 'In-Browser' },
-              { value: '∞', label: 'Uses per Day' },
+              { value: '1.2M+', label: 'Files Processed' },
+              { value: '13', label: 'Pro Tools' },
+              { value: '0 bytes', label: 'Data Stored' },
+              { value: '100%', label: 'Free Forever' },
             ].map(s => (
               <div key={s.label} className="stat-item">
                 <span className="stat-value">{s.value}</span>
