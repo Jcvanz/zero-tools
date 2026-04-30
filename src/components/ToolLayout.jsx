@@ -11,7 +11,7 @@ export default function ToolLayout({ tool, children, seo = {} }) {
       <Helmet>
         <title>{tool.name} — ZeroTools</title>
         <meta name="description" content={tool.description} />
-        <meta name="keywords" content={tool.keywords.join(', ')} />
+        <meta name="keywords" content={tool.keywords} />
         <link rel="canonical" href={`https://myzerotools.online${tool.path}`} />
         <script type="application/ld+json">
           {JSON.stringify({
