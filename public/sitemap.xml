@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://zerotools.app/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://zerotools.app/faq</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://zerotools.app/privacy</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  
+  <url><loc>https://zerotools.app/tools/hashtag-generator</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://zerotools.app/tools/qr-code</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://zerotools.app/tools/image-compressor</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://zerotools.app/tools/background-remover</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://zerotools.app/tools/pdf-compressor</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://zerotools.app/tools/file-converter</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://zerotools.app/tools/password-generator</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://zerotools.app/tools/color-palette</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://zerotools.app/tools/lorem-ipsum</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://zerotools.app/tools/json-formatter</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://zerotools.app/tools/word-counter</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://zerotools.app/tools/base64</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://zerotools.app/tools/case-converter</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+</urlset>
