@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
 
 // Pages
 import Home from './pages/Home';
@@ -47,6 +49,8 @@ function App() {
         <Route path="/tools/case-converter" element={<CaseConverter />} />
       </Routes>
       <Footer />
+      <SpeedInsights />
+      <Analytics />
     </Router>
   );
 }

@@ -6,7 +6,7 @@ import { tools } from '../../data/tools';
 const tool = tools.find(t => t.id === 'qr-code');
 
 export default function QRCodeGenerator() {
-  const [value, setValue] = useState('https://zerotools.app');
+  const [value, setValue] = useState('https://myzerotools.online');
   const [size, setSize]   = useState(256);
   const [fg, setFg]       = useState('#111827');
   const [bg, setBg]       = useState('#ffffff');

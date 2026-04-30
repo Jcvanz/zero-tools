@@ -12,7 +12,7 @@ export default function ToolLayout({ tool, children, seo = {} }) {
         <title>{title}</title>
         <meta name="description" content={desc} />
         <meta name="keywords" content={tool.keywords} />
-        <link rel="canonical" href={`https://zerotools.app${tool.path}`} />
+        <link rel="canonical" href={`https://myzerotools.online${tool.path}`} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={desc} />
         <meta property="og:type" content="website" />
@@ -20,7 +20,7 @@ export default function ToolLayout({ tool, children, seo = {} }) {
           "@context": "https://schema.org",
           "@type": "WebApplication",
           "name": tool.name,
-          "url": `https://zerotools.app${tool.path}`,
+          "url": `https://myzerotools.online${tool.path}`,
           "description": desc,
           "applicationCategory": "UtilitiesApplication",
           "operatingSystem": "All",

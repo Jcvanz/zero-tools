@@ -9,7 +9,7 @@ export default function Privacy() {
         <title>Privacy Policy — ZeroTools</title>
         <meta name="description" content="ZeroTools Privacy Policy. We don't collect your files. All processing happens in your browser." />
         <meta name="robots" content="noindex, follow" />
-        <link rel="canonical" href="https://zerotools.app/privacy" />
+        <link rel="canonical" href="https://myzerotools.online/privacy" />
       </Helmet>
 
       <main className="main-content" style={{padding:'60px 0 80px'}}>
@@ -19,7 +19,7 @@ export default function Privacy() {
             <h1>Privacy Policy</h1>
             <p className="updated">Last updated: May 1, {year}</p>
 
-            <p>ZeroTools ("we", "us", "our") operates zerotools.app. This page describes how we handle information when you use our free online tools.</p>
+            <p>ZeroTools ("we", "us", "our") operates myzerotools.online. This page describes how we handle information when you use our free online tools.</p>
 
             <h2>1. No File Data Collection</h2>
             <p>All image processing, PDF operations, and text transformations run <strong>entirely in your browser</strong> using Web APIs (Canvas, WebAssembly, FileReader). Your files and data are <strong>never uploaded to our servers</strong>. We cannot access, view, or store anything you process.</p>
