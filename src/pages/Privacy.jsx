@@ -40,7 +40,7 @@ export default function Privacy() {
             <p>We may update this policy occasionally. Changes will be noted with a new "last updated" date at the top of this page.</p>
 
             <h2>7. Contact</h2>
-            <p>Questions? Email us at <a href="mailto:privacy@zerotools.app">privacy@zerotools.app</a></p>
+            <p>Questions? Email us at <a href="mailto:HelloZeroTools@outlook.com">HelloZeroTools@outlook.com</a></p>
           </div>
         </div>
       </main>
