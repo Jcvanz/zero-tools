@@ -45,7 +45,7 @@ export default function FAQ() {
             <div style={{marginTop:48,padding:32,background:'var(--clr-brand-lt)',borderRadius:24,textAlign:'center',border:'1px solid #c7d2fe'}}>
               <h2 style={{fontSize:'1.25rem',marginBottom:8}}>Still have questions?</h2>
               <p style={{color:'var(--clr-text-2)',marginBottom:20}}>Send us an email and we'll get back to you within 24 hours.</p>
-              <a href="mailto:hello@zerotools.app" className="btn btn-primary">✉️ Contact Us</a>
+              <a href="mailto:zerotoolsapp@gmail.com" className="btn btn-primary">✉️ Contact Us</a>
             </div>
           </div>
         </div>

@@ -173,7 +173,7 @@ export default function Header() {
         .nav-dropdown { position: relative; }
         .nav-dropdown-trigger { font-family: var(--font); }
         .dropdown-menu {
-          position: absolute; top: calc(100% + 10px); left: 50%;
+          position: absolute; top: calc(100% + 10px); right: 0;
           transform: translateX(-50%);
           background: white;
           border: 1px solid var(--clr-border);
