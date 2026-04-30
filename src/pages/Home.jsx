@@ -22,7 +22,7 @@ export default function Home() {
         <title>ZeroTools — Free Online Tools: QR Code, Hashtag Generator, Image Compressor & More</title>
         <meta name="description" content="Free online tools: QR code generator, hashtag generator, image compressor, background remover, PDF compressor and more. No signup required — works entirely in your browser." />
         <meta name="keywords" content="free online tools, qr code generator, hashtag generator, image compressor, background remover, pdf compressor, password generator" />
-        <link rel="canonical" href="https://zerotools.app/" />
+        <link rel="canonical" href="https://myzerotools.online/" />
         <meta property="og:title" content="ZeroTools — Free Online Tools" />
         <meta property="og:description" content="13 free browser-based tools for creators, developers and marketers." />
         <meta property="og:type" content="website" />

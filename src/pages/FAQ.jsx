@@ -12,7 +12,7 @@ const faqs = [
   { q: 'Why is my PDF only slightly smaller after compression?', a: 'Client-side PDF compression removes metadata and optimizes the file structure. If your PDF is mostly large embedded images, the reduction will be minimal. For heavy image-based PDFs, we recommend using a server-side tool.' },
   { q: 'Do you show ads?', a: 'Yes, ZeroTools is supported by Google AdSense display ads. This allows us to keep all tools free. Ad placements are designed to be non-intrusive and never interrupt your workflow.' },
   { q: 'Can I use the generated QR codes commercially?', a: 'Absolutely. All generated files (QR codes, compressed images, etc.) belong to you and can be used for any purpose.' },
-  { q: 'How do I report a bug or suggest a new tool?', a: 'We\'d love to hear from you! Send an email to hello@zerotools.app with your feedback.' },
+  { q: 'How do I report a bug or suggest a new tool?', a: 'We\'d love to hear from you! Send an email to hello@myzerotools.online with your feedback.' },
 ];
 
 export default function FAQ() {
@@ -21,7 +21,7 @@ export default function FAQ() {
       <Helmet>
         <title>FAQ — Frequently Asked Questions | ZeroTools</title>
         <meta name="description" content="Answers to common questions about ZeroTools — free online tools for QR codes, image compression, hashtag generation and more." />
-        <link rel="canonical" href="https://zerotools.app/faq" />
+        <link rel="canonical" href="https://myzerotools.online/faq" />
       </Helmet>
 
       <AdSlot slot="Top Leaderboard" />
