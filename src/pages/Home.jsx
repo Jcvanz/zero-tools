@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>ZeroTools — Free Online Tools: QR Code, Hashtag Generator, Image Compressor & More</title>
+        <title>ZeroTools — Free Online Tools</title>
         <meta name="description" content="Free online tools: QR code generator, hashtag generator, image compressor, background remover, PDF compressor and more. No signup required — works entirely in your browser." />
         <meta name="keywords" content="free online tools, qr code generator, hashtag generator, image compressor, background remover, pdf compressor, password generator" />
         <link rel="canonical" href="https://myzerotools.online/" />
