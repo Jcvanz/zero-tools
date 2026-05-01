@@ -38,19 +38,6 @@ Tired of uploading sensitive images and PDFs to random backend servers? ZeroTool
 * **Routing & SEO:** `react-router-dom` + `react-helmet-async`
 * **Hosting:** Vercel
 
-## 👨‍💻 Running Locally
-If you want to run this toolbox locally on your machine:
-
-```bash
-# Clone the repository
-git clone https://github.com/SEU_USUARIO/micro-saas.git
-
-# Install dependencies
-npm install
-
-# Start the local development server
-npm run dev
-```
 
 ## 🛡️ Privacy Policy
 This project operates on a strict zero-backend philosophy. No files, documents, or texts are ever transmitted over the network for processing. All logic is executed on your device's CPU/GPU. 
