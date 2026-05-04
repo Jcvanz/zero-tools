@@ -63,6 +63,18 @@ export default function ToolLayout({ tool, children, seo = {} }) {
             {children}
           </div>
 
+          {/* SEO Content Block for AdSense Approval */}
+          <div className="tool-seo-content fade-up" style={{ marginTop: '48px', padding: '32px', backgroundColor: 'var(--clr-surface)', borderRadius: '16px', border: '1px solid var(--clr-border)' }}>
+            <h2 style={{ fontSize: '1.25rem', marginBottom: '16px' }}>About the {tool.name}</h2>
+            <p style={{ color: 'var(--clr-text-2)', lineHeight: '1.6', marginBottom: '24px' }}>
+              The {tool.name} is a powerful utility designed to help you with your daily tasks. {tool.desc} It is completely free to use and requires no registration or software installation.
+            </p>
+            <h3 style={{ fontSize: '1.1rem', marginBottom: '12px' }}>🔒 100% Privacy & Client-Side Processing</h3>
+            <p style={{ color: 'var(--clr-text-2)', lineHeight: '1.6' }}>
+              Unlike other online tools that upload your files to external servers, our {tool.name} operates entirely within your browser. We utilize modern web technologies (like WebAssembly and HTML5) to process everything locally on your device. This means your data is never uploaded, stored, or seen by anyone else, guaranteeing absolute privacy.
+            </p>
+          </div>
+
           {/* Mid ad */}
           <AdSlot slot="In-Article 336×280" className="mt-6" />
         </div>
