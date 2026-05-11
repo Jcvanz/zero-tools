@@ -1,10 +1,12 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import ToolLayout from '../../components/ToolLayout';
 import { tools } from '../../data/tools';
 
 const tool = tools.find(t => t.id === 'background-remover');
 
 export default function BackgroundRemover() {
+  const { t } = useTranslation();
   const [hover, setHover]     = useState(false);
   const [original, setOriginal] = useState(null);
   const [result, setResult]   = useState(null);
@@ -23,7 +25,7 @@ export default function BackgroundRemover() {
       const url  = URL.createObjectURL(blob);
       setResult(url);
     } catch (e) {
-      setError('Could not process this image. Please try a different one.');
+      setError(t('bg_remover.error'));
       console.error(e);
     } finally {
       setLoading(false);
@@ -36,7 +38,7 @@ export default function BackgroundRemover() {
     <ToolLayout tool={tool}>
       <div className="card" style={{marginBottom:20}}>
         <div className="info-banner">
-          🧠 <strong>AI-powered</strong> — Runs entirely in your browser using WebAssembly. First use downloads a ~40MB model (cached afterwards).
+          {t('bg_remover.ai_banner')}
         </div>
 
         {!original && (
@@ -57,10 +59,10 @@ export default function BackgroundRemover() {
                 <path d="M20 20a4 4 0 100-8 4 4 0 000 8z" stroke="#10b981" strokeWidth="2.5"/>
               </svg>
             </div>
-            <p className="dropzone-title">Drop an image to remove background</p>
-            <p className="dropzone-sub">JPG or PNG recommended — best results on people, products &amp; logos</p>
+            <p className="dropzone-title">{t('bg_remover.drop_title')}</p>
+            <p className="dropzone-sub">{t('bg_remover.drop_sub')}</p>
             <label className="btn btn-outline" htmlFor="bg-file" style={{cursor:'pointer'}}>
-              Browse Image
+              {t('bg_remover.browse_btn')}
               <input type="file" id="bg-file" accept="image/*" className="sr-only"
                 onChange={e => processFile(e.target.files[0])} />
             </label>
@@ -70,7 +72,7 @@ export default function BackgroundRemover() {
         {loading && (
           <div style={{display:'flex',flexDirection:'column',alignItems:'center',gap:16,padding:'48px 0'}}>
             <div className="spinner" style={{width:52,height:52}} />
-            <p style={{fontWeight:600,color:'#10b981'}}>Removing background — this may take 10–30 seconds…</p>
+            <p style={{fontWeight:600,color:'#10b981'}}>{t('bg_remover.loading')}</p>
           </div>
         )}
 
@@ -80,11 +82,11 @@ export default function BackgroundRemover() {
           <div>
             <div className="tool-grid tool-grid-2" style={{marginTop:20,gap:16}}>
               <div>
-                <p style={{fontWeight:600,fontSize:'.85rem',marginBottom:8,color:'var(--clr-text-3)'}}>ORIGINAL</p>
+                <p style={{fontWeight:600,fontSize:'.85rem',marginBottom:8,color:'var(--clr-text-3)'}}>{t('bg_remover.original')}</p>
                 <img src={original} alt="Original" style={{width:'100%',borderRadius:12,border:'1px solid var(--clr-border)'}} />
               </div>
               <div>
-                <p style={{fontWeight:600,fontSize:'.85rem',marginBottom:8,color:'var(--clr-text-3)'}}>RESULT</p>
+                <p style={{fontWeight:600,fontSize:'.85rem',marginBottom:8,color:'var(--clr-text-3)'}}>{t('bg_remover.result')}</p>
                 <div style={{borderRadius:12,overflow:'hidden',border:'1px solid var(--clr-border)',background: bgColor === 'transparent' ? 'repeating-conic-gradient(#e5e7eb 0% 25%, white 0% 50%) 0 0 / 16px 16px' : bgColor}}>
                   <img src={result} alt="Background removed" style={{width:'100%'}} />
                 </div>
@@ -93,16 +95,16 @@ export default function BackgroundRemover() {
 
             <div style={{display:'flex',gap:12,marginTop:20,flexWrap:'wrap',alignItems:'center'}}>
               <div className="form-group" style={{flexDirection:'row',alignItems:'center',gap:8}}>
-                <label className="form-label" htmlFor="bg-color" style={{whiteSpace:'nowrap'}}>Preview BG:</label>
+                <label className="form-label" htmlFor="bg-color" style={{whiteSpace:'nowrap'}}>{t('bg_remover.preview_bg')}</label>
                 <select id="bg-color" className="form-select" style={{width:'auto'}} value={bgColor} onChange={e => setBgColor(e.target.value)}>
-                  <option value="transparent">Transparent</option>
-                  <option value="white">White</option>
-                  <option value="black">Black</option>
-                  <option value="#f3f4f6">Light Gray</option>
+                  <option value="transparent">{t('bg_remover.transparent')}</option>
+                  <option value="white">{t('bg_remover.white')}</option>
+                  <option value="black">{t('bg_remover.black')}</option>
+                  <option value="#f3f4f6">{t('bg_remover.gray')}</option>
                 </select>
               </div>
-              <a className="btn btn-success" href={result} download="background-removed-zerotools.png">⬇️ Download PNG</a>
-              <button className="btn btn-ghost btn-sm" onClick={() => { setOriginal(null); setResult(null); }}>↩ Try Another</button>
+              <a className="btn btn-success" href={result} download="background-removed-zerotools.png">{t('bg_remover.download')}</a>
+              <button className="btn btn-ghost btn-sm" onClick={() => { setOriginal(null); setResult(null); }}>{t('bg_remover.try_another')}</button>
             </div>
           </div>
         )}

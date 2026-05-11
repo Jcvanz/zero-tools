@@ -1,4 +1,5 @@
 import { useState, useCallback } from 'react';
+import { useTranslation } from 'react-i18next';
 import ToolLayout from '../../components/ToolLayout';
 import { tools } from '../../data/tools';
 
@@ -11,6 +12,7 @@ function formatBytes(b) {
 }
 
 export default function ImageCompressor() {
+  const { t } = useTranslation();
   const [hover, setHover]     = useState(false);
   const [results, setResults] = useState([]);
   const [quality, setQuality] = useState(82);
@@ -53,22 +55,22 @@ export default function ImageCompressor() {
       <div className="card" style={{marginBottom:20}}>
         <div style={{display:'grid',gridTemplateColumns:'1fr 1fr auto',gap:16,marginBottom:20,alignItems:'end'}}>
           <div className="form-group">
-            <label className="form-label" htmlFor="ic-format">Output Format</label>
+            <label className="form-label" htmlFor="ic-format">{t('img_compressor.format')}</label>
             <select id="ic-format" className="form-select" value={format} onChange={e => setFormat(e.target.value)}>
-              <option value="webp">WebP (Recommended)</option>
-              <option value="jpeg">JPEG</option>
-              <option value="png">PNG</option>
+              <option value="webp">{t('img_compressor.webp_rec')}</option>
+              <option value="jpeg">{t('img_compressor.jpeg')}</option>
+              <option value="png">{t('img_compressor.png')}</option>
             </select>
           </div>
           <div className="form-group">
-            <label className="form-label" htmlFor="ic-quality">Quality: <strong>{quality}%</strong></label>
+            <label className="form-label" htmlFor="ic-quality">{t('img_compressor.quality')} <strong>{quality}%</strong></label>
             <input type="range" id="ic-quality" min="10" max="100" value={quality}
               onChange={e => { setQuality(+e.target.value); e.target.style.setProperty('--pct',`${((+e.target.value-10)/90)*100}%`); }}
               style={{'--pct': `${((quality-10)/90)*100}%`}}
             />
           </div>
           <label className="btn btn-outline" htmlFor="ic-file" style={{cursor:'pointer',height:'fit-content'}}>
-            Browse Files
+            {t('img_compressor.browse_btn')}
             <input type="file" id="ic-file" accept="image/*" multiple className="sr-only" onChange={onFile} />
           </label>
         </div>
@@ -85,8 +87,8 @@ export default function ImageCompressor() {
               <path d="M16 32h16" stroke="#f59e0b" strokeWidth="2.5" strokeLinecap="round"/>
             </svg>
           </div>
-          <p className="dropzone-title">Drag &amp; drop images here</p>
-          <p className="dropzone-sub">JPG, PNG, GIF, WebP — multiple files supported</p>
+          <p className="dropzone-title">{t('img_compressor.drop_title')}</p>
+          <p className="dropzone-sub">{t('img_compressor.drop_sub')}</p>
         </div>
       </div>
 
@@ -102,17 +104,17 @@ export default function ImageCompressor() {
                 <div style={{flex:1,minWidth:160}}>
                   <div style={{fontWeight:600,fontSize:'.9rem',marginBottom:6}}>{r.name}</div>
                   <div style={{display:'flex',gap:8,flexWrap:'wrap'}}>
-                    <span className="badge badge-warning">Before: {formatBytes(r.original)}</span>
-                    <span className="badge badge-success">After: {formatBytes(r.compressed)}</span>
-                    <span className="badge badge-brand">↓ {saving}% smaller</span>
+                    <span className="badge badge-warning">{t('img_compressor.before')} {formatBytes(r.original)}</span>
+                    <span className="badge badge-success">{t('img_compressor.after')} {formatBytes(r.compressed)}</span>
+                    <span className="badge badge-brand">↓ {saving}% {t('img_compressor.smaller')}</span>
                   </div>
                 </div>
-                <a className="btn btn-success btn-sm" href={r.url} download={r.name}>⬇ Download</a>
+                <a className="btn btn-success btn-sm" href={r.url} download={r.name}>{t('img_compressor.download')}</a>
               </div>
             );
           })}
           <button className="btn btn-ghost btn-sm" onClick={() => { results.forEach(r => URL.revokeObjectURL(r.url)); setResults([]); }}>
-            ↩ Clear All
+            {t('img_compressor.clear_all')}
           </button>
         </div>
       )}

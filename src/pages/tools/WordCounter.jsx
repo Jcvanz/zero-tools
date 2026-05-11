@@ -1,10 +1,12 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import ToolLayout from '../../components/ToolLayout';
 import { tools } from '../../data/tools';
 
 const tool = tools.find(t => t.id === 'word-counter');
 
 export default function WordCounter() {
+  const { t } = useTranslation();
   const [text, setText] = useState('');
 
   const words    = text.trim() ? text.trim().split(/\s+/).length : 0;
@@ -23,31 +25,31 @@ export default function WordCounter() {
     : [];
 
   const stats = [
-    { value: words,       label: 'Words' },
-    { value: chars,       label: 'Characters' },
-    { value: charsNoS,    label: 'Chars (no spaces)' },
-    { value: sentences,   label: 'Sentences' },
-    { value: paragraphs,  label: 'Paragraphs' },
-    { value: `${readingTime} min`, label: 'Reading Time' },
+    { value: words,       label: t('word_count.words') },
+    { value: chars,       label: t('word_count.chars') },
+    { value: charsNoS,    label: t('word_count.no_spaces') },
+    { value: sentences,   label: t('word_count.sentences') },
+    { value: paragraphs,  label: t('word_count.paragraphs') },
+    { value: `${readingTime} ${t('word_count.min')}`, label: t('word_count.reading') },
   ];
 
   return (
     <ToolLayout tool={tool}>
       <div className="tool-grid tool-grid-2">
         <div className="card">
-          <label className="form-label" htmlFor="wc-input" style={{marginBottom:8}}>Your Text</label>
+          <label className="form-label" htmlFor="wc-input" style={{marginBottom:8}}>{t('word_count.your_text')}</label>
           <textarea id="wc-input" className="form-textarea" style={{minHeight:400,fontSize:'.95rem'}}
             value={text} onChange={e => setText(e.target.value)}
-            placeholder="Paste or type your text here…"
+            placeholder={t('word_count.placeholder')}
           />
           {text && (
-            <button className="btn btn-ghost btn-sm" style={{marginTop:8,alignSelf:'flex-start'}} onClick={() => setText('')}>Clear</button>
+            <button className="btn btn-ghost btn-sm" style={{marginTop:8,alignSelf:'flex-start'}} onClick={() => setText('')}>{t('common.clear')}</button>
           )}
         </div>
 
         <div style={{display:'flex',flexDirection:'column',gap:16}}>
           <div className="card">
-            <h3 style={{fontWeight:700,marginBottom:16}}>Statistics</h3>
+            <h3 style={{fontWeight:700,marginBottom:16}}>{t('word_count.stats')}</h3>
             <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:12}}>
               {stats.map(s => (
                 <div key={s.label} style={{background:'var(--clr-bg)',borderRadius:12,padding:'16px',textAlign:'center',border:'1px solid var(--clr-border)'}}>
@@ -60,7 +62,7 @@ export default function WordCounter() {
 
           {freq.length > 0 && (
             <div className="card">
-              <h3 style={{fontWeight:700,marginBottom:12}}>Top Words</h3>
+              <h3 style={{fontWeight:700,marginBottom:12}}>{t('word_count.top')}</h3>
               <div style={{display:'flex',flexDirection:'column',gap:8}}>
                 {freq.map(([word, count]) => (
                   <div key={word} style={{display:'flex',alignItems:'center',gap:8}}>

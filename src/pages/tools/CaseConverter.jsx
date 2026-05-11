@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import ToolLayout from '../../components/ToolLayout';
 import { tools } from '../../data/tools';
 
@@ -17,6 +18,7 @@ const CONVERSIONS = {
 };
 
 export default function CaseConverter() {
+  const { t } = useTranslation();
   const [input, setInput]   = useState('');
   const [copied, setCopied] = useState('');
 
@@ -26,10 +28,10 @@ export default function CaseConverter() {
     <ToolLayout tool={tool}>
       <div className="card" style={{marginBottom:20}}>
         <div className="form-group">
-          <label className="form-label" htmlFor="cc-input">Input Text</label>
+          <label className="form-label" htmlFor="cc-input">{t('case_conv.input')}</label>
           <textarea id="cc-input" className="form-textarea" style={{minHeight:140}}
             value={input} onChange={e => setInput(e.target.value)}
-            placeholder="Type or paste your text here…"
+            placeholder={t('case_conv.placeholder')}
           />
         </div>
       </div>
@@ -40,12 +42,12 @@ export default function CaseConverter() {
             const result = fn(input);
             return (
               <div key={name} className="card card-sm" style={{cursor:'pointer'}} onClick={() => copy(result)}>
-                <div style={{fontSize:'.7rem',fontWeight:700,letterSpacing:'.08em',textTransform:'uppercase',color:'#a855f7',marginBottom:8}}>{name}</div>
+                <div style={{fontSize:'.7rem',fontWeight:700,letterSpacing:'.08em',textTransform:'uppercase',color:'#a855f7',marginBottom:8}}>{t(`case_conv.${name}`, name)}</div>
                 <div style={{fontSize:'.95rem',fontFamily:'monospace',wordBreak:'break-all',color:'var(--clr-text-1)',marginBottom:12}}>
                   {result}
                 </div>
                 <button className="btn btn-ghost btn-sm" style={{alignSelf:'flex-start'}}>
-                  {copied === result ? '✅ Copied!' : '📋 Copy'}
+                  {copied === result ? t('color_pal.copied') : t('common.copy')}
                 </button>
               </div>
             );
@@ -56,7 +58,7 @@ export default function CaseConverter() {
       {!input.trim() && (
         <div className="card" style={{textAlign:'center',padding:'48px 24px',color:'var(--clr-text-3)'}}>
           <div style={{fontSize:'2.5rem',marginBottom:12}}>Aa</div>
-          <p>Type some text above to see all case conversions instantly</p>
+          <p>{t('case_conv.empty')}</p>
         </div>
       )}
     </ToolLayout>

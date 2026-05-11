@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { tools } from '../data/tools';
 import '../css/footer.css';
 
 export default function Footer() {
+  const { t } = useTranslation();
   const year = new Date().getFullYear();
   const categories = [...new Set(tools.map(t => t.category))];
 
@@ -15,40 +17,39 @@ export default function Footer() {
               <span className="logo-text">Zero<strong>Tools</strong></span>
             </Link>
             <p className="footer-tagline">
-              Free online tools — no signup, no upload, no tracking.
-              Everything runs in your browser.
+              {t('footer.tagline')}
             </p>
           </div>
 
           <div className="footer-links-grid">
             {categories.map(cat => (
               <div key={cat} className="footer-col">
-                <h4 className="footer-col-title">{cat}</h4>
+                <h4 className="footer-col-title">{t(`home.categories.${cat}`, cat)}</h4>
                 <ul>
-                  {tools.filter(t => t.category === cat).map(tool => (
+                  {tools.filter(tItem => tItem.category === cat).map(tool => (
                     <li key={tool.id}>
-                      <Link to={tool.path}>{tool.name}</Link>
+                      <Link to={tool.path}>{t(`tools.${tool.id}.name`, tool.name)}</Link>
                     </li>
                   ))}
                 </ul>
               </div>
             ))}
             <div className="footer-col">
-              <h4 className="footer-col-title">Company</h4>
+              <h4 className="footer-col-title">{t('footer.company')}</h4>
               <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/faq">FAQ</Link></li>
-                <li><Link to="/privacy">Privacy Policy</Link></li>
+                <li><Link to="/">{t('header.home')}</Link></li>
+                <li><Link to="/faq">{t('header.faq')}</Link></li>
+                <li><Link to="/privacy">{t('header.privacy')}</Link></li>
               </ul>
             </div>
           </div>
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {year} ZeroTools. All rights reserved. Built for creators &amp; developers.</p>
+          <p>&copy; {year} ZeroTools. {t('footer.rights')}</p>
           <div className="footer-bottom-links">
-            <Link to="/privacy">Privacy</Link>
-            <Link to="/faq">FAQ</Link>
+            <Link to="/privacy">{t('header.privacy')}</Link>
+            <Link to="/faq">{t('header.faq')}</Link>
           </div>
         </div>
       </div>

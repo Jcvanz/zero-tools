@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import ToolLayout from '../../components/ToolLayout';
 import { tools } from '../../data/tools';
 
@@ -19,6 +20,7 @@ function generateParagraph(sentences = 5) {
 }
 
 export default function LoremIpsum() {
+  const { t } = useTranslation();
   const [type, setType]   = useState('paragraphs');
   const [count, setCount] = useState(3);
   const [output, setOutput] = useState('');
@@ -41,31 +43,31 @@ export default function LoremIpsum() {
       <div className="card">
         <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:16,marginBottom:20}}>
           <div className="form-group">
-            <label className="form-label">Generate</label>
+            <label className="form-label">{t('lorem.generate')}</label>
             <div className="pill-tabs">
-              {['paragraphs','sentences','words'].map(t => (
-                <button key={t} className={`pill-tab${type === t ? ' active' : ''}`} onClick={() => { setType(t); setCount(3); }}>
-                  {t.charAt(0).toUpperCase() + t.slice(1)}
+              {['paragraphs','sentences','words'].map(t_id => (
+                <button key={t_id} className={`pill-tab${type === t_id ? ' active' : ''}`} onClick={() => { setType(t_id); setCount(3); }}>
+                  {t(`lorem.${t_id}`, t_id.charAt(0).toUpperCase() + t_id.slice(1))}
                 </button>
               ))}
             </div>
           </div>
           <div className="form-group">
-            <label className="form-label" htmlFor="li-count">Amount: <strong>{count}</strong></label>
+            <label className="form-label" htmlFor="li-count">{t('lorem.amount')} <strong>{count}</strong></label>
             <input type="range" id="li-count" min="1" max={maxMap[type]} value={Math.min(count, maxMap[type])}
               onChange={e => { setCount(+e.target.value); e.target.style.setProperty('--pct',`${((+e.target.value-1)/(maxMap[type]-1))*100}%`); }}
               style={{'--pct': `${((count-1)/(maxMap[type]-1))*100}%`}}
             />
           </div>
         </div>
-        <button className="btn btn-primary btn-full" onClick={generate}>📝 Generate Text</button>
+        <button className="btn btn-primary btn-full" onClick={generate}>{t('lorem.btn')}</button>
       </div>
 
       {output && (
         <div className="card" style={{marginTop:16}}>
           <div style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginBottom:12}}>
-            <span style={{fontSize:'.85rem',color:'var(--clr-text-3)'}}>{output.split(/\s+/).length} words · {output.length} characters</span>
-            <button className="btn btn-outline btn-sm" onClick={copy}>{copied ? '✅ Copied!' : '📋 Copy'}</button>
+            <span style={{fontSize:'.85rem',color:'var(--clr-text-3)'}}>{output.split(/\s+/).length} {t('lorem.words_l')} · {output.length} {t('ht_gen.chars')}</span>
+            <button className="btn btn-outline btn-sm" onClick={copy}>{copied ? t('color_pal.copied') : t('common.copy')}</button>
           </div>
           <div style={{background:'var(--clr-bg)',borderRadius:12,padding:20,fontSize:'.95rem',lineHeight:1.8,color:'var(--clr-text-2)',maxHeight:400,overflowY:'auto',whiteSpace:'pre-wrap'}}>
             {output}

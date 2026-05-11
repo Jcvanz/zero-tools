@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import ToolLayout from '../../components/ToolLayout';
 import { tools } from '../../data/tools';
 
@@ -16,6 +17,7 @@ const HASHTAG_DB = {
 };
 
 export default function HashtagGenerator() {
+  const { t } = useTranslation();
   const [category, setCategory] = useState('Fashion');
   const [custom, setCustom] = useState('');
   const [count, setCount] = useState(15);
@@ -44,19 +46,19 @@ export default function HashtagGenerator() {
       <div className="card">
         <div className="hg-grid">
           <div className="form-group">
-            <label className="form-label" htmlFor="hg-category">Category</label>
+            <label className="form-label" htmlFor="hg-category">{t('ht_gen.category')}</label>
             <select id="hg-category" className="form-select" value={category} onChange={e => setCategory(e.target.value)}>
-              {Object.keys(HASHTAG_DB).map(c => <option key={c} value={c}>{c}</option>)}
+              {Object.keys(HASHTAG_DB).map(c => <option key={c} value={c}>{t(`ht_gen.${c}`, c)}</option>)}
             </select>
           </div>
 
           <div className="form-group">
-            <label className="form-label" htmlFor="hg-custom">Custom Keywords (optional)</label>
-            <input id="hg-custom" className="form-input" placeholder="brand, product, keyword…" value={custom} onChange={e => setCustom(e.target.value)} />
+            <label className="form-label" htmlFor="hg-custom">{t('ht_gen.custom_kw')}</label>
+            <input id="hg-custom" className="form-input" placeholder={t('ht_gen.custom_ph')} value={custom} onChange={e => setCustom(e.target.value)} />
           </div>
 
           <div className="form-group">
-            <label className="form-label" htmlFor="hg-count">Number of Hashtags: <strong>{count}</strong></label>
+            <label className="form-label" htmlFor="hg-count">{t('ht_gen.number')} <strong>{count}</strong></label>
             <input type="range" id="hg-count" min="5" max="30" value={count}
               onChange={e => { setCount(+e.target.value); e.target.style.setProperty('--pct', `${((+e.target.value-5)/25)*100}%`); }}
               style={{'--pct': `${((count-5)/25)*100}%`}}
@@ -68,16 +70,16 @@ export default function HashtagGenerator() {
         </div>
 
         <button className="btn btn-primary btn-full" style={{marginTop:24}} onClick={generate}>
-          🎲 Generate Hashtags
+          {t('ht_gen.btn')}
         </button>
       </div>
 
       {generated.length > 0 && (
         <div className="card" style={{marginTop:20}}>
           <div style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginBottom:16}}>
-            <h3 style={{fontSize:'1rem',fontWeight:700}}>Your Hashtags ({generated.length})</h3>
+            <h3 style={{fontSize:'1rem',fontWeight:700}}>{t('ht_gen.your_ht')} ({generated.length})</h3>
             <button className="btn btn-outline btn-sm" onClick={copy}>
-              {copied ? '✅ Copied!' : '📋 Copy All'}
+              {copied ? t('ht_gen.copied') : t('ht_gen.copy_all')}
             </button>
           </div>
           <div className="hashtag-cloud">
@@ -88,7 +90,7 @@ export default function HashtagGenerator() {
             ))}
           </div>
           <p style={{fontSize:'.8rem',color:'var(--clr-text-3)',marginTop:12}}>
-            Click any hashtag to copy individually · {generated.join(' ').length} characters
+            {t('ht_gen.click')} {generated.join(' ').length} {t('ht_gen.chars')}
           </p>
         </div>
       )}

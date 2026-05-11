@@ -1,19 +1,23 @@
 import { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { tools, categories } from '../data/tools';
 import ToolCard from '../components/ToolCard';
 import AdSlot from '../components/AdSlot';
 import '../css/home.css';
 
 export default function Home() {
+  const { t, i18n } = useTranslation();
   const [activeCategory, setActiveCategory] = useState('All');
   const [search, setSearch] = useState('');
 
-  const filtered = tools.filter(t => {
-    const matchCat = activeCategory === 'All' || t.category === activeCategory;
-    const matchSearch = t.name.toLowerCase().includes(search.toLowerCase()) ||
-                        t.desc.toLowerCase().includes(search.toLowerCase());
+  const filtered = tools.filter(tItem => {
+    const matchCat = activeCategory === 'All' || tItem.category === activeCategory;
+    const translatedName = t(`tools.${tItem.id}.name`, tItem.name).toLowerCase();
+    const translatedDesc = t(`tools.${tItem.id}.desc`, tItem.desc).toLowerCase();
+    const matchSearch = translatedName.includes(search.toLowerCase()) ||
+                        translatedDesc.includes(search.toLowerCase());
     return matchCat && matchSearch;
   });
 
@@ -35,15 +39,14 @@ export default function Home() {
       <section className="hero-section">
         <div className="container">
           <div className="hero-badge">
-            <span>✨</span> 13 Free Tools · No Signup · No Upload
+            {t('hero.badge')}
           </div>
           <h1 className="hero-title">
-            The Free Toolbox for<br />
-            <span className="gradient-text">Creators &amp; Developers</span>
+            {t('hero.title')}<br />
+            <span className="gradient-text">{t('hero.creators_devs')}</span>
           </h1>
           <p className="hero-sub">
-            QR Codes, Hashtag Generators, Image Compressors, Background Removers and more —
-            all running 100% in your browser. Zero data leaves your device.
+            {t('hero.subtitle')}
           </p>
 
           {/* Search */}
@@ -55,7 +58,7 @@ export default function Home() {
               </svg>
               <input
                 type="search"
-                placeholder="Search tools…"
+                placeholder={t('home.search_placeholder')}
                 value={search}
                 onChange={e => setSearch(e.target.value)}
                 className="search-input"
@@ -72,10 +75,10 @@ export default function Home() {
           {/* Stats */}
           <div className="stats-row">
             {[
-              { value: '1.2M+', label: 'Files Processed' },
-              { value: '13', label: 'Pro Tools' },
-              { value: '0 bytes', label: 'Data Stored' },
-              { value: '100%', label: 'Free Forever' },
+              { value: '1.2M+', label: t('home.stats_files') },
+              { value: '13', label: t('home.stats_tools') },
+              { value: '0 bytes', label: t('home.stats_data') },
+              { value: '100%', label: t('home.stats_free') },
             ].map(s => (
               <div key={s.label} className="stat-item">
                 <span className="stat-value">{s.value}</span>
@@ -94,7 +97,7 @@ export default function Home() {
                 role="tab"
                 aria-selected={activeCategory === cat}
               >
-                {cat}
+                {t(`home.categories.${cat}`, cat)}
               </button>
             ))}
           </div>
@@ -110,9 +113,9 @@ export default function Home() {
             </div>
           ) : (
             <div className="no-results">
-              <p>No tools found for "<strong>{search}</strong>"</p>
+              <p>{t('home.no_results')} "<strong>{search}</strong>"</p>
               <button className="btn btn-ghost btn-sm" onClick={() => { setSearch(''); setActiveCategory('All'); }}>
-                Clear filters
+                {t('home.clear_filters')}
               </button>
             </div>
           )}
@@ -121,14 +124,14 @@ export default function Home() {
 
           {/* Why ZeroTools */}
           <section className="why-section" aria-labelledby="why-heading">
-            <h2 className="section-title" id="why-heading">Why ZeroTools?</h2>
-            <p className="section-sub">Built differently from other tool sites</p>
+            <h2 className="section-title" id="why-heading">{t('home.why_title')}</h2>
+            <p className="section-sub">{t('home.why_sub')}</p>
             <div className="why-grid">
               {[
-                { icon: '🔒', title: '100% Private', desc: 'Your files never leave your device. All processing happens locally in your browser using modern Web APIs.' },
-                { icon: '⚡', title: 'Instant Results', desc: 'No server roundtrips. No waiting in queues. Tools run at full speed directly on your machine.' },
-                { icon: '🆓', title: 'Always Free', desc: 'Every tool is completely free to use, forever. No account, no credit card, no hidden limits.' },
-                { icon: '📱', title: 'Works Everywhere', desc: 'Fully responsive design. Use ZeroTools on desktop, tablet, or mobile — anywhere, anytime.' },
+                { icon: '🔒', title: t('home.why_1_title'), desc: t('home.why_1_desc') },
+                { icon: '⚡', title: t('home.why_2_title'), desc: t('home.why_2_desc') },
+                { icon: '🆓', title: t('home.why_3_title'), desc: t('home.why_3_desc') },
+                { icon: '📱', title: t('home.why_4_title'), desc: t('home.why_4_desc') },
               ].map(f => (
                 <article key={f.title} className="why-card">
                   <div className="why-icon" aria-hidden="true">{f.icon}</div>
@@ -141,12 +144,12 @@ export default function Home() {
 
           {/* Popular tools CTA */}
           <section className="cta-section" aria-labelledby="popular-heading">
-            <h2 className="section-title" id="popular-heading">Most Popular Tools</h2>
+            <h2 className="section-title" id="popular-heading">{t('home.popular_title')}</h2>
             <div className="popular-grid">
               {tools.slice(0, 3).map(tool => (
                 <Link key={tool.id} to={tool.path} className="popular-card" style={{'--accent': tool.color, '--accent-lt': tool.colorLight}}>
                   <span className="popular-icon" style={{background: tool.colorLight, color: tool.color}}>{tool.icon}</span>
-                  <span className="popular-name">{tool.name}</span>
+                  <span className="popular-name">{t(`tools.${tool.id}.name`, tool.name)}</span>
                   <span className="popular-arrow">→</span>
                 </Link>
               ))}

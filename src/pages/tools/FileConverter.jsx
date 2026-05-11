@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import ToolLayout from '../../components/ToolLayout';
 import { tools } from '../../data/tools';
 
@@ -12,6 +13,7 @@ function formatBytes(b) {
 }
 
 export default function FileConverter() {
+  const { t } = useTranslation();
   const [hover, setHover] = useState(false);
   const [targetFormat, setTargetFormat] = useState('webp');
   const [results, setResults] = useState([]);
@@ -44,7 +46,7 @@ export default function FileConverter() {
     <ToolLayout tool={tool}>
       <div className="card">
         <div style={{display:'flex',gap:8,marginBottom:20,flexWrap:'wrap'}}>
-          <span style={{fontSize:'.9rem',fontWeight:600,color:'var(--clr-text-2)',display:'flex',alignItems:'center'}}>Convert to:</span>
+          <span style={{fontSize:'.9rem',fontWeight:600,color:'var(--clr-text-2)',display:'flex',alignItems:'center'}}>{t('file_conv.convert')}</span>
           {FORMATS.map(f => (
             <button key={f} className={`pill-tab${targetFormat === f ? ' active' : ''}`} onClick={() => setTargetFormat(f)}>
               {f.toUpperCase()}
@@ -59,10 +61,10 @@ export default function FileConverter() {
           onDrop={onDrop}
         >
           <div style={{fontSize:'3rem'}} aria-hidden="true">🔄</div>
-          <p className="dropzone-title">Drop images to convert to {targetFormat.toUpperCase()}</p>
-          <p className="dropzone-sub">Multiple files supported · JPG, PNG, GIF, WebP, BMP</p>
+          <p className="dropzone-title">{t('file_conv.drop')} {targetFormat.toUpperCase()}</p>
+          <p className="dropzone-sub">{t('file_conv.sub')}</p>
           <label className="btn btn-outline" htmlFor="fc-file" style={{cursor:'pointer'}}>
-            Browse Files
+            {t('common.browse')}
             <input type="file" id="fc-file" accept="image/*" multiple className="sr-only" onChange={e => convert(e.target.files)} />
           </label>
         </div>
@@ -77,14 +79,14 @@ export default function FileConverter() {
               <div style={{flex:1}}>
                 <div style={{fontWeight:600,fontSize:'.9rem'}}>{r.name}</div>
                 <div style={{display:'flex',gap:8,marginTop:6,flexWrap:'wrap'}}>
-                  <span className="badge badge-warning">Before: {formatBytes(r.original)}</span>
-                  <span className="badge badge-success">After: {formatBytes(r.size)}</span>
+                  <span className="badge badge-warning">{t('img_compressor.before')} {formatBytes(r.original)}</span>
+                  <span className="badge badge-success">{t('img_compressor.after')} {formatBytes(r.size)}</span>
                 </div>
               </div>
-              <a className="btn btn-success btn-sm" href={r.url} download={r.name}>⬇ Download</a>
+              <a className="btn btn-success btn-sm" href={r.url} download={r.name}>{t('common.download')}</a>
             </div>
           ))}
-          <button className="btn btn-ghost btn-sm" style={{alignSelf:'flex-start'}} onClick={() => { results.forEach(r => URL.revokeObjectURL(r.url)); setResults([]); }}>↩ Clear</button>
+          <button className="btn btn-ghost btn-sm" style={{alignSelf:'flex-start'}} onClick={() => { results.forEach(r => URL.revokeObjectURL(r.url)); setResults([]); }}>{t('common.clear')}</button>
         </div>
       )}
     </ToolLayout>

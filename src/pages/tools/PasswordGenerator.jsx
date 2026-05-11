@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import ToolLayout from '../../components/ToolLayout';
 import { tools } from '../../data/tools';
 
@@ -12,6 +13,7 @@ const CHARS = {
 };
 
 export default function PasswordGenerator() {
+  const { t } = useTranslation();
   const [length, setLength] = useState(16);
   const [opts, setOpts] = useState({ upper: true, lower: true, numbers: true, symbols: false });
   const [password, setPassword] = useState('');
@@ -40,10 +42,10 @@ export default function PasswordGenerator() {
     if (length >= 12) score++;
     if (length >= 20) score++;
     const levels = [
-      { label: 'Weak', color: '#ef4444', width: '25%' },
-      { label: 'Fair', color: '#f59e0b', width: '50%' },
-      { label: 'Good', color: '#10b981', width: '75%' },
-      { label: 'Strong', color: '#6366f1', width: '100%' },
+      { label: t('pwd_gen.weak'), color: '#ef4444', width: '25%' },
+      { label: t('pwd_gen.fair'), color: '#f59e0b', width: '50%' },
+      { label: t('pwd_gen.good'), color: '#10b981', width: '75%' },
+      { label: t('pwd_gen.strong'), color: '#6366f1', width: '100%' },
     ];
     return levels[Math.min(Math.floor((score-1)/1.5), 3)] || levels[0];
   }
@@ -61,7 +63,7 @@ export default function PasswordGenerator() {
       <div className="tool-grid tool-grid-2">
         <div className="card">
           <div className="form-group" style={{marginBottom:20}}>
-            <label className="form-label" htmlFor="pw-length">Length: <strong>{length}</strong></label>
+            <label className="form-label" htmlFor="pw-length">{t('pwd_gen.length')} <strong>{length}</strong></label>
             <input type="range" id="pw-length" min="6" max="64" value={length}
               onChange={e => { setLength(+e.target.value); e.target.style.setProperty('--pct',`${((+e.target.value-6)/58)*100}%`); }}
               style={{'--pct': `${((length-6)/58)*100}%`}}
@@ -73,20 +75,20 @@ export default function PasswordGenerator() {
             {Object.entries(opts).map(([key, val]) => (
               <label key={key} style={{display:'flex',alignItems:'center',gap:8,cursor:'pointer',fontSize:'.9rem',fontWeight:500}}>
                 <input type="checkbox" checked={val} onChange={e => setOpts(o => ({...o, [key]: e.target.checked}))} />
-                {key.charAt(0).toUpperCase() + key.slice(1)}
+                {t(`pwd_gen.${key}`, key.charAt(0).toUpperCase() + key.slice(1))}
               </label>
             ))}
           </div>
 
           <div className="form-group" style={{marginBottom:20}}>
-            <label className="form-label" htmlFor="pw-count">Generate: <strong>{count}</strong> password{count > 1 ? 's' : ''}</label>
+            <label className="form-label" htmlFor="pw-count">{t('pwd_gen.generate')} <strong>{count}</strong> {count > 1 ? t('pwd_gen.pwds') : t('pwd_gen.pwd')}</label>
             <input type="range" id="pw-count" min="1" max="10" value={count}
               onChange={e => { setCount(+e.target.value); e.target.style.setProperty('--pct',`${((+e.target.value-1)/9)*100}%`); }}
               style={{'--pct': `${((count-1)/9)*100}%`}}
             />
           </div>
 
-          <button className="btn btn-primary btn-full" onClick={generate}>🔑 Generate Password</button>
+          <button className="btn btn-primary btn-full" onClick={generate}>{t('pwd_gen.btn')}</button>
         </div>
 
         <div style={{display:'flex',flexDirection:'column',gap:16}}>
@@ -97,13 +99,13 @@ export default function PasswordGenerator() {
                   {password}
                 </div>
                 <button className="btn btn-outline btn-sm copy-btn" onClick={() => copy()}>
-                  {copied ? '✅' : '📋 Copy'}
+                  {copied ? t('pwd_gen.copied') : t('pwd_gen.copy')}
                 </button>
               </div>
 
               {/* Strength meter */}
               <div style={{marginBottom:4,display:'flex',justifyContent:'space-between',fontSize:'.8rem',fontWeight:600}}>
-                <span style={{color:'var(--clr-text-3)'}}>Strength</span>
+                <span style={{color:'var(--clr-text-3)'}}>{t('pwd_gen.strength')}</span>
                 <span style={{color: s.color}}>{s.label}</span>
               </div>
               <div style={{height:6,background:'var(--clr-border)',borderRadius:3,overflow:'hidden'}}>
@@ -114,7 +116,7 @@ export default function PasswordGenerator() {
 
           {history.length > 1 && (
             <div className="card">
-              <h3 style={{fontSize:'.85rem',fontWeight:700,color:'var(--clr-text-3)',marginBottom:12}}>RECENT PASSWORDS</h3>
+              <h3 style={{fontSize:'.85rem',fontWeight:700,color:'var(--clr-text-3)',marginBottom:12}}>{t('pwd_gen.recent')}</h3>
               <div style={{display:'flex',flexDirection:'column',gap:8}}>
                 {history.slice(1).map((p,i) => (
                   <div key={i} style={{display:'flex',alignItems:'center',gap:8,padding:'8px 12px',background:'var(--clr-bg)',borderRadius:8}}>

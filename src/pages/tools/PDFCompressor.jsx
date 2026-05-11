@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { PDFDocument } from 'pdf-lib';
+import { useTranslation } from 'react-i18next';
 import ToolLayout from '../../components/ToolLayout';
 import { tools } from '../../data/tools';
 
@@ -12,13 +13,14 @@ function formatBytes(b) {
 }
 
 export default function PDFCompressor() {
+  const { t } = useTranslation();
   const [hover, setHover] = useState(false);
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
   async function process(file) {
-    if (!file || file.type !== 'application/pdf') { setError('Please upload a valid PDF file.'); return; }
+    if (!file || file.type !== 'application/pdf') { setError(t('pdf_comp.err1')); return; }
     setError(''); setResult(null); setLoading(true);
     try {
       const arrayBuffer = await file.arrayBuffer();
@@ -38,7 +40,7 @@ export default function PDFCompressor() {
       const saving = ((1 - blob.size / file.size) * 100).toFixed(1);
       setResult({ url, original: file.size, compressed: blob.size, saving, name: file.name.replace('.pdf','') + '-optimized.pdf', pages: pdfDoc.getPageCount() });
     } catch (e) {
-      setError('Could not process this PDF. It may be encrypted or corrupted.');
+      setError(t('pdf_comp.err2'));
       console.error(e);
     } finally {
       setLoading(false);
@@ -51,7 +53,7 @@ export default function PDFCompressor() {
     <ToolLayout tool={tool}>
       <div className="card">
         <div className="info-banner" style={{background:'#fef2f2',border:'1px solid #fca5a5',color:'#991b1b',marginBottom:16}}>
-          ℹ️ Client-side optimization: removes embedded metadata and optimizes PDF structure. For heavy image-based PDFs, reduction may be minimal.
+          {t('pdf_comp.info')}
         </div>
 
         {!result && !loading && (
@@ -66,10 +68,10 @@ export default function PDFCompressor() {
             onKeyDown={e => e.key === 'Enter' && document.getElementById('pdf-file').click()}
           >
             <div style={{fontSize:'3rem'}} aria-hidden="true">📄</div>
-            <p className="dropzone-title">Drop your PDF here</p>
-            <p className="dropzone-sub">Maximum 50MB</p>
+            <p className="dropzone-title">{t('pdf_comp.drop_title')}</p>
+            <p className="dropzone-sub">{t('pdf_comp.drop_sub')}</p>
             <label className="btn btn-outline" htmlFor="pdf-file" style={{cursor:'pointer', borderColor:'#ef4444', color:'#ef4444'}}>
-              Browse PDF
+              {t('pdf_comp.browse_btn')}
               <input type="file" id="pdf-file" accept=".pdf,application/pdf" className="sr-only" onChange={e => process(e.target.files[0])} />
             </label>
           </div>
@@ -78,7 +80,7 @@ export default function PDFCompressor() {
         {loading && (
           <div style={{display:'flex',flexDirection:'column',alignItems:'center',gap:16,padding:'48px 0'}}>
             <div className="spinner" style={{borderTopColor:'#ef4444',borderColor:'#fee2e2'}} />
-            <p style={{fontWeight:600,color:'#ef4444'}}>Optimizing PDF…</p>
+            <p style={{fontWeight:600,color:'#ef4444'}}>{t('pdf_comp.loading')}</p>
           </div>
         )}
 
@@ -88,10 +90,10 @@ export default function PDFCompressor() {
           <div style={{display:'flex',flexDirection:'column',gap:16,marginTop:8}}>
             <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(150px,1fr))',gap:12}}>
               {[
-                {label:'Pages', value: result.pages},
-                {label:'Original Size', value: formatBytes(result.original)},
-                {label:'Optimized Size', value: formatBytes(result.compressed)},
-                {label:'Reduction', value: `${result.saving > 0 ? '↓' : ''} ${Math.abs(result.saving)}%`},
+                {label: t('pdf_comp.pages'), value: result.pages},
+                {label: t('pdf_comp.orig'), value: formatBytes(result.original)},
+                {label: t('pdf_comp.opt'), value: formatBytes(result.compressed)},
+                {label: t('pdf_comp.red'), value: `${result.saving > 0 ? '↓' : ''} ${Math.abs(result.saving)}%`},
               ].map(s => (
                 <div key={s.label} style={{background:'var(--clr-bg)',borderRadius:12,padding:'16px',textAlign:'center',border:'1px solid var(--clr-border)'}}>
                   <div style={{fontSize:'1.5rem',fontWeight:800,color:'#ef4444'}}>{s.value}</div>
@@ -100,8 +102,8 @@ export default function PDFCompressor() {
               ))}
             </div>
             <div style={{display:'flex',gap:12,flexWrap:'wrap'}}>
-              <a className="btn btn-success" href={result.url} download={result.name}>⬇️ Download Optimized PDF</a>
-              <button className="btn btn-ghost btn-sm" onClick={() => { URL.revokeObjectURL(result.url); setResult(null); }}>↩ Try Another</button>
+              <a className="btn btn-success" href={result.url} download={result.name}>{t('pdf_comp.dl')}</a>
+              <button className="btn btn-ghost btn-sm" onClick={() => { URL.revokeObjectURL(result.url); setResult(null); }}>{t('common.clear')}</button>
             </div>
           </div>
         )}

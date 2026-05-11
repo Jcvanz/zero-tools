@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import ToolLayout from '../../components/ToolLayout';
 import { tools } from '../../data/tools';
 
@@ -37,6 +38,7 @@ function generatePalette(baseHex, mode) {
 }
 
 export default function ColorPalette() {
+  const { t } = useTranslation();
   const [base, setBase]     = useState('#6366f1');
   const [mode, setMode]     = useState('analogous');
   const [palette, setPalette] = useState([]);
@@ -57,24 +59,24 @@ export default function ColorPalette() {
       <div className="card" style={{marginBottom:20}}>
         <div style={{display:'grid',gridTemplateColumns:'auto 1fr',gap:16,alignItems:'end',marginBottom:20}}>
           <div className="form-group">
-            <label className="form-label" htmlFor="cp-color">Base Color</label>
+            <label className="form-label" htmlFor="cp-color">{t('color_pal.base')}</label>
             <div style={{display:'flex',gap:8,alignItems:'center'}}>
               <input type="color" id="cp-color" value={base} onChange={e => setBase(e.target.value)} style={{width:52,height:52,border:'2px solid var(--clr-border)',borderRadius:12,cursor:'pointer',padding:4}} />
               <input className="form-input" value={base} onChange={e => /^#[0-9a-fA-F]{0,6}$/.test(e.target.value) && setBase(e.target.value)} style={{width:120}} />
             </div>
           </div>
           <div className="form-group">
-            <label className="form-label">Palette Mode</label>
+            <label className="form-label">{t('color_pal.mode')}</label>
             <div className="pill-tabs" style={{flexWrap:'wrap'}}>
               {modes.map(m => (
                 <button key={m} className={`pill-tab${mode === m ? ' active' : ''}`} onClick={() => setMode(m)}>
-                  {m.charAt(0).toUpperCase() + m.slice(1)}
+                  {t(`color_pal.${m}`, m.charAt(0).toUpperCase() + m.slice(1))}
                 </button>
               ))}
             </div>
           </div>
         </div>
-        <button className="btn btn-primary btn-full" onClick={generate}>🎨 Generate Palette</button>
+        <button className="btn btn-primary btn-full" onClick={generate}>{t('color_pal.btn')}</button>
       </div>
 
       {palette.length > 0 && (
@@ -88,14 +90,14 @@ export default function ColorPalette() {
               return (
                 <div key={i} className="card card-sm" style={{textAlign:'center',cursor:'pointer',transition:'transform var(--t-base)'}} onClick={() => copy(c)}>
                   <div style={{width:48,height:48,borderRadius:12,background:c,margin:'0 auto 12px',border:'2px solid var(--clr-border)'}}/>
-                  <div style={{fontFamily:'monospace',fontWeight:700,fontSize:'.9rem'}}>{copied === c ? '✅ Copied!' : c.toUpperCase()}</div>
+                  <div style={{fontFamily:'monospace',fontWeight:700,fontSize:'.9rem'}}>{copied === c ? t('color_pal.copied') : c.toUpperCase()}</div>
                   <div style={{fontSize:'.75rem',color:'var(--clr-text-3)',marginTop:4}}>hsl({h}, {s}%, {l}%)</div>
                 </div>
               );
             })}
           </div>
           <button className="btn btn-outline btn-sm" style={{marginTop:16}} onClick={() => copy(palette.join(', '))}>
-            📋 Copy All HEX
+            {t('color_pal.copy_all')}
           </button>
         </div>
       )}

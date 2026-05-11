@@ -1,15 +1,17 @@
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 export default function ToolCard({ tool }) {
+  const { t } = useTranslation();
   return (
     <Link to={tool.path} className="tool-card" aria-label={`Open ${tool.name}`}>
       <div className="tool-card-icon" style={{ background: tool.colorLight, color: tool.color }}>
         <span>{tool.icon}</span>
       </div>
       <div className="tool-card-body">
-        <span className="tool-card-cat">{tool.category}</span>
-        <h3 className="tool-card-name">{tool.name}</h3>
-        <p className="tool-card-desc">{tool.desc}</p>
+        <span className="tool-card-cat">{t(`home.categories.${tool.category}`, tool.category)}</span>
+        <h3 className="tool-card-name">{t(`tools.${tool.id}.name`, tool.name)}</h3>
+        <p className="tool-card-desc">{t(`tools.${tool.id}.desc`, tool.desc)}</p>
       </div>
       <div className="tool-card-arrow" aria-hidden="true">→</div>
 
