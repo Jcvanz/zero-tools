@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import AdSlot from '../components/AdSlot';
+import '../css/faq.css';
 
 const faqs = [
   { q: 'Are all tools really free?', a: 'Yes, 100% free forever. No account, no credit card, no limits. ZeroTools is supported by non-intrusive display advertising.' },
@@ -50,29 +51,6 @@ export default function FAQ() {
           </div>
         </div>
       </main>
-
-      <style>{`
-        .breadcrumb { display:flex;align-items:center;gap:8px;font-size:.85rem;color:var(--clr-text-3);margin-bottom:28px; }
-        .breadcrumb a { color:var(--clr-text-3); }
-        .breadcrumb a:hover { color:var(--clr-brand); }
-        .faq-item {
-          background:white; border:1px solid var(--clr-border);
-          border-radius:var(--radius-md); overflow:hidden;
-          transition: box-shadow var(--t-base);
-        }
-        .faq-item[open] { box-shadow:var(--shadow-md); border-color:#c7d2fe; }
-        .faq-q {
-          padding:18px 20px; font-size:.95rem; font-weight:600;
-          cursor:pointer; list-style:none;
-          display:flex; justify-content:space-between; align-items:center;
-          gap:16px; user-select:none;
-        }
-        .faq-q::-webkit-details-marker { display:none; }
-        .faq-q::after { content:'+'; font-size:1.25rem; color:var(--clr-brand); flex-shrink:0; }
-        details[open] .faq-q::after { content:'−'; }
-        .faq-a { padding:0 20px 18px; border-top:1px solid var(--clr-border); }
-        .faq-a p { font-size:.9rem; color:var(--clr-text-2); line-height:1.75; padding-top:14px; }
-      `}</style>
     </>
   );
 }

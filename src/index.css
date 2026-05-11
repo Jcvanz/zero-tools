@@ -399,3 +399,13 @@ input[type="checkbox"] {
   .card { padding: 20px; }
   .tool-page { padding-block: 32px; }
 }
+
+/* ===== BREADCRUMBS ===== */
+.breadcrumb {
+  display: flex; align-items: center; gap: 8px;
+  font-size: .85rem; color: var(--clr-text-3);
+  margin-bottom: 28px;
+}
+.breadcrumb a { color: var(--clr-text-3); }
+.breadcrumb a:hover { color: var(--clr-brand); }
+.mt-6 { margin-top: 24px; }

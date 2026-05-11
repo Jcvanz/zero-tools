@@ -79,17 +79,6 @@ export default function ToolLayout({ tool, children, seo = {} }) {
           <AdSlot slot="In-Article 336×280" className="mt-6" />
         </div>
       </main>
-
-      <style>{`
-        .breadcrumb {
-          display: flex; align-items: center; gap: 8px;
-          font-size: .85rem; color: var(--clr-text-3);
-          margin-bottom: 28px;
-        }
-        .breadcrumb a { color: var(--clr-text-3); }
-        .breadcrumb a:hover { color: var(--clr-brand); }
-        .mt-6 { margin-top: 24px; }
-      `}</style>
     </>
   );
 }

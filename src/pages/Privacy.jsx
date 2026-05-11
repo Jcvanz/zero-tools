@@ -1,5 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
+import '../css/privacy.css';
 
 export default function Privacy() {
   const year = new Date().getFullYear();
@@ -44,16 +45,6 @@ export default function Privacy() {
           </div>
         </div>
       </main>
-
-      <style>{`
-        .privacy-wrap { max-width:740px; margin:0 auto; }
-        .back-link { display:inline-flex;align-items:center;gap:6px;color:var(--clr-brand);font-weight:600;font-size:.9rem;margin-bottom:32px; }
-        .privacy-wrap h1 { font-size:2rem; margin-bottom:8px; }
-        .updated { color:#6b7280; font-size:.875rem; margin-bottom:40px; }
-        .privacy-wrap h2 { font-size:1.1rem; margin:36px 0 10px; color:#111827; }
-        .privacy-wrap p { color:#4b5563; line-height:1.8; font-size:.95rem; margin-bottom:12px; }
-        .privacy-wrap a { color:var(--clr-brand); }
-      `}</style>
     </>
   );
 }
