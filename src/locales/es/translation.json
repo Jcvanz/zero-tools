@@ -1,0 +1,377 @@
+{
+  "header": {
+    "home": "Inicio",
+    "faq": "FAQ",
+    "privacy": "Privacidad",
+    "language": "Idioma",
+    "tools": "Herramientas"
+  },
+  "hero": {
+    "badge": "✨ 13 Herramientas Gratis · Sin Registro · Sin Subidas",
+    "title": "La Caja de Herramientas para",
+    "creators_devs": "Creadores y Desarrolladores",
+    "subtitle": "Generador de Códigos QR, Hashtags, Compresor de Imágenes, Eliminador de Fondo y más — funcionando 100% en tu navegador. Ningún dato sale de tu dispositivo."
+  },
+  "home": {
+    "search_placeholder": "Buscar herramientas…",
+    "stats_files": "Archivos Procesados",
+    "stats_tools": "Herramientas Pro",
+    "stats_data": "Datos Almacenados",
+    "stats_free": "Gratis para Siempre",
+    "no_results": "No se encontraron herramientas para",
+    "clear_filters": "Limpiar filtros",
+    "why_title": "¿Por qué ZeroTools?",
+    "why_sub": "Construido diferente a otros sitios de herramientas",
+    "why_1_title": "100% Privado",
+    "why_1_desc": "Tus archivos nunca salen de tu dispositivo. Todo el procesamiento ocurre localmente en tu navegador usando Web APIs modernas.",
+    "why_2_title": "Resultados Instantáneos",
+    "why_2_desc": "Sin viajes al servidor. Sin colas de espera. Las herramientas funcionan a máxima velocidad directamente en tu máquina.",
+    "why_3_title": "Siempre Gratis",
+    "why_3_desc": "Todas las herramientas son completamente gratis para usar, para siempre. Sin cuentas, sin tarjetas de crédito, sin límites ocultos.",
+    "why_4_title": "Funciona en Todas Partes",
+    "why_4_desc": "Diseño totalmente responsivo. Usa ZeroTools en escritorio, tablet o móvil — en cualquier lugar, en cualquier momento.",
+    "popular_title": "Herramientas Más Populares",
+    "categories": {
+      "All": "Todas",
+      "Social Media": "Social",
+      "Generator": "Generador",
+      "Image": "Imagen",
+      "PDF": "PDF",
+      "Converter": "Convertidor",
+      "Security": "Seguridad",
+      "Design": "Diseño",
+      "Text": "Texto",
+      "Utility": "Utilidad",
+      "Business": "Negocios",
+      "Developer": "Dev"
+    }
+  },
+  "tool_layout": {
+    "about": "Acerca de",
+    "about_sub": "es una utilidad potente diseñada para ayudarte con tus tareas diarias. Es completamente gratis y no requiere registro ni instalación de software.",
+    "privacy_title": "🔒 100% Privacidad y Procesamiento Local",
+    "privacy_desc": "A diferencia de otras herramientas en línea que suben tus archivos a servidores externos, nuestra herramienta opera completamente dentro de tu navegador. Utilizamos tecnologías web modernas para procesar todo localmente en tu dispositivo. Esto significa que tus datos nunca son subidos, almacenados o vistos por nadie más, garantizando absoluta privacidad."
+  },
+  "footer": {
+    "tagline": "Herramientas en línea gratis — sin registro, sin subidas, sin rastreo. Todo funciona en tu navegador.",
+    "company": "Empresa",
+    "rights": "Todos los derechos reservados. Hecho para creadores y desarrolladores."
+  },
+  "tools": {
+    "hashtag-generator": {
+      "name": "Generador de Hashtag",
+      "desc": "Genera hashtags en tendencia para Instagram, TikTok y Twitter."
+    },
+    "qr-code": {
+      "name": "Generador de Código QR",
+      "desc": "Crea códigos QR para URLs, texto y WiFi. Descarga en PNG o SVG."
+    },
+    "image-compressor": {
+      "name": "Compresor de Imágenes",
+      "desc": "Comprime imágenes JPG, PNG y WebP sin perder calidad."
+    },
+    "background-remover": {
+      "name": "Eliminador de Fondo",
+      "desc": "Elimina fondos de imágenes automáticamente con IA en tu navegador."
+    },
+    "pdf-compressor": {
+      "name": "Compresor de PDF",
+      "desc": "Comprime y optimiza archivos PDF para compartir."
+    },
+    "file-converter": {
+      "name": "Convertidor de Archivos",
+      "desc": "Convierte imágenes entre formatos JPG, PNG, WebP, GIF."
+    },
+    "password-generator": {
+      "name": "Generador de Contraseñas",
+      "desc": "Genera contraseñas fuertes y seguras con tamaño personalizado."
+    },
+    "color-palette": {
+      "name": "Paleta de Colores",
+      "desc": "Genera hermosas paletas a partir de un color base."
+    },
+    "lorem-ipsum": {
+      "name": "Generador de Lorem Ipsum",
+      "desc": "Genera texto de relleno para diseños y mockups."
+    },
+    "pomodoro": {
+      "name": "Temporizador Pomodoro",
+      "desc": "Temporizador de enfoque para estudio y trabajo."
+    },
+    "roi-calculator": {
+      "name": "Calculadora de ROI",
+      "desc": "Calcula el Retorno de Inversión (ROI)."
+    },
+    "discount-calculator": {
+      "name": "Calculadora de Descuentos",
+      "desc": "Calcula rápidamente precios con descuentos."
+    },
+    "json-formatter": {
+      "name": "Formateador JSON",
+      "desc": "Formatea y valida código JSON."
+    },
+    "case-converter": {
+      "name": "Convertidor de Texto",
+      "desc": "Convierte texto a mayúsculas, minúsculas, camelCase y más."
+    },
+    "base64": {
+      "name": "Codificador Base64",
+      "desc": "Codifica y decodifica textos y archivos en Base64 al instante."
+    },
+    "word-counter": {
+      "name": "Contador de Palabras",
+      "desc": "Cuenta palabras, caracteres, frases y analiza la densidad de palabras clave."
+    }
+  },
+  "bg_remover": {
+    "ai_banner": "🧠 IA Avanzada — Funciona 100% en tu navegador usando WebAssembly. El primer uso descarga un modelo de ~40MB (guardado en caché).",
+    "drop_title": "Suelta una imagen para eliminar el fondo",
+    "drop_sub": "Se recomienda JPG o PNG — mejores resultados en personas, productos y logos",
+    "browse_btn": "Buscar Imagen",
+    "loading": "Eliminando el fondo — esto puede tardar de 10 a 30 segundos…",
+    "original": "ORIGINAL",
+    "result": "RESULTADO",
+    "preview_bg": "Fondo:",
+    "transparent": "Transparente",
+    "white": "Blanco",
+    "black": "Negro",
+    "gray": "Gris Claro",
+    "download": "⬇️ Descargar PNG",
+    "try_another": "↩ Intentar Otra",
+    "error": "No se pudo procesar esta imagen. Intenta con otra."
+  },
+  "img_compressor": {
+    "format": "Formato de Salida",
+    "webp_rec": "WebP (Recomendado)",
+    "jpeg": "JPEG",
+    "png": "PNG",
+    "quality": "Calidad:",
+    "browse_btn": "Buscar Archivos",
+    "drop_title": "Suelta imágenes aquí",
+    "drop_sub": "JPG, PNG, GIF, WebP — soporta múltiples archivos",
+    "before": "Antes:",
+    "after": "Después:",
+    "smaller": "más pequeño",
+    "download": "⬇ Descargar",
+    "clear_all": "↩ Limpiar Todo"
+  },
+  "qr_code": {
+    "content": "Contenido",
+    "placeholder": "Introduce URL, texto o datos…",
+    "fg": "Color Principal",
+    "bg": "Color de Fondo",
+    "size": "Tamaño:",
+    "preview": "Vista Previa",
+    "empty": "Introduce contenido para generar el QR",
+    "download": "⬇️ Descargar PNG"
+  },
+  "common": {
+    "browse": "Buscar Archivo",
+    "download": "Descargar",
+    "copy": "Copiar",
+    "clear": "Limpiar",
+    "generate": "Generar",
+    "drop": "Suelta el archivo aquí",
+    "options": "Opciones"
+  },
+  "pwd_gen": {
+    "length": "Tamaño:",
+    "generate": "Generar:",
+    "pwd": "contraseña",
+    "pwds": "contraseñas",
+    "btn": "🔑 Generar Contraseña",
+    "copy": "📋 Copiar",
+    "copied": "✅",
+    "strength": "Fuerza",
+    "weak": "Débil",
+    "fair": "Regular",
+    "good": "Buena",
+    "strong": "Fuerte",
+    "recent": "CONTRASEÑAS RECIENTES",
+    "upper": "Mayúsculas",
+    "lower": "Minúsculas",
+    "numbers": "Números",
+    "symbols": "Símbolos"
+  },
+  "ht_gen": {
+    "category": "Categoría",
+    "custom_kw": "Palabras clave (opcional)",
+    "custom_ph": "marca, producto, palabra clave…",
+    "number": "Número de Hashtags:",
+    "btn": "🎲 Generar Hashtags",
+    "your_ht": "Tus Hashtags",
+    "copy_all": "📋 Copiar Todo",
+    "copied": "✅ Copiado!",
+    "click": "Haz clic en un hashtag para copiar ·",
+    "chars": "caracteres",
+    "Fashion": "Moda",
+    "Food": "Comida",
+    "Travel": "Viaje",
+    "Fitness": "Fitness/Salud",
+    "Business": "Negocios",
+    "Photography": "Fotografía",
+    "TikTok": "TikTok",
+    "Shopify": "Shopify/E-commerce"
+  },
+  "pdf_comp": {
+    "info": "ℹ️ Optimización en el cliente: elimina metadatos incrustados y optimiza la estructura del PDF. En PDFs con muchas imágenes, la reducción puede ser mínima.",
+    "drop_title": "Suelta tu PDF aquí",
+    "drop_sub": "Máximo 50MB",
+    "browse_btn": "Buscar PDF",
+    "loading": "Optimizando PDF…",
+    "err1": "Sube un archivo PDF válido.",
+    "err2": "No se pudo procesar este PDF. Puede estar encriptado o dañado.",
+    "pages": "Páginas",
+    "orig": "Tamaño Original",
+    "opt": "Tamaño Optimizado",
+    "red": "Reducción",
+    "dl": "⬇️ Descargar PDF Optimizado"
+  },
+  "file_conv": {
+    "convert": "Convertir a:",
+    "drop": "Suelta imágenes para convertir a",
+    "sub": "Soporta múltiples archivos · JPG, PNG, GIF, WebP, BMP"
+  },
+  "color_pal": {
+    "base": "Color Base",
+    "mode": "Modo de Paleta",
+    "analogous": "Análoga",
+    "complementary": "Complementaria",
+    "triadic": "Triádica",
+    "monochromatic": "Monocromática",
+    "btn": "🎨 Generar Paleta",
+    "copy_all": "📋 Copiar Todos HEX",
+    "copied": "✅ Copiado!"
+  },
+  "json_fmt": {
+    "input": "JSON de Entrada",
+    "indent": "Sangría:",
+    "format": "Formatear",
+    "minify": "Minificar",
+    "validate": "Validar",
+    "output": "Salida",
+    "valid": "✅ ¡JSON Válido!",
+    "placeholder": "La salida formateada aparecerá aquí…"
+  },
+  "b64": {
+    "encode": "Codificar",
+    "decode": "Decodificar",
+    "from_file": "📁 Desde Archivo",
+    "txt_enc": "Texto para Codificar",
+    "b64_dec": "Base64 para Decodificar",
+    "ph_enc": "Escribe el texto o pega la URL…",
+    "ph_dec": "Escribe la cadena Base64…",
+    "btn_enc": "🔒 Codificar",
+    "btn_dec": "🔓 Decodificar",
+    "swap": "⇅ Intercambiar",
+    "err": "Cadena Base64 no válida. Revisa tu entrada.",
+    "result": "Resultado"
+  },
+  "case_conv": {
+    "input": "Texto de Entrada",
+    "placeholder": "Escribe o pega tu texto aquí…",
+    "empty": "Escribe algún texto arriba para ver todas las conversiones instantáneamente",
+    "UPPERCASE": "MAYÚSCULAS",
+    "lowercase": "minúsculas",
+    "Title Case": "Primeras Letras Mayúsculas",
+    "Sentence case": "Letra de frase",
+    "camelCase": "camelCase",
+    "PascalCase": "PascalCase",
+    "snake_case": "snake_case",
+    "kebab-case": "kebab-case",
+    "aLtErNaTiNg": "aLtErNaNdO"
+  },
+  "lorem": {
+    "generate": "Generar",
+    "paragraphs": "Párrafos",
+    "sentences": "Frases",
+    "words": "Palabras",
+    "amount": "Cantidad:",
+    "btn": "📝 Generar Texto",
+    "words_l": "palabras"
+  },
+  "word_count": {
+    "your_text": "Tu Texto",
+    "placeholder": "Pega o escribe tu texto aquí…",
+    "stats": "Estadísticas",
+    "words": "Palabras",
+    "chars": "Caracteres",
+    "no_spaces": "Sin espacios",
+    "sentences": "Frases",
+    "paragraphs": "Párrafos",
+    "reading": "Tiempo de Lectura",
+    "top": "Palabras Más Usadas",
+    "min": "min"
+  },
+  "faq_page": {
+    "title": "Preguntas Frecuentes",
+    "desc": "Todo lo que necesitas saber sobre ZeroTools.",
+    "meta_desc": "Respuestas a preguntas comunes sobre ZeroTools — herramientas gratuitas en línea para QR, compresión de imágenes, hashtags y más.",
+    "still": "¿Aún tienes preguntas?",
+    "still_desc": "Envíanos un correo electrónico y te responderemos en 24 horas.",
+    "contact": "✉️ Contáctanos",
+    "faqs": [
+      {
+        "q": "¿Son realmente gratis todas las herramientas?",
+        "a": "Sí, 100% gratis para siempre. Sin cuenta, sin tarjeta de crédito, sin límites. ZeroTools se mantiene gracias a anuncios no intrusivos."
+      },
+      {
+        "q": "¿Mis archivos se suben a un servidor?",
+        "a": "No. Todas las herramientas se ejecutan en tu navegador utilizando APIs web modernas. Tus archivos nunca salen de tu dispositivo, no tenemos acceso a ellos."
+      },
+      {
+        "q": "¿El Eliminador de Fondos funciona sin internet?",
+        "a": "Tras el primer uso, el modelo de IA (~40MB) se guarda en la caché de tu navegador. El proceso ocurre offline, pero necesitas conexión para cargar la página."
+      },
+      {
+        "q": "¿Puedo usar ZeroTools en mi móvil?",
+        "a": "¡Sí! Todas las herramientas son responsivas. Algunas más pesadas (como el Eliminador de Fondos) pueden ser lentas en dispositivos antiguos."
+      },
+      {
+        "q": "¿Qué formatos de imagen soporta el compresor?",
+        "a": "Soporta JPG, PNG, GIF, BMP y WebP. Puedes exportar a JPG, PNG o WebP."
+      },
+      {
+        "q": "¿Cuántos hashtags puedo generar?",
+        "a": "Hasta 30 por vez. Puedes combinar hashtags de categorías con tus propias palabras clave."
+      },
+      {
+        "q": "¿Por qué la compresión de mi PDF fue mínima?",
+        "a": "La compresión local elimina metadatos y optimiza la estructura del archivo. Si el PDF tiene muchas imágenes grandes incrustadas, la reducción será mínima."
+      },
+      {
+        "q": "¿Muestran anuncios?",
+        "a": "Sí, ZeroTools utiliza banners de Google AdSense para mantenerse gratis. Tratamos de que sean lo menos intrusivos posible."
+      },
+      {
+        "q": "¿Puedo usar los QR codes comercialmente?",
+        "a": "Absolutamente. Todos los archivos generados (QR, imágenes, textos) te pertenecen y puedes usarlos para cualquier fin."
+      },
+      {
+        "q": "¿Cómo reporto un error o sugiero una herramienta?",
+        "a": "¡Nos encantaría escucharte! Envíanos un correo a HelloZeroTools@outlook.com con tus comentarios."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "meta_desc": "Política de Privacidad de ZeroTools. No recopilamos tus archivos. Todo el procesamiento se realiza en tu navegador.",
+    "back": "← Volver a ZeroTools",
+    "updated": "Última actualización: 1 de mayo de {{year}}",
+    "intro": "ZeroTools ('nosotros', 'nuestro') opera myzerotools.online. Esta página describe cómo manejamos la información cuando usas nuestras herramientas gratuitas.",
+    "title1": "1. Sin Recopilación de Archivos",
+    "p1": "Todo procesamiento de imágenes, PDFs y textos se ejecuta <strong>completamente en tu navegador</strong> mediante Web APIs. Tus archivos y datos <strong>nunca se envían a nuestros servidores</strong>. No podemos acceder, ver ni almacenar nada de lo que procesas.",
+    "title2": "2. Datos Analíticos",
+    "p2": "Usamos Google Analytics 4 para entender los patrones de uso generales. Esto recopila datos anónimos como el navegador, ubicación aproximada (ciudad/país), páginas visitadas y duración de la sesión. Estos datos no pueden identificarte personalmente.",
+    "title3": "3. Google AdSense",
+    "p3": "Mostramos anuncios a través de Google AdSense. Google puede usar cookies para mostrar anuncios personalizados basados en tu historial. Puedes desactivarlo en <a href='https://www.google.com/settings/ads' target='_blank' rel='noopener'>Configuración de Anuncios de Google</a>.",
+    "title4": "4. Cookies",
+    "p4": "Solo usamos cookies a través de servicios de terceros (Google Analytics, AdSense). No establecemos cookies propias de seguimiento.",
+    "title5": "5. Privacidad Infantil",
+    "p5": "ZeroTools no está dirigido a niños menores de 13 años. No recopilamos conscientemente información personal de niños.",
+    "title6": "6. Cambios",
+    "p6": "Podemos actualizar esta política ocasionalmente. Los cambios se indicarán con una nueva fecha de última actualización en la parte superior.",
+    "title7": "7. Contacto",
+    "p7": "¿Preguntas? Envíanos un correo a <a href='mailto:HelloZeroTools@outlook.com'>HelloZeroTools@outlook.com</a>"
+  }
+}

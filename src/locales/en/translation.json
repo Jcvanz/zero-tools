@@ -1,0 +1,377 @@
+{
+  "header": {
+    "home": "Home",
+    "faq": "FAQ",
+    "privacy": "Privacy",
+    "language": "Language",
+    "tools": "Tools"
+  },
+  "hero": {
+    "badge": "✨ 13 Free Tools · No Signup · No Upload",
+    "title": "The Free Toolbox for",
+    "creators_devs": "Creators & Developers",
+    "subtitle": "QR Codes, Hashtag Generators, Image Compressors, Background Removers and more — all running 100% in your browser. Zero data leaves your device."
+  },
+  "home": {
+    "search_placeholder": "Search tools…",
+    "stats_files": "Files Processed",
+    "stats_tools": "Pro Tools",
+    "stats_data": "Data Stored",
+    "stats_free": "Free Forever",
+    "no_results": "No tools found for",
+    "clear_filters": "Clear filters",
+    "why_title": "Why ZeroTools?",
+    "why_sub": "Built differently from other tool sites",
+    "why_1_title": "100% Private",
+    "why_1_desc": "Your files never leave your device. All processing happens locally in your browser using modern Web APIs.",
+    "why_2_title": "Instant Results",
+    "why_2_desc": "No server roundtrips. No waiting in queues. Tools run at full speed directly on your machine.",
+    "why_3_title": "Always Free",
+    "why_3_desc": "Every tool is completely free to use, forever. No account, no credit card, no hidden limits.",
+    "why_4_title": "Works Everywhere",
+    "why_4_desc": "Fully responsive design. Use ZeroTools on desktop, tablet, or mobile — anywhere, anytime.",
+    "popular_title": "Most Popular Tools",
+    "categories": {
+      "All": "All",
+      "Social Media": "Social Media",
+      "Generator": "Generator",
+      "Image": "Image",
+      "PDF": "PDF",
+      "Converter": "Converter",
+      "Security": "Security",
+      "Design": "Design",
+      "Text": "Text",
+      "Utility": "Utility",
+      "Business": "Business",
+      "Developer": "Developer"
+    }
+  },
+  "tool_layout": {
+    "about": "About the",
+    "about_sub": "is a powerful utility designed to help you with your daily tasks. It is completely free to use and requires no registration or software installation.",
+    "privacy_title": "🔒 100% Privacy & Client-Side Processing",
+    "privacy_desc": "Unlike other online tools that upload your files to external servers, our tool operates entirely within your browser. We utilize modern web technologies to process everything locally on your device. This means your data is never uploaded, stored, or seen by anyone else, guaranteeing absolute privacy."
+  },
+  "footer": {
+    "tagline": "Free online tools — no signup, no upload, no tracking. Everything runs in your browser.",
+    "company": "Company",
+    "rights": "All rights reserved. Built for creators & developers."
+  },
+  "tools": {
+    "hashtag-generator": {
+      "name": "Hashtag Generator",
+      "desc": "Generate trending hashtags for Instagram, TikTok & Twitter by category."
+    },
+    "qr-code": {
+      "name": "QR Code Generator",
+      "desc": "Create QR codes for URLs, text, WiFi, and vCards. Download as PNG or SVG."
+    },
+    "image-compressor": {
+      "name": "Image Compressor",
+      "desc": "Compress JPG, PNG and WebP images. Reduce file size without losing quality."
+    },
+    "background-remover": {
+      "name": "Background Remover",
+      "desc": "Remove image backgrounds automatically using AI — 100% in your browser."
+    },
+    "pdf-compressor": {
+      "name": "PDF Compressor",
+      "desc": "Compress and optimize PDF files. Reduce size for email and web sharing."
+    },
+    "file-converter": {
+      "name": "File Converter",
+      "desc": "Convert images between JPG, PNG, WebP, GIF formats instantly."
+    },
+    "password-generator": {
+      "name": "Password Generator",
+      "desc": "Generate strong, secure passwords with custom length and character sets."
+    },
+    "color-palette": {
+      "name": "Color Palette",
+      "desc": "Generate beautiful color palettes from a base color. Export HEX, RGB, HSL."
+    },
+    "lorem-ipsum": {
+      "name": "Lorem Ipsum",
+      "desc": "Generate placeholder text for mockups, designs and wireframes."
+    },
+    "pomodoro": {
+      "name": "Pomodoro Timer",
+      "desc": "Focus timer for work and study. 25-min focus blocks."
+    },
+    "roi-calculator": {
+      "name": "ROI Calculator",
+      "desc": "Calculate Return on Investment for marketing and business."
+    },
+    "discount-calculator": {
+      "name": "Discount Calculator",
+      "desc": "Quickly calculate sale prices and percentage discounts."
+    },
+    "json-formatter": {
+      "name": "JSON Formatter",
+      "desc": "Format, validate and prettify JSON code natively."
+    },
+    "case-converter": {
+      "name": "Case Converter",
+      "desc": "Convert text to uppercase, lowercase, camelCase, and more."
+    },
+    "base64": {
+      "name": "Base64 Encoder/Decoder",
+      "desc": "Encode and decode Base64 strings and files instantly."
+    },
+    "word-counter": {
+      "name": "Word Counter",
+      "desc": "Count words, characters, sentences and analyze keyword density."
+    }
+  },
+  "bg_remover": {
+    "ai_banner": "🧠 AI-powered — Runs entirely in your browser using WebAssembly. First use downloads a ~40MB model (cached afterwards).",
+    "drop_title": "Drop an image to remove background",
+    "drop_sub": "JPG or PNG recommended — best results on people, products & logos",
+    "browse_btn": "Browse Image",
+    "loading": "Removing background — this may take 10–30 seconds…",
+    "original": "ORIGINAL",
+    "result": "RESULT",
+    "preview_bg": "Preview BG:",
+    "transparent": "Transparent",
+    "white": "White",
+    "black": "Black",
+    "gray": "Light Gray",
+    "download": "⬇️ Download PNG",
+    "try_another": "↩ Try Another",
+    "error": "Could not process this image. Please try a different one."
+  },
+  "img_compressor": {
+    "format": "Output Format",
+    "webp_rec": "WebP (Recommended)",
+    "jpeg": "JPEG",
+    "png": "PNG",
+    "quality": "Quality:",
+    "browse_btn": "Browse Files",
+    "drop_title": "Drag & drop images here",
+    "drop_sub": "JPG, PNG, GIF, WebP — multiple files supported",
+    "before": "Before:",
+    "after": "After:",
+    "smaller": "smaller",
+    "download": "⬇ Download",
+    "clear_all": "↩ Clear All"
+  },
+  "qr_code": {
+    "content": "Content",
+    "placeholder": "Enter URL, text or data…",
+    "fg": "Foreground",
+    "bg": "Background",
+    "size": "Size:",
+    "preview": "Preview",
+    "empty": "Enter content to generate QR code",
+    "download": "⬇️ Download PNG"
+  },
+  "common": {
+    "browse": "Browse File",
+    "download": "Download",
+    "copy": "Copy",
+    "clear": "Clear",
+    "generate": "Generate",
+    "drop": "Drag & drop file here",
+    "options": "Options"
+  },
+  "pwd_gen": {
+    "length": "Length:",
+    "generate": "Generate:",
+    "pwd": "password",
+    "pwds": "passwords",
+    "btn": "🔑 Generate Password",
+    "copy": "📋 Copy",
+    "copied": "✅",
+    "strength": "Strength",
+    "weak": "Weak",
+    "fair": "Fair",
+    "good": "Good",
+    "strong": "Strong",
+    "recent": "RECENT PASSWORDS",
+    "upper": "Uppercase",
+    "lower": "Lowercase",
+    "numbers": "Numbers",
+    "symbols": "Symbols"
+  },
+  "ht_gen": {
+    "category": "Category",
+    "custom_kw": "Custom Keywords (optional)",
+    "custom_ph": "brand, product, keyword…",
+    "number": "Number of Hashtags:",
+    "btn": "🎲 Generate Hashtags",
+    "your_ht": "Your Hashtags",
+    "copy_all": "📋 Copy All",
+    "copied": "✅ Copied!",
+    "click": "Click any hashtag to copy individually ·",
+    "chars": "characters",
+    "Fashion": "Fashion",
+    "Food": "Food",
+    "Travel": "Travel",
+    "Fitness": "Fitness",
+    "Business": "Business",
+    "Photography": "Photography",
+    "TikTok": "TikTok",
+    "Shopify": "Shopify"
+  },
+  "pdf_comp": {
+    "info": "ℹ️ Client-side optimization: removes embedded metadata and optimizes PDF structure. For heavy image-based PDFs, reduction may be minimal.",
+    "drop_title": "Drop your PDF here",
+    "drop_sub": "Maximum 50MB",
+    "browse_btn": "Browse PDF",
+    "loading": "Optimizing PDF…",
+    "err1": "Please upload a valid PDF file.",
+    "err2": "Could not process this PDF. It may be encrypted or corrupted.",
+    "pages": "Pages",
+    "orig": "Original Size",
+    "opt": "Optimized Size",
+    "red": "Reduction",
+    "dl": "⬇️ Download Optimized PDF"
+  },
+  "file_conv": {
+    "convert": "Convert to:",
+    "drop": "Drop images to convert to",
+    "sub": "Multiple files supported · JPG, PNG, GIF, WebP, BMP"
+  },
+  "color_pal": {
+    "base": "Base Color",
+    "mode": "Palette Mode",
+    "analogous": "Analogous",
+    "complementary": "Complementary",
+    "triadic": "Triadic",
+    "monochromatic": "Monochromatic",
+    "btn": "🎨 Generate Palette",
+    "copy_all": "📋 Copy All HEX",
+    "copied": "✅ Copied!"
+  },
+  "json_fmt": {
+    "input": "Input JSON",
+    "indent": "Indent:",
+    "format": "Format",
+    "minify": "Minify",
+    "validate": "Validate",
+    "output": "Output",
+    "valid": "✅ Valid JSON!",
+    "placeholder": "Formatted output will appear here…"
+  },
+  "b64": {
+    "encode": "Encode",
+    "decode": "Decode",
+    "from_file": "📁 From File",
+    "txt_enc": "Text to Encode",
+    "b64_dec": "Base64 to Decode",
+    "ph_enc": "Enter text or paste URL…",
+    "ph_dec": "Enter Base64 string…",
+    "btn_enc": "🔒 Encode",
+    "btn_dec": "🔓 Decode",
+    "swap": "⇅ Swap",
+    "err": "Invalid Base64 string. Please check your input.",
+    "result": "Result"
+  },
+  "case_conv": {
+    "input": "Input Text",
+    "placeholder": "Type or paste your text here…",
+    "empty": "Type some text above to see all case conversions instantly",
+    "UPPERCASE": "UPPERCASE",
+    "lowercase": "lowercase",
+    "Title Case": "Title Case",
+    "Sentence case": "Sentence case",
+    "camelCase": "camelCase",
+    "PascalCase": "PascalCase",
+    "snake_case": "snake_case",
+    "kebab-case": "kebab-case",
+    "aLtErNaTiNg": "aLtErNaTiNg"
+  },
+  "lorem": {
+    "generate": "Generate",
+    "paragraphs": "Paragraphs",
+    "sentences": "Sentences",
+    "words": "Words",
+    "amount": "Amount:",
+    "btn": "📝 Generate Text",
+    "words_l": "words"
+  },
+  "word_count": {
+    "your_text": "Your Text",
+    "placeholder": "Paste or type your text here…",
+    "stats": "Statistics",
+    "words": "Words",
+    "chars": "Characters",
+    "no_spaces": "Chars (no spaces)",
+    "sentences": "Sentences",
+    "paragraphs": "Paragraphs",
+    "reading": "Reading Time",
+    "top": "Top Words",
+    "min": "min"
+  },
+  "faq_page": {
+    "title": "Frequently Asked Questions",
+    "desc": "Everything you need to know about ZeroTools.",
+    "meta_desc": "Answers to common questions about ZeroTools — free online tools for QR codes, image compression, hashtag generation and more.",
+    "still": "Still have questions?",
+    "still_desc": "Send us an email and we'll get back to you within 24 hours.",
+    "contact": "✉️ Contact Us",
+    "faqs": [
+      {
+        "q": "Are all tools really free?",
+        "a": "Yes, 100% free forever. No account, no credit card, no limits. ZeroTools is supported by non-intrusive display advertising."
+      },
+      {
+        "q": "Are my files uploaded to a server?",
+        "a": "No. Every tool on ZeroTools runs entirely in your browser using modern Web APIs (Canvas, WebAssembly, FileReader). Your files never leave your device — we have zero access to them."
+      },
+      {
+        "q": "Does the Background Remover work offline?",
+        "a": "After the first use, the AI model (~40MB) is cached in your browser. Subsequent uses work without re-downloading the model, but a connection is still needed to load the page."
+      },
+      {
+        "q": "Can I use ZeroTools on my phone?",
+        "a": "Yes! All tools are fully responsive and work on iOS and Android browsers. Some heavy tools (like Background Remover) may be slower on older devices."
+      },
+      {
+        "q": "What image formats does the compressor support?",
+        "a": "The Image Compressor supports JPG, PNG, GIF, BMP, and WebP inputs. You can export to JPG, PNG, or WebP."
+      },
+      {
+        "q": "How many hashtags can I generate?",
+        "a": "Up to 30 hashtags per generation. You can combine category-based hashtags with your own custom keywords."
+      },
+      {
+        "q": "Why is my PDF only slightly smaller after compression?",
+        "a": "Client-side PDF compression removes metadata and optimizes the file structure. If your PDF is mostly large embedded images, the reduction will be minimal. For heavy image-based PDFs, we recommend using a server-side tool."
+      },
+      {
+        "q": "Do you show ads?",
+        "a": "Yes, ZeroTools is supported by Google AdSense display ads. This allows us to keep all tools free. Ad placements are designed to be non-intrusive and never interrupt your workflow."
+      },
+      {
+        "q": "Can I use the generated QR codes commercially?",
+        "a": "Absolutely. All generated files (QR codes, compressed images, etc.) belong to you and can be used for any purpose."
+      },
+      {
+        "q": "How do I report a bug or suggest a new tool?",
+        "a": "We'd love to hear from you! Send an email to HelloZeroTools@outlook.com with your feedback."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "meta_desc": "ZeroTools Privacy Policy. We do not collect your files. All processing happens in your browser.",
+    "back": "← Back to ZeroTools",
+    "updated": "Last updated: May 1, {{year}}",
+    "intro": "ZeroTools ('we', 'us', 'our') operates myzerotools.online. This page describes how we handle information when you use our free online tools.",
+    "title1": "1. No File Data Collection",
+    "p1": "All image processing, PDF operations, and text transformations run <strong>entirely in your browser</strong> using Web APIs (Canvas, WebAssembly, FileReader). Your files and data are <strong>never uploaded to our servers</strong>. We cannot access, view, or store anything you process.",
+    "title2": "2. Analytics Data",
+    "p2": "We use Google Analytics 4 to understand aggregate usage patterns. This collects anonymized data including browser type, approximate location (country/city), pages visited, and session duration. This data cannot identify you personally.",
+    "title3": "3. Google AdSense",
+    "p3": "We display ads via Google AdSense. Google may use cookies to serve personalized ads based on your browsing history. You can opt out at <a href='https://www.google.com/settings/ads' target='_blank' rel='noopener'>Google Ads Settings</a>.",
+    "title4": "4. Cookies",
+    "p4": "We only use cookies through third-party services (Google Analytics, AdSense). We do not set first-party cookies for tracking.",
+    "title5": "5. Childrens Privacy",
+    "p5": "ZeroTools is not directed to children under 13. We do not knowingly collect personal information from children.",
+    "title6": "6. Changes",
+    "p6": "We may update this policy occasionally. Changes will be noted with a new last updated date at the top of this page.",
+    "title7": "7. Contact",
+    "p7": "Questions? Email us at <a href='mailto:HelloZeroTools@outlook.com'>HelloZeroTools@outlook.com</a>"
+  }
+}
