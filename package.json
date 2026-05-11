@@ -13,11 +13,14 @@
     "@imgly/background-removal": "^1.7.0",
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.0.0",
+    "i18next": "^26.1.0",
+    "i18next-browser-languagedetector": "^8.2.1",
     "pdf-lib": "^1.17.1",
     "qrcode.react": "^4.2.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "react-helmet-async": "^3.0.0",
+    "react-i18next": "^17.0.7",
     "react-router-dom": "^7.14.2"
   },
   "devDependencies": {
