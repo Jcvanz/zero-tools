@@ -29,7 +29,7 @@ export default function Home() {
         <meta name="keywords" content="free online tools, qr code generator, hashtag generator, image compressor, background remover, pdf compressor, password generator" />
         <link rel="canonical" href="https://myzerotools.online/" />
         <meta property="og:title" content="ZeroTools — Free Online Tools" />
-        <meta property="og:description" content="13 free browser-based tools for creators, developers and marketers." />
+        <meta property="og:description" content="14 free browser-based tools for creators, developers and marketers." />
         <meta property="og:type" content="website" />
       </Helmet>
 
