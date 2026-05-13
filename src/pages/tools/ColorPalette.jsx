@@ -28,11 +28,60 @@ function hslToHex(h, s, l) {
 
 function generatePalette(baseHex, mode) {
   const [h, s, l] = hexToHsl(baseHex);
+
+  // Garante 5 luminosidades diferentes incluindo a cor base
+  const getMonochromatic = (baseL) => {
+    let pool = [15, 30, 50, 70, 85];
+    let closest = 0, minDiff = 100;
+    pool.forEach((lvl, i) => {
+      if (Math.abs(lvl - baseL) < minDiff) { minDiff = Math.abs(lvl - baseL); closest = i; }
+    });
+    pool[closest] = baseL;
+    return pool;
+  };
+
+  // Garante luminosidades diferentes da cor base (para complementares e triádicas)
+  const getOtherLightnesses = (baseL) => {
+    let pool = [15, 30, 45, 60, 75, 90];
+    pool.sort((a,b) => Math.abs(a-baseL) - Math.abs(b-baseL));
+    pool.shift(); // Remove a luminosidade mais próxima da base
+    return pool.sort((a,b) => a-b);
+  };
+
   switch(mode) {
-    case 'analogous':   return [hslToHex((h+30)%360,s,l), baseHex, hslToHex((h-30+360)%360,s,l), hslToHex((h+60)%360,s,l), hslToHex((h-60+360)%360,s,l)];
-    case 'complementary': return [baseHex, hslToHex((h+180)%360,s,l), hslToHex(h,s,Math.min(l+20,95)), hslToHex((h+180)%360,s,Math.min(l+20,95)), hslToHex(h,s,Math.max(l-20,5))];
-    case 'triadic':     return [baseHex, hslToHex((h+120)%360,s,l), hslToHex((h+240)%360,s,l), hslToHex(h,s,Math.min(l+15,95)), hslToHex(h,s,Math.max(l-15,5))];
-    case 'monochromatic': return [hslToHex(h,s,Math.max(l-30,5)), hslToHex(h,s,Math.max(l-15,5)), baseHex, hslToHex(h,s,Math.min(l+15,95)), hslToHex(h,s,Math.min(l+30,95))];
+    case 'analogous':   
+      if (s < 10) return getMonochromatic(l).map(lvl => hslToHex(h, s, lvl));
+      return [
+        baseHex,
+        hslToHex((h+30)%360, s, l), 
+        hslToHex((h-30+360)%360, s, l), 
+        hslToHex((h+60)%360, s, l), 
+        hslToHex((h-60+360)%360, s, l)
+      ];
+    
+    case 'complementary': {
+      const others = getOtherLightnesses(l);
+      return [
+        baseHex, 
+        hslToHex((h+180)%360, s, l), 
+        hslToHex(h, s, others[1]), 
+        hslToHex((h+180)%360, s, others[3]), 
+        hslToHex((h+180)%360, s, others[4])
+      ];
+    }
+    case 'triadic': {
+      const others = getOtherLightnesses(l);
+      return [
+        baseHex, 
+        hslToHex((h+120)%360, s, l), 
+        hslToHex((h+240)%360, s, l), 
+        hslToHex(h, s, others[1]), 
+        hslToHex((h+120)%360, s, others[4])
+      ];
+    }
+    case 'monochromatic': {
+      return getMonochromatic(l).map(lvl => hslToHex(h, s, lvl));
+    }
     default: return [baseHex];
   }
 }
