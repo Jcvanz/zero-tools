@@ -1,0 +1,32 @@
+.crop-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.crop-main-area {
+  flex: 1 1 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--clr-bg);
+  overflow: hidden;
+  min-height: 300px;
+}
+
+.crop-sidebar {
+  flex: 0 0 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .crop-sidebar {
+    flex: 1 1 100%;
+  }
+  
+  .crop-main-area {
+    flex: 1 1 100%;
+  }
+}
