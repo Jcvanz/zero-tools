@@ -76,7 +76,7 @@ export default function Home() {
           <div className="stats-row">
             {[
               { value: '1.2M+', label: t('home.stats_files') },
-              { value: '13', label: t('home.stats_tools') },
+              { value: '14', label: t('home.stats_tools') },
               { value: '0 bytes', label: t('home.stats_data') },
               { value: '100%', label: t('home.stats_free') },
             ].map(s => (
