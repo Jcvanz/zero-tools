@@ -264,6 +264,15 @@ input[type="checkbox"] {
 .tool-page-header {
   margin-bottom: 32px;
 }
+.tool-header-icon {
+  width: 52px; height: 52px;
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
 .tool-page-icon {
   width: 52px; height: 52px;
   border-radius: var(--radius-lg);
