@@ -13,6 +13,7 @@ import Privacy from './pages/Privacy';
 import HashtagGenerator from './pages/tools/HashtagGenerator';
 import QRCodeGenerator from './pages/tools/QRCodeGenerator';
 import ImageCompressor from './pages/tools/ImageCompressor';
+import ImageCropper from './pages/tools/ImageCropper';
 import BackgroundRemover from './pages/tools/BackgroundRemover';
 import PDFCompressor from './pages/tools/PDFCompressor';
 import FileConverter from './pages/tools/FileConverter';
@@ -37,6 +38,7 @@ function App() {
         <Route path="/tools/hashtag-generator" element={<HashtagGenerator />} />
         <Route path="/tools/qr-code" element={<QRCodeGenerator />} />
         <Route path="/tools/image-compressor" element={<ImageCompressor />} />
+        <Route path="/tools/image-cropper" element={<ImageCropper />} />
         <Route path="/tools/background-remover" element={<BackgroundRemover />} />
         <Route path="/tools/pdf-compressor" element={<PDFCompressor />} />
         <Route path="/tools/file-converter" element={<FileConverter />} />

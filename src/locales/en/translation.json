@@ -70,6 +70,10 @@
       "name": "Image Compressor",
       "desc": "Compress JPG, PNG and WebP images. Reduce file size without losing quality."
     },
+    "image-cropper": {
+      "name": "Image Cropper",
+      "desc": "Crop, resize, and scale your images. Choose custom aspect ratios and dimensions."
+    },
     "background-remover": {
       "name": "Background Remover",
       "desc": "Remove image backgrounds automatically using AI — 100% in your browser."
@@ -231,6 +235,18 @@
     "convert": "Convert to:",
     "drop": "Drop images to convert to",
     "sub": "Multiple files supported · JPG, PNG, GIF, WebP, BMP"
+  },
+  "img_crop": {
+    "title": "Upload Image to Crop",
+    "sub": "Select an image to resize, crop and change its aspect ratio",
+    "browse": "Browse Image",
+    "aspect": "Aspect Ratio",
+    "free": "Free",
+    "width": "Width (px)",
+    "height": "Height (px)",
+    "format": "Export Format",
+    "download": "⬇️ Crop & Download",
+    "reset": "Upload new image"
   },
   "color_pal": {
     "base": "Base Color",
