@@ -70,6 +70,10 @@
       "name": "Compressor de Imagem",
       "desc": "Comprima imagens JPG, PNG e WebP sem perder qualidade."
     },
+    "image-cropper": {
+      "name": "Cortador de Imagem",
+      "desc": "Corte, redimensione e mude a proporção das suas imagens."
+    },
     "background-remover": {
       "name": "Removedor de Fundo",
       "desc": "Remova o fundo de imagens automaticamente usando IA — no seu navegador."
@@ -231,6 +235,18 @@
     "convert": "Converter para:",
     "drop": "Arraste imagens para converter para",
     "sub": "Suporta múltiplos arquivos · JPG, PNG, GIF, WebP, BMP"
+  },
+  "img_crop": {
+    "title": "Enviar Imagem para Recortar",
+    "sub": "Selecione uma imagem para redimensionar, cortar e alterar a proporção",
+    "browse": "Procurar Imagem",
+    "aspect": "Proporção da Imagem",
+    "free": "Livre",
+    "width": "Largura (px)",
+    "height": "Altura (px)",
+    "format": "Formato de Exportação",
+    "download": "⬇️ Cortar e Baixar",
+    "reset": "Enviar nova imagem"
   },
   "color_pal": {
     "base": "Cor Base",
