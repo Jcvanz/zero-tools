@@ -34,6 +34,17 @@ export const tools = [
     path: '/tools/image-compressor',
   },
   {
+    id: 'image-cropper',
+    name: 'Image Cropper',
+    desc: 'Crop, resize, and scale your images. Choose custom aspect ratios and dimensions.',
+    icon: '📐',
+    color: '#0ea5e9',
+    colorLight: '#e0f2fe',
+    category: 'Image',
+    keywords: 'image cropper, resize image online, crop photo, change image size',
+    path: '/tools/image-cropper',
+  },
+  {
     id: 'background-remover',
     name: 'Background Remover',
     desc: 'Remove image backgrounds automatically using AI — 100% in your browser.',
