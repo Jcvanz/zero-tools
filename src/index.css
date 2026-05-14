@@ -261,6 +261,32 @@ input[type="checkbox"] {
   flex: 1;
 }
 
+/* Article Content (SEO) */
+.custom-article-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+  color: var(--clr-brand);
+}
+.custom-article-content h3 {
+  font-size: 1.25rem;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+.custom-article-content p {
+  color: var(--clr-text-2);
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+.custom-article-content ul, .custom-article-content ol {
+  color: var(--clr-text-2);
+  line-height: 1.7;
+  margin-bottom: 16px;
+  padding-left: 24px;
+}
+.custom-article-content li {
+  margin-bottom: 8px;
+}
+
 .tool-page-header {
   margin-bottom: 32px;
 }
