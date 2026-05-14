@@ -11,7 +11,6 @@ export default function Privacy() {
       <Helmet>
         <title>{t('privacy.title')} — ZeroTools</title>
         <meta name="description" content={t('privacy.meta_desc')} />
-        <meta name="robots" content="noindex, follow" />
         <link rel="canonical" href="https://myzerotools.online/privacy" />
       </Helmet>
 
