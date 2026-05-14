@@ -2,6 +2,7 @@
   "header": {
     "home": "Inicio",
     "faq": "FAQ",
+    "about": "Sobre Nosotros",
     "privacy": "Privacidad",
     "language": "Idioma",
     "tools": "Herramientas"
@@ -46,6 +47,18 @@
       "Developer": "Dev"
     }
   },
+  "about": {
+    "title": "Sobre Nosotros",
+    "meta_desc": "Conoce más sobre ZeroTools, nuestra misión y nuestro compromiso con herramientas web 100% privadas que funcionan en tu navegador.",
+    "mission_title": "Nuestra Misión",
+    "mission_desc": "ZeroTools fue creado con una filosofía simple: las utilidades web deben ser rápidas, gratuitas y absolutamente privadas. Creemos que no deberías tener que subir tus imágenes personales, documentos o datos a servidores desconocidos solo para convertir un archivo o eliminar un fondo.",
+    "privacy_title": "Procesamiento 100% en el Cliente",
+    "privacy_desc": "Para lograr nuestra misión, utilizamos Web APIs modernas y WebAssembly. Todas y cada una de las herramientas de esta plataforma se ejecutan completamente dentro de tu navegador. Cuando comprimes un PDF o recortas una imagen, el procesador de tu dispositivo hace el trabajo. Tus archivos nunca salen de tu computadora, garantizando cero riesgo de fuga de datos.",
+    "free_title": "Gratis para Todos",
+    "free_desc": "No creemos en suscripciones, planes premium o forzar a los usuarios a crear cuentas. ZeroTools es completamente gratis para usar. Para mantener los servidores en funcionamiento y el dominio activo, nos apoyamos en anuncios no intrusivos.",
+    "contact_title": "Ponte en Contacto",
+    "contact_desc": "¿Tienes una sugerencia para una nueva herramienta? ¿Encontraste un error? Nos encantaría escucharte. Escríbenos a"
+  },
   "tool_layout": {
     "about": "Acerca de",
     "about_sub": "es una utilidad potente diseñada para ayudarte con tus tareas diarias. Es completamente gratis y no requiere registro ni instalación de software.",
@@ -60,71 +73,88 @@
   "tools": {
     "hashtag-generator": {
       "name": "Generador de Hashtag",
-      "desc": "Genera hashtags en tendencia para Instagram, TikTok y Twitter."
+      "desc": "Genera hashtags en tendencia para Instagram, TikTok y Twitter.",
+      "article": "<h2>¿Cómo funciona el Generador de Hashtags?</h2><p>El <strong>Generador de Hashtags</strong> te ayuda a descubrir las mejores etiquetas para tus publicaciones. Usar las palabras clave correctas es esencial para aumentar el alcance orgánico.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Elige la categoría principal de tu publicación en las opciones disponibles en pantalla (Ej: Moda, Comida, Fitness).</li><li>La herramienta procesará y mostrará instantáneamente una nube con los hashtags más populares para ese nicho.</li><li>Haz clic en el botón 'Copiar Todos' en la parte inferior de la caja de resultados.</li><li>Pégalos al final de la descripción de tu publicación de Instagram, TikTok o Twitter, ¡y listo!</li></ol><h3>Ventajas</h3><p>¡No exageres! Aunque Instagram permite hasta 30 hashtags, los expertos recomiendan usar entre 5 a 15 hashtags hiperrelevantes para una mejor interacción.</p>"
     },
     "qr-code": {
       "name": "Generador de Código QR",
-      "desc": "Crea códigos QR para URLs, texto y WiFi. Descarga en PNG o SVG."
+      "desc": "Crea códigos QR para URLs, texto y WiFi. Descarga en PNG o SVG.",
+      "article": "<h2>¿Qué es el Generador de Código QR?</h2><p>El <strong>Generador de Código QR</strong> es una utilidad simple y rápida para convertir textos, URLs o información de WiFi en un código escaneable. Los Códigos QR son muy utilizados en menús de restaurantes, tarjetas de presentación y marketing digital para conectar el mundo físico con el digital al instante.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Elige el tipo de contenido (URL, Texto o WiFi) seleccionando la pestaña correspondiente.</li><li>Rellena el campo principal con el enlace de tu sitio web, el texto deseado o los datos de la red WiFi.</li><li>Ajusta los colores del código y del fondo usando los selectores de color para combinar con tu marca.</li><li>El código se generará automáticamente en la pantalla en tiempo real.</li><li>Haz clic en los botones de Descarga para guardar la imagen en formato PNG o SVG de alta calidad.</li></ol><h3>Ventajas</h3><ul><li><strong>100% Offline:</strong> Los códigos se generan directamente en tu navegador, sin enviar datos.</li><li><strong>Formatos Vectoriales:</strong> Exporta en PNG o SVG para garantizar la máxima calidad de impresión.</li></ul>"
     },
     "image-compressor": {
       "name": "Compresor de Imágenes",
-      "desc": "Comprime imágenes JPG, PNG y WebP sin perder calidad."
+      "desc": "Comprime imágenes JPG, PNG y WebP sin perder calidad.",
+      "article": "<h2>Sobre el Compresor de Imágenes</h2><p>El <strong>Compresor de Imágenes</strong> te ayuda a reducir drásticamente el tamaño de tus archivos de imagen sin perder calidad visual. Esto es vital para mejorar la velocidad de carga de sitios web (SEO) y ahorrar espacio de almacenamiento.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Haz clic en el área punteada o arrastra y suelta una imagen (JPG, PNG o WebP) desde tu computadora.</li><li>Observa la vista previa de la imagen original y su peso en megabytes o kilobytes.</li><li>Ajusta el control deslizante de Calidad (del 0% al 100%) hasta encontrar el equilibrio perfecto entre tamaño y nitidez.</li><li>El tamaño final estimado se actualizará en la pantalla instantáneamente.</li><li>Haz clic en 'Descargar Imagen Comprimida' para guardar el nuevo archivo optimizado.</li></ol><h3>Privacidad Garantizada</h3><p>A diferencia de otras herramientas en línea, utilizamos compresión en el cliente (vía Canvas). Tus fotos personales nunca se envían a servidores en la nube, garantizando total seguridad.</p>"
     },
     "image-cropper": {
       "name": "Recortador de Imágenes",
-      "desc": "Recorta, redimensiona y cambia la proporción de tus imágenes."
+      "desc": "Recorta, redimensiona y cambia la proporción de tus imágenes.",
+      "article": "<h2>Sobre el Recortador y Redimensionador de Imágenes</h2><p>El <strong>Recortador de Imágenes</strong> te ayuda a ajustar el tamaño y cambiar la proporción de tus fotos sin necesidad de instalar ningún software. Ideal para redes sociales.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Haz clic en 'Buscar Imagen' o simplemente arrastra y suelta el archivo (JPG/PNG) en el área de carga.</li><li>Elige una de las proporciones automáticas sugeridas (ej. 1:1 Cuadrado, 16:9 YouTube) o haz clic en 'Libre' para dibujar tu propio recorte.</li><li>Mueve la cuadrícula de marca sobre la imagen para enfocarte solo en la parte que deseas conservar.</li><li>Para dimensiones exactas, escribe el Alto y Ancho en píxeles en los campos de la barra lateral.</li><li>Haz clic en el botón 'Recortar y Descargar' y una nueva imagen optimizada se guardará en tu computadora de inmediato.</li></ol><h3>Privacidad Garantizada</h3><p>La gran ventaja de ZeroTools es la privacidad. Cuando subes tu foto, nunca se envía a los servidores.</p>"
     },
     "background-remover": {
       "name": "Eliminador de Fondo",
-      "desc": "Elimina fondos de imágenes automáticamente con IA en tu navegador."
+      "desc": "Elimina fondos de imágenes automáticamente con IA en tu navegador.",
+      "article": "<h2>¿Cómo funciona el Eliminador de Fondos?</h2><p>Nuestro <strong>Eliminador de Fondos</strong> utiliza inteligencia artificial avanzada ejecutándose en tu navegador para separar con precisión el sujeto principal del fondo. Es ideal para fotos de productos (comercio electrónico), fotos de perfil y diseño gráfico.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Espera unos segundos la primera vez que abras la herramienta para que la IA local se cargue en tu navegador.</li><li>Sube o arrastra una foto con un objeto claro en primer plano (como una persona o producto).</li><li>Espera la barra de progreso mientras la inteligencia artificial procesa los recortes.</li><li>Visualiza la imagen resultante con fondo transparente (patrón cuadriculado).</li><li>Haz clic en 'Descargar Imagen sin Fondo' para guardarla en formato PNG transparente.</li></ol><h3>La Magia de WebAssembly</h3><p>La inteligencia artificial se ejecuta localmente en tu dispositivo, ofreciendo recortes impecables sin comprometer tu privacidad.</p>"
     },
     "pdf-compressor": {
       "name": "Compresor de PDF",
-      "desc": "Comprime y optimiza archivos PDF para compartir."
+      "desc": "Comprime y optimiza archivos PDF para compartir.",
+      "article": "<h2>Sobre el Compresor de PDF</h2><p>Los archivos PDF muy grandes son difíciles de enviar por correo electrónico o adjuntar en formularios web. Nuestro <strong>Compresor de PDF</strong> resuelve esto eliminando metadatos innecesarios y reestructurando el archivo para hacerlo más ligero.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Sube el documento PDF que deseas reducir de tamaño arrastrándolo a la zona indicada.</li><li>La herramienta comenzará inmediatamente a leer y procesar el archivo en tu navegador.</li><li>Verifica la tasa de compresión y los megabytes ahorrados en la interfaz.</li><li>Aparecerá un botón de descarga; haz clic en él para guardar la versión ligera de tu PDF.</li></ol><p>Todo esto se hace localmente en tu dispositivo, garantizando que los documentos con datos sensibles no se filtren en internet.</p>"
     },
     "file-converter": {
       "name": "Convertidor de Archivos",
-      "desc": "Convierte imágenes entre formatos JPG, PNG, WebP, GIF."
+      "desc": "Convierte imágenes entre formatos JPG, PNG, WebP, GIF.",
+      "article": "<h2>Conversión Rápida y Local</h2><p>¿Necesitas transformar un WebP a JPG o viceversa? El <strong>Convertidor de Archivos</strong> te permite alternar entre formatos de imagen al instante y en masa.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Arrastra una imagen de tu computadora al panel de conversión.</li><li>En el menú de selección (menú desplegable), elige el formato de destino deseado (PNG, JPG, WEBP, etc).</li><li>Haz clic en el botón 'Convertir Archivo' para iniciar el proceso.</li><li>La descarga del archivo en el nuevo formato comenzará automáticamente en unos pocos milisegundos.</li></ol><p>Como todo se ejecuta mediante JavaScript en el cliente, no hay filas de espera. Tus imágenes se convierten sin subidas demoradas.</p>"
     },
     "password-generator": {
       "name": "Generador de Contraseñas",
-      "desc": "Genera contraseñas fuertes y seguras con tamaño personalizado."
+      "desc": "Genera contraseñas fuertes y seguras con tamaño personalizado.",
+      "article": "<h2>¿Por qué usar el Generador de Contraseñas?</h2><p>Las contraseñas débiles son la puerta de entrada para invasiones. Nuestro <strong>Generador de Contraseñas</strong> crea combinaciones de caracteres totalmente aleatorias y criptográficamente seguras para usar en nuevos registros.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Desliza la barra para elegir el tamaño de la contraseña (recomendamos al menos 16 caracteres).</li><li>Marca o desmarca las casillas de opciones: Letras Mayúsculas, Minúsculas, Números o Símbolos ($, %, @).</li><li>La contraseña actualizada aparecerá en el campo de texto principal automáticamente.</li><li>Haz clic en el botón 'Copiar' junto a la contraseña para enviarla al portapapeles de tu sistema.</li></ol><p><strong>Consejo de Seguridad:</strong> Nunca uses la misma contraseña en dos sitios web diferentes. Usa esta herramienta para generar contraseñas únicas.</p>"
     },
     "color-palette": {
       "name": "Paleta de Colores",
-      "desc": "Genera hermosas paletas a partir de un color base."
+      "desc": "Genera hermosas paletas a partir de un color base.",
+      "article": "<h2>Inspiración de Colores Instantánea</h2><p>El <strong>Generador de Paletas de Colores</strong> es perfecto para diseñadores y desarrolladores front-end en busca de armonía visual. Elige un color base y genera combinaciones perfectas.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Haz clic en la muestra de color principal para abrir el selector visual y elige tu color base.</li><li>Verás instantáneamente variaciones de luminosidad de ese color.</li><li>Cambia el modo de generación (Análoga, Complementaria, Monocromática, Tríada) para ver paletas matemáticas completas.</li><li>Haz clic sobre cualquier bloque de color en la pantalla para copiar el código HEX (ej: #FFFFFF) a tu portapapeles.</li></ol>"
     },
     "lorem-ipsum": {
       "name": "Generador de Lorem Ipsum",
-      "desc": "Genera texto de relleno para diseños y mockups."
+      "desc": "Genera texto de relleno para diseños y mockups.",
+      "article": "<h2>¿Qué es Lorem Ipsum?</h2><p>El <strong>Generador de Lorem Ipsum</strong> crea textos de marcador de posición con apariencia de latín clásico. Es ampliamente utilizado en la industria editorial y de diseño web para probar diseños y tipografía antes de tener el contenido real.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Escribe el número de unidades que deseas generar en el campo numérico (ej. 5).</li><li>Elige el tipo de unidad en el menú desplegable: 'Párrafos', 'Frases' o 'Palabras'.</li><li>El texto Lorem Ipsum se actualizará instantáneamente en la caja inferior según tu configuración.</li><li>Haz clic en el botón 'Copiar Texto' para enviar el contenido generado directamente al portapapeles de tu sistema.</li></ol>"
     },
     "pomodoro": {
       "name": "Temporizador Pomodoro",
-      "desc": "Temporizador de enfoque para estudio y trabajo."
+      "desc": "Temporizador de enfoque para estudio y trabajo.",
+      "article": "<h2>¿Cómo ayuda el Temporizador Pomodoro?</h2><p>El <strong>Temporizador Pomodoro</strong> usa la famosa técnica de enfocarse intensamente por un período (usualmente 25 minutos) y descansar por un corto tiempo (5 minutos) para evitar el agotamiento mental y aumentar la productividad en el estudio y el trabajo.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Haz clic en el botón grande de 'Iniciar' en la pantalla para comenzar la sesión de enfoque de 25 minutos.</li><li>Trabaja intensamente en tu tarea sin distracciones hasta que el contador llegue a cero.</li><li>Cuando suene la alarma, la pestaña cambiará automáticamente a 'Descanso Corto' (5 minutos).</li><li>Usa este tiempo para estirarte, beber agua y descansar la mente.</li><li>Después de 4 ciclos completos de enfoque, permítete un 'Descanso Largo' de 15 minutos (seleccionable en el menú superior).</li></ol>"
     },
     "roi-calculator": {
       "name": "Calculadora de ROI",
-      "desc": "Calcula el Retorno de Inversión (ROI)."
+      "desc": "Calcula el Retorno de Inversión (ROI).",
+      "article": "<h2>¿Qué es el Cálculo del ROI?</h2><p>La <strong>Calculadora de ROI</strong> (Retorno sobre la Inversión) es esencial para que inversores y dueños de negocios sepan cuál fue el beneficio porcentual y financiero exacto de una campaña de marketing, acción en la bolsa o compra de bienes raíces.</p><h3>Paso a paso de cómo usar:</h3><ol><li>En el campo 'Inversión Inicial', escribe cuánto dinero gastaste en la acción (ej. 1000).</li><li>En el campo 'Retorno Total', escribe cuánto dinero recibiste de vuelta de esa acción (ej. 1500).</li><li>Los paneles de resultados en la parte inferior de la pantalla se actualizarán automáticamente.</li><li>Verás tu Beneficio Neto (valor final menos valor inicial) y el Porcentaje del ROI.</li><li>Analiza si la barra de beneficio se puso verde (ganancia) o roja (pérdida) para tomar mejores decisiones.</li></ol>"
     },
     "discount-calculator": {
       "name": "Calculadora de Descuentos",
-      "desc": "Calcula rápidamente precios con descuentos."
+      "desc": "Calcula rápidamente precios con descuentos.",
+      "article": "<h2>¿Qué es la Calculadora de Descuento?</h2><p>La <strong>Calculadora de Descuento</strong> es una herramienta esencial para consumidores, vendedores y estudiantes que necesitan calcular rápidamente el precio final de un producto después de aplicar un descuento porcentual, o determinar qué porcentaje de descuento se recibió en una compra. Ya sea en el Black Friday, en promociones de comercio electrónico o al cerrar un trato, saber calcular descuentos con precisión puede representar un ahorro real.</p><h3>Paso a paso de cómo usar:</h3><ol><li>En el campo 'Precio Original', escribe el precio completo del producto antes del descuento (ej. 250).</li><li>En el campo '% de Descuento', ingresa el porcentaje a descontar (ej. 30 para 30%).</li><li>Los resultados se mostrarán instantáneamente: el valor del descuento y el precio final a pagar.</li><li>Usa el modo inverso 'Calcular Porcentaje' para descubrir cuál fue el porcentaje de descuento al comparar dos precios.</li></ol><h3>¿Por qué usar una calculadora de descuento?</h3><p>Hacer cálculos de porcentaje mentalmente es propenso a errores. Nuestra calculadora garantiza precisión instantánea, evitando que pagues más de lo que deberías o vendas por debajo del margen de ganancia deseado. Ideal para comparar precios entre tiendas y detectar descuentos falsos.</p>"
     },
     "json-formatter": {
       "name": "Formateador JSON",
-      "desc": "Formatea y valida código JSON."
+      "desc": "Formatea y valida código JSON.",
+      "article": "<h2>Embellecedor de JSON</h2><p>El <strong>Formateador de JSON</strong> es la herramienta número 1 de los desarrolladores de software para tomar enormes líneas de código ilegible y roto y transformarlas en un árbol de propiedades limpio y sangrado.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Pega la cadena (texto) que contiene el JSON feo y sin formato en la caja de la izquierda (Input).</li><li>Automáticamente, el código validado y formateado con saltos de línea y tabulaciones (2 espacios) aparecerá en la caja de la derecha.</li><li>Si hay errores de sintaxis (como una coma faltante en el código), la herramienta te avisará resaltando el error.</li><li>Si prefieres comprimir el código para ahorrar espacio de red, haz clic en 'Minificar' para eliminar todos los espacios del JSON.</li><li>Copia el resultado utilizando el botón superior para usarlo en tu proyecto.</li></ol>"
     },
     "case-converter": {
       "name": "Convertidor de Texto",
-      "desc": "Convierte texto a mayúsculas, minúsculas, camelCase y más."
+      "desc": "Convierte texto a mayúsculas, minúsculas, camelCase y más.",
+      "article": "<h2>¿Qué es el Convertidor de Texto (Case Converter)?</h2><p>El <strong>Convertidor de Texto</strong> es la solución ideal cuando copias un texto que está todo en mayúsculas (gritando) y necesitas formatearlo correctamente, o cuando necesitas estandarizar nombres propios y títulos rápidamente.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Pega o escribe el texto sin formato en la caja principal.</li><li>Selecciona el formato deseado en la parte superior: 'Minúsculas' (todo en letras pequeñas), 'Mayúsculas' (todo en letras grandes), 'Capitalizadas' (La Primera Letra De Cada Palabra En Mayúscula) o 'Alternadas' (aLtErNaDaS).</li><li>El resultado se genera instantáneamente a continuación.</li><li>Haz clic en el botón de 'Copiar' para transferir el texto corregido a tu portapapeles.</li></ol>"
     },
     "base64": {
       "name": "Codificador Base64",
-      "desc": "Codifica y decodifica textos y archivos en Base64 al instante."
+      "desc": "Codifica y decodifica textos y archivos en Base64 al instante.",
+      "article": "<h2>¿Por qué usar el Codificador Base64?</h2><p>El <strong>Base64</strong> es un formato de codificación ampliamente utilizado por los desarrolladores para transmitir datos binarios (como imágenes o tokens de seguridad) en formatos de texto legibles a través de Internet, evitando rupturas de caracteres y corrupción en JSON o XML.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Selecciona la pestaña que define tu acción: 'Codificar' (texto normal a Base64) o 'Decodificar' (Base64 a texto normal).</li><li>Pega tu cadena de texto o el gigantesco código Base64 en la caja de entrada.</li><li>La conversión se realizará automáticamente. Si la cadena Base64 no es válida durante la decodificación, la herramienta no la convertirá, evitando que uses un código roto.</li><li>Haz clic en el botón 'Copiar' y tu código estará listo para usar.</li></ol>"
     },
     "word-counter": {
       "name": "Contador de Palabras",
-      "desc": "Cuenta palabras, caracteres, frases y analiza la densidad de palabras clave."
+      "desc": "Cuenta palabras, caracteres, frases y analiza la densidad de palabras clave.",
+      "article": "<h2>Conteo y Densidad de Palabras</h2><p>Más que solo contar caracteres para Twitter o ensayos escolares, el <strong>Contador de Palabras</strong> de ZeroTools calcula tu tiempo de lectura y extrae la densidad de palabras clave.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Pega o escribe todo tu texto en la caja de texto central de la herramienta.</li><li>Los paneles superiores mostrarán inmediatamente el recuento total de Caracteres, Palabras, Frases y Párrafos.</li><li>El panel lateral informará el tiempo estimado para que una persona promedio lea ese texto.</li><li>En el panel inferior, analiza la lista de 'Palabras Más Usadas' (Densidad) para evitar repeticiones excesivas o enfocarte en el SEO.</li></ol>"
     }
   },
   "bg_remover": {
