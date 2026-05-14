@@ -8,6 +8,7 @@ import { Analytics } from "@vercel/analytics/react";
 import Home from './pages/Home';
 import FAQ from './pages/FAQ';
 import Privacy from './pages/Privacy';
+import About from './pages/About';
 
 // Tools
 import HashtagGenerator from './pages/tools/HashtagGenerator';
@@ -33,6 +34,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/privacy" element={<Privacy />} />
+        <Route path="/about" element={<About />} />
         
         {/* Tool Routes */}
         <Route path="/tools/hashtag-generator" element={<HashtagGenerator />} />

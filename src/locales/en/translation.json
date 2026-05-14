@@ -2,6 +2,7 @@
   "header": {
     "home": "Home",
     "faq": "FAQ",
+    "about": "About",
     "privacy": "Privacy",
     "language": "Language",
     "tools": "Tools"
@@ -46,6 +47,18 @@
       "Developer": "Developer"
     }
   },
+  "about": {
+    "title": "About Us",
+    "meta_desc": "Learn more about ZeroTools, our mission, and our commitment to 100% private, client-side web tools.",
+    "mission_title": "Our Mission",
+    "mission_desc": "ZeroTools was created with a simple philosophy: web utilities should be fast, free, and absolutely private. We believe you shouldn't have to upload your personal images, documents, or data to unknown servers just to convert a file or remove a background.",
+    "privacy_title": "100% Client-Side Processing",
+    "privacy_desc": "To achieve our mission, we leverage modern Web APIs and WebAssembly. Every single tool on this platform runs entirely inside your browser. When you compress a PDF or crop an image, your device's processor does the work. Your files never leave your computer, ensuring zero risk of data leaks.",
+    "free_title": "Free for Everyone",
+    "free_desc": "We don't believe in paywalls, premium tiers, or forcing users to create accounts. ZeroTools is completely free to use. To keep the servers running and domain active, we rely on non-intrusive advertisements.",
+    "contact_title": "Get in Touch",
+    "contact_desc": "Have a suggestion for a new tool? Found a bug? We would love to hear from you. Reach out to us at"
+  },
   "tool_layout": {
     "about": "About the",
     "about_sub": "is a powerful utility designed to help you with your daily tasks. It is completely free to use and requires no registration or software installation.",
@@ -60,71 +73,88 @@
   "tools": {
     "hashtag-generator": {
       "name": "Hashtag Generator",
-      "desc": "Generate trending hashtags for Instagram, TikTok & Twitter by category."
+      "desc": "Generate trending hashtags for Instagram, TikTok and Twitter.",
+      "article": "<h2>How does the Hashtag Generator work?</h2><p>The <strong>Hashtag Generator</strong> helps you discover the best tags for your posts. Using the right keywords is essential to increase organic reach.</p><h3>Step-by-step how to use:</h3><ol><li>Choose the main category of your post from the available options on the screen (e.g., Fashion, Food, Fitness).</li><li>The tool will process and instantly display a cloud with the most engaging hashtags for that niche.</li><li>Click the 'Copy All' button at the bottom of the results box.</li><li>Paste them at the end of your Instagram, TikTok, or Twitter caption, and you're done!</li></ol><h3>Advantages</h3><p>Don't overdo it! Although Instagram allows up to 30 hashtags, experts recommend using between 5 to 15 hyper-relevant hashtags for better engagement.</p>"
     },
     "qr-code": {
       "name": "QR Code Generator",
-      "desc": "Create QR codes for URLs, text, WiFi, and vCards. Download as PNG or SVG."
+      "desc": "Create QR codes for URLs, text, WiFi, and vCards. Download as PNG or SVG.",
+      "article": "<h2>What is the QR Code Generator?</h2><p>The <strong>QR Code Generator</strong> is a simple and fast utility to convert texts, URLs, or WiFi information into a scannable code. QR Codes are widely used in restaurant menus, business cards, and digital marketing to connect the physical world to the digital instantly.</p><h3>Step-by-step how to use:</h3><ol><li>Choose the content type (URL, Text, or WiFi) by selecting the corresponding tab.</li><li>Fill in the main field with your website link, desired text, or WiFi network data.</li><li>Adjust the code and background colors using the color pickers to match your brand.</li><li>The code will be generated automatically on the screen in real-time.</li><li>Click the Download buttons to save the image in high-quality PNG or SVG format.</li></ol><h3>Advantages</h3><ul><li><strong>100% Offline:</strong> Codes are generated directly in your browser, with no data sent over the network.</li><li><strong>Vector Formats:</strong> Export as PNG or SVG to ensure maximum quality for printing.</li></ul>"
     },
     "image-compressor": {
       "name": "Image Compressor",
-      "desc": "Compress JPG, PNG and WebP images. Reduce file size without losing quality."
+      "desc": "Compress JPG, PNG and WebP images. Reduce file size without losing quality.",
+      "article": "<h2>About the Image Compressor</h2><p>The <strong>Image Compressor</strong> helps you drastically reduce your image file sizes without losing visual quality. This is vital for improving website loading speed (SEO) and saving storage space.</p><h3>Step-by-step how to use:</h3><ol><li>Click on the dotted area or drag and drop an image (JPG, PNG, or WebP) from your computer.</li><li>Observe the preview of the original image and its weight in megabytes or kilobytes.</li><li>Adjust the Quality slider (from 0% to 100%) until you find the perfect balance between size and sharpness.</li><li>The estimated final size will be updated on the screen instantly.</li><li>Click on 'Download Compressed Image' to save the new optimized file.</li></ol><h3>Privacy Guaranteed</h3><p>Unlike other online tools, we use client-side compression (via Canvas). Your personal photos are never sent to cloud servers, ensuring total security.</p>"
     },
     "image-cropper": {
       "name": "Image Cropper",
-      "desc": "Crop, resize, and scale your images. Choose custom aspect ratios and dimensions."
+      "desc": "Crop, resize, and scale your images. Choose custom aspect ratios and dimensions.",
+      "article": "<h2>About the Image Cropper & Resizer</h2><p>The <strong>Image Cropper</strong> helps you adjust the size and change the aspect ratio of your photos without needing to install any software. Ideal for social media.</p><h3>Step-by-step how to use:</h3><ol><li>Click on 'Browse Image' or simply drag and drop the file (JPG/PNG) into the upload area.</li><li>Choose one of the suggested automatic ratios (e.g., 1:1 Square, 16:9 YouTube) or click 'Free' to draw your own crop.</li><li>Move the marking grid over the image to focus only on the part you want to keep.</li><li>For exact dimensions, type the Height and Width in pixels in the sidebar fields.</li><li>Click the 'Crop & Download' button and a new optimized image will be saved to your computer immediately.</li></ol><h3>Privacy Guaranteed</h3><p>The great advantage of ZeroTools is privacy. When you upload your photo, it is never sent to servers.</p>"
     },
     "background-remover": {
       "name": "Background Remover",
-      "desc": "Remove image backgrounds automatically using AI — 100% in your browser."
+      "desc": "Remove image backgrounds automatically using AI — 100% in your browser.",
+      "article": "<h2>How does the Background Remover work?</h2><p>Our <strong>Background Remover</strong> uses advanced artificial intelligence running directly in your browser to accurately separate the main subject from the background. It is ideal for product photos (e-commerce), profile pictures, and graphic design.</p><h3>Step-by-step how to use:</h3><ol><li>Wait a few seconds the first time you open the tool so the local AI can load in your browser.</li><li>Upload or drag a photo with a clear object in the foreground (like a person or product).</li><li>Wait for the progress bar while the artificial intelligence processes the cutouts.</li><li>Preview the resulting image with a transparent background (checkered pattern).</li><li>Click on 'Download Image without Background' to save it in transparent PNG format.</li></ol><h3>The Magic of WebAssembly</h3><p>The artificial intelligence runs locally on your device, offering flawless cutouts without compromising your privacy.</p>"
     },
     "pdf-compressor": {
       "name": "PDF Compressor",
-      "desc": "Compress and optimize PDF files. Reduce size for email and web sharing."
+      "desc": "Compress and optimize PDF files. Reduce size for email and web sharing.",
+      "article": "<h2>About the PDF Compressor</h2><p>Large PDF files are hard to email or attach to web forms. Our <strong>PDF Compressor</strong> solves this by removing unnecessary metadata and restructuring the file to make it lighter.</p><h3>Step-by-step how to use:</h3><ol><li>Upload the PDF document you want to shrink by dragging it into the indicated area.</li><li>The tool will immediately start reading and processing the file in your browser.</li><li>Check the compression rate and the megabytes saved in the interface.</li><li>A download button will appear; click it to save the lightweight version of your PDF.</li></ol><p>All of this is done locally on your device, ensuring that documents containing sensitive data do not leak onto the internet.</p>"
     },
     "file-converter": {
       "name": "File Converter",
-      "desc": "Convert images between JPG, PNG, WebP, GIF formats instantly."
+      "desc": "Convert images between JPG, PNG, WebP, GIF formats instantly.",
+      "article": "<h2>Fast and Local Conversion</h2><p>Need to turn a WebP into JPG or vice-versa? The <strong>File Converter</strong> lets you switch between image formats instantly and in bulk.</p><h3>Step-by-step how to use:</h3><ol><li>Drag an image from your computer to the conversion panel.</li><li>In the selection menu (dropdown), choose the desired target format (PNG, JPG, WEBP, etc).</li><li>Click the 'Convert File' button to start the process.</li><li>The download of the file in the new format will start automatically in a few milliseconds.</li></ol><p>Since everything runs via client-side JavaScript, there is no wait queue. Your images are converted without time-consuming uploads.</p>"
     },
     "password-generator": {
       "name": "Password Generator",
-      "desc": "Generate strong, secure passwords with custom length and character sets."
+      "desc": "Generate strong, secure passwords with custom length and character sets.",
+      "article": "<h2>Why use the Password Generator?</h2><p>Weak passwords are the gateway for hacks. Our <strong>Password Generator</strong> creates fully random and cryptographically secure character combinations for you to use in new registrations.</p><h3>Step-by-step how to use:</h3><ol><li>Slide the bar to choose the password length (we recommend at least 16 characters).</li><li>Check or uncheck the option boxes: Uppercase letters, Lowercase, Numbers, or Symbols ($, %, @).</li><li>The updated password will appear in the main text field automatically.</li><li>Click the 'Copy' button next to the password to send it to your system clipboard.</li></ol><p><strong>Security Tip:</strong> Never use the same password on two different websites. Use this tool to generate unique passwords.</p>"
     },
     "color-palette": {
       "name": "Color Palette",
-      "desc": "Generate beautiful color palettes from a base color. Export HEX, RGB, HSL."
+      "desc": "Generate beautiful color palettes from a base color. Export HEX, RGB, HSL.",
+      "article": "<h2>Instant Color Inspiration</h2><p>The <strong>Color Palette Generator</strong> is perfect for designers and front-end developers looking for visual harmony. Choose a base color and generate perfect combinations.</p><h3>Step-by-step how to use:</h3><ol><li>Click on the main color swatch to open the visual picker and choose your base color.</li><li>You will instantly see lightness variations of that color.</li><li>Change the generation mode (Analogous, Complementary, Monochromatic, Triadic) to see full mathematical palettes.</li><li>Click on any color block on the screen to copy the HEX code (e.g., #FFFFFF) to your clipboard.</li></ol>"
     },
     "lorem-ipsum": {
       "name": "Lorem Ipsum",
-      "desc": "Generate placeholder text for mockups, designs and wireframes."
+      "desc": "Generate placeholder text for mockups, designs and wireframes.",
+      "article": "<h2>What is Lorem Ipsum?</h2><p>The <strong>Lorem Ipsum Generator</strong> creates placeholder texts that look like classical Latin. It is widely used in the publishing and web design industry to test layouts and typography before having the actual content.</p><h3>Step-by-step how to use:</h3><ol><li>Enter the number of units you want to generate in the numeric field (e.g., 5).</li><li>Choose the type of unit from the dropdown menu: 'Paragraphs', 'Sentences', or 'Words'.</li><li>The Lorem Ipsum text will instantly update in the lower box according to your settings.</li><li>Click the 'Copy Text' button to send the generated content straight to your system clipboard.</li></ol>"
     },
     "pomodoro": {
       "name": "Pomodoro Timer",
-      "desc": "Focus timer for work and study. 25-min focus blocks."
+      "desc": "Focus timer for work and study. 25-min focus blocks.",
+      "article": "<h2>How does the Pomodoro Timer help?</h2><p>The <strong>Pomodoro Timer</strong> uses the famous technique of focusing intensely for a period (usually 25 minutes) and resting for a short time (5 minutes) to avoid mental burnout and increase productivity in studies and work.</p><h3>Step-by-step how to use:</h3><ol><li>Click the large 'Start' button on the screen to begin the 25-minute focus session.</li><li>Work intensely on your task without distractions until the counter reaches zero.</li><li>When the alarm rings, the tab will automatically change to 'Short Break' (5 minutes).</li><li>Use this time to stretch, drink water, and rest your mind.</li><li>After 4 complete focus cycles, allow yourself a 'Long Break' of 15 minutes (selectable in the top menu).</li></ol>"
     },
     "roi-calculator": {
       "name": "ROI Calculator",
-      "desc": "Calculate Return on Investment for marketing and business."
+      "desc": "Calculate Return on Investment for marketing and business.",
+      "article": "<h2>What is ROI Calculation?</h2><p>The <strong>ROI Calculator</strong> (Return on Investment) is essential for investors and business owners to know the exact percentage and financial profit of a marketing campaign, stock share, or real estate purchase.</p><h3>Step-by-step how to use:</h3><ol><li>In the 'Initial Investment' field, enter how much money you spent on the action (e.g., 1000).</li><li>In the 'Total Return' field, enter how much money you received back from that action (e.g., 1500).</li><li>The result panels at the bottom of the screen will update automatically.</li><li>You will see your Net Profit (final value minus initial value) and the ROI Percentage.</li><li>Analyze if the profit bar turned green (profit) or red (loss) to make better decisions.</li></ol>"
     },
     "discount-calculator": {
       "name": "Discount Calculator",
-      "desc": "Quickly calculate sale prices and percentage discounts."
+      "desc": "Quickly calculate sale prices and percentage discounts.",
+      "article": "<h2>What is the Discount Calculator?</h2><p>The <strong>Discount Calculator</strong> is an essential tool for consumers, sellers, and students who need to quickly calculate the final price of a product after a percentage discount, or determine what percentage discount was received on a purchase. Whether during Black Friday, e-commerce promotions, or closing a deal, knowing how to accurately calculate discounts can represent real savings.</p><h3>Step-by-step how to use:</h3><ol><li>In the 'Original Price' field, enter the full price of the product before the discount (e.g., 250).</li><li>In the '% Discount' field, enter the percentage to be discounted (e.g., 30 for 30%).</li><li>The results will be displayed instantly: the discount amount and the final price to pay.</li><li>Use the reverse mode 'Calculate Percentage' to find out what the discount percentage was when comparing two prices.</li></ol><h3>Why use a discount calculator?</h3><p>Doing percentage calculations in your head is error-prone. Our calculator ensures instant accuracy, preventing you from paying more than you should or selling below your desired profit margin. Ideal for comparing prices between stores and detecting fake discounts.</p>"
     },
     "json-formatter": {
       "name": "JSON Formatter",
-      "desc": "Format, validate and prettify JSON code natively."
+      "desc": "Format, validate and prettify JSON code natively.",
+      "article": "<h2>JSON Beautifier</h2><p>The <strong>JSON Formatter</strong> is the number 1 tool for software developers to take huge lines of unreadable and broken code and transform them into a clean, indented property tree.</p><h3>Step-by-step how to use:</h3><ol><li>Paste the string (text) containing the ugly, unformatted JSON into the left box (Input).</li><li>Automatically, the validated code formatted with line breaks and tabs (2 spaces) will appear in the right box.</li><li>If there are syntax errors (like a missing comma in the code), the tool will warn you by highlighting the error.</li><li>If you prefer to compress the code to save network space, click 'Minify' to remove all spaces from the JSON.</li><li>Copy the result using the top button to use in your project.</li></ol>"
     },
     "case-converter": {
       "name": "Case Converter",
-      "desc": "Convert text to uppercase, lowercase, camelCase, and more."
+      "desc": "Convert text to uppercase, lowercase, camelCase, and more.",
+      "article": "<h2>What is the Case Converter?</h2><p>The <strong>Case Converter</strong> is the ideal solution when you copy text that is all in uppercase (shouting) and need to format it correctly, or when you need to standardize proper nouns and titles quickly.</p><h3>Step-by-step how to use:</h3><ol><li>Paste or type the unformatted text into the main box.</li><li>Select the desired format at the top: 'Lowercase' (all small letters), 'Uppercase' (all capital letters), 'Capitalized' (The First Letter Of Each Word Capitalized), or 'Alternating' (aLtErNaTiNg).</li><li>The result is generated instantly below.</li><li>Click the 'Copy' button to transfer the corrected text to your clipboard.</li></ol>"
     },
     "base64": {
       "name": "Base64 Encoder/Decoder",
-      "desc": "Encode and decode Base64 strings and files instantly."
+      "desc": "Encode and decode Base64 strings and files instantly.",
+      "article": "<h2>Why use the Base64 Encoder?</h2><p><strong>Base64</strong> is an encoding format widely used by developers to transmit binary data (like images or security tokens) in readable text formats over the internet, preventing character breakage and corruption in JSON or XML.</p><h3>Step-by-step how to use:</h3><ol><li>Select the tab that defines your action: 'Encode' (normal text to Base64) or 'Decode' (Base64 to normal text).</li><li>Paste your text string or the giant Base64 code into the input box.</li><li>The conversion will happen automatically. If the Base64 string is invalid during decoding, the tool will not convert it, preventing you from using broken code.</li><li>Click the 'Copy' button and your code is ready to use.</li></ol>"
     },
     "word-counter": {
       "name": "Word Counter",
-      "desc": "Count words, characters, sentences and analyze keyword density."
+      "desc": "Count words, characters, sentences and analyze keyword density.",
+      "article": "<h2>Word Count and Density</h2><p>More than just counting characters for Twitter or school essays, the ZeroTools <strong>Word Counter</strong> calculates your reading time and extracts keyword density.</p><h3>Step-by-step how to use:</h3><ol><li>Paste or type your entire text into the central text box of the tool.</li><li>The top panels will immediately show the total count of Characters, Words, Sentences, and Paragraphs.</li><li>The side panel will inform the estimated time for an average person to read that text.</li><li>In the bottom panel, analyze the list of 'Most Used Words' (Density) to avoid excessive repetitions or to focus on SEO.</li></ol>"
     }
   },
   "bg_remover": {

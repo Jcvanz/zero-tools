@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import AdSlot from './AdSlot';
 
 export default function ToolLayout({ tool, children, seo = {} }) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const translatedName = t(`tools.${tool.id}.name`, tool.name);
   const translatedDesc = t(`tools.${tool.id}.desc`, tool.desc);
   const title = seo.title || `${translatedName} — Free Online Tool | ZeroTools`;
@@ -13,16 +13,16 @@ export default function ToolLayout({ tool, children, seo = {} }) {
   return (
     <>
       <Helmet>
-        <title>{tool.name} — ZeroTools</title>
-        <meta name="description" content={tool.description} />
+        <title>{translatedName} — Free Online Tool | ZeroTools</title>
+        <meta name="description" content={translatedDesc} />
         <meta name="keywords" content={tool.keywords} />
         <link rel="canonical" href={`https://myzerotools.online${tool.path}`} />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebApplication",
-            "name": tool.name,
-            "description": tool.description,
+            "name": translatedName,
+            "description": translatedDesc,
             "url": `https://myzerotools.online${tool.path}`,
             "applicationCategory": "BrowserApplication",
             "operatingSystem": "All",
@@ -63,16 +63,28 @@ export default function ToolLayout({ tool, children, seo = {} }) {
             {children}
           </div>
 
-          {/* SEO Content Block for AdSense Approval */}
           <div className="tool-seo-content fade-up" style={{ marginTop: '48px', padding: '32px', backgroundColor: 'var(--clr-surface)', borderRadius: '16px', border: '1px solid var(--clr-border)' }}>
-            <h2 style={{ fontSize: '1.25rem', marginBottom: '16px' }}>{t('tool_layout.about')} {t(`tools.${tool.id}.name`, tool.name)}</h2>
-            <p style={{ color: 'var(--clr-text-2)', lineHeight: '1.6', marginBottom: '24px' }}>
-              {t(`tools.${tool.id}.name`, tool.name)} {t('tool_layout.about_sub')}
-            </p>
-            <h3 style={{ fontSize: '1.1rem', marginBottom: '12px' }}>{t('tool_layout.privacy_title')}</h3>
-            <p style={{ color: 'var(--clr-text-2)', lineHeight: '1.6' }}>
-              {t('tool_layout.privacy_desc')}
-            </p>
+            
+            {i18n.exists(`tools.${tool.id}.article`) ? (
+              <div 
+                className="custom-article-content" 
+                dangerouslySetInnerHTML={{ __html: t(`tools.${tool.id}.article`) }} 
+              />
+            ) : (
+              <>
+                <h2 style={{ fontSize: '1.25rem', marginBottom: '16px' }}>{t('tool_layout.about')} {t(`tools.${tool.id}.name`, tool.name)}</h2>
+                <p style={{ color: 'var(--clr-text-2)', lineHeight: '1.6', marginBottom: '24px' }}>
+                  {t(`tools.${tool.id}.name`, tool.name)} {t('tool_layout.about_sub')}
+                </p>
+              </>
+            )}
+
+            <div style={{ marginTop: '32px', paddingTop: '24px', borderTop: '1px solid var(--clr-border)' }}>
+              <h3 style={{ fontSize: '1.1rem', marginBottom: '12px' }}>{t('tool_layout.privacy_title')}</h3>
+              <p style={{ color: 'var(--clr-text-2)', lineHeight: '1.6' }}>
+                {t('tool_layout.privacy_desc')}
+              </p>
+            </div>
           </div>
 
           {/* Mid ad */}
