@@ -38,6 +38,7 @@ export default function Footer() {
               <h4 className="footer-col-title">{t('footer.company')}</h4>
               <ul>
                 <li><Link to="/">{t('header.home')}</Link></li>
+                <li><Link to="/about">{t('header.about', 'About Us')}</Link></li>
                 <li><Link to="/faq">{t('header.faq')}</Link></li>
                 <li><Link to="/privacy">{t('header.privacy')}</Link></li>
               </ul>

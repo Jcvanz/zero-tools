@@ -96,6 +96,10 @@ export default function Header() {
               )}
             </div>
 
+            <NavLink to="/about" className={({isActive}) => isActive ? 'nav-link active' : 'nav-link'}>
+              {t('header.about', 'About Us')}
+            </NavLink>
+
             <NavLink to="/faq" className={({isActive}) => isActive ? 'nav-link active' : 'nav-link'}>
               {t('header.faq')}
             </NavLink>
@@ -165,6 +169,7 @@ export default function Header() {
               </Link>
             ))}
             <div className="mobile-divider"/>
+            <NavLink to="/about" className="mobile-link">{t('header.about', 'About Us')}</NavLink>
             <NavLink to="/faq" className="mobile-link">{t('header.faq')}</NavLink>
             <NavLink to="/privacy" className="mobile-link">{t('header.privacy')}</NavLink>
             <div className="mobile-divider">{t('header.language')}</div>
