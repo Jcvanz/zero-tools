@@ -7,22 +7,27 @@ export default function ToolLayout({ tool, children, seo = {} }) {
   const { t, i18n } = useTranslation();
   const translatedName = t(`tools.${tool.id}.name`, tool.name);
   const translatedDesc = t(`tools.${tool.id}.desc`, tool.desc);
-  const title = seo.title || `${translatedName} — Free Online Tool | ZeroTools`;
-  const desc  = seo.desc  || translatedDesc;
+  const pageTitle = seo.title || (i18n.exists(`tools.${tool.id}.seoTitle`) ? t(`tools.${tool.id}.seoTitle`) : `${translatedName} — Free Online Tool | ZeroTools`);
+  const pageDesc  = seo.desc  || (i18n.exists(`tools.${tool.id}.seoDesc`)  ? t(`tools.${tool.id}.seoDesc`)  : translatedDesc);
+  const keywords  = i18n.exists(`tools.${tool.id}.keywords`) ? t(`tools.${tool.id}.keywords`) : tool.keywords;
 
   return (
     <>
       <Helmet>
-        <title>{translatedName} — Free Online Tool | ZeroTools</title>
-        <meta name="description" content={translatedDesc} />
-        <meta name="keywords" content={tool.keywords} />
+        <title>{pageTitle}</title>
+        <meta name="description" content={pageDesc} />
+        <meta name="keywords" content={keywords} />
         <link rel="canonical" href={`https://myzerotools.online${tool.path}`} />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={pageDesc} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={`https://myzerotools.online${tool.path}`} />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebApplication",
             "name": translatedName,
-            "description": translatedDesc,
+            "description": pageDesc,
             "url": `https://myzerotools.online${tool.path}`,
             "applicationCategory": "BrowserApplication",
             "operatingSystem": "All",
@@ -33,9 +38,6 @@ export default function ToolLayout({ tool, children, seo = {} }) {
             }
           })}
         </script>
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={desc} />
-        <meta property="og:type" content="website" />
       </Helmet>
 
       <AdSlot slot="Top Leaderboard 728×90" />
