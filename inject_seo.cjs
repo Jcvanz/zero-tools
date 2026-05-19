@@ -9,7 +9,6 @@ const indexHtmlPath = path.join(distDir, 'index.html');
 
 // Garante que o build já foi gerado
 if (!fs.existsSync(indexHtmlPath)) {
-  console.error("Erro: dist/index.html não encontrado. Rode 'npm run build' primeiro.");
   process.exit(1);
 }
 
@@ -106,7 +105,4 @@ allRoutes.forEach(route => {
 
   // Salva o novo index.html dentro da pasta específica
   fs.writeFileSync(path.join(routeDir, 'index.html'), html);
-  console.log(`✅ SEO HTML gerado para: ${route.path}`);
 });
-
-console.log('🚀 Injeção de SEO estático concluída com sucesso!');
