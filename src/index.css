@@ -324,29 +324,19 @@ input[type="checkbox"] {
 /* ===== AD SLOTS ===== */
 .ad-slot {
   width: 100%;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   padding-block: 12px;
 }
 
-.ad-placeholder {
+.ad-slot:has(.adsbygoogle) {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-height: 90px;
-  background: repeating-linear-gradient(45deg,#f3f4f6,#f3f4f6 6px,#e9eaec 6px,#e9eaec 12px);
-  border: 2px dashed #d1d5db;
-  border-radius: var(--radius-md);
-  color: var(--clr-text-3);
-  font-size: 11px;
-  font-weight: 500;
-  text-align: center;
-  padding: 16px;
 }
-.ad-placeholder::before { content: "📢 Ad Slot — " attr(data-slot); display: block; }
+
+.ad-placeholder {
+  display: none;
+}
 
 /* ===== SECTION TITLES ===== */
 .section-title {
