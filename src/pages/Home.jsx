@@ -6,9 +6,11 @@ import { tools, categories } from '../data/tools';
 import ToolCard from '../components/ToolCard';
 import AdSlot from '../components/AdSlot';
 import '../css/home.css';
+import '../css/faq.css';
 
 export default function Home() {
   const { t, i18n } = useTranslation();
+  const homeFaqs = t('home_faq.faqs', { returnObjects: true });
   const [activeCategory, setActiveCategory] = useState('All');
   const [search, setSearch] = useState('');
 
@@ -155,6 +157,48 @@ export default function Home() {
               ))}
             </div>
           </section>
+
+          <AdSlot slot="Before FAQ — Responsive" />
+
+          {/* Home FAQ */}
+          <section className="home-faq-section" aria-labelledby="home-faq-heading">
+            <h2 className="section-title" id="home-faq-heading">{t('home_faq.title')}</h2>
+            <p className="section-sub">{t('home_faq.subtitle')}</p>
+
+            <div className="home-faq-list">
+              {Array.isArray(homeFaqs) && homeFaqs.map((f, i) => (
+                <details key={i} className="faq-item">
+                  <summary className="faq-q">{f.q}</summary>
+                  <div className="faq-a"><p>{f.a}</p></div>
+                </details>
+              ))}
+            </div>
+
+            <div className="home-faq-cta">
+              <p>{t('home_faq.more_text')}</p>
+              <Link to="/faq" className="btn btn-ghost btn-sm">{t('home_faq.more_link')}</Link>
+            </div>
+          </section>
+
+          {/* FAQ Schema for rich snippets */}
+          {Array.isArray(homeFaqs) && homeFaqs.length > 0 && (
+            <Helmet>
+              <script type="application/ld+json">
+                {JSON.stringify({
+                  "@context": "https://schema.org",
+                  "@type": "FAQPage",
+                  "mainEntity": homeFaqs.map(f => ({
+                    "@type": "Question",
+                    "name": f.q,
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": f.a
+                    }
+                  }))
+                })}
+              </script>
+            </Helmet>
+          )}
         </div>
       </main>
     </>

@@ -433,3 +433,67 @@ input[type="checkbox"] {
 .breadcrumb a { color: var(--clr-text-3); }
 .breadcrumb a:hover { color: var(--clr-brand); }
 .mt-6 { margin-top: 24px; }
+
+/* ===== TOOL ARTICLE SECTIONS ===== */
+.tool-article-section {
+  margin-bottom: 32px;
+}
+.tool-article-section:last-child {
+  margin-bottom: 0;
+}
+.tool-article-section h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: var(--clr-text-1);
+}
+.tool-article-section > p {
+  color: var(--clr-text-2);
+  line-height: 1.75;
+}
+
+/* Features Grid */
+.tool-features-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+.tool-feature-item {
+  padding: 20px 24px;
+  background: var(--clr-bg);
+  border: 1px solid var(--clr-border);
+  border-radius: var(--radius-md);
+}
+.tool-feature-item h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--clr-text-1);
+}
+.tool-feature-item p {
+  color: var(--clr-text-2);
+  line-height: 1.7;
+  font-size: .9rem;
+  margin: 0;
+}
+
+/* Tool FAQ */
+.tool-faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+/* ===== TOOL SUGGESTIONS SECTION ===== */
+.tool-suggestions-section {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+.tool-suggestions-section h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: var(--clr-text-1);
+}
