@@ -245,3 +245,31 @@
         border-right: none;
     }
 }
+
+/* Home FAQ */
+.home-faq-section {
+    padding-bottom: 72px;
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.home-faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 32px;
+}
+
+.home-faq-cta {
+    margin-top: 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.home-faq-cta p {
+    font-size: .9rem;
+    color: var(--clr-text-3);
+}
