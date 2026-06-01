@@ -62,8 +62,18 @@
   "tool_layout": {
     "about": "About the",
     "about_sub": "is a powerful utility designed to help you with your daily tasks. It is completely free to use and requires no registration or software installation.",
+    "what_is": "What is the",
+    "features_title": "Key Features of",
+    "feat_interface": "🖥️ Simple & Intuitive Interface",
+    "feat_processing": "⚡ Fast Local Processing",
+    "feat_options": "🔧 Customization Options",
+    "feat_unlimited": "♾️ Unlimited Usage",
+    "feat_security": "🔒 Privacy & Security",
+    "faq_title": "Frequently Asked Questions about",
     "privacy_title": "🔒 100% Privacy & Client-Side Processing",
-    "privacy_desc": "Unlike other online tools that upload your files to external servers, our tool operates entirely within your browser. We utilize modern web technologies to process everything locally on your device. This means your data is never uploaded, stored, or seen by anyone else, guaranteeing absolute privacy."
+    "privacy_desc": "Unlike other online tools that upload your files to external servers, our tool operates entirely within your browser. We utilize modern web technologies to process everything locally on your device. This means your data is never uploaded, stored, or seen by anyone else, guaranteeing absolute privacy.",
+    "related_tools": "Related Tools",
+    "other_tools": "Other Tools"
   },
   "footer": {
     "tagline": "Free online tools — no signup, no upload, no tracking. Everything runs in your browser.",
@@ -77,7 +87,33 @@
       "article": "<h2>How does the Hashtag Generator work?</h2><p>The <strong>Hashtag Generator</strong> helps you discover the best tags for your posts. Using the right keywords is essential to increase organic reach.</p><h3>Step-by-step how to use:</h3><ol><li>Choose the main category of your post from the available options on the screen (e.g., Fashion, Food, Fitness).</li><li>The tool will process and instantly display a cloud with the most engaging hashtags for that niche.</li><li>Click the 'Copy All' button at the bottom of the results box.</li><li>Paste them at the end of your Instagram, TikTok, or Twitter caption, and you're done!</li></ol><h3>Advantages</h3><p>Don't overdo it! Although Instagram allows up to 30 hashtags, experts recommend using between 5 to 15 hyper-relevant hashtags for better engagement.</p>",
       "seoTitle": "Hashtag Generator for Instagram & TikTok Free — ZeroTools",
       "seoDesc": "Generate the best hashtags for Instagram, TikTok, and Twitter by category. Copy them all at once and boost your post reach. Free online tool.",
-      "keywords": "hashtag generator instagram free, tiktok hashtags, best hashtags for instagram, hashtags by niche, hashtag generator online, hashtags for reels"
+      "keywords": "hashtag generator instagram free, tiktok hashtags, best hashtags for instagram, hashtags by niche, hashtag generator online, hashtags for reels",
+      "whatIs": "The Hashtag Generator is a free online tool designed for content creators, social media managers, and influencers who want to maximize their reach on platforms like Instagram, TikTok, and Twitter (X). By selecting a category that matches your content niche, the tool instantly generates a curated set of high-engagement hashtags optimized to boost your post visibility, attract more followers, and increase organic interactions.",
+      "features": {
+        "interface": "Our Hashtag Generator features a clean, minimalist interface. Simply choose a category from the visual selector, and your hashtags appear instantly. No confusing menus or multi-step processes — just pick and copy.",
+        "processing": "All hashtag generation happens instantly in your browser. Our smart algorithm curates the best tags for your chosen category without any server delay, loading screen, or queue.",
+        "options": "Choose from 8+ trending categories including Fashion, Food, Travel, Fitness, Business, Photography, TikTok, and Shopify. Add custom keywords to create a personalized mix tailored to your content.",
+        "unlimited": "Generate unlimited hashtag sets — no daily limits, no account restrictions, no paywalls. Use the tool as often as you like for every post you publish.",
+        "security": "Your keywords and generated hashtags are never sent to any server. Everything happens locally in your browser, keeping your content strategy 100% private."
+      },
+      "faq": [
+        {
+          "q": "How many hashtags should I use per post?",
+          "a": "Instagram allows up to 30 hashtags, but experts recommend 5-15 highly relevant ones for optimal engagement. TikTok works best with 3-5 hashtags, while Twitter recommends 1-2. Our generator lets you choose the exact number."
+        },
+        {
+          "q": "Can I add my own keywords to the generator?",
+          "a": "Yes! In addition to selecting a category, you can type your own custom keywords (like your brand name or product) to generate a personalized hashtag mix that combines trending tags with your specific terms."
+        },
+        {
+          "q": "Do these hashtags work on all social media platforms?",
+          "a": "Yes. The hashtags generated by ZeroTools work on Instagram, TikTok, Twitter (X), LinkedIn, Facebook, Pinterest, and YouTube. Simply copy and paste them into your post caption or comments."
+        },
+        {
+          "q": "Do I need an account to use the Hashtag Generator?",
+          "a": "No. The Hashtag Generator is 100% free and requires no account, no signup, and no email. Simply visit the page, select your category, and start generating hashtags immediately."
+        }
+      ]
     },
     "qr-code": {
       "name": "QR Code Generator",
@@ -85,7 +121,33 @@
       "article": "<h2>What is the QR Code Generator?</h2><p>The <strong>QR Code Generator</strong> is a simple and fast utility to convert texts, URLs, or WiFi information into a scannable code. QR Codes are widely used in restaurant menus, business cards, and digital marketing to connect the physical world to the digital instantly.</p><h3>Step-by-step how to use:</h3><ol><li>Choose the content type (URL, Text, or WiFi) by selecting the corresponding tab.</li><li>Fill in the main field with your website link, desired text, or WiFi network data.</li><li>Adjust the code and background colors using the color pickers to match your brand.</li><li>The code will be generated automatically on the screen in real-time.</li><li>Click the Download buttons to save the image in high-quality PNG or SVG format.</li></ol><h3>Advantages</h3><ul><li><strong>100% Offline:</strong> Codes are generated directly in your browser, with no data sent over the network.</li><li><strong>Vector Formats:</strong> Export as PNG or SVG to ensure maximum quality for printing.</li></ul>",
       "seoTitle": "Free QR Code Generator Online — Create QR Codes for URLs & WiFi",
       "seoDesc": "Create custom QR codes for URLs, text, and WiFi networks. Download as high-quality PNG or SVG. 100% free, no signup required, works directly in your browser.",
-      "keywords": "free qr code generator, create qr code online, qr code for website, qr code wifi, custom qr code generator, qr code download png, make qr code free"
+      "keywords": "free qr code generator, create qr code online, qr code for website, qr code wifi, custom qr code generator, qr code download png, make qr code free",
+      "whatIs": "The QR Code Generator is a free, browser-based tool that lets you create custom QR codes for URLs, plain text, and WiFi networks. QR codes are widely used in business cards, restaurant menus, product packaging, digital marketing campaigns, and events. Our tool generates high-quality codes in real-time with customizable colors, and lets you download them in PNG or SVG format for both digital and print use.",
+      "features": {
+        "interface": "Creating a QR code takes seconds. Type your content, pick your colors, and watch the code update in real-time. The live preview ensures you always know exactly what your final QR code looks like before downloading.",
+        "processing": "QR codes are generated directly in your browser using JavaScript — no server requests, no waiting. Changes are reflected instantly as you type, delivering a seamless real-time editing experience.",
+        "options": "Choose between URL, Text, and WiFi content types. Customize foreground and background colors to match your brand identity. Export in high-quality PNG (for web) or scalable SVG (for print).",
+        "unlimited": "Create as many QR codes as you need with no restrictions. No daily generation limits, no watermarks on your downloads, and no account required. Every code is free to use commercially.",
+        "security": "Your URLs, WiFi credentials, and text content are processed entirely in your browser. Nothing is sent to our servers, which means sensitive information like WiFi passwords remains completely private."
+      },
+      "faq": [
+        {
+          "q": "What content types can I put in a QR code?",
+          "a": "Our generator supports URLs (website links), plain text messages, and WiFi network credentials (network name, password, and encryption type). Each type has its own optimized input form."
+        },
+        {
+          "q": "Can I customize the colors of my QR code?",
+          "a": "Yes! You can change both the foreground (code) and background colors using the built-in color pickers. This lets you match the QR code to your brand colors or design aesthetic."
+        },
+        {
+          "q": "What's the difference between PNG and SVG downloads?",
+          "a": "PNG is a raster format ideal for digital use (websites, social media). SVG is a vector format that scales infinitely without losing quality, making it perfect for printing on business cards, posters, and packaging."
+        },
+        {
+          "q": "Can I use the QR codes commercially?",
+          "a": "Absolutely. All QR codes generated with ZeroTools are yours to use for any purpose — personal, commercial, educational, or otherwise. There are no usage restrictions or attribution requirements."
+        }
+      ]
     },
     "image-compressor": {
       "name": "Image Compressor",
@@ -93,7 +155,33 @@
       "article": "<h2>About the Image Compressor</h2><p>The <strong>Image Compressor</strong> helps you drastically reduce your image file sizes without losing visual quality. This is vital for improving website loading speed (SEO) and saving storage space.</p><h3>Step-by-step how to use:</h3><ol><li>Click on the dotted area or drag and drop an image (JPG, PNG, or WebP) from your computer.</li><li>Observe the preview of the original image and its weight in megabytes or kilobytes.</li><li>Adjust the Quality slider (from 0% to 100%) until you find the perfect balance between size and sharpness.</li><li>The estimated final size will be updated on the screen instantly.</li><li>Click on 'Download Compressed Image' to save the new optimized file.</li></ol><h3>Privacy Guaranteed</h3><p>Unlike other online tools, we use client-side compression (via Canvas). Your personal photos are never sent to cloud servers, ensuring total security.</p>",
       "seoTitle": "Free Online Image Compressor — Reduce Photo Size Without Quality Loss",
       "seoDesc": "Compress JPG, PNG and WebP images without losing quality. Reduce file size for email and web. Free, no signup required, runs 100% in your browser.",
-      "keywords": "compress image online free, reduce image file size, image compressor, shrink photo size, optimize image for web, compress png jpg free"
+      "keywords": "compress image online free, reduce image file size, image compressor, shrink photo size, optimize image for web, compress png jpg free",
+      "whatIs": "The Image Compressor is a free online tool that reduces the file size of your images (JPG, PNG, and WebP) without noticeable quality loss. Whether you need to optimize photos for a website, reduce email attachment sizes, or free up storage space, this tool processes everything locally in your browser using modern Canvas APIs, ensuring your images stay 100% private.",
+      "features": {
+        "interface": "Drag and drop your images or click to browse. The clean interface shows a real-time preview with before/after file sizes and a compression percentage, so you always know exactly how much space you're saving.",
+        "processing": "Images are compressed instantly on your device using the HTML5 Canvas API. There are no server uploads, no processing queues, and no wait times — even for large image files.",
+        "options": "Choose your output format (WebP, JPEG, or PNG) and fine-tune the quality slider from 0% to 100% to find the perfect balance between file size and visual quality. Multiple files can be compressed at once.",
+        "unlimited": "Compress as many images as you want with no file count limits, no daily caps, and no maximum file sizes. Every compression is completely free.",
+        "security": "Your images are never uploaded to any server. All compression happens locally in your browser using client-side JavaScript, guaranteeing that your personal photos and sensitive images remain on your device."
+      },
+      "faq": [
+        {
+          "q": "What image formats does the compressor support?",
+          "a": "The Image Compressor accepts JPG, PNG, GIF, BMP, and WebP input files. You can choose to export in JPEG, PNG, or WebP format. WebP typically provides the best compression-to-quality ratio."
+        },
+        {
+          "q": "Does compression reduce image quality?",
+          "a": "Our tool uses smart compression algorithms that prioritize visual quality. At 70-85% quality setting, most images show no visible difference to the human eye while achieving 50-80% file size reduction."
+        },
+        {
+          "q": "Can I compress multiple images at once?",
+          "a": "Yes! You can drag and drop or select multiple images simultaneously. Each image is compressed independently with the same quality settings, and you can download them individually."
+        },
+        {
+          "q": "Is there a maximum file size limit?",
+          "a": "Since all processing happens in your browser, the only limit is your device's memory. Most modern devices can easily handle images up to 50MB or more."
+        }
+      ]
     },
     "image-cropper": {
       "name": "Image Cropper",
@@ -101,7 +189,33 @@
       "article": "<h2>About the Image Cropper & Resizer</h2><p>The <strong>Image Cropper</strong> helps you adjust the size and change the aspect ratio of your photos without needing to install any software. Ideal for social media.</p><h3>Step-by-step how to use:</h3><ol><li>Click on 'Browse Image' or simply drag and drop the file (JPG/PNG) into the upload area.</li><li>Choose one of the suggested automatic ratios (e.g., 1:1 Square, 16:9 YouTube) or click 'Free' to draw your own crop.</li><li>Move the marking grid over the image to focus only on the part you want to keep.</li><li>For exact dimensions, type the Height and Width in pixels in the sidebar fields.</li><li>Click the 'Crop & Download' button and a new optimized image will be saved to your computer immediately.</li></ol><h3>Privacy Guaranteed</h3><p>The great advantage of ZeroTools is privacy. When you upload your photo, it is never sent to servers.</p>",
       "seoTitle": "Crop & Resize Image Online Free — Custom Aspect Ratio — ZeroTools",
       "seoDesc": "Crop, resize, and change the aspect ratio of your photos online. Supports 1:1 Instagram, 16:9 YouTube, 9:16 TikTok and custom sizes. Free, no signup needed.",
-      "keywords": "crop image online free, resize photo online, change image aspect ratio, image resizer, crop photo for instagram, resize image without quality loss"
+      "keywords": "crop image online free, resize photo online, change image aspect ratio, image resizer, crop photo for instagram, resize image without quality loss",
+      "whatIs": "The Image Cropper is a free online tool that lets you crop, resize, and change the aspect ratio of your photos directly in your browser. Whether you need a 1:1 square for Instagram, 16:9 for YouTube thumbnails, or 9:16 for TikTok/Stories, this tool provides precise control over dimensions with a visual crop grid — no software installation required.",
+      "features": {
+        "interface": "Upload your image and use the intuitive drag-to-crop grid to select exactly the area you want. Preset aspect ratios are available with a single click, and custom pixel dimensions can be entered for exact sizing.",
+        "processing": "All cropping and resizing operations are performed instantly in your browser using the Canvas API. There's no upload delay, no server processing time, and no queue to wait in.",
+        "options": "Choose from preset aspect ratios (1:1, 4:3, 16:9, 9:16, 3:2) or use free-form cropping. Enter exact width and height in pixels. Export to JPG, PNG, or WebP format.",
+        "unlimited": "Crop and resize as many images as you need with zero restrictions. No daily limits, no watermarks, and no account required. Every export is completely free.",
+        "security": "Your photos never leave your device. The Image Cropper runs entirely in your browser, meaning your personal images are never uploaded to any server or cloud service."
+      },
+      "faq": [
+        {
+          "q": "What aspect ratios are available?",
+          "a": "The Image Cropper offers preset ratios including 1:1 (Instagram Square), 4:3 (Standard Photo), 16:9 (YouTube, Widescreen), 9:16 (TikTok, Stories), 3:2 (DSLR), and a Free mode where you can draw any custom crop area."
+        },
+        {
+          "q": "Can I set exact pixel dimensions?",
+          "a": "Yes! You can enter precise width and height values in pixels using the input fields. This is perfect for when you need an image with exact dimensions for a website banner, profile picture, or print project."
+        },
+        {
+          "q": "Does cropping reduce image quality?",
+          "a": "No. Our tool preserves the original pixel data within your selected crop area. The output image maintains the same resolution and quality as the original source file."
+        },
+        {
+          "q": "What image formats are supported?",
+          "a": "You can upload JPG and PNG images. The tool lets you export your cropped image as JPG, PNG, or WebP, giving you flexibility depending on your use case."
+        }
+      ]
     },
     "background-remover": {
       "name": "Background Remover",
@@ -109,7 +223,33 @@
       "article": "<h2>How does the Background Remover work?</h2><p>Our <strong>Background Remover</strong> uses advanced artificial intelligence running directly in your browser to accurately separate the main subject from the background. It is ideal for product photos (e-commerce), profile pictures, and graphic design.</p><h3>Step-by-step how to use:</h3><ol><li>Wait a few seconds the first time you open the tool so the local AI can load in your browser.</li><li>Upload or drag a photo with a clear object in the foreground (like a person or product).</li><li>Wait for the progress bar while the artificial intelligence processes the cutouts.</li><li>Preview the resulting image with a transparent background (checkered pattern).</li><li>Click on 'Download Image without Background' to save it in transparent PNG format.</li></ol><h3>The Magic of WebAssembly</h3><p>The artificial intelligence runs locally on your device, offering flawless cutouts without compromising your privacy.</p>",
       "seoTitle": "Remove Image Background Free Online with AI — ZeroTools",
       "seoDesc": "Remove the background from any photo using AI. 100% free, no sign up, no software install. Get transparent PNG results in seconds, directly in your browser.",
-      "keywords": "remove image background free, background remover online, remove bg online, transparent background png, ai background remover, remove background without signup"
+      "keywords": "remove image background free, background remover online, remove bg online, transparent background png, ai background remover, remove background without signup",
+      "whatIs": "The Background Remover is a free AI-powered tool that automatically detects and removes the background from any image, leaving you with a clean, transparent PNG. Powered by advanced machine learning running directly in your browser via WebAssembly, it's perfect for product photos, profile pictures, graphic design, and e-commerce listings — all without uploading your images to any server.",
+      "features": {
+        "interface": "Simply upload or drag an image and let the AI do the work. Preview the result with different background options (transparent, white, black, gray) before downloading. No manual selection or editing needed.",
+        "processing": "The AI model runs locally on your device using WebAssembly technology. After a one-time model download (~40MB, cached for future use), processing takes just 10-30 seconds depending on your device.",
+        "options": "Preview your result with different background colors before downloading. The output is always a high-quality transparent PNG that you can use directly in design projects, presentations, or e-commerce listings.",
+        "unlimited": "Remove backgrounds from as many images as you want. There are no per-day limits, no watermarks on results, and no subscription needed. Every background removal is completely free.",
+        "security": "Unlike most online background removal tools, our AI runs 100% locally in your browser. Your photos are never uploaded to any cloud server, guaranteeing complete privacy for personal and confidential images."
+      },
+      "faq": [
+        {
+          "q": "How does the AI background removal work?",
+          "a": "We use a pre-trained machine learning model that runs via WebAssembly directly in your browser. The model analyzes the image to detect the main subject and creates a precise mask to separate it from the background."
+        },
+        {
+          "q": "Why does the first use take longer?",
+          "a": "The first time you use the tool, your browser downloads the AI model (~40MB). This model is then cached in your browser's storage, so subsequent uses are much faster with no re-download needed."
+        },
+        {
+          "q": "What types of images work best?",
+          "a": "The AI works best with images that have a clear main subject in the foreground — people, products, logos, pets, and objects. Complex scenes with multiple overlapping subjects may produce less precise results."
+        },
+        {
+          "q": "Is the output image transparent?",
+          "a": "Yes, the output is always a PNG file with a transparent background. You can preview it with white, black, or gray backgrounds before downloading, but the downloaded file always has full transparency."
+        }
+      ]
     },
     "pdf-compressor": {
       "name": "PDF Compressor",
@@ -117,7 +257,33 @@
       "article": "<h2>About the PDF Compressor</h2><p>Large PDF files are hard to email or attach to web forms. Our <strong>PDF Compressor</strong> solves this by removing unnecessary metadata and restructuring the file to make it lighter.</p><h3>Step-by-step how to use:</h3><ol><li>Upload the PDF document you want to shrink by dragging it into the indicated area.</li><li>The tool will immediately start reading and processing the file in your browser.</li><li>Check the compression rate and the megabytes saved in the interface.</li><li>A download button will appear; click it to save the lightweight version of your PDF.</li></ol><p>All of this is done locally on your device, ensuring that documents containing sensitive data do not leak onto the internet.</p>",
       "seoTitle": "Compress PDF Online Free — Reduce PDF File Size Instantly",
       "seoDesc": "Compress large PDF files without quality loss to share by email or WhatsApp. Free, no signup, your documents never leave your computer.",
-      "keywords": "compress pdf online free, reduce pdf file size, make pdf smaller, pdf compressor online, shrink pdf free, compress pdf without losing quality"
+      "keywords": "compress pdf online free, reduce pdf file size, make pdf smaller, pdf compressor online, shrink pdf free, compress pdf without losing quality",
+      "whatIs": "The PDF Compressor is a free online tool that reduces the file size of your PDF documents by removing unnecessary metadata and optimizing the internal file structure. It's ideal for making large PDFs small enough to send via email, upload to web forms, or share on messaging apps — all without any quality loss and without your documents ever leaving your device.",
+      "features": {
+        "interface": "Upload your PDF by dragging it into the tool. Instantly see the original size, optimized size, page count, and compression percentage in a clean, visual results panel.",
+        "processing": "PDF optimization happens entirely in your browser using JavaScript. The tool reads, processes, and restructures your document locally — no server upload, no cloud processing, no waiting.",
+        "options": "The tool automatically optimizes your PDF by removing unnecessary metadata, streamlining the file structure, and eliminating redundant data. Results are displayed with clear before/after comparisons.",
+        "unlimited": "Compress as many PDFs as you need with no restrictions. There are no daily limits, no maximum file sizes (up to 50MB), and no account required.",
+        "security": "Your documents are never uploaded to any server. All PDF processing happens locally in your browser, making this tool safe for confidential documents like contracts, medical records, and financial statements."
+      },
+      "faq": [
+        {
+          "q": "Why is my PDF only slightly smaller after compression?",
+          "a": "Client-side PDF compression focuses on removing metadata and optimizing file structure. If your PDF consists mainly of high-resolution embedded images, the reduction will be minimal since image recompression requires server-side processing."
+        },
+        {
+          "q": "Does compression affect PDF quality?",
+          "a": "No. Our tool optimizes the file structure without altering the visual content. Text, images, and formatting remain exactly the same — only unnecessary hidden data is removed."
+        },
+        {
+          "q": "What's the maximum file size I can compress?",
+          "a": "The tool supports PDF files up to 50MB. Since processing happens in your browser, very large files may take longer on devices with limited memory."
+        },
+        {
+          "q": "Can I compress password-protected PDFs?",
+          "a": "Unfortunately, encrypted or password-protected PDFs cannot be processed by our client-side tool. You'll need to remove the password protection before compressing."
+        }
+      ]
     },
     "file-converter": {
       "name": "File Converter",
@@ -125,7 +291,33 @@
       "article": "<h2>Fast and Local Conversion</h2><p>Need to turn a WebP into JPG or vice-versa? The <strong>File Converter</strong> lets you switch between image formats instantly and in bulk.</p><h3>Step-by-step how to use:</h3><ol><li>Drag an image from your computer to the conversion panel.</li><li>In the selection menu (dropdown), choose the desired target format (PNG, JPG, WEBP, etc).</li><li>Click the 'Convert File' button to start the process.</li><li>The download of the file in the new format will start automatically in a few milliseconds.</li></ol><p>Since everything runs via client-side JavaScript, there is no wait queue. Your images are converted without time-consuming uploads.</p>",
       "seoTitle": "Free Image Converter Online — JPG to PNG, WebP & More",
       "seoDesc": "Convert images between JPG, PNG, WebP, and GIF formats instantly in your browser. No server uploads. Free, no signup required.",
-      "keywords": "image converter online free, jpg to png converter, png to jpg, convert to webp, image format converter, change image format online"
+      "keywords": "image converter online free, jpg to png converter, png to jpg, convert to webp, image format converter, change image format online",
+      "whatIs": "The File Converter is a free online tool that lets you instantly convert images between popular formats including JPG, PNG, WebP, GIF, and BMP. Whether you need to turn a WebP image into a JPG for compatibility, convert a PNG to WebP for better web performance, or batch-convert multiple files at once, this tool handles it all directly in your browser with zero uploads.",
+      "features": {
+        "interface": "Drag and drop your images, select the target format from the dropdown menu, and click convert. The process is instant and the download starts automatically — no unnecessary steps or complicated settings.",
+        "processing": "File conversion uses the HTML5 Canvas API to decode and re-encode images in your browser. There are no server uploads, no processing queues, and conversions complete in milliseconds.",
+        "options": "Convert between JPG, PNG, WebP, GIF, and BMP formats. Multiple files can be converted simultaneously, each using the same target format. Perfect for batch converting entire image folders.",
+        "unlimited": "Convert as many files as you need with no daily limits, no file count restrictions, and no account required. Every conversion is completely free with no watermarks added.",
+        "security": "Your images stay on your device throughout the entire conversion process. No files are uploaded to servers, and no data is transmitted over the internet during conversion."
+      },
+      "faq": [
+        {
+          "q": "Which image formats are supported?",
+          "a": "The File Converter supports JPG (JPEG), PNG, WebP, GIF, and BMP formats. You can convert from any of these formats to any other, giving you complete flexibility."
+        },
+        {
+          "q": "Which format should I use for websites?",
+          "a": "WebP offers the best compression-to-quality ratio for web use, resulting in faster page loads. If you need broad compatibility with older browsers, JPG is the safest choice for photos and PNG for images with transparency."
+        },
+        {
+          "q": "Can I convert multiple files at once?",
+          "a": "Yes! You can drag and drop or select multiple images simultaneously. All files will be converted to your chosen format and can be downloaded individually."
+        },
+        {
+          "q": "Does conversion affect image quality?",
+          "a": "Converting between lossy formats (like JPG to WebP) may involve minor quality changes. Converting to PNG preserves exact quality. For best results, avoid converting the same image between lossy formats multiple times."
+        }
+      ]
     },
     "password-generator": {
       "name": "Password Generator",
@@ -133,7 +325,33 @@
       "article": "<h2>Why use the Password Generator?</h2><p>Weak passwords are the gateway for hacks. Our <strong>Password Generator</strong> creates fully random and cryptographically secure character combinations for you to use in new registrations.</p><h3>Step-by-step how to use:</h3><ol><li>Slide the bar to choose the password length (we recommend at least 16 characters).</li><li>Check or uncheck the option boxes: Uppercase letters, Lowercase, Numbers, or Symbols ($, %, @).</li><li>The updated password will appear in the main text field automatically.</li><li>Click the 'Copy' button next to the password to send it to your system clipboard.</li></ol><p><strong>Security Tip:</strong> Never use the same password on two different websites. Use this tool to generate unique passwords.</p>",
       "seoTitle": "Strong Password Generator Online Free — Secure Random Passwords",
       "seoDesc": "Generate random, strong, and secure passwords with letters, numbers, and symbols. Set the ideal length. 100% free and private — passwords are never stored.",
-      "keywords": "strong password generator, random password generator free, secure password online, generate password with symbols, password maker, create strong password"
+      "keywords": "strong password generator, random password generator free, secure password online, generate password with symbols, password maker, create strong password",
+      "whatIs": "The Password Generator is a free online tool that creates cryptographically strong, random passwords to protect your online accounts. With customizable length and character set options (uppercase, lowercase, numbers, symbols), it generates passwords that are virtually impossible to crack — all processed locally in your browser so your passwords are never transmitted or stored anywhere.",
+      "features": {
+        "interface": "Adjust the password length with a simple slider and toggle character options with checkboxes. A real-time strength meter shows you exactly how secure your password is, with color-coded ratings from Weak to Strong.",
+        "processing": "Passwords are generated instantly using the Web Crypto API, which provides cryptographically secure random number generation. This happens entirely in your browser with zero network requests.",
+        "options": "Customize with uppercase letters (A-Z), lowercase letters (a-z), numbers (0-9), and special symbols (!@#$%^&*). Adjust length from 4 to 128 characters. Generate single or multiple passwords at once.",
+        "unlimited": "Generate as many passwords as you need with no restrictions. No daily limits, no account required, and your password history is stored only in your browser session — never on our servers.",
+        "security": "The Password Generator uses the browser's native cryptographic API for true randomness. Generated passwords exist only in your browser's memory and are never sent to any server or logged anywhere."
+      },
+      "faq": [
+        {
+          "q": "How long should my password be?",
+          "a": "We recommend at least 16 characters for important accounts. Passwords with 20+ characters using all character types (uppercase, lowercase, numbers, symbols) provide the strongest protection against brute-force attacks."
+        },
+        {
+          "q": "Are the generated passwords truly random?",
+          "a": "Yes. We use the Web Crypto API (crypto.getRandomValues), which provides cryptographically secure pseudo-random numbers. This is the same level of randomness used in encryption protocols."
+        },
+        {
+          "q": "Should I use the same password for multiple sites?",
+          "a": "Absolutely not. Each online account should have its own unique password. If one site is breached, reused passwords put all your other accounts at risk. Use our generator to create a unique password for every account."
+        },
+        {
+          "q": "Where should I store my generated passwords?",
+          "a": "We recommend using a reputable password manager (like Bitwarden, 1Password, or KeePass) to securely store all your passwords. Never write passwords on sticky notes or store them in plain text files."
+        }
+      ]
     },
     "color-palette": {
       "name": "Color Palette",
@@ -141,7 +359,33 @@
       "article": "<h2>Instant Color Inspiration</h2><p>The <strong>Color Palette Generator</strong> is perfect for designers and front-end developers looking for visual harmony. Choose a base color and generate perfect combinations.</p><h3>Step-by-step how to use:</h3><ol><li>Click on the main color swatch to open the visual picker and choose your base color.</li><li>You will instantly see lightness variations of that color.</li><li>Change the generation mode (Analogous, Complementary, Monochromatic, Triadic) to see full mathematical palettes.</li><li>Click on any color block on the screen to copy the HEX code (e.g., #FFFFFF) to your clipboard.</li></ol>",
       "seoTitle": "Free Color Palette Generator Online — HEX, RGB, HSL Colors",
       "seoDesc": "Generate beautiful color palettes from a base color. Export as HEX, RGB, and HSL. Perfect for designers and developers. 100% free online color tool.",
-      "keywords": "color palette generator free, online color palette, color scheme generator, hex color picker, color combinations, create color palette online"
+      "keywords": "color palette generator free, online color palette, color scheme generator, hex color picker, color combinations, create color palette online",
+      "whatIs": "The Color Palette Generator is a free online tool for designers, developers, and artists who need harmonious color combinations. Starting from any base color, it generates mathematically perfect palettes using color theory — including analogous, complementary, triadic, and monochromatic schemes. Copy HEX codes with a single click and use them directly in your projects.",
+      "features": {
+        "interface": "Pick a base color using the visual color picker, then explore variations and palette modes with a single click. Every color block is clickable — just tap to copy the HEX code to your clipboard instantly.",
+        "processing": "Color calculations happen instantly in your browser using pure JavaScript. Palette generation is real-time — change the base color or mode and see results update immediately without any delay.",
+        "options": "Choose from 4 palette modes: Analogous (neighboring colors), Complementary (opposite colors), Triadic (evenly spaced), and Monochromatic (brightness variations). Each produces a unique, harmonious set of colors.",
+        "unlimited": "Generate unlimited color palettes with no restrictions. Experiment with any base color and any mode as many times as you want. No account needed, no limitations.",
+        "security": "All color calculations happen locally in your browser. Your color choices and design explorations are completely private — no data is sent to any server or tracked in any way."
+      },
+      "faq": [
+        {
+          "q": "What color modes are available?",
+          "a": "The generator supports Analogous (colors next to each other on the color wheel), Complementary (opposite colors), Triadic (three evenly spaced colors), and Monochromatic (different shades and tints of one color)."
+        },
+        {
+          "q": "How do I copy a color code?",
+          "a": "Simply click on any color block in the palette and its HEX code (e.g., #3B82F6) will be copied to your clipboard automatically. You can also use the 'Copy All HEX' button to copy the entire palette at once."
+        },
+        {
+          "q": "Can I use these palettes in my commercial projects?",
+          "a": "Yes! All generated color palettes are free to use in any project — websites, apps, presentations, print materials, or any other design work. No attribution required."
+        },
+        {
+          "q": "What color formats are supported?",
+          "a": "The primary display format is HEX (#RRGGBB), which is the most widely used format in web development and design tools. The underlying calculations use HSL for mathematical precision."
+        }
+      ]
     },
     "lorem-ipsum": {
       "name": "Lorem Ipsum",
@@ -149,7 +393,33 @@
       "article": "<h2>What is Lorem Ipsum?</h2><p>The <strong>Lorem Ipsum Generator</strong> creates placeholder texts that look like classical Latin. It is widely used in the publishing and web design industry to test layouts and typography before having the actual content.</p><h3>Step-by-step how to use:</h3><ol><li>Enter the number of units you want to generate in the numeric field (e.g., 5).</li><li>Choose the type of unit from the dropdown menu: 'Paragraphs', 'Sentences', or 'Words'.</li><li>The Lorem Ipsum text will instantly update in the lower box according to your settings.</li><li>Click the 'Copy Text' button to send the generated content straight to your system clipboard.</li></ol>",
       "seoTitle": "Free Lorem Ipsum Generator Online — Placeholder Text for Design",
       "seoDesc": "Generate Lorem Ipsum text (paragraphs, sentences, or words) for mockups and design projects. Copy with one click. 100% free, no signup required.",
-      "keywords": "lorem ipsum generator online free, placeholder text generator, dummy text, random text generator, lorem ipsum paragraphs, design placeholder text"
+      "keywords": "lorem ipsum generator online free, placeholder text generator, dummy text, random text generator, lorem ipsum paragraphs, design placeholder text",
+      "whatIs": "The Lorem Ipsum Generator is a free online tool that creates placeholder text for designers, developers, and content creators. Whether you need dummy text for a website mockup, a print layout, or a presentation wireframe, this tool generates classic Lorem Ipsum text in customizable quantities — by paragraphs, sentences, or individual words.",
+      "features": {
+        "interface": "Set the number of units and choose between paragraphs, sentences, or words — the text generates instantly. A clean, copyable text area makes it easy to grab exactly the placeholder text you need.",
+        "processing": "Lorem Ipsum text is generated instantly in your browser using a lightweight JavaScript algorithm. No server requests, no loading time, and no dependencies.",
+        "options": "Choose to generate text by paragraphs, sentences, or words. Set any quantity from 1 to 99. The output always starts with the classic 'Lorem ipsum dolor sit amet...' opening.",
+        "unlimited": "Generate as much placeholder text as you need with no limits. Use the tool repeatedly throughout your design process — there are no daily caps or account requirements.",
+        "security": "All text generation happens locally in your browser. No data is sent to any server and no usage information is tracked."
+      },
+      "faq": [
+        {
+          "q": "What is Lorem Ipsum?",
+          "a": "Lorem Ipsum is a pseudo-Latin placeholder text used in the typesetting and printing industry since the 1500s. It resembles real text in visual distribution, making it ideal for previewing layouts and typography without the distraction of readable content."
+        },
+        {
+          "q": "Can I choose how much text to generate?",
+          "a": "Yes! You can specify the exact number of paragraphs, sentences, or words you need. The tool lets you generate anywhere from 1 to 99 units of any type."
+        },
+        {
+          "q": "Does the text always start the same way?",
+          "a": "Yes, the generated text always begins with the classic 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...' opening, which is the most recognizable form of placeholder text."
+        },
+        {
+          "q": "Can I use this in my design projects?",
+          "a": "Absolutely. Lorem Ipsum is specifically designed as placeholder text for websites, apps, brochures, presentations, and any project that needs dummy text during the design phase."
+        }
+      ]
     },
     "pomodoro": {
       "name": "Pomodoro Timer",
@@ -172,7 +442,33 @@
       "article": "<h2>JSON Beautifier</h2><p>The <strong>JSON Formatter</strong> is the number 1 tool for software developers to take huge lines of unreadable and broken code and transform them into a clean, indented property tree.</p><h3>Step-by-step how to use:</h3><ol><li>Paste the string (text) containing the ugly, unformatted JSON into the left box (Input).</li><li>Automatically, the validated code formatted with line breaks and tabs (2 spaces) will appear in the right box.</li><li>If there are syntax errors (like a missing comma in the code), the tool will warn you by highlighting the error.</li><li>If you prefer to compress the code to save network space, click 'Minify' to remove all spaces from the JSON.</li><li>Copy the result using the top button to use in your project.</li></ol>",
       "seoTitle": "Free Online JSON Formatter & Validator — Beautify & Minify JSON",
       "seoDesc": "Format, validate and minify JSON online. Real-time syntax highlighting and error detection. Essential tool for developers. Free, no signup, works in your browser.",
-      "keywords": "json formatter online free, json validator, json beautifier, format json online, minify json, json checker, beautify json free"
+      "keywords": "json formatter online free, json validator, json beautifier, format json online, minify json, json checker, beautify json free",
+      "whatIs": "The JSON Formatter is a free online tool built for developers who need to quickly format, validate, and beautify raw JSON data. Paste your minified or messy JSON, and the tool instantly transforms it into clean, properly indented code with syntax highlighting. It also detects and highlights syntax errors, helping you debug malformed JSON in seconds.",
+      "features": {
+        "interface": "A side-by-side editor layout lets you paste raw JSON on the left and see the formatted output on the right. Syntax highlighting makes it easy to read nested objects, arrays, strings, and numbers at a glance.",
+        "processing": "JSON parsing and formatting happen instantly in your browser using native JavaScript JSON APIs. There's no server roundtrip, no API call, and no delay — even for large JSON payloads.",
+        "options": "Format with customizable indentation, minify to remove all whitespace, or validate to check for syntax errors. The tool handles nested objects, arrays, and complex data structures of any depth.",
+        "unlimited": "Format and validate as much JSON as you need — no character limits, no usage caps, and no account required. The tool is free for personal and professional use.",
+        "security": "Your JSON data stays in your browser at all times. This is critical for developers working with API responses, configuration files, or database exports that may contain sensitive information."
+      },
+      "faq": [
+        {
+          "q": "What is JSON formatting?",
+          "a": "JSON formatting (also called beautifying) adds proper indentation, line breaks, and spacing to make JSON data human-readable. This is essential for debugging API responses, reading configuration files, and understanding data structures."
+        },
+        {
+          "q": "Can the tool detect JSON errors?",
+          "a": "Yes! If your JSON has syntax errors (like missing commas, unclosed brackets, or invalid values), the tool will highlight the error and show you where the problem is, helping you fix it quickly."
+        },
+        {
+          "q": "What's the difference between Format and Minify?",
+          "a": "Format adds indentation and line breaks for readability. Minify removes all whitespace to create the most compact version, useful for reducing payload sizes in APIs and network transfers."
+        },
+        {
+          "q": "Is there a size limit for JSON data?",
+          "a": "Since processing happens in your browser, the tool can handle very large JSON files. The practical limit depends on your device's memory, but modern devices can easily process several megabytes of JSON data."
+        }
+      ]
     },
     "case-converter": {
       "name": "Case Converter",
@@ -180,7 +476,33 @@
       "article": "<h2>What is the Case Converter?</h2><p>The <strong>Case Converter</strong> is the ideal solution when you copy text that is all in uppercase (shouting) and need to format it correctly, or when you need to standardize proper nouns and titles quickly.</p><h3>Step-by-step how to use:</h3><ol><li>Paste or type the unformatted text into the main box.</li><li>Select the desired format at the top: 'Lowercase' (all small letters), 'Uppercase' (all capital letters), 'Capitalized' (The First Letter Of Each Word Capitalized), or 'Alternating' (aLtErNaTiNg).</li><li>The result is generated instantly below.</li><li>Click the 'Copy' button to transfer the corrected text to your clipboard.</li></ol>",
       "seoTitle": "Text Case Converter Online Free — UPPERCASE, lowercase, Title Case",
       "seoDesc": "Convert text to UPPERCASE, lowercase, Title Case, camelCase, and more. Free online tool, no signup required, works instantly in your browser.",
-      "keywords": "text case converter online free, uppercase lowercase converter, title case online, camelcase converter, change text case, text transformer free"
+      "keywords": "text case converter online free, uppercase lowercase converter, title case online, camelcase converter, change text case, text transformer free",
+      "whatIs": "The Case Converter is a free online tool that transforms text between different letter cases instantly. Whether you need to convert all caps to lowercase, create Title Case headings, format variable names in camelCase or snake_case, or apply any other text transformation, this tool handles it all with a single click — perfect for writers, developers, and anyone who works with text.",
+      "features": {
+        "interface": "Type or paste your text and see all case variations displayed instantly in separate cards. Each variation has its own copy button, so you can grab exactly the format you need with one click.",
+        "processing": "All text transformations happen in real-time as you type, using lightweight JavaScript string operations in your browser. There's no server processing, no delays, and no character limits.",
+        "options": "Convert text to UPPERCASE, lowercase, Title Case, Sentence case, camelCase, PascalCase, snake_case, kebab-case, and aLtErNaTiNg case. All nine transformations are generated simultaneously.",
+        "unlimited": "Transform any amount of text as many times as you need. There are no character limits, no daily usage restrictions, and no account required.",
+        "security": "Your text is processed entirely in your browser and never sent to any server. This is important for converting confidential text like internal document titles, code variables, and private content."
+      },
+      "faq": [
+        {
+          "q": "What case styles are supported?",
+          "a": "The tool supports 9 case styles: UPPERCASE, lowercase, Title Case (each word capitalized), Sentence case (first word capitalized), camelCase, PascalCase, snake_case, kebab-case, and aLtErNaTiNg case."
+        },
+        {
+          "q": "What's the difference between camelCase and PascalCase?",
+          "a": "In camelCase, the first word starts with a lowercase letter and subsequent words are capitalized (e.g., myVariableName). In PascalCase, every word starts with an uppercase letter (e.g., MyVariableName). camelCase is common in JavaScript, while PascalCase is used for class names."
+        },
+        {
+          "q": "Can I use this for programming?",
+          "a": "Yes! Developers frequently use the Case Converter to transform variable names, function names, CSS class names, and API field names between different naming conventions used in different programming languages."
+        },
+        {
+          "q": "Is there a character limit?",
+          "a": "No, there is no character limit. You can paste entire documents, code files, or any amount of text. All transformations are calculated in your browser, so performance depends only on your device."
+        }
+      ]
     },
     "base64": {
       "name": "Base64 Encoder/Decoder",
@@ -188,7 +510,33 @@
       "article": "<h2>Why use the Base64 Encoder?</h2><p><strong>Base64</strong> is an encoding format widely used by developers to transmit binary data (like images or security tokens) in readable text formats over the internet, preventing character breakage and corruption in JSON or XML.</p><h3>Step-by-step how to use:</h3><ol><li>Select the tab that defines your action: 'Encode' (normal text to Base64) or 'Decode' (Base64 to normal text).</li><li>Paste your text string or the giant Base64 code into the input box.</li><li>The conversion will happen automatically. If the Base64 string is invalid during decoding, the tool will not convert it, preventing you from using broken code.</li><li>Click the 'Copy' button and your code is ready to use.</li></ol>",
       "seoTitle": "Free Base64 Encoder & Decoder Online — Encode & Decode Instantly",
       "seoDesc": "Encode and decode Base64 strings and files online. Supports text and images. Fast developer tool. 100% free, no signup, works directly in your browser.",
-      "keywords": "base64 encoder decoder online free, encode base64, decode base64, base64 to text, text to base64, base64 converter, base64 online tool"
+      "keywords": "base64 encoder decoder online free, encode base64, decode base64, base64 to text, text to base64, base64 converter, base64 online tool",
+      "whatIs": "The Base64 Encoder/Decoder is a free online tool for developers who need to encode text strings into Base64 format or decode Base64 data back into readable text. Base64 encoding is commonly used in web development for embedding images in HTML/CSS, encoding API tokens, transmitting binary data in JSON payloads, and handling data URIs.",
+      "features": {
+        "interface": "Toggle between Encode and Decode modes with a single click. Paste your input, get instant results. The swap button lets you quickly switch between modes when going back and forth between encoded and decoded data.",
+        "processing": "Base64 encoding and decoding happen instantly using native browser APIs. There's no network request, no server processing, and results appear in milliseconds regardless of input size.",
+        "options": "Encode plain text to Base64, decode Base64 strings back to text, or encode files directly from your computer. Invalid Base64 inputs are automatically detected and flagged to prevent broken code.",
+        "unlimited": "Encode and decode as much data as you need with no limits. No character count restrictions, no daily usage caps, and no account needed.",
+        "security": "Your text, tokens, and files are processed entirely in your browser. This is essential for developers working with API keys, authentication tokens, and other sensitive data that should never be transmitted to third-party servers."
+      },
+      "faq": [
+        {
+          "q": "What is Base64 encoding?",
+          "a": "Base64 is a binary-to-text encoding scheme that converts binary data into a set of 64 printable ASCII characters. It's used to safely transmit data through systems that only handle text, like email protocols, JSON APIs, and HTML attributes."
+        },
+        {
+          "q": "When should I use Base64 encoding?",
+          "a": "Common use cases include embedding small images in HTML/CSS (data URIs), encoding authentication tokens for API headers, transmitting binary data in JSON payloads, and encoding file attachments for email protocols."
+        },
+        {
+          "q": "Can I encode files to Base64?",
+          "a": "Yes! Click the 'From File' button to select a file from your computer. The tool will read the file and convert it to a Base64-encoded string that you can use in your code."
+        },
+        {
+          "q": "What happens if the Base64 string is invalid?",
+          "a": "The tool automatically validates Base64 input during decoding. If the string contains invalid characters or has incorrect padding, an error message will be displayed instead of producing corrupted output."
+        }
+      ]
     },
     "word-counter": {
       "name": "Word Counter",
@@ -196,7 +544,33 @@
       "article": "<h2>Word Count and Density</h2><p>More than just counting characters for Twitter or school essays, the ZeroTools <strong>Word Counter</strong> calculates your reading time and extracts keyword density.</p><h3>Step-by-step how to use:</h3><ol><li>Paste or type your entire text into the central text box of the tool.</li><li>The top panels will immediately show the total count of Characters, Words, Sentences, and Paragraphs.</li><li>The side panel will inform the estimated time for an average person to read that text.</li><li>In the bottom panel, analyze the list of 'Most Used Words' (Density) to avoid excessive repetitions or to focus on SEO.</li></ol>",
       "seoTitle": "Free Online Word Counter & Character Counter — ZeroTools",
       "seoDesc": "Count words, characters, sentences, and paragraphs in any text. Calculate reading time and keyword density for SEO. 100% free, no signup, works offline.",
-      "keywords": "word counter online free, character counter, count words in text, reading time calculator, word count tool, online word counter"
+      "keywords": "word counter online free, character counter, count words in text, reading time calculator, word count tool, online word counter",
+      "whatIs": "The Word Counter is a free online tool that provides instant statistics about any text you paste or type. It counts words, characters (with and without spaces), sentences, and paragraphs, and calculates estimated reading time. The built-in keyword density analyzer helps writers, students, and SEO professionals optimize their content.",
+      "features": {
+        "interface": "Paste or type your text and see all statistics update in real-time. Clean stat cards display word count, character count, sentences, paragraphs, and reading time. A keyword density panel shows your most-used words.",
+        "processing": "All text analysis happens instantly in your browser as you type. Statistics update in real-time with zero delay — no server processing, no API calls, no waiting.",
+        "options": "Get word count, character count (with and without spaces), sentence count, paragraph count, estimated reading time, and a keyword density analysis showing your most frequently used words.",
+        "unlimited": "Analyze any amount of text with no restrictions. There are no character limits, no daily usage caps, and no account required. Use it for tweets, essays, blog posts, or entire manuscripts.",
+        "security": "Your text is processed entirely in your browser and is never sent to any server. This makes the tool safe for analyzing confidential content like academic papers, legal documents, and private drafts."
+      },
+      "faq": [
+        {
+          "q": "How is reading time calculated?",
+          "a": "Reading time is calculated based on an average reading speed of approximately 200-250 words per minute. This gives you a realistic estimate of how long it will take someone to read your content."
+        },
+        {
+          "q": "What is keyword density and why does it matter?",
+          "a": "Keyword density shows the percentage of how often specific words appear in your text. For SEO, it helps you check whether you're using target keywords enough (but not too much). A density of 1-3% is generally considered optimal."
+        },
+        {
+          "q": "Does the tool count special characters?",
+          "a": "Yes, the character counter includes all characters: letters, numbers, punctuation, and special characters. The 'characters without spaces' count excludes only space characters."
+        },
+        {
+          "q": "Can I use this for SEO content analysis?",
+          "a": "Absolutely! The keyword density feature helps you identify your most-used words and ensure your target keywords appear at the right frequency. Combined with word count, it's useful for meeting content length requirements."
+        }
+      ]
     }
   },
   "bg_remover": {
@@ -461,5 +835,45 @@
     "p6": "We may update this policy occasionally. Changes will be noted with a new last updated date at the top of this page.",
     "title7": "7. Contact",
     "p7": "Questions? Email us at <a href='mailto:HelloZeroTools@outlook.com'>HelloZeroTools@outlook.com</a>"
+  },
+  "home_faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about ZeroTools and how our free online tools work.",
+    "more_text": "Have more questions? Visit our complete FAQ page.",
+    "more_link": "View All Questions →",
+    "faqs": [
+      {
+        "q": "What is ZeroTools and what tools do you offer?",
+        "a": "ZeroTools is a free online platform with 14+ browser-based utilities for creators, developers, and marketers. Our toolkit includes a QR Code Generator, Hashtag Generator, Image Compressor, Background Remover (AI-powered), PDF Compressor, File Converter, Password Generator, Color Palette Generator, Lorem Ipsum Generator, JSON Formatter, Word Counter, Case Converter, Base64 Encoder/Decoder, and more. Every tool runs 100% in your browser — no signup, no uploads, no server processing."
+      },
+      {
+        "q": "Are all ZeroTools really free to use?",
+        "a": "Yes, every single tool on ZeroTools is completely free — forever. There are no hidden premium tiers, no account creation required, and no credit card needed. We sustain the platform through non-intrusive display advertising (Google AdSense), which allows us to keep all features accessible to everyone without limitations."
+      },
+      {
+        "q": "Is it safe to use? Are my files uploaded to a server?",
+        "a": "Absolutely safe. ZeroTools is designed with a privacy-first architecture. All processing happens locally in your browser using modern Web APIs such as Canvas, WebAssembly, and FileReader. Your images, PDFs, passwords, and text never leave your device. We have zero access to your files — they are never uploaded, stored, or transmitted to any server."
+      },
+      {
+        "q": "How does client-side processing work?",
+        "a": "Instead of sending your files to a remote server for processing, ZeroTools leverages the computing power of your own device. Technologies like the HTML5 Canvas API (for image manipulation), WebAssembly (for AI-powered background removal), and the JavaScript File API (for reading and converting files) allow all operations to run entirely within your web browser. This means instant results, total privacy, and no dependency on internet speed for processing."
+      },
+      {
+        "q": "Can I use ZeroTools on my phone or tablet?",
+        "a": "Yes! All tools on ZeroTools are built with a fully responsive design and work seamlessly on smartphones (iPhone, Android), tablets (iPad), and desktop computers. Simply open myzerotools.online in your mobile browser (Chrome, Safari, Firefox) and start using any tool. Note: some computation-heavy tools like the AI Background Remover may run slower on older mobile devices."
+      },
+      {
+        "q": "What image formats does ZeroTools support?",
+        "a": "Our image tools support a wide range of formats. The Image Compressor accepts JPG, PNG, GIF, BMP, and WebP files, with output options for JPEG, PNG, and WebP. The File Converter lets you switch between JPG, PNG, WebP, GIF, and BMP formats. The Image Cropper works with JPG and PNG files and exports to JPG, PNG, or WebP. The Background Remover accepts JPG and PNG inputs and always outputs a transparent PNG."
+      },
+      {
+        "q": "Do you display ads on the website?",
+        "a": "Yes, ZeroTools uses Google AdSense to display non-intrusive banner advertisements. This is how we keep every tool free for all users. We carefully position ad placements so they do not interfere with your workflow. Ads never cover your tools, never auto-play audio, and never block your results."
+      },
+      {
+        "q": "How can I report a bug or suggest a new tool?",
+        "a": "We love hearing from our users! If you found a bug, have a feature request, or want to suggest a new tool, please send us an email at HelloZeroTools@outlook.com. We read every message and typically respond within 24 hours. Your feedback directly shapes the future of ZeroTools."
+      }
+    ]
   }
 }

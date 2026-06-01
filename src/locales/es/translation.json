@@ -62,8 +62,18 @@
   "tool_layout": {
     "about": "Acerca de",
     "about_sub": "es una utilidad potente diseñada para ayudarte con tus tareas diarias. Es completamente gratis y no requiere registro ni instalación de software.",
+    "what_is": "¿Qué es el",
+    "features_title": "Características Principales de",
+    "feat_interface": "🖥️ Interfaz Simple e Intuitiva",
+    "feat_processing": "⚡ Procesamiento Local Rápido",
+    "feat_options": "🔧 Opciones de Personalización",
+    "feat_unlimited": "♾️ Uso Ilimitado",
+    "feat_security": "🔒 Privacidad y Seguridad",
+    "faq_title": "Preguntas Frecuentes sobre",
     "privacy_title": "🔒 100% Privacidad y Procesamiento Local",
-    "privacy_desc": "A diferencia de otras herramientas en línea que suben tus archivos a servidores externos, nuestra herramienta opera completamente dentro de tu navegador. Utilizamos tecnologías web modernas para procesar todo localmente en tu dispositivo. Esto significa que tus datos nunca son subidos, almacenados o vistos por nadie más, garantizando absoluta privacidad."
+    "privacy_desc": "A diferencia de otras herramientas en línea que suben tus archivos a servidores externos, nuestra herramienta opera completamente dentro de tu navegador. Utilizamos tecnologías web modernas para procesar todo localmente en tu dispositivo. Esto significa que tus datos nunca son subidos, almacenados o vistos por nadie más, garantizando absoluta privacidad.",
+    "related_tools": "Herramientas Relacionadas",
+    "other_tools": "Otras Herramientas"
   },
   "footer": {
     "tagline": "Herramientas en línea gratis — sin registro, sin subidas, sin rastreo. Todo funciona en tu navegador.",
@@ -77,7 +87,33 @@
       "article": "<h2>¿Cómo funciona el Generador de Hashtags?</h2><p>El <strong>Generador de Hashtags</strong> te ayuda a descubrir las mejores etiquetas para tus publicaciones. Usar las palabras clave correctas es esencial para aumentar el alcance orgánico.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Elige la categoría principal de tu publicación en las opciones disponibles en pantalla (Ej: Moda, Comida, Fitness).</li><li>La herramienta procesará y mostrará instantáneamente una nube con los hashtags más populares para ese nicho.</li><li>Haz clic en el botón 'Copiar Todos' en la parte inferior de la caja de resultados.</li><li>Pégalos al final de la descripción de tu publicación de Instagram, TikTok o Twitter, ¡y listo!</li></ol><h3>Ventajas</h3><p>¡No exageres! Aunque Instagram permite hasta 30 hashtags, los expertos recomiendan usar entre 5 a 15 hashtags hiperrelevantes para una mejor interacción.</p>",
       "seoTitle": "Generador de Hashtags para Instagram y TikTok Gratis — ZeroTools",
       "seoDesc": "Genera los mejores hashtags para Instagram, TikTok y Twitter por categoría. Cópielos todos a la vez y aumenta el alcance de tus publicaciones. Gratis y online.",
-      "keywords": "generador de hashtags instagram gratis, hashtags para tiktok, mejores hashtags para instagram, hashtags por nicho, generar hashtags online, hashtags para reels"
+      "keywords": "generador de hashtags instagram gratis, hashtags para tiktok, mejores hashtags para instagram, hashtags por nicho, generar hashtags online, hashtags para reels",
+      "whatIs": "El Generador de Hashtags es una herramienta gratuita en línea diseñada para creadores de contenido, gerentes de redes sociales e influencers que desean maximizar su alcance en plataformas como Instagram, TikTok y Twitter (X). Al seleccionar una categoría que coincida con tu nicho de contenido, la herramienta genera instantáneamente un conjunto curado de hashtags de alto compromiso optimizados para aumentar la visibilidad de tus publicaciones, atraer más seguidores y aumentar las interacciones orgánicas.",
+      "features": {
+        "interface": "Nuestro Generador de Hashtags tiene una interfaz limpia y minimalista. Simplemente elige una categoría del selector visual y tus hashtags aparecen al instante. Sin menús confusos ni procesos de múltiples pasos — solo elige y copia.",
+        "processing": "Toda la generación de hashtags ocurre instantáneamente en tu navegador. Nuestro algoritmo inteligente selecciona las mejores etiquetas para tu categoría elegida sin ningún retraso del servidor, pantalla de carga o cola.",
+        "options": "Elige entre más de 8 categorías en tendencia incluyendo Moda, Comida, Viaje, Fitness, Negocios, Fotografía, TikTok y Shopify. Agrega palabras clave personalizadas para crear una mezcla a medida para tu contenido.",
+        "unlimited": "Genera conjuntos ilimitados de hashtags — sin límites diarios, sin restricciones de cuenta, sin paywall. Usa la herramienta todas las veces que quieras para cada publicación.",
+        "security": "Tus palabras clave y hashtags generados nunca se envían a ningún servidor. Todo sucede localmente en tu navegador, manteniendo tu estrategia de contenido 100% privada."
+      },
+      "faq": [
+        {
+          "q": "¿Cuántos hashtags debo usar por publicación?",
+          "a": "Instagram permite hasta 30 hashtags, pero los expertos recomiendan de 5 a 15 altamente relevantes para un compromiso óptimo. TikTok funciona mejor con 3-5 hashtags, mientras Twitter recomienda 1-2. Nuestro generador te permite elegir el número exacto."
+        },
+        {
+          "q": "¿Puedo agregar mis propias palabras clave?",
+          "a": "¡Sí! Además de seleccionar una categoría, puedes escribir tus propias palabras clave personalizadas (como el nombre de tu marca o producto) para generar una mezcla que combina etiquetas en tendencia con tus términos específicos."
+        },
+        {
+          "q": "¿Estos hashtags funcionan en todas las redes sociales?",
+          "a": "Sí. Los hashtags generados por ZeroTools funcionan en Instagram, TikTok, Twitter (X), LinkedIn, Facebook, Pinterest y YouTube. Simplemente copia y pega en la descripción o comentarios de tu publicación."
+        },
+        {
+          "q": "¿Necesito una cuenta para usar el Generador de Hashtags?",
+          "a": "No. El Generador de Hashtags es 100% gratuito y no requiere cuenta, registro ni correo electrónico. Simplemente visita la página, selecciona tu categoría y comienza a generar hashtags inmediatamente."
+        }
+      ]
     },
     "qr-code": {
       "name": "Generador de Código QR",
@@ -85,7 +121,33 @@
       "article": "<h2>¿Qué es el Generador de Código QR?</h2><p>El <strong>Generador de Código QR</strong> es una utilidad simple y rápida para convertir textos, URLs o información de WiFi en un código escaneable. Los Códigos QR son muy utilizados en menús de restaurantes, tarjetas de presentación y marketing digital para conectar el mundo físico con el digital al instante.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Elige el tipo de contenido (URL, Texto o WiFi) seleccionando la pestaña correspondiente.</li><li>Rellena el campo principal con el enlace de tu sitio web, el texto deseado o los datos de la red WiFi.</li><li>Ajusta los colores del código y del fondo usando los selectores de color para combinar con tu marca.</li><li>El código se generará automáticamente en la pantalla en tiempo real.</li><li>Haz clic en los botones de Descarga para guardar la imagen en formato PNG o SVG de alta calidad.</li></ol><h3>Ventajas</h3><ul><li><strong>100% Offline:</strong> Los códigos se generan directamente en tu navegador, sin enviar datos.</li><li><strong>Formatos Vectoriales:</strong> Exporta en PNG o SVG para garantizar la máxima calidad de impresión.</li></ul>",
       "seoTitle": "Generador de Código QR Gratis Online — Crear QR para Link y WiFi",
       "seoDesc": "Crea Códigos QR personalizados para URLs, textos y redes WiFi. Descarga en PNG o SVG de alta calidad. 100% gratis, sin registro, directo en el navegador.",
-      "keywords": "generador de codigo qr gratis, crear codigo qr online, qr code para enlace, qr code wifi, generar qr personalizado, descargar qr png, crear qr gratis"
+      "keywords": "generador de codigo qr gratis, crear codigo qr online, qr code para enlace, qr code wifi, generar qr personalizado, descargar qr png, crear qr gratis",
+      "whatIs": "El Generador de Código QR es una herramienta gratuita basada en el navegador que te permite crear códigos QR personalizados para URLs, texto y redes WiFi. Los códigos QR son ampliamente usados en tarjetas de presentación, menús de restaurantes, embalajes, campañas de marketing digital y eventos. Nuestra herramienta genera códigos de alta calidad en tiempo real con colores personalizables.",
+      "features": {
+        "interface": "Crear un código QR toma segundos. Escribe tu contenido, elige tus colores y observa cómo el código se actualiza en tiempo real.",
+        "processing": "Los códigos QR se generan directamente en tu navegador usando JavaScript — sin solicitudes al servidor, sin esperas.",
+        "options": "Elige entre URL, Texto y WiFi. Personaliza los colores del código y fondo. Exporta en PNG o SVG de alta calidad.",
+        "unlimited": "Crea todos los códigos QR que necesites sin restricciones. Sin límites diarios, sin marcas de agua y sin cuenta necesaria.",
+        "security": "Tus URLs, credenciales WiFi y texto se procesan completamente en tu navegador. Nada se envía a nuestros servidores."
+      },
+      "faq": [
+        {
+          "q": "¿Qué tipos de contenido puedo poner en un código QR?",
+          "a": "Nuestro generador soporta URLs, mensajes de texto y credenciales de redes WiFi (nombre, contraseña y tipo de cifrado)."
+        },
+        {
+          "q": "¿Puedo personalizar los colores?",
+          "a": "¡Sí! Puedes cambiar los colores del código y del fondo usando los selectores de color integrados para combinar con tu marca."
+        },
+        {
+          "q": "¿Cuál es la diferencia entre PNG y SVG?",
+          "a": "PNG es ideal para uso digital. SVG es vectorial y escala infinitamente sin perder calidad, perfecto para impresión en tarjetas, pósteres y embalajes."
+        },
+        {
+          "q": "¿Puedo usar los códigos QR comercialmente?",
+          "a": "Absolutamente. Todos los códigos QR generados son tuyos para usar sin restricciones — personal, comercial o educativo."
+        }
+      ]
     },
     "image-compressor": {
       "name": "Compresor de Imágenes",
@@ -93,7 +155,33 @@
       "article": "<h2>Sobre el Compresor de Imágenes</h2><p>El <strong>Compresor de Imágenes</strong> te ayuda a reducir drásticamente el tamaño de tus archivos de imagen sin perder calidad visual. Esto es vital para mejorar la velocidad de carga de sitios web (SEO) y ahorrar espacio de almacenamiento.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Haz clic en el área punteada o arrastra y suelta una imagen (JPG, PNG o WebP) desde tu computadora.</li><li>Observa la vista previa de la imagen original y su peso en megabytes o kilobytes.</li><li>Ajusta el control deslizante de Calidad (del 0% al 100%) hasta encontrar el equilibrio perfecto entre tamaño y nitidez.</li><li>El tamaño final estimado se actualizará en la pantalla instantáneamente.</li><li>Haz clic en 'Descargar Imagen Comprimida' para guardar el nuevo archivo optimizado.</li></ol><h3>Privacidad Garantizada</h3><p>A diferencia de otras herramientas en línea, utilizamos compresión en el cliente (vía Canvas). Tus fotos personales nunca se envían a servidores en la nube, garantizando total seguridad.</p>",
       "seoTitle": "Compresor de Imágenes Online Gratis — Reducir Tamaño de Foto",
       "seoDesc": "Comprime imágenes JPG, PNG y WebP sin perder calidad. Reduce el tamaño del archivo para email y web. Gratis, sin registro y 100% en tu navegador.",
-      "keywords": "comprimir imagen online gratis, reducir tamaño de foto, compresor de imágenes, disminuir tamaño imagen, optimizar imagen para web"
+      "keywords": "comprimir imagen online gratis, reducir tamaño de foto, compresor de imágenes, disminuir tamaño imagen, optimizar imagen para web",
+      "whatIs": "El Compresor de Imágenes es una herramienta gratuita en línea que reduce el tamaño de tus archivos de imagen (JPG, PNG y WebP) sin pérdida perceptible de calidad. Ya sea para optimizar fotos para un sitio web, reducir adjuntos de correo o liberar almacenamiento, todo se procesa localmente en tu navegador.",
+      "features": {
+        "interface": "Arrastra y suelta tus imágenes o haz clic para buscar. La interfaz muestra una vista previa en tiempo real con tamaños antes/después y porcentaje de compresión.",
+        "processing": "Las imágenes se comprimen instantáneamente en tu dispositivo usando la API Canvas de HTML5. Sin subidas al servidor, sin colas de procesamiento.",
+        "options": "Elige el formato de salida (WebP, JPEG o PNG) y ajusta el control de calidad de 0% a 100%. Múltiples archivos pueden comprimirse a la vez.",
+        "unlimited": "Comprime tantas imágenes como quieras sin límites de archivos, caps diarios ni tamaños máximos.",
+        "security": "Tus imágenes nunca se suben a ningún servidor. Toda la compresión ocurre localmente en tu navegador."
+      },
+      "faq": [
+        {
+          "q": "¿Qué formatos soporta el compresor?",
+          "a": "Acepta JPG, PNG, GIF, BMP y WebP. Puedes exportar en JPEG, PNG o WebP. WebP generalmente ofrece la mejor relación compresión/calidad."
+        },
+        {
+          "q": "¿La compresión reduce la calidad?",
+          "a": "Nuestro algoritmo prioriza la calidad visual. Con 70-85% de calidad, la mayoría de imágenes no muestran diferencia visible al ojo humano mientras logran 50-80% de reducción de tamaño."
+        },
+        {
+          "q": "¿Puedo comprimir múltiples imágenes a la vez?",
+          "a": "¡Sí! Puedes arrastrar y soltar múltiples imágenes simultáneamente. Cada una se comprime independientemente."
+        },
+        {
+          "q": "¿Hay límite de tamaño de archivo?",
+          "a": "El único límite es la memoria de tu dispositivo. La mayoría de dispositivos modernos manejan imágenes de hasta 50MB o más."
+        }
+      ]
     },
     "image-cropper": {
       "name": "Recortador de Imágenes",
@@ -101,7 +189,33 @@
       "article": "<h2>Sobre el Recortador y Redimensionador de Imágenes</h2><p>El <strong>Recortador de Imágenes</strong> te ayuda a ajustar el tamaño y cambiar la proporción de tus fotos sin necesidad de instalar ningún software. Ideal para redes sociales.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Haz clic en 'Buscar Imagen' o simplemente arrastra y suelta el archivo (JPG/PNG) en el área de carga.</li><li>Elige una de las proporciones automáticas sugeridas (ej. 1:1 Cuadrado, 16:9 YouTube) o haz clic en 'Libre' para dibujar tu propio recorte.</li><li>Mueve la cuadrícula de marca sobre la imagen para enfocarte solo en la parte que deseas conservar.</li><li>Para dimensiones exactas, escribe el Alto y Ancho en píxeles en los campos de la barra lateral.</li><li>Haz clic en el botón 'Recortar y Descargar' y una nueva imagen optimizada se guardará en tu computadora de inmediato.</li></ol><h3>Privacidad Garantizada</h3><p>La gran ventaja de ZeroTools es la privacidad. Cuando subes tu foto, nunca se envía a los servidores.</p>",
       "seoTitle": "Recortar y Redimensionar Imagen Online Gratis — ZeroTools",
       "seoDesc": "Recorta, redimensiona y cambia la proporción de tus fotos online. Compatible con 1:1 Instagram, 16:9 YouTube, 9:16 TikTok y tamaños personalizados. Gratis.",
-      "keywords": "recortar imagen online gratis, redimensionar foto, cambiar proporción de imagen, crop image, recortar foto para instagram, redimensionar imagen pixeles"
+      "keywords": "recortar imagen online gratis, redimensionar foto, cambiar proporción de imagen, crop image, recortar foto para instagram, redimensionar imagen pixeles",
+      "whatIs": "El Recortador de Imágenes es una herramienta gratuita en línea que te permite recortar, redimensionar y cambiar la proporción de tus fotos directamente en el navegador. Ya sea para un cuadrado 1:1 para Instagram, 16:9 para YouTube o 9:16 para TikTok/Stories.",
+      "features": {
+        "interface": "Sube tu imagen y usa la cuadrícula intuitiva de recorte. Las proporciones predefinidas están disponibles con un solo clic y puedes ingresar dimensiones exactas en píxeles.",
+        "processing": "Todas las operaciones de recorte se realizan instantáneamente en tu navegador usando la API Canvas. Sin retrasos de subida ni procesamiento en servidor.",
+        "options": "Elige entre proporciones predefinidas (1:1, 4:3, 16:9, 9:16, 3:2) o recorte libre. Exporta a JPG, PNG o WebP.",
+        "unlimited": "Recorta tantas imágenes como necesites sin restricciones. Sin límites diarios, sin marcas de agua.",
+        "security": "Tus fotos nunca salen de tu dispositivo. Todo funciona completamente en tu navegador."
+      },
+      "faq": [
+        {
+          "q": "¿Qué proporciones están disponibles?",
+          "a": "Ofrece 1:1 (Instagram), 4:3 (Foto Estándar), 16:9 (YouTube), 9:16 (TikTok, Stories), 3:2 (DSLR) y modo Libre."
+        },
+        {
+          "q": "¿Puedo establecer dimensiones exactas?",
+          "a": "¡Sí! Puedes ingresar valores precisos de ancho y alto en píxeles."
+        },
+        {
+          "q": "¿El recorte reduce la calidad?",
+          "a": "No. Nuestra herramienta preserva los datos originales de píxeles dentro del área seleccionada."
+        },
+        {
+          "q": "¿Qué formatos de imagen son compatibles?",
+          "a": "Puedes subir JPG y PNG. La herramienta exporta como JPG, PNG o WebP."
+        }
+      ]
     },
     "background-remover": {
       "name": "Eliminador de Fondo",
@@ -109,7 +223,33 @@
       "article": "<h2>¿Cómo funciona el Eliminador de Fondos?</h2><p>Nuestro <strong>Eliminador de Fondos</strong> utiliza inteligencia artificial avanzada ejecutándose en tu navegador para separar con precisión el sujeto principal del fondo. Es ideal para fotos de productos (comercio electrónico), fotos de perfil y diseño gráfico.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Espera unos segundos la primera vez que abras la herramienta para que la IA local se cargue en tu navegador.</li><li>Sube o arrastra una foto con un objeto claro en primer plano (como una persona o producto).</li><li>Espera la barra de progreso mientras la inteligencia artificial procesa los recortes.</li><li>Visualiza la imagen resultante con fondo transparente (patrón cuadriculado).</li><li>Haz clic en 'Descargar Imagen sin Fondo' para guardarla en formato PNG transparente.</li></ol><h3>La Magia de WebAssembly</h3><p>La inteligencia artificial se ejecuta localmente en tu dispositivo, ofreciendo recortes impecables sin comprometer tu privacidad.</p>",
       "seoTitle": "Eliminar Fondo de Imagen Gratis Online con IA — ZeroTools",
       "seoDesc": "Elimina el fondo de cualquier foto con inteligencia artificial. 100% gratis, sin registro y sin instalar programas. Resultado en segundos con fondo transparente PNG.",
-      "keywords": "eliminar fondo de imagen, quitar fondo de foto gratis, remover fondo online, png transparente, eliminar fondo con ia, background remover gratis"
+      "keywords": "eliminar fondo de imagen, quitar fondo de foto gratis, remover fondo online, png transparente, eliminar fondo con ia, background remover gratis",
+      "whatIs": "El Eliminador de Fondo es una herramienta gratuita con IA que detecta y elimina automáticamente el fondo de cualquier imagen, dejándote con un PNG transparente limpio. Funciona con machine learning avanzado directamente en tu navegador via WebAssembly, ideal para fotos de productos, fotos de perfil, diseño gráfico y comercio electrónico.",
+      "features": {
+        "interface": "Sube o arrastra una imagen y deja que la IA trabaje. Previsualiza el resultado con diferentes fondos (transparente, blanco, negro, gris) antes de descargar.",
+        "processing": "El modelo de IA funciona localmente en tu dispositivo usando WebAssembly. Después de una descarga inicial (~40MB, guardada en caché), el procesamiento toma 10-30 segundos.",
+        "options": "Previsualiza con diferentes colores de fondo antes de descargar. La salida siempre es un PNG transparente de alta calidad.",
+        "unlimited": "Elimina fondos de tantas imágenes como quieras. Sin límites diarios, sin marcas de agua, sin suscripción.",
+        "security": "A diferencia de la mayoría de herramientas, nuestra IA funciona 100% localmente. Tus fotos nunca se suben a ningún servidor."
+      },
+      "faq": [
+        {
+          "q": "¿Cómo funciona la eliminación de fondo con IA?",
+          "a": "Usamos un modelo de ML pre-entrenado que funciona via WebAssembly en tu navegador. Analiza la imagen para detectar el sujeto principal y crea una máscara precisa."
+        },
+        {
+          "q": "¿Por qué la primera vez tarda más?",
+          "a": "La primera vez, tu navegador descarga el modelo de IA (~40MB). Se guarda en caché, así que las siguientes veces son mucho más rápidas."
+        },
+        {
+          "q": "¿Qué tipo de imágenes funcionan mejor?",
+          "a": "La IA funciona mejor con imágenes que tienen un sujeto claro en primer plano — personas, productos, logos, mascotas y objetos."
+        },
+        {
+          "q": "¿La imagen de salida es transparente?",
+          "a": "Sí, siempre es un PNG con fondo transparente. Puedes previsualizarla con fondos de color antes de descargar."
+        }
+      ]
     },
     "pdf-compressor": {
       "name": "Compresor de PDF",
@@ -117,7 +257,33 @@
       "article": "<h2>Sobre el Compresor de PDF</h2><p>Los archivos PDF muy grandes son difíciles de enviar por correo electrónico o adjuntar en formularios web. Nuestro <strong>Compresor de PDF</strong> resuelve esto eliminando metadatos innecesarios y reestructurando el archivo para hacerlo más ligero.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Sube el documento PDF que deseas reducir de tamaño arrastrándolo a la zona indicada.</li><li>La herramienta comenzará inmediatamente a leer y procesar el archivo en tu navegador.</li><li>Verifica la tasa de compresión y los megabytes ahorrados en la interfaz.</li><li>Aparecerá un botón de descarga; haz clic en él para guardar la versión ligera de tu PDF.</li></ol><p>Todo esto se hace localmente en tu dispositivo, garantizando que los documentos con datos sensibles no se filtren en internet.</p>",
       "seoTitle": "Comprimir PDF Online Gratis — Reducir Tamaño de Archivo PDF",
       "seoDesc": "Comprime archivos PDF grandes sin perder calidad para enviar por correo o WhatsApp. Gratis, sin registro, tus documentos no salen de tu computadora.",
-      "keywords": "comprimir pdf online gratis, reducir tamaño pdf, hacer pdf mas pequeño, compresor de pdf, comprimir pdf sin perder calidad, pdf comprimido gratis"
+      "keywords": "comprimir pdf online gratis, reducir tamaño pdf, hacer pdf mas pequeño, compresor de pdf, comprimir pdf sin perder calidad, pdf comprimido gratis",
+      "whatIs": "El Compresor de PDF es una herramienta gratuita en línea que reduce el tamaño de tus documentos PDF eliminando metadatos innecesarios y optimizando la estructura interna. Ideal para enviar por correo, subir a formularios o compartir por apps de mensajería — sin pérdida de calidad y sin que tus documentos salgan de tu dispositivo.",
+      "features": {
+        "interface": "Sube tu PDF arrastrándolo a la herramienta. Ve instantáneamente el tamaño original, optimizado, páginas y porcentaje de compresión.",
+        "processing": "La optimización ocurre completamente en tu navegador usando JavaScript. Sin subidas al servidor, sin procesamiento en la nube.",
+        "options": "La herramienta optimiza automáticamente eliminando metadatos, mejorando la estructura y eliminando datos redundantes.",
+        "unlimited": "Comprime todos los PDFs que necesites. Sin límites diarios, hasta 50MB, sin cuenta necesaria.",
+        "security": "Tus documentos nunca se suben a ningún servidor. Seguro para contratos, expedientes médicos y estados financieros."
+      },
+      "faq": [
+        {
+          "q": "¿Por qué mi PDF quedó solo un poco más pequeño?",
+          "a": "La compresión local se enfoca en metadatos y estructura. Si tu PDF tiene muchas imágenes de alta resolución, la reducción será mínima."
+        },
+        {
+          "q": "¿La compresión afecta la calidad?",
+          "a": "No. Se optimiza la estructura sin alterar el contenido visual. Texto, imágenes y formato permanecen iguales."
+        },
+        {
+          "q": "¿Cuál es el tamaño máximo?",
+          "a": "Soporta PDFs de hasta 50MB. Archivos muy grandes pueden tardar más en dispositivos con poca memoria."
+        },
+        {
+          "q": "¿Puedo comprimir PDFs protegidos?",
+          "a": "No, los PDFs cifrados o protegidos con contraseña no pueden procesarse. Debes quitar la protección primero."
+        }
+      ]
     },
     "file-converter": {
       "name": "Convertidor de Archivos",
@@ -125,7 +291,33 @@
       "article": "<h2>Conversión Rápida y Local</h2><p>¿Necesitas transformar un WebP a JPG o viceversa? El <strong>Convertidor de Archivos</strong> te permite alternar entre formatos de imagen al instante y en masa.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Arrastra una imagen de tu computadora al panel de conversión.</li><li>En el menú de selección (menú desplegable), elige el formato de destino deseado (PNG, JPG, WEBP, etc).</li><li>Haz clic en el botón 'Convertir Archivo' para iniciar el proceso.</li><li>La descarga del archivo en el nuevo formato comenzará automáticamente en unos pocos milisegundos.</li></ol><p>Como todo se ejecuta mediante JavaScript en el cliente, no hay filas de espera. Tus imágenes se convierten sin subidas demoradas.</p>",
       "seoTitle": "Convertidor de Imágenes Online Gratis — JPG a PNG, WebP y más",
       "seoDesc": "Convierte imágenes entre JPG, PNG, WebP y GIF al instante en el navegador. Sin subir a servidores. Gratis y sin registro.",
-      "keywords": "convertidor de imagenes online gratis, jpg a png, png a jpg, convertir a webp, conversor de imagenes, cambiar formato de imagen online"
+      "keywords": "convertidor de imagenes online gratis, jpg a png, png a jpg, convertir a webp, conversor de imagenes, cambiar formato de imagen online",
+      "whatIs": "El Convertidor de Archivos es una herramienta gratuita que te permite convertir imágenes instantáneamente entre formatos como JPG, PNG, WebP, GIF y BMP. Ya sea para convertir WebP a JPG, PNG a WebP, o procesar múltiples archivos a la vez, todo funciona directamente en tu navegador.",
+      "features": {
+        "interface": "Arrastra tus imágenes, selecciona el formato destino y haz clic en convertir. El proceso es instantáneo.",
+        "processing": "La conversión usa la API Canvas de HTML5 en tu navegador. Sin subidas, sin colas, completado en milisegundos.",
+        "options": "Convierte entre JPG, PNG, WebP, GIF y BMP. Múltiples archivos pueden convertirse simultáneamente.",
+        "unlimited": "Sin límites diarios, sin restricciones de archivos, sin cuenta necesaria. Todo gratis.",
+        "security": "Tus imágenes permanecen en tu dispositivo durante todo el proceso. Sin transmisión de datos."
+      },
+      "faq": [
+        {
+          "q": "¿Qué formatos son compatibles?",
+          "a": "Soporta JPG, PNG, WebP, GIF y BMP. Puedes convertir de cualquier formato a cualquier otro."
+        },
+        {
+          "q": "¿Qué formato usar para sitios web?",
+          "a": "WebP ofrece la mejor relación compresión/calidad. JPG es la opción más segura para compatibilidad, PNG para transparencia."
+        },
+        {
+          "q": "¿Puedo convertir múltiples archivos?",
+          "a": "¡Sí! Arrastra múltiples imágenes y todas se convertirán al formato elegido."
+        },
+        {
+          "q": "¿La conversión afecta la calidad?",
+          "a": "Entre formatos con pérdida puede haber cambios mínimos. Convertir a PNG preserva la calidad exacta."
+        }
+      ]
     },
     "password-generator": {
       "name": "Generador de Contraseñas",
@@ -133,7 +325,33 @@
       "article": "<h2>¿Por qué usar el Generador de Contraseñas?</h2><p>Las contraseñas débiles son la puerta de entrada para invasiones. Nuestro <strong>Generador de Contraseñas</strong> crea combinaciones de caracteres totalmente aleatorias y criptográficamente seguras para usar en nuevos registros.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Desliza la barra para elegir el tamaño de la contraseña (recomendamos al menos 16 caracteres).</li><li>Marca o desmarca las casillas de opciones: Letras Mayúsculas, Minúsculas, Números o Símbolos ($, %, @).</li><li>La contraseña actualizada aparecerá en el campo de texto principal automáticamente.</li><li>Haz clic en el botón 'Copiar' junto a la contraseña para enviarla al portapapeles de tu sistema.</li></ol><p><strong>Consejo de Seguridad:</strong> Nunca uses la misma contraseña en dos sitios web diferentes. Usa esta herramienta para generar contraseñas únicas.</p>",
       "seoTitle": "Generador de Contraseñas Fuertes Online Gratis — ZeroTools",
       "seoDesc": "Genera contraseñas aleatorias, fuertes y seguras con letras, números y símbolos. Define el tamaño ideal. 100% gratis y privado — la contraseña no se guarda.",
-      "keywords": "generador de contraseñas fuertes, crear contraseña segura online, generar contraseña aleatoria, password generator gratis, contraseña con simbolos"
+      "keywords": "generador de contraseñas fuertes, crear contraseña segura online, generar contraseña aleatoria, password generator gratis, contraseña con simbolos",
+      "whatIs": "El Generador de Contraseñas es una herramienta gratuita que crea contraseñas criptográficamente fuertes y aleatorias. Con opciones de longitud y caracteres personalizables (mayúsculas, minúsculas, números, símbolos), genera contraseñas prácticamente imposibles de descifrar — todo procesado localmente en tu navegador.",
+      "features": {
+        "interface": "Ajusta la longitud con un control deslizante y activa opciones de caracteres con casillas. Un medidor de fuerza en tiempo real muestra la seguridad de tu contraseña.",
+        "processing": "Las contraseñas se generan usando la Web Crypto API del navegador para aleatoriedad criptográfica verdadera. Sin solicitudes de red.",
+        "options": "Personaliza con mayúsculas, minúsculas, números y símbolos. Longitud de 4 a 128 caracteres. Genera una o múltiples contraseñas.",
+        "unlimited": "Sin límites diarios, sin cuenta necesaria. El historial existe solo en tu sesión del navegador.",
+        "security": "Usa la API criptográfica nativa del navegador. Las contraseñas nunca se envían a ningún servidor ni se registran."
+      },
+      "faq": [
+        {
+          "q": "¿Qué longitud debe tener mi contraseña?",
+          "a": "Recomendamos al menos 16 caracteres. Con 20+ caracteres usando todos los tipos, obtienes la máxima protección contra ataques de fuerza bruta."
+        },
+        {
+          "q": "¿Las contraseñas son verdaderamente aleatorias?",
+          "a": "Sí. Usamos la Web Crypto API, el mismo nivel de aleatoriedad usado en protocolos de cifrado."
+        },
+        {
+          "q": "¿Debo usar la misma contraseña en varios sitios?",
+          "a": "Absolutamente no. Cada cuenta debe tener su propia contraseña única para evitar compromisos en cadena."
+        },
+        {
+          "q": "¿Dónde guardar mis contraseñas?",
+          "a": "Recomendamos un gestor de contraseñas confiable como Bitwarden, 1Password o KeePass."
+        }
+      ]
     },
     "color-palette": {
       "name": "Paleta de Colores",
@@ -141,7 +359,33 @@
       "article": "<h2>Inspiración de Colores Instantánea</h2><p>El <strong>Generador de Paletas de Colores</strong> es perfecto para diseñadores y desarrolladores front-end en busca de armonía visual. Elige un color base y genera combinaciones perfectas.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Haz clic en la muestra de color principal para abrir el selector visual y elige tu color base.</li><li>Verás instantáneamente variaciones de luminosidad de ese color.</li><li>Cambia el modo de generación (Análoga, Complementaria, Monocromática, Tríada) para ver paletas matemáticas completas.</li><li>Haz clic sobre cualquier bloque de color en la pantalla para copiar el código HEX (ej: #FFFFFF) a tu portapapeles.</li></ol>",
       "seoTitle": "Generador de Paletas de Colores Online Gratis — HEX, RGB, HSL",
       "seoDesc": "Genera paletas de colores armoniosas a partir de un color base. Exporta en HEX, RGB y HSL. Ideal para diseñadores y desarrolladores. 100% gratis y online.",
-      "keywords": "generador de paletas de colores, paleta de colores online gratis, combinacion de colores, color palette generator, colores hex, crear paleta de colores"
+      "keywords": "generador de paletas de colores, paleta de colores online gratis, combinacion de colores, color palette generator, colores hex, crear paleta de colores",
+      "whatIs": "El Generador de Paleta de Colores es una herramienta gratuita para diseñadores, desarrolladores y artistas que necesitan combinaciones armoniosas. Genera paletas matemáticamente perfectas usando teoría del color — análogas, complementarias, triádicas y monocromáticas. Copia códigos HEX con un clic.",
+      "features": {
+        "interface": "Elige un color base con el selector visual, luego explora variaciones con un clic. Cada bloque es clicable para copiar el HEX.",
+        "processing": "Los cálculos de color son instantáneos en tu navegador usando JavaScript puro. La generación es en tiempo real.",
+        "options": "4 modos: Análoga, Complementaria, Triádica y Monocromática. Cada modo produce un conjunto armónico único.",
+        "unlimited": "Genera paletas ilimitadas. Experimenta con cualquier color base y modo sin restricciones.",
+        "security": "Todos los cálculos son locales. Tus exploraciones de diseño son completamente privadas."
+      },
+      "faq": [
+        {
+          "q": "¿Qué modos de color están disponibles?",
+          "a": "Análoga (colores vecinos), Complementaria (opuestos), Triádica (tres igualmente espaciados) y Monocromática (tonos de un color)."
+        },
+        {
+          "q": "¿Cómo copio un código de color?",
+          "a": "Haz clic en cualquier bloque de color para copiar su código HEX. También puedes usar 'Copiar Todos HEX'."
+        },
+        {
+          "q": "¿Puedo usar estas paletas comercialmente?",
+          "a": "¡Sí! Todas las paletas son libres para cualquier proyecto sin atribución."
+        },
+        {
+          "q": "¿Qué formatos de color se soportan?",
+          "a": "El formato principal es HEX. Los cálculos internos usan HSL para precisión matemática."
+        }
+      ]
     },
     "lorem-ipsum": {
       "name": "Generador de Lorem Ipsum",
@@ -149,7 +393,33 @@
       "article": "<h2>¿Qué es Lorem Ipsum?</h2><p>El <strong>Generador de Lorem Ipsum</strong> crea textos de marcador de posición con apariencia de latín clásico. Es ampliamente utilizado en la industria editorial y de diseño web para probar diseños y tipografía antes de tener el contenido real.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Escribe el número de unidades que deseas generar en el campo numérico (ej. 5).</li><li>Elige el tipo de unidad en el menú desplegable: 'Párrafos', 'Frases' o 'Palabras'.</li><li>El texto Lorem Ipsum se actualizará instantáneamente en la caja inferior según tu configuración.</li><li>Haz clic en el botón 'Copiar Texto' para enviar el contenido generado directamente al portapapeles de tu sistema.</li></ol>",
       "seoTitle": "Generador de Lorem Ipsum Online Gratis — Texto de Ejemplo — ZeroTools",
       "seoDesc": "Genera textos Lorem Ipsum (párrafos, frases o palabras) para maquetas y proyectos de diseño. Copia con un clic. 100% gratis y sin registro.",
-      "keywords": "generador de lorem ipsum online, texto de ejemplo para diseño, placeholder text, lorem ipsum gratis, generar texto aleatorio, dummy text generator"
+      "keywords": "generador de lorem ipsum online, texto de ejemplo para diseño, placeholder text, lorem ipsum gratis, generar texto aleatorio, dummy text generator",
+      "whatIs": "El Generador de Lorem Ipsum es una herramienta gratuita que crea texto de relleno para diseñadores, desarrolladores y creadores de contenido. Genera texto clásico Lorem Ipsum en cantidades personalizables — por párrafos, frases o palabras individuales.",
+      "features": {
+        "interface": "Establece la cantidad y elige entre párrafos, frases o palabras. El texto se genera instantáneamente.",
+        "processing": "La generación es instantánea usando un algoritmo JavaScript ligero. Sin solicitudes al servidor.",
+        "options": "Genera por párrafos, frases o palabras. De 1 a 99 unidades. Siempre comienza con 'Lorem ipsum dolor sit amet...'.",
+        "unlimited": "Sin límites. Usa la herramienta repetidamente durante tu proceso de diseño.",
+        "security": "Todo sucede localmente en tu navegador. Sin datos enviados a servidores."
+      },
+      "faq": [
+        {
+          "q": "¿Qué es Lorem Ipsum?",
+          "a": "Es un texto de relleno en pseudo-latín usado desde el siglo XVI. Se asemeja a texto real visualmente, ideal para previsualizar diseños y tipografía."
+        },
+        {
+          "q": "¿Puedo elegir cuánto texto generar?",
+          "a": "¡Sí! Especifica el número exacto de párrafos, frases o palabras, de 1 a 99."
+        },
+        {
+          "q": "¿El texto siempre empieza igual?",
+          "a": "Sí, siempre comienza con 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...'."
+        },
+        {
+          "q": "¿Puedo usarlo en mis proyectos?",
+          "a": "Absolutamente. Está diseñado específicamente como texto de relleno para cualquier proyecto de diseño."
+        }
+      ]
     },
     "pomodoro": {
       "name": "Temporizador Pomodoro",
@@ -172,7 +442,33 @@
       "article": "<h2>Embellecedor de JSON</h2><p>El <strong>Formateador de JSON</strong> es la herramienta número 1 de los desarrolladores de software para tomar enormes líneas de código ilegible y roto y transformarlas en un árbol de propiedades limpio y sangrado.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Pega la cadena (texto) que contiene el JSON feo y sin formato en la caja de la izquierda (Input).</li><li>Automáticamente, el código validado y formateado con saltos de línea y tabulaciones (2 espacios) aparecerá en la caja de la derecha.</li><li>Si hay errores de sintaxis (como una coma faltante en el código), la herramienta te avisará resaltando el error.</li><li>Si prefieres comprimir el código para ahorrar espacio de red, haz clic en 'Minificar' para eliminar todos los espacios del JSON.</li><li>Copia el resultado utilizando el botón superior para usarlo en tu proyecto.</li></ol>",
       "seoTitle": "Formateador y Validador de JSON Online Gratis — ZeroTools",
       "seoDesc": "Formatea, valida y minifica JSON online. Resaltado de sintaxis y detección de errores en tiempo real. Herramienta esencial para desarrolladores. Gratis.",
-      "keywords": "formateador de json online, validador de json, json beautifier online, formatear json gratis, minificar json, json formatter online, validar json"
+      "keywords": "formateador de json online, validador de json, json beautifier online, formatear json gratis, minificar json, json formatter online, validar json",
+      "whatIs": "El Formateador de JSON es una herramienta gratuita para desarrolladores que necesitan formatear, validar y embellecer datos JSON rápidamente. Pega tu JSON minificado o desordenado y la herramienta lo transforma instantáneamente en código limpio e indentado con resaltado de sintaxis.",
+      "features": {
+        "interface": "Un editor lado a lado permite pegar JSON a la izquierda y ver la salida formateada a la derecha con resaltado de sintaxis.",
+        "processing": "El análisis y formateo ocurren instantáneamente usando APIs JavaScript nativas. Sin viaje al servidor.",
+        "options": "Formatea con indentación personalizable, minifica para eliminar espacios, o valida para detectar errores de sintaxis.",
+        "unlimited": "Sin límites de caracteres, sin caps de uso, sin cuenta necesaria.",
+        "security": "Tus datos JSON permanecen en tu navegador. Crítico para trabajar con APIs y archivos de configuración sensibles."
+      },
+      "faq": [
+        {
+          "q": "¿Qué es el formateo de JSON?",
+          "a": "Agrega indentación, saltos de línea y espaciado para hacer JSON legible. Esencial para depurar respuestas de API y entender estructuras de datos."
+        },
+        {
+          "q": "¿Puede detectar errores?",
+          "a": "¡Sí! Resalta errores de sintaxis como comas faltantes, corchetes sin cerrar o valores inválidos."
+        },
+        {
+          "q": "¿Cuál es la diferencia entre Formatear y Minificar?",
+          "a": "Formatear agrega legibilidad. Minificar elimina todo espacio para la versión más compacta, útil para reducir el tamaño de payloads."
+        },
+        {
+          "q": "¿Hay límite de tamaño?",
+          "a": "El límite depende de la memoria de tu dispositivo. Los dispositivos modernos manejan fácilmente varios megabytes de JSON."
+        }
+      ]
     },
     "case-converter": {
       "name": "Convertidor de Texto",
@@ -180,7 +476,33 @@
       "article": "<h2>¿Qué es el Convertidor de Texto (Case Converter)?</h2><p>El <strong>Convertidor de Texto</strong> es la solución ideal cuando copias un texto que está todo en mayúsculas (gritando) y necesitas formatearlo correctamente, o cuando necesitas estandarizar nombres propios y títulos rápidamente.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Pega o escribe el texto sin formato en la caja principal.</li><li>Selecciona el formato deseado en la parte superior: 'Minúsculas' (todo en letras pequeñas), 'Mayúsculas' (todo en letras grandes), 'Capitalizadas' (La Primera Letra De Cada Palabra En Mayúscula) o 'Alternadas' (aLtErNaDaS).</li><li>El resultado se genera instantáneamente a continuación.</li><li>Haz clic en el botón de 'Copiar' para transferir el texto corregido a tu portapapeles.</li></ol>",
       "seoTitle": "Convertidor de Mayúsculas y Minúsculas Online Gratis — ZeroTools",
       "seoDesc": "Convierte textos a MAYÚSCULAS, minúsculas, Primera Letra Mayúscula (Title Case) y más. Gratis, online y sin necesidad de registro.",
-      "keywords": "convertir texto mayusculas minusculas online, primera letra mayuscula, title case online, case converter, convertir texto online gratis, uppercase lowercase"
+      "keywords": "convertir texto mayusculas minusculas online, primera letra mayuscula, title case online, case converter, convertir texto online gratis, uppercase lowercase",
+      "whatIs": "El Convertidor de Texto es una herramienta gratuita que transforma texto entre diferentes formatos de letras instantáneamente. Convierte mayúsculas a minúsculas, crea Title Case, formatea variables en camelCase o snake_case — perfecto para escritores, desarrolladores y cualquier persona que trabaje con texto.",
+      "features": {
+        "interface": "Escribe o pega tu texto y ve todas las variaciones instantáneamente en tarjetas separadas, cada una con botón de copiar.",
+        "processing": "Las transformaciones ocurren en tiempo real usando operaciones JavaScript ligeras. Sin procesamiento en servidor.",
+        "options": "Convierte a MAYÚSCULAS, minúsculas, Title Case, Sentence case, camelCase, PascalCase, snake_case, kebab-case y aLtErNaNdO.",
+        "unlimited": "Sin límites de caracteres ni restricciones. Todo gratis.",
+        "security": "Tu texto nunca se envía a ningún servidor. Seguro para contenido confidencial."
+      },
+      "faq": [
+        {
+          "q": "¿Qué estilos se soportan?",
+          "a": "9 estilos: MAYÚSCULAS, minúsculas, Title Case, Sentence case, camelCase, PascalCase, snake_case, kebab-case y aLtErNaNdO."
+        },
+        {
+          "q": "¿Cuál es la diferencia entre camelCase y PascalCase?",
+          "a": "En camelCase la primera palabra es minúscula (miVariable). En PascalCase toda palabra empieza con mayúscula (MiVariable)."
+        },
+        {
+          "q": "¿Puedo usarlo para programación?",
+          "a": "¡Sí! Ideal para transformar nombres de variables, funciones y clases CSS entre convenciones de nomenclatura."
+        },
+        {
+          "q": "¿Hay límite de caracteres?",
+          "a": "No. Puedes pegar documentos enteros o archivos de código sin restricción."
+        }
+      ]
     },
     "base64": {
       "name": "Codificador Base64",
@@ -188,7 +510,33 @@
       "article": "<h2>¿Por qué usar el Codificador Base64?</h2><p>El <strong>Base64</strong> es un formato de codificación ampliamente utilizado por los desarrolladores para transmitir datos binarios (como imágenes o tokens de seguridad) en formatos de texto legibles a través de Internet, evitando rupturas de caracteres y corrupción en JSON o XML.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Selecciona la pestaña que define tu acción: 'Codificar' (texto normal a Base64) o 'Decodificar' (Base64 a texto normal).</li><li>Pega tu cadena de texto o el gigantesco código Base64 en la caja de entrada.</li><li>La conversión se realizará automáticamente. Si la cadena Base64 no es válida durante la decodificación, la herramienta no la convertirá, evitando que uses un código roto.</li><li>Haz clic en el botón 'Copiar' y tu código estará listo para usar.</li></ol>",
       "seoTitle": "Codificador y Decodificador Base64 Online Gratis — ZeroTools",
       "seoDesc": "Codifica y decodifica cadenas Base64 y archivos online. Compatible con texto e imágenes. Herramienta rápida para desarrolladores. 100% gratis y sin registro.",
-      "keywords": "codificador base64 online, decodificar base64, base64 encoder decoder gratis, convertir base64, encode base64 string, decode base64 text"
+      "keywords": "codificador base64 online, decodificar base64, base64 encoder decoder gratis, convertir base64, encode base64 string, decode base64 text",
+      "whatIs": "El Codificador/Decodificador Base64 es una herramienta gratuita para desarrolladores que necesitan codificar texto en Base64 o decodificar datos Base64. Es comúnmente usado para incrustar imágenes en HTML/CSS, codificar tokens de API y transmitir datos binarios en JSON.",
+      "features": {
+        "interface": "Alterna entre Codificar y Decodificar con un clic. Pega tu entrada y obtén resultados instantáneos.",
+        "processing": "La codificación y decodificación ocurren instantáneamente usando APIs nativas del navegador.",
+        "options": "Codifica texto a Base64, decodifica Base64 a texto, o codifica archivos directamente. Detecta automáticamente entradas inválidas.",
+        "unlimited": "Sin límites de caracteres, sin caps diarios, sin cuenta necesaria.",
+        "security": "Tus textos y tokens se procesan completamente en tu navegador. Esencial para datos sensibles como claves de API."
+      },
+      "faq": [
+        {
+          "q": "¿Qué es la codificación Base64?",
+          "a": "Es un esquema que convierte datos binarios en 64 caracteres ASCII imprimibles, usado para transmitir datos de forma segura en protocolos que solo manejan texto."
+        },
+        {
+          "q": "¿Cuándo debo usar Base64?",
+          "a": "Para incrustar imágenes en HTML/CSS, codificar tokens de autenticación, transmitir datos binarios en JSON y codificar adjuntos de correo."
+        },
+        {
+          "q": "¿Puedo codificar archivos?",
+          "a": "¡Sí! Usa el botón 'Desde Archivo' para seleccionar un archivo y convertirlo a Base64."
+        },
+        {
+          "q": "¿Qué pasa si la cadena Base64 es inválida?",
+          "a": "La herramienta valida automáticamente la entrada y muestra un mensaje de error en vez de producir salida corrupta."
+        }
+      ]
     },
     "word-counter": {
       "name": "Contador de Palabras",
@@ -196,7 +544,33 @@
       "article": "<h2>Conteo y Densidad de Palabras</h2><p>Más que solo contar caracteres para Twitter o ensayos escolares, el <strong>Contador de Palabras</strong> de ZeroTools calcula tu tiempo de lectura y extrae la densidad de palabras clave.</p><h3>Paso a paso de cómo usar:</h3><ol><li>Pega o escribe todo tu texto en la caja de texto central de la herramienta.</li><li>Los paneles superiores mostrarán inmediatamente el recuento total de Caracteres, Palabras, Frases y Párrafos.</li><li>El panel lateral informará el tiempo estimado para que una persona promedio lea ese texto.</li><li>En el panel inferior, analiza la lista de 'Palabras Más Usadas' (Densidad) para evitar repeticiones excesivas o enfocarte en el SEO.</li></ol>",
       "seoTitle": "Contador de Palabras y Caracteres Online Gratis — ZeroTools",
       "seoDesc": "Cuenta palabras, caracteres, frases y párrafos en cualquier texto. Calcula el tiempo de lectura y densidad de palabras clave para SEO. 100% gratis y online.",
-      "keywords": "contador de palabras online, contar caracteres online, contador de palabras gratis, cuantas palabras tiene mi texto, tiempo de lectura, word counter online"
+      "keywords": "contador de palabras online, contar caracteres online, contador de palabras gratis, cuantas palabras tiene mi texto, tiempo de lectura, word counter online",
+      "whatIs": "El Contador de Palabras es una herramienta gratuita que proporciona estadísticas instantáneas sobre cualquier texto. Cuenta palabras, caracteres, frases, párrafos y calcula el tiempo de lectura. El analizador de densidad de palabras clave ayuda a escritores, estudiantes y profesionales de SEO.",
+      "features": {
+        "interface": "Pega o escribe tu texto y ve las estadísticas actualizarse en tiempo real. Tarjetas muestran conteo de palabras, caracteres, frases, párrafos y tiempo de lectura.",
+        "processing": "El análisis ocurre instantáneamente en tu navegador mientras escribes. Sin procesamiento en servidor.",
+        "options": "Obtén conteo de palabras, caracteres (con y sin espacios), frases, párrafos, tiempo de lectura y análisis de densidad de palabras clave.",
+        "unlimited": "Sin límites de caracteres, sin caps diarios, sin cuenta necesaria.",
+        "security": "Tu texto se procesa completamente en tu navegador. Seguro para contenido confidencial."
+      },
+      "faq": [
+        {
+          "q": "¿Cómo se calcula el tiempo de lectura?",
+          "a": "Se basa en una velocidad promedio de 200-250 palabras por minuto."
+        },
+        {
+          "q": "¿Qué es la densidad de palabras clave?",
+          "a": "Muestra el porcentaje de frecuencia de palabras específicas. Para SEO, una densidad de 1-3% es generalmente óptima."
+        },
+        {
+          "q": "¿Cuenta caracteres especiales?",
+          "a": "Sí, incluye todos los caracteres. La cuenta 'sin espacios' excluye solo los espacios."
+        },
+        {
+          "q": "¿Puedo usarlo para análisis SEO?",
+          "a": "¡Sí! La densidad de palabras clave te ayuda a optimizar la frecuencia de tus keywords objetivo."
+        }
+      ]
     }
   },
   "bg_remover": {
@@ -461,5 +835,45 @@
     "p6": "Podemos actualizar esta política ocasionalmente. Los cambios se indicarán con una nueva fecha de última actualización en la parte superior.",
     "title7": "7. Contacto",
     "p7": "¿Preguntas? Envíanos un correo a <a href='mailto:HelloZeroTools@outlook.com'>HelloZeroTools@outlook.com</a>"
+  },
+  "home_faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre ZeroTools y cómo funcionan nuestras herramientas gratuitas en línea.",
+    "more_text": "¿Tienes más preguntas? Visita nuestra página completa de preguntas.",
+    "more_link": "Ver Todas las Preguntas →",
+    "faqs": [
+      {
+        "q": "¿Qué es ZeroTools y qué herramientas ofrecen?",
+        "a": "ZeroTools es una plataforma en línea gratuita con más de 14 utilidades basadas en el navegador para creadores, desarrolladores y profesionales del marketing. Nuestro kit incluye Generador de Código QR, Generador de Hashtags, Compresor de Imágenes, Eliminador de Fondo (con IA), Compresor de PDF, Convertidor de Archivos, Generador de Contraseñas, Generador de Paleta de Colores, Generador de Lorem Ipsum, Formateador JSON, Contador de Palabras, Convertidor de Texto, Codificador Base64 y más. Todo funciona 100% en tu navegador — sin registro, sin subidas, sin procesamiento en servidor."
+      },
+      {
+        "q": "¿Son realmente gratis todas las herramientas de ZeroTools?",
+        "a": "Sí, todas las herramientas de ZeroTools son completamente gratuitas — para siempre. No hay planes premium ocultos, no es necesario crear una cuenta ni se requiere tarjeta de crédito. Mantenemos la plataforma funcionando a través de publicidad no intrusiva (Google AdSense), lo que nos permite mantener todas las funciones accesibles para todos sin ninguna limitación."
+      },
+      {
+        "q": "¿Es seguro usarlo? ¿Mis archivos se suben a un servidor?",
+        "a": "Totalmente seguro. ZeroTools está diseñado con una arquitectura de privacidad primero. Todo el procesamiento ocurre localmente en tu navegador usando Web APIs modernas como Canvas, WebAssembly y FileReader. Tus imágenes, PDFs, contraseñas y textos nunca salen de tu dispositivo. Tenemos cero acceso a tus archivos — nunca se suben, almacenan ni transmiten a ningún servidor."
+      },
+      {
+        "q": "¿Cómo funciona el procesamiento en el navegador (client-side)?",
+        "a": "En lugar de enviar tus archivos a un servidor remoto para procesarlos, ZeroTools aprovecha la potencia de cómputo de tu propio dispositivo. Tecnologías como la API Canvas de HTML5 (para manipulación de imágenes), WebAssembly (para la eliminación de fondos con IA) y la API de Archivos de JavaScript (para leer y convertir archivos) permiten que todas las operaciones se ejecuten completamente dentro de tu navegador web. Esto significa resultados instantáneos, privacidad total y sin dependencia de la velocidad de internet para el procesamiento."
+      },
+      {
+        "q": "¿Puedo usar ZeroTools en mi móvil o tablet?",
+        "a": "¡Sí! Todas las herramientas de ZeroTools están construidas con un diseño totalmente responsivo y funcionan perfectamente en teléfonos inteligentes (iPhone, Android), tabletas (iPad) y computadoras de escritorio. Simplemente abre myzerotools.online en el navegador de tu móvil (Chrome, Safari, Firefox) y comienza a usar cualquier herramienta. Nota: algunas herramientas pesadas como el Eliminador de Fondo con IA pueden funcionar más lento en dispositivos más antiguos."
+      },
+      {
+        "q": "¿Qué formatos de imagen soporta ZeroTools?",
+        "a": "Nuestras herramientas de imagen soportan una amplia variedad de formatos. El Compresor de Imágenes acepta archivos JPG, PNG, GIF, BMP y WebP, con opciones de salida para JPEG, PNG y WebP. El Convertidor de Archivos permite alternar entre JPG, PNG, WebP, GIF y BMP. El Recortador de Imágenes funciona con archivos JPG y PNG y exporta a JPG, PNG o WebP. El Eliminador de Fondo acepta JPG y PNG y siempre genera un PNG transparente."
+      },
+      {
+        "q": "¿Muestran anuncios en el sitio web?",
+        "a": "Sí, ZeroTools utiliza Google AdSense para mostrar banners publicitarios no intrusivos. Así es como mantenemos todas las herramientas gratuitas para todos los usuarios. Posicionamos cuidadosamente los anuncios para que no interfieran con tu flujo de trabajo. Los anuncios nunca cubren tus herramientas, nunca reproducen audio automáticamente y nunca bloquean tus resultados."
+      },
+      {
+        "q": "¿Cómo puedo reportar un error o sugerir una nueva herramienta?",
+        "a": "¡Nos encanta escuchar a nuestros usuarios! Si encontraste un error, tienes una solicitud de funcionalidad o quieres sugerir una nueva herramienta, envíanos un correo electrónico a HelloZeroTools@outlook.com. Leemos todos los mensajes y normalmente respondemos en 24 horas. Tus comentarios dan forma directamente al futuro de ZeroTools."
+      }
+    ]
   }
 }
