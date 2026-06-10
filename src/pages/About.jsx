@@ -28,27 +28,49 @@ export default function About() {
 
           <h1 style={{fontSize: '2.5rem', marginBottom: '24px'}}>{t('about.title', 'About ZeroTools')}</h1>
 
-          <div className="card" style={{padding: '32px', marginBottom: '32px', lineHeight: '1.8'}}>
-            <h2 style={{marginBottom: '16px', color: 'var(--clr-brand)'}}>{t('about.mission_title', 'Our Mission')}</h2>
-            <p style={{marginBottom: '24px', color: 'var(--clr-text-2)'}}>
-              {t('about.mission_desc')}
-            </p>
+          <article className="card" style={{padding: '32px', marginBottom: '32px', lineHeight: '1.8'}}>
+            <section>
+              <h2 style={{marginBottom: '16px', color: 'var(--clr-brand)'}}>{t('about.mission_title', 'Our Mission')}</h2>
+              <p style={{marginBottom: '24px', color: 'var(--clr-text-2)'}}>
+                {t('about.mission_desc')}
+              </p>
+            </section>
 
-            <h2 style={{marginBottom: '16px', color: 'var(--clr-brand)'}}>{t('about.privacy_title', '100% Client-Side Processing')}</h2>
-            <p style={{marginBottom: '24px', color: 'var(--clr-text-2)'}}>
-              {t('about.privacy_desc')}
-            </p>
+            <section>
+              <h2 style={{marginBottom: '16px', color: 'var(--clr-brand)'}}>{t('about.history_title', 'Our Story')}</h2>
+              <p style={{marginBottom: '24px', color: 'var(--clr-text-2)'}}>
+                {t('about.history_desc')}
+              </p>
+            </section>
 
-            <h2 style={{marginBottom: '16px', color: 'var(--clr-brand)'}}>{t('about.free_title', 'Free for Everyone')}</h2>
-            <p style={{marginBottom: '24px', color: 'var(--clr-text-2)'}}>
-              {t('about.free_desc')}
-            </p>
+            <section>
+              <h2 style={{marginBottom: '16px', color: 'var(--clr-brand)'}}>{t('about.privacy_title', '100% Client-Side Processing')}</h2>
+              <p style={{marginBottom: '24px', color: 'var(--clr-text-2)'}}>
+                {t('about.privacy_desc')}
+              </p>
+            </section>
 
-            <h2 style={{marginBottom: '16px', color: 'var(--clr-brand)'}}>{t('about.contact_title', 'Get in Touch')}</h2>
-            <p style={{color: 'var(--clr-text-2)'}}>
-              {t('about.contact_desc')} <a href="mailto:HelloZeroTools@outlook.com" style={{color: 'var(--clr-brand)', fontWeight: 'bold'}}>HelloZeroTools@outlook.com</a>.
-            </p>
-          </div>
+            <section>
+              <h2 style={{marginBottom: '16px', color: 'var(--clr-brand)'}}>{t('about.tech_title', 'Our Technology')}</h2>
+              <p style={{marginBottom: '24px', color: 'var(--clr-text-2)'}}>
+                {t('about.tech_desc')}
+              </p>
+            </section>
+
+            <section>
+              <h2 style={{marginBottom: '16px', color: 'var(--clr-brand)'}}>{t('about.free_title', 'Free for Everyone')}</h2>
+              <p style={{marginBottom: '24px', color: 'var(--clr-text-2)'}}>
+                {t('about.free_desc')}
+              </p>
+            </section>
+
+            <section>
+              <h2 style={{marginBottom: '16px', color: 'var(--clr-brand)'}}>{t('about.contact_title', 'Get in Touch')}</h2>
+              <p style={{color: 'var(--clr-text-2)'}}>
+                {t('about.contact_desc')} <a href="mailto:HelloZeroTools@outlook.com" style={{color: 'var(--clr-brand)', fontWeight: 'bold'}}>HelloZeroTools@outlook.com</a>.
+              </p>
+            </section>
+          </article>
 
           <AdSlot slot="In-Article Banner" />
         </div>
@@ -56,3 +78,4 @@ export default function About() {
     </>
   );
 }
+

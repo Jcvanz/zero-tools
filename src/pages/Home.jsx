@@ -89,6 +89,12 @@ export default function Home() {
             ))}
           </div>
 
+          {/* Intro text for SEO */}
+          <section className="intro-section" aria-labelledby="intro-heading" style={{maxWidth: '800px', margin: '0 auto 40px', textAlign: 'center'}}>
+            <h2 id="intro-heading" className="section-title" style={{fontSize: '1.5rem', marginBottom: '16px'}}>{t('home.intro_title')}</h2>
+            <p style={{color: 'var(--clr-text-2)', lineHeight: '1.8', fontSize: '1rem'}}>{t('home.intro_text')}</p>
+          </section>
+
           {/* Category pills */}
           <div className="category-row" role="tablist" aria-label="Filter tools by category">
             {categories.map(cat => (
