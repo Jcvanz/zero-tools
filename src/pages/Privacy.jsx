@@ -3,8 +3,10 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import '../css/privacy.css';
 
+const SECTIONS = Array.from({ length: 12 }, (_, i) => i + 1);
+
 export default function Privacy() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const year = new Date().getFullYear();
   return (
     <>
@@ -12,40 +14,41 @@ export default function Privacy() {
         <title>{t('privacy.title')} — ZeroTools</title>
         <meta name="description" content={t('privacy.meta_desc')} />
         <link rel="canonical" href="https://myzerotools.online/privacy" />
+        <meta property="og:title" content={`${t('privacy.title')} — ZeroTools`} />
+        <meta property="og:description" content={t('privacy.meta_desc')} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://myzerotools.online/privacy" />
       </Helmet>
 
       <main className="main-content" style={{padding:'60px 0 80px'}}>
         <div className="container">
-          <div className="privacy-wrap">
-            <Link to="/" className="back-link">{t('privacy.back')}</Link>
+          <article className="privacy-wrap">
+            <nav className="breadcrumb" aria-label="Breadcrumb">
+              <Link to="/">{t('header.home')}</Link>
+              <span aria-hidden="true">/</span>
+              <span>{t('header.privacy', 'Privacidade')}</span>
+            </nav>
+
             <h1>{t('privacy.title')}</h1>
             <p className="updated">{t('privacy.updated', { year })}</p>
 
             <p dangerouslySetInnerHTML={{ __html: t('privacy.intro') }} />
 
-            <h2>{t('privacy.title1')}</h2>
-            <p dangerouslySetInnerHTML={{ __html: t('privacy.p1') }} />
-
-            <h2>{t('privacy.title2')}</h2>
-            <p dangerouslySetInnerHTML={{ __html: t('privacy.p2') }} />
-
-            <h2>{t('privacy.title3')}</h2>
-            <p dangerouslySetInnerHTML={{ __html: t('privacy.p3') }} />
-
-            <h2>{t('privacy.title4')}</h2>
-            <p dangerouslySetInnerHTML={{ __html: t('privacy.p4') }} />
-
-            <h2>{t('privacy.title5')}</h2>
-            <p dangerouslySetInnerHTML={{ __html: t('privacy.p5') }} />
-
-            <h2>{t('privacy.title6')}</h2>
-            <p dangerouslySetInnerHTML={{ __html: t('privacy.p6') }} />
-
-            <h2>{t('privacy.title7')}</h2>
-            <p dangerouslySetInnerHTML={{ __html: t('privacy.p7') }} />
-          </div>
+            {SECTIONS.map(n => {
+              const titleKey = `privacy.title${n}`;
+              const pKey = `privacy.p${n}`;
+              if (!i18n.exists(titleKey)) return null;
+              return (
+                <section key={n}>
+                  <h2>{t(titleKey)}</h2>
+                  <p dangerouslySetInnerHTML={{ __html: t(pKey) }} />
+                </section>
+              );
+            })}
+          </article>
         </div>
       </main>
     </>
   );
 }
+

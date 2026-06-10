@@ -1,9 +1,7 @@
 {
   "version": 2,
   "cleanUrls": true,
-  "rewrites": [
-    { "source": "/((?!.*\\.).*)", "destination": "/index.html" }
-  ],
+  "trailingSlash": false,
   "headers": [
     {
       "source": "/(.*).(js|css|webp|png|jpg|jpeg|svg|wasm)",
@@ -14,5 +12,8 @@
         }
       ]
     }
+  ],
+  "rewrites": [
+    { "source": "/((?!.*\\.).*)", "destination": "/index.html" }
   ]
 }

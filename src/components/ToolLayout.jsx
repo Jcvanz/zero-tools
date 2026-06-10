@@ -104,7 +104,7 @@ export default function ToolLayout({ tool, children, seo = {} }) {
           )}
 
           {/* SEO Content Block */}
-          <div className="tool-seo-content fade-up" style={{ marginTop: '48px', padding: '32px', backgroundColor: 'var(--clr-surface)', borderRadius: '16px', border: '1px solid var(--clr-border)' }}>
+          <article className="tool-seo-content fade-up" style={{ marginTop: '48px', padding: '32px', backgroundColor: 'var(--clr-surface)', borderRadius: '16px', border: '1px solid var(--clr-border)' }}>
 
             {/* Section 1: What is this tool */}
             {i18n.exists(`tools.${tool.id}.whatIs`) && (
@@ -166,7 +166,7 @@ export default function ToolLayout({ tool, children, seo = {} }) {
                 </div>
               </div>
             )}
-          </div>
+          </article>
 
           {/* FAQ Schema for rich snippets */}
           {Array.isArray(toolFaqs) && toolFaqs.length > 0 && (

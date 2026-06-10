@@ -32,6 +32,8 @@
     "why_4_title": "Works Everywhere",
     "why_4_desc": "Fully responsive design. Use ZeroTools on desktop, tablet, or mobile — anywhere, anytime.",
     "popular_title": "Most Popular Tools",
+    "intro_title": "Your Complete Free Online Toolbox",
+    "intro_text": "ZeroTools is a free online platform that brings together 14+ powerful utilities for content creators, developers, designers, and digital marketers. From image compression and PDF optimization to custom QR code generation, social media hashtags, and secure password creation — everything works directly in your browser with no software to install, no accounts to create, and no files uploaded to external servers. Our client-side processing technology ensures that your photos, documents, and data never leave your device, providing absolute privacy. All tools are optimized to work on any device — desktop, tablet, or mobile — delivering instant results with zero wait times. Explore our categories below and discover how ZeroTools can simplify your daily workflow.",
     "categories": {
       "All": "All",
       "Social Media": "Social Media",
@@ -48,16 +50,20 @@
     }
   },
   "about": {
-    "title": "About Us",
-    "meta_desc": "Learn more about ZeroTools, our mission, and our commitment to 100% private, client-side web tools.",
+    "title": "About ZeroTools",
+    "meta_desc": "Learn about ZeroTools: our mission, history, and commitment to 100% private, free web tools that process everything in your browser.",
     "mission_title": "Our Mission",
-    "mission_desc": "ZeroTools was created with a simple philosophy: web utilities should be fast, free, and absolutely private. We believe you shouldn't have to upload your personal images, documents, or data to unknown servers just to convert a file or remove a background.",
-    "privacy_title": "100% Client-Side Processing",
-    "privacy_desc": "To achieve our mission, we leverage modern Web APIs and WebAssembly. Every single tool on this platform runs entirely inside your browser. When you compress a PDF or crop an image, your device's processor does the work. Your files never leave your computer, ensuring zero risk of data leaks.",
-    "free_title": "Free for Everyone",
-    "free_desc": "We don't believe in paywalls, premium tiers, or forcing users to create accounts. ZeroTools is completely free to use. To keep the servers running and domain active, we rely on non-intrusive advertisements.",
+    "mission_desc": "ZeroTools was born with a clear and non-negotiable philosophy: online tools should be fast, free, and absolutely private. We firmly believe that no user should ever need to upload their personal photos, confidential documents, or sensitive data to unknown servers just to compress an image, generate a QR code, or remove a photo background. That's why we built every single tool to run entirely in the user's browser, with zero data transferred over the internet.",
+    "history_title": "Our Story",
+    "history_desc": "ZeroTools started as a personal project by a developer passionate about digital privacy and open-source software. Frustrated by the lack of free and secure alternatives for simple everyday tasks — like compressing heavy PDFs, generating secure passwords, or converting image formats — they decided to create a platform that brings all these utilities together in one place, without requiring signups, without storing data, and without charging anything. Since launch, ZeroTools has processed over 1 million files and continues to grow with new tools being added regularly.",
+    "privacy_title": "100% Browser-Side Processing",
+    "privacy_desc": "To achieve our mission of total privacy, we leverage cutting-edge web technologies including HTML5 Canvas API, JavaScript FileReader, Web Crypto API, and WebAssembly. Every tool on the platform runs entirely inside your browser. When you compress a PDF, crop an image, or remove a background with AI, your own device's processor does all the work. Your files never leave your computer or phone, completely eliminating any risk of data leaks or interception.",
+    "tech_title": "Our Technology",
+    "tech_desc": "ZeroTools is built with React, one of the most modern and robust JavaScript frameworks available. We use WebAssembly for heavy tasks like AI-powered background removal, the HTML5 Canvas API for image manipulation and compression, the pdf-lib library for PDF processing, and the Web Crypto API for cryptographic password generation. The result is tools that are as fast and powerful as desktop applications, but accessible from any browser without installing anything.",
+    "free_title": "Free for Everyone, Always",
+    "free_desc": "We don't believe in freemium models, hidden premium tiers, or features locked behind paywalls. ZeroTools is and always will be completely free for every user. We don't require account creation, email addresses, credit cards, or any type of registration. To keep the platform online and cover domain and hosting costs, we use non-intrusive advertisements via Google AdSense, strategically positioned to never interfere with your workflow.",
     "contact_title": "Get in Touch",
-    "contact_desc": "Have a suggestion for a new tool? Found a bug? We would love to hear from you. Reach out to us at"
+    "contact_desc": "Have a suggestion for a new tool? Found a bug? Want to collaborate on the project? We'd love to hear from you. We're always open to feedback and suggestions from our user community. Reach out to us at"
   },
   "tool_layout": {
     "about": "About the",
@@ -423,18 +429,105 @@
     },
     "pomodoro": {
       "name": "Pomodoro Timer",
-      "desc": "Focus timer for work and study. 25-min focus blocks.",
-      "article": "<h2>How does the Pomodoro Timer help?</h2><p>The <strong>Pomodoro Timer</strong> uses the famous technique of focusing intensely for a period (usually 25 minutes) and resting for a short time (5 minutes) to avoid mental burnout and increase productivity in studies and work.</p><h3>Step-by-step how to use:</h3><ol><li>Click the large 'Start' button on the screen to begin the 25-minute focus session.</li><li>Work intensely on your task without distractions until the counter reaches zero.</li><li>When the alarm rings, the tab will automatically change to 'Short Break' (5 minutes).</li><li>Use this time to stretch, drink water, and rest your mind.</li><li>After 4 complete focus cycles, allow yourself a 'Long Break' of 15 minutes (selectable in the top menu).</li></ol>"
+      "desc": "Focus timer for work and study. 25-min focus blocks with short and long breaks.",
+      "article": "<h2>How does the Pomodoro Timer help?</h2><p>The <strong>Pomodoro Timer</strong> uses the famous technique of focusing intensely for a period (usually 25 minutes) and resting for a short time (5 minutes) to avoid mental burnout and increase productivity in studies and work.</p><h3>Step-by-step how to use:</h3><ol><li>Click the large 'Start' button on the screen to begin the 25-minute focus session.</li><li>Work intensely on your task without distractions until the counter reaches zero.</li><li>When the alarm rings, the tab will automatically change to 'Short Break' (5 minutes).</li><li>Use this time to stretch, drink water, and rest your mind.</li><li>After 4 complete focus cycles, allow yourself a 'Long Break' of 15 minutes (selectable in the top menu).</li></ol>",
+      "seoTitle": "Free Pomodoro Timer Online — Focus Timer for Work & Study",
+      "seoDesc": "Use the free Pomodoro Timer to boost your productivity. 25-minute focus blocks with short and long breaks. No signup, no downloads, works in your browser.",
+      "keywords": "pomodoro timer online free, focus timer, study timer, productivity timer, 25 minute timer, pomodoro technique, work timer free",
+      "whatIs": "The Pomodoro Timer is a free online productivity tool based on the Pomodoro Technique, a time management method developed by Francesco Cirillo in the late 1980s. The technique uses a timer to break work into focused intervals (traditionally 25 minutes), separated by short 5-minute breaks. After completing four focus cycles, you take a longer 15-minute break. This rhythm of focused work and intentional rest has been scientifically proven to improve concentration, reduce mental fatigue, and increase overall productivity for students, professionals, and creative workers.",
+      "features": {
+        "interface": "A clean, distraction-free interface with a large countdown timer, start/pause/reset controls, and visual indicators for Focus, Short Break, and Long Break modes. The timer is designed to keep you focused without unnecessary clutter.",
+        "processing": "The timer runs entirely in your browser using JavaScript intervals. No server connection is needed — the timer continues running even if you lose internet connectivity. Audio notifications alert you when each phase ends.",
+        "options": "Switch between three modes: Focus (25 minutes), Short Break (5 minutes), and Long Break (15 minutes). The timer automatically transitions between modes, helping you maintain the Pomodoro rhythm throughout your work session.",
+        "unlimited": "Use the Pomodoro Timer as many times as you need, for as many sessions as you want. There are no usage limits, no account required, and no premium features locked behind a paywall.",
+        "security": "The timer runs 100% locally in your browser. No data about your sessions, focus times, or work habits is collected, tracked, or sent to any server."
+      },
+      "faq": [
+        {
+          "q": "What is the Pomodoro Technique?",
+          "a": "The Pomodoro Technique is a time management method that uses a timer to break work into intervals of 25 minutes (called 'pomodoros'), separated by 5-minute short breaks. After four pomodoros, you take a longer 15-minute break. It was created by Francesco Cirillo in the 1980s and is widely used by students and professionals worldwide."
+        },
+        {
+          "q": "Why does the technique use 25-minute intervals?",
+          "a": "Research shows that 25 minutes is long enough to make meaningful progress on a task, but short enough to maintain intense focus without mental fatigue. The regular breaks prevent burnout and help your brain consolidate information."
+        },
+        {
+          "q": "Can I customize the timer durations?",
+          "a": "The current version uses the standard Pomodoro intervals: 25 minutes for focus, 5 minutes for short breaks, and 15 minutes for long breaks. These are the scientifically recommended durations for optimal productivity."
+        },
+        {
+          "q": "Does the timer work if I switch browser tabs?",
+          "a": "Yes! The timer continues running in the background even when you switch tabs or minimize the browser. You'll hear an audio notification when the timer completes, so you never miss a transition between focus and break periods."
+        }
+      ]
     },
     "roi-calculator": {
       "name": "ROI Calculator",
-      "desc": "Calculate Return on Investment for marketing and business.",
-      "article": "<h2>What is ROI Calculation?</h2><p>The <strong>ROI Calculator</strong> (Return on Investment) is essential for investors and business owners to know the exact percentage and financial profit of a marketing campaign, stock share, or real estate purchase.</p><h3>Step-by-step how to use:</h3><ol><li>In the 'Initial Investment' field, enter how much money you spent on the action (e.g., 1000).</li><li>In the 'Total Return' field, enter how much money you received back from that action (e.g., 1500).</li><li>The result panels at the bottom of the screen will update automatically.</li><li>You will see your Net Profit (final value minus initial value) and the ROI Percentage.</li><li>Analyze if the profit bar turned green (profit) or red (loss) to make better decisions.</li></ol>"
+      "desc": "Calculate Return on Investment for marketing, business, and financial decisions.",
+      "article": "<h2>What is ROI Calculation?</h2><p>The <strong>ROI Calculator</strong> (Return on Investment) is essential for investors and business owners to know the exact percentage and financial profit of a marketing campaign, stock share, or real estate purchase.</p><h3>Step-by-step how to use:</h3><ol><li>In the 'Initial Investment' field, enter how much money you spent on the action (e.g., 1000).</li><li>In the 'Total Return' field, enter how much money you received back from that action (e.g., 1500).</li><li>The result panels at the bottom of the screen will update automatically.</li><li>You will see your Net Profit (final value minus initial value) and the ROI Percentage.</li><li>Analyze if the profit bar turned green (profit) or red (loss) to make better decisions.</li></ol>",
+      "seoTitle": "Free ROI Calculator Online — Calculate Return on Investment Instantly",
+      "seoDesc": "Calculate your Return on Investment (ROI) for marketing campaigns, business investments, and financial decisions. Free, instant results, no signup required.",
+      "keywords": "roi calculator free, return on investment calculator, marketing roi calculator, calculate roi online, investment roi, business roi calculator",
+      "whatIs": "The ROI Calculator is a free online tool that helps investors, business owners, marketers, and financial professionals calculate the exact return on their investments. By entering your initial investment amount and total return, the tool instantly computes your net profit, ROI percentage, and provides a visual indicator showing whether your investment was profitable or resulted in a loss. It's essential for evaluating marketing campaigns, stock investments, real estate deals, and any business decision involving capital allocation.",
+      "features": {
+        "interface": "Enter your initial investment and total return in clearly labeled input fields. Results update in real-time with visual profit/loss indicators. The clean dashboard shows net profit, ROI percentage, and a color-coded bar chart for instant comprehension.",
+        "processing": "All calculations happen instantly in your browser using simple JavaScript arithmetic. No data is sent to any server, and results appear in milliseconds as you type.",
+        "options": "Calculate ROI for any type of investment — marketing campaigns, stock purchases, real estate, business expenses, advertising spend, or educational investments. The tool works with any currency and any amount.",
+        "unlimited": "Calculate ROI as many times as you need with no restrictions. Compare different investment scenarios, run multiple calculations, and make data-driven decisions. No account or signup required.",
+        "security": "Your financial data is processed entirely in your browser. Investment amounts, returns, and calculations are never transmitted to any server, keeping your financial information completely private."
+      },
+      "faq": [
+        {
+          "q": "How is ROI calculated?",
+          "a": "ROI is calculated using the formula: ROI = ((Total Return - Initial Investment) / Initial Investment) × 100. For example, if you invested $1,000 and received $1,500 back, your ROI would be ((1500 - 1000) / 1000) × 100 = 50%."
+        },
+        {
+          "q": "What is a good ROI percentage?",
+          "a": "A 'good' ROI depends on the context. For stock market investments, 7-10% annually is considered average. For marketing campaigns, 5:1 (500% ROI) is considered strong. For business investments, anything above 15-20% is generally considered good."
+        },
+        {
+          "q": "Can I use this for marketing campaign ROI?",
+          "a": "Absolutely! Enter your total marketing spend as the Initial Investment and the revenue generated from that campaign as the Total Return. The tool will show you the exact ROI of your marketing efforts."
+        },
+        {
+          "q": "Does the calculator account for time periods?",
+          "a": "The current calculator provides a simple ROI based on total investment and total return. For annualized ROI calculations across different time periods, divide your result by the number of years the investment was held."
+        }
+      ]
     },
     "discount-calculator": {
       "name": "Discount Calculator",
-      "desc": "Quickly calculate sale prices and percentage discounts.",
-      "article": "<h2>What is the Discount Calculator?</h2><p>The <strong>Discount Calculator</strong> is an essential tool for consumers, sellers, and students who need to quickly calculate the final price of a product after a percentage discount, or determine what percentage discount was received on a purchase. Whether during Black Friday, e-commerce promotions, or closing a deal, knowing how to accurately calculate discounts can represent real savings.</p><h3>Step-by-step how to use:</h3><ol><li>In the 'Original Price' field, enter the full price of the product before the discount (e.g., 250).</li><li>In the '% Discount' field, enter the percentage to be discounted (e.g., 30 for 30%).</li><li>The results will be displayed instantly: the discount amount and the final price to pay.</li><li>Use the reverse mode 'Calculate Percentage' to find out what the discount percentage was when comparing two prices.</li></ol><h3>Why use a discount calculator?</h3><p>Doing percentage calculations in your head is error-prone. Our calculator ensures instant accuracy, preventing you from paying more than you should or selling below your desired profit margin. Ideal for comparing prices between stores and detecting fake discounts.</p>"
+      "desc": "Quickly calculate sale prices, percentage discounts, and savings for shopping.",
+      "article": "<h2>What is the Discount Calculator?</h2><p>The <strong>Discount Calculator</strong> is an essential tool for consumers, sellers, and students who need to quickly calculate the final price of a product after a percentage discount, or determine what percentage discount was received on a purchase. Whether during Black Friday, e-commerce promotions, or closing a deal, knowing how to accurately calculate discounts can represent real savings.</p><h3>Step-by-step how to use:</h3><ol><li>In the 'Original Price' field, enter the full price of the product before the discount (e.g., 250).</li><li>In the '% Discount' field, enter the percentage to be discounted (e.g., 30 for 30%).</li><li>The results will be displayed instantly: the discount amount and the final price to pay.</li><li>Use the reverse mode 'Calculate Percentage' to find out what the discount percentage was when comparing two prices.</li></ol><h3>Why use a discount calculator?</h3><p>Doing percentage calculations in your head is error-prone. Our calculator ensures instant accuracy, preventing you from paying more than you should or selling below your desired profit margin. Ideal for comparing prices between stores and detecting fake discounts.</p>",
+      "seoTitle": "Free Discount Calculator Online — Calculate Sale Prices & Savings",
+      "seoDesc": "Calculate discounts, sale prices, and savings instantly. Find the final price after any percentage discount. Free, no signup, works in your browser.",
+      "keywords": "discount calculator free, sale price calculator, percentage discount calculator, calculate savings, price after discount, shopping discount calculator",
+      "whatIs": "The Discount Calculator is a free online tool that helps shoppers, sellers, and students quickly calculate the final price of a product after applying a percentage discount. Enter the original price and discount percentage, and the tool instantly shows you the discount amount, final price, and total savings. It's perfect for Black Friday shopping, comparing prices between stores, calculating markdowns for retail, and verifying that advertised discounts are real.",
+      "features": {
+        "interface": "Simple, focused interface with two input fields — original price and discount percentage. Results update in real-time as you type, showing the discount amount, final price, and savings percentage in a clear, visual format.",
+        "processing": "All calculations happen instantly in your browser with zero delay. No server requests are made, and results appear in milliseconds. Perfect for quick calculations while shopping online or in stores.",
+        "options": "Calculate the final price after a percentage discount, or reverse-calculate the discount percentage from two prices. Works with any currency and any amount. Supports decimal percentages for precise calculations.",
+        "unlimited": "Use the calculator as many times as you need — no limits, no account required, and no ads covering your results. Compare multiple products and discounts without restrictions.",
+        "security": "Your pricing data is processed entirely in your browser. No financial information, product prices, or calculations are ever sent to any server or stored anywhere."
+      },
+      "faq": [
+        {
+          "q": "How do I calculate a percentage discount?",
+          "a": "To calculate a discount, multiply the original price by the discount percentage and divide by 100. For example, 30% off a $200 item: (200 × 30) / 100 = $60 discount. Final price: $200 - $60 = $140. Our calculator does this instantly for you."
+        },
+        {
+          "q": "Can I calculate the discount percentage from two prices?",
+          "a": "Yes! Use the reverse mode to enter the original price and the sale price. The tool will automatically calculate what percentage discount was applied. This is useful for verifying advertised discounts."
+        },
+        {
+          "q": "Does the calculator work with any currency?",
+          "a": "Yes, the calculator works with pure numbers, so it's compatible with any currency — USD, EUR, BRL, GBP, JPY, or any other. Simply enter the price value and the percentage, and the math works the same regardless of currency."
+        },
+        {
+          "q": "How can I detect fake discounts?",
+          "a": "Use the calculator to verify that the advertised 'sale price' matches the stated discount percentage. Enter the original price and discount percentage — if the result doesn't match the store's sale price, the discount may be misleading."
+        }
+      ]
     },
     "json-formatter": {
       "name": "JSON Formatter",
@@ -817,24 +910,34 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "meta_desc": "ZeroTools Privacy Policy. We do not collect your files. All processing happens in your browser.",
+    "meta_desc": "ZeroTools Privacy Policy (GDPR Compliant). Learn how we protect your data: no files are collected, all processing happens locally in your browser.",
     "back": "← Back to ZeroTools",
-    "updated": "Last updated: May 1, {{year}}",
-    "intro": "ZeroTools ('we', 'us', 'our') operates myzerotools.online. This page describes how we handle information when you use our free online tools.",
-    "title1": "1. No File Data Collection",
-    "p1": "All image processing, PDF operations, and text transformations run <strong>entirely in your browser</strong> using Web APIs (Canvas, WebAssembly, FileReader). Your files and data are <strong>never uploaded to our servers</strong>. We cannot access, view, or store anything you process.",
-    "title2": "2. Analytics Data",
-    "p2": "We use Google Analytics 4 to understand aggregate usage patterns. This collects anonymized data including browser type, approximate location (country/city), pages visited, and session duration. This data cannot identify you personally.",
-    "title3": "3. Google AdSense",
-    "p3": "We display ads via Google AdSense. Google may use cookies to serve personalized ads based on your browsing history. You can opt out at <a href='https://www.google.com/settings/ads' target='_blank' rel='noopener'>Google Ads Settings</a>.",
-    "title4": "4. Cookies",
-    "p4": "We only use cookies through third-party services (Google Analytics, AdSense). We do not set first-party cookies for tracking.",
-    "title5": "5. Childrens Privacy",
-    "p5": "ZeroTools is not directed to children under 13. We do not knowingly collect personal information from children.",
-    "title6": "6. Changes",
-    "p6": "We may update this policy occasionally. Changes will be noted with a new last updated date at the top of this page.",
-    "title7": "7. Contact",
-    "p7": "Questions? Email us at <a href='mailto:HelloZeroTools@outlook.com'>HelloZeroTools@outlook.com</a>"
+    "updated": "Last updated: June 1, {{year}}",
+    "intro": "ZeroTools (\"we\", \"us\", \"our platform\") operates the website <strong>myzerotools.online</strong>. This Privacy Policy aims to clearly and transparently inform you how we handle information from visitors and users of our free online tools platform, in compliance with the <strong>General Data Protection Regulation (GDPR — EU 2016/679)</strong> and applicable privacy laws. By using our website, you agree to the practices described in this document.",
+    "title1": "1. Data Controller",
+    "p1": "The data controller for personal data processed on this website is ZeroTools, operated by an individual based in Brazil. For any questions related to privacy or the processing of your personal data, please contact us at <a href='mailto:HelloZeroTools@outlook.com'>HelloZeroTools@outlook.com</a>. We are committed to responding to all requests within 15 business days, as required by applicable legislation.",
+    "title2": "2. No File or User Data Collection",
+    "p2": "ZeroTools is designed with a <strong>Privacy by Design</strong> architecture. All of our tools — including the Image Compressor, AI Background Remover, PDF Compressor, QR Code Generator, Password Generator, and all others — process your files and data <strong>entirely within your browser</strong>, using technologies such as HTML5 Canvas API, JavaScript FileReader API, and WebAssembly. Your files (images, PDFs, text, passwords) are <strong>never uploaded, transferred, or stored on our servers</strong>. We have no technical access to the content you process, and no data is transmitted over the internet during tool usage. All processing occurs locally on your device, ensuring absolute privacy.",
+    "title3": "3. Analytics Data (Google Analytics 4)",
+    "p3": "We use <strong>Google Analytics 4 (GA4)</strong> to understand aggregate usage patterns on our website. GA4 automatically collects anonymized, non-identifiable data including: browser type and version, operating system, screen resolution, approximate location (city and country, without exact address), pages visited and session duration, and traffic source (organic search, social media, direct access). This data is processed by Google LLC in aggregate form and is not used to identify individual users. You can opt out of Google Analytics data collection by installing the <a href='https://tools.google.com/dlpage/gaoptout' target='_blank' rel='noopener'>Google Analytics Opt-out Browser Add-on</a>.",
+    "title4": "4. Advertising (Google AdSense)",
+    "p4": "We display advertisements through <strong>Google AdSense</strong> to keep ZeroTools free for all users. Google AdSense may use cookies and device identifiers to display personalized ads based on your browsing history across various websites. Ads are positioned so as not to interfere with tool usage. You can manage your personalized ad preferences or disable them entirely at <a href='https://www.google.com/settings/ads' target='_blank' rel='noopener'>Google Ads Settings</a>. For more information about how Google uses data from partner sites, visit <a href='https://policies.google.com/technologies/partner-sites' target='_blank' rel='noopener'>Google Privacy Policies</a>.",
+    "title5": "5. Cookies and Tracking Technologies",
+    "p5": "ZeroTools <strong>does not set first-party cookies</strong> for user tracking. The only cookies present on our site are set by third-party services: <strong>Google Analytics</strong> (_ga, _gid cookies — for traffic analysis) and <strong>Google AdSense</strong> (advertising cookies — for ad personalization). You can control and delete cookies at any time through your browser settings. Disabling cookies may affect ad display but will not impact the functionality of ZeroTools, as our tools do not depend on cookies to operate.",
+    "title6": "6. Your Rights as a Data Subject (GDPR)",
+    "p6": "In compliance with the GDPR, you have the following rights regarding your personal data: <strong>Right of Access</strong> — request information about what personal data we hold; <strong>Right to Rectification</strong> — request correction of incomplete or inaccurate data; <strong>Right to Erasure (Deletion)</strong> — request the elimination of your personal data; <strong>Right to Data Portability</strong> — request the transfer of your data to another provider; <strong>Right to Object</strong> — object to the processing of your data for certain purposes; <strong>Right to Withdraw Consent</strong> — withdraw your consent at any time. Since ZeroTools does not collect or store personal data from processed files, most of these rights apply only to data collected by third-party cookies (Google Analytics and AdSense). To exercise any of these rights, send an email to <a href='mailto:HelloZeroTools@outlook.com'>HelloZeroTools@outlook.com</a>.",
+    "title7": "7. Legal Basis for Processing",
+    "p7": "Data processing at ZeroTools is based on the following legal grounds: <strong>Consent</strong> — by using the site, you consent to the collection of analytical and advertising data; <strong>Legitimate Interest</strong> — we use aggregate analytical data to improve user experience and keep the site operational; <strong>Legal Obligation</strong> — we may process data when required by law or regulatory authority.",
+    "title8": "8. Data Retention and Storage",
+    "p8": "ZeroTools does not store files or personal data processed by the tools. Analytics data collected by Google Analytics is retained for a standard period of 14 months, in accordance with Google's retention policies. Google AdSense advertising cookies have variable expiration periods, generally between 30 days and 2 years, per Google's policies. No personal data is stored on our own servers.",
+    "title9": "9. Children's Privacy",
+    "p9": "ZeroTools is not directed at children under 13 years of age. We do not knowingly collect personal information from children or adolescents. If we become aware that we have inadvertently collected data from a child under 13, we will take immediate steps to delete that information. If you are a parent or legal guardian and believe your child has provided personal data, please contact us immediately.",
+    "title10": "10. International Data Transfers",
+    "p10": "The third-party services we use (Google Analytics and Google AdSense) are operated by <strong>Google LLC</strong>, headquartered in the United States. Analytics and advertising data may be transferred to and processed in the United States and other countries where Google operates. These transfers are protected by <strong>Standard Contractual Clauses (SCCs)</strong> approved by the European Commission and Google's data protection commitments, in compliance with the GDPR.",
+    "title11": "11. Changes to This Policy",
+    "p11": "We reserve the right to update this Privacy Policy at any time. Any changes will be published on this page with a new last updated date. We recommend that you review this policy periodically to stay informed about how we protect your information. Substantial changes will be highlighted on the site for a reasonable period.",
+    "title12": "12. Contact and Data Protection Officer (DPO)",
+    "p12": "For questions, requests, or complaints related to this Privacy Policy or the processing of your personal data, please contact our Data Protection Officer (DPO) at <a href='mailto:HelloZeroTools@outlook.com'>HelloZeroTools@outlook.com</a>. You also have the right to file a complaint with a <strong>Data Protection Authority</strong> if you believe that the processing of your data violates applicable data protection legislation."
   },
   "home_faq": {
     "title": "Frequently Asked Questions",
