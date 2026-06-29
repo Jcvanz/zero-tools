@@ -22,6 +22,11 @@ function esc(str) {
 
 // Static pages
 const staticPages = [
+  {
+    path: '/',
+    title: 'ZeroTools — Free Online Tools for Creators & Developers',
+    desc: 'Free online tools: QR code generator, hashtag generator, image compressor, background remover, PDF compressor, password generator and more. No signup, no upload — works in your browser.'
+  },
   { 
     path: '/about', 
     title: `${enTranslations.about.title} — ZeroTools`, 
@@ -99,6 +104,87 @@ const FEATURE_LABELS = {
 };
 
 function getBodyHtml(route) {
+  // ─── HOME PAGE ───
+  if (route.path === '/') {
+    const home = enTranslations.home || {};
+    const hero = enTranslations.hero || {};
+    const homeFaq = enTranslations.home_faq || {};
+    const faqs = homeFaq.faqs || [];
+
+    // Tool listing HTML
+    const toolListHtml = toolsKeys.map(key => {
+      const t = enTranslations.tools[key];
+      return `
+        <div style="padding: 20px; background: #f9fafb; border-radius: 12px; border: 1px solid #e5e7eb;">
+          <h3 style="font-size: 1.1rem; margin-bottom: 8px;"><a href="/tools/${key}" style="color: #4f46e5; text-decoration: none;">${esc(t.name)}</a></h3>
+          <p style="color: #4b5563; font-size: 0.95rem; line-height: 1.6;">${esc(t.desc)}</p>
+        </div>
+      `;
+    }).join('');
+
+    // Why ZeroTools section
+    const whyItems = [
+      { title: home.why_1_title, desc: home.why_1_desc },
+      { title: home.why_2_title, desc: home.why_2_desc },
+      { title: home.why_3_title, desc: home.why_3_desc },
+      { title: home.why_4_title, desc: home.why_4_desc },
+    ].filter(w => w.title && w.desc);
+
+    const whyHtml = whyItems.map(w => `
+      <div style="padding: 20px; background: #f9fafb; border-radius: 12px; border: 1px solid #e5e7eb;">
+        <h3 style="font-size: 1rem; margin-bottom: 8px; color: #1f2937;">${esc(w.title)}</h3>
+        <p style="color: #4b5563; font-size: 0.95rem; line-height: 1.6;">${esc(w.desc)}</p>
+      </div>
+    `).join('');
+
+    // Home FAQ section
+    const faqHtml = faqs.map(f => `
+      <details style="margin-bottom: 8px; border: 1px solid #e5e7eb; border-radius: 12px; overflow: hidden;">
+        <summary style="padding: 14px 18px; cursor: pointer; font-weight: 600; color: #1f2937;">${esc(f.q)}</summary>
+        <div style="padding: 0 18px 14px;"><p style="color: #4b5563; line-height: 1.6;">${esc(f.a)}</p></div>
+      </details>
+    `).join('');
+
+    return `
+      <main style="font-family: system-ui, -apple-system, sans-serif; padding: 40px 0;">
+        <div style="max-width: 900px; margin: 0 auto; padding: 0 24px;">
+          <section style="text-align: center; margin-bottom: 48px;">
+            <h1 style="font-size: 2.5rem; margin-bottom: 16px; color: #111827;">${esc(hero.title || 'The Free Toolbox for')} ${esc(hero.creators_devs || 'Creators & Developers')}</h1>
+            <p style="font-size: 1.2rem; color: #4b5563; line-height: 1.8; max-width: 700px; margin: 0 auto;">${esc(hero.subtitle || '')}</p>
+          </section>
+
+          <section style="margin-bottom: 48px; text-align: center;">
+            <h2 style="font-size: 1.5rem; margin-bottom: 16px; color: #111827;">${esc(home.intro_title || 'Your Complete Free Online Toolbox')}</h2>
+            <p style="color: #4b5563; line-height: 1.8; font-size: 1rem;">${esc(home.intro_text || '')}</p>
+          </section>
+
+          <section style="margin-bottom: 48px;">
+            <h2 style="font-size: 1.5rem; margin-bottom: 16px; color: #111827; text-align: center;">${esc(home.why_title || 'Why ZeroTools?')}</h2>
+            <p style="color: #4b5563; margin-bottom: 24px; text-align: center;">${esc(home.why_sub || '')}</p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px;">
+              ${whyHtml}
+            </div>
+          </section>
+
+          <section style="margin-bottom: 48px;">
+            <h2 style="font-size: 1.5rem; margin-bottom: 24px; color: #111827; text-align: center;">Our Free Online Tools</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px;">
+              ${toolListHtml}
+            </div>
+          </section>
+
+          <section style="margin-bottom: 48px;">
+            <h2 style="font-size: 1.5rem; margin-bottom: 16px; color: #111827; text-align: center;">${esc(homeFaq.title || 'Frequently Asked Questions')}</h2>
+            <p style="color: #4b5563; margin-bottom: 24px; text-align: center;">${esc(homeFaq.subtitle || '')}</p>
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+              ${faqHtml}
+            </div>
+          </section>
+        </div>
+      </main>
+    `;
+  }
+
   // ─── ABOUT ───
   if (route.path === '/about') {
     const ab = enTranslations.about || {};
@@ -293,12 +379,6 @@ function getBodyHtml(route) {
 
 // ─── Generate HTML files for each route ───
 allRoutes.forEach(route => {
-  const routeDir = path.join(distDir, route.path);
-  
-  if (!fs.existsSync(routeDir)) {
-    fs.mkdirSync(routeDir, { recursive: true });
-  }
-
   let html = baseHtml;
 
   // Replace Title
@@ -314,7 +394,7 @@ allRoutes.forEach(route => {
   );
 
   // Add Canonical and OG Tags
-  const canonical = `https://myzerotools.online${route.path}`;
+  const canonical = `https://myzerotools.online${route.path === '/' ? '/' : route.path}`;
   let seoTags = `
     <link rel="canonical" href="${canonical}" />
     <meta property="og:title" content="${route.title}" />
@@ -330,6 +410,23 @@ allRoutes.forEach(route => {
   if (route.faqSchema) {
     seoTags += `<script type="application/ld+json">${route.faqSchema}</script>\n`;
   }
+
+  // Home page: Add Organization schema
+  if (route.path === '/') {
+    const orgSchema = {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "ZeroTools",
+      "url": "https://myzerotools.online",
+      "description": route.desc,
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://myzerotools.online/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    };
+    seoTags += `<script type="application/ld+json">${JSON.stringify(orgSchema)}</script>\n`;
+  }
   
   // Remove old canonical to avoid duplicates
   html = html.replace(/<link rel="canonical" href=".*?"\s*\/?>/ig, '');
@@ -340,7 +437,17 @@ allRoutes.forEach(route => {
   const bodyHtml = getBodyHtml(route);
   html = html.replace('<div id="root"></div>', `<div id="root">${bodyHtml}</div>`);
 
-  fs.writeFileSync(path.join(routeDir, 'index.html'), html);
+  // For the home page, overwrite dist/index.html directly
+  if (route.path === '/') {
+    fs.writeFileSync(indexHtmlPath, html);
+    console.log('  → / (index.html overwritten with pre-rendered home)');
+  } else {
+    const routeDir = path.join(distDir, route.path);
+    if (!fs.existsSync(routeDir)) {
+      fs.mkdirSync(routeDir, { recursive: true });
+    }
+    fs.writeFileSync(path.join(routeDir, 'index.html'), html);
+  }
 });
 
 console.log(`✅ SEO injection complete: ${allRoutes.length} pages generated`);
