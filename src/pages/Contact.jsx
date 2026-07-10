@@ -11,20 +11,51 @@ export default function Contact() {
   const [subject, setSubject] = useState('suggestion');
   const [message, setMessage] = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!name || !email || !message) return;
     
-    // Simulate submission
-    setSubmitted(true);
-    setName('');
-    setEmail('');
-    setSubject('suggestion');
-    setMessage('');
+    setLoading(true);
+    setError(false);
+
+    const FORMSPREE_FORM_ID = "xeebywaa"; 
+
+    try {
+      const response = await fetch(`https://formspree.io/f/${FORMSPREE_FORM_ID}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          name,
+          email,
+          subject: t(`contact.subjects.${subject}`, subject),
+          message
+        })
+      });
+
+      if (response.ok) {
+        setSubmitted(true);
+        setName('');
+        setEmail('');
+        setSubject('suggestion');
+        setMessage('');
+      } else {
+        setError(true);
+      }
+    } catch (err) {
+      setError(true);
+    } finally {
+      setLoading(false);
+    }
     
     setTimeout(() => {
       setSubmitted(false);
+      setError(false);
     }, 5000);
   };
 
@@ -86,9 +117,15 @@ export default function Contact() {
                 <h2>{t('contact.form_title')}</h2>
                 <p className="form-desc">{t('contact.form_desc')}</p>
 
-                {submitted && (
+                 {submitted && (
                   <div className="form-success-alert">
                     {t('contact.form_success')}
+                  </div>
+                )}
+
+                {error && (
+                  <div className="form-error-alert" style={{color: '#b91c1c', background: '#fef2f2', border: '1px solid #fecaca', padding: '14px', borderRadius: '10px', marginBottom: '24px', fontSize: '0.95rem'}}>
+                    Ocorreu um erro ao enviar sua mensagem. Por favor, tente enviar novamente ou diretamente para HelloZeroTools@outlook.com.
                   </div>
                 )}
 
@@ -143,8 +180,8 @@ export default function Contact() {
                   />
                 </div>
 
-                <button type="submit" className="btn btn-primary submit-btn">
-                  {t('contact.form_send')}
+                <button type="submit" className="btn btn-primary submit-btn" disabled={loading}>
+                  {loading ? 'Enviando...' : t('contact.form_send')}
                 </button>
               </form>
             </div>
