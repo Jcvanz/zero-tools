@@ -41,6 +41,21 @@ const staticPages = [
     path: '/privacy', 
     title: `${enTranslations.privacy.title} — ZeroTools`, 
     desc: enTranslations.privacy.meta_desc
+  },
+  { 
+    path: '/terms', 
+    title: `${enTranslations.terms.title} — ZeroTools`, 
+    desc: enTranslations.terms.meta_desc
+  },
+  { 
+    path: '/contact', 
+    title: `${enTranslations.contact.title} — ZeroTools`, 
+    desc: enTranslations.contact.meta_desc
+  },
+  { 
+    path: '/blog', 
+    title: `${enTranslations.blog.title} — ZeroTools`, 
+    desc: enTranslations.blog.meta_desc
   }
 ];
 
@@ -91,7 +106,43 @@ const toolPages = toolsKeys.map(key => {
   };
 });
 
-const allRoutes = [...staticPages, ...toolPages];
+// Blog post pages from JSON
+const blogPostsKeys = enTranslations.blog.posts || [];
+const blogPostPages = blogPostsKeys.map(post => {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": post.title,
+    "description": post.excerpt,
+    "datePublished": post.date,
+    "author": {
+      "@type": "Person",
+      "name": post.author
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "ZeroTools",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://myzerotools.online/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://myzerotools.online/blog/${post.slug}`
+    }
+  };
+
+  return {
+    path: `/blog/${post.slug}`,
+    title: `${post.title} — ZeroTools`,
+    desc: post.excerpt,
+    schema: JSON.stringify(schema),
+    postData: post
+  };
+});
+
+const allRoutes = [...staticPages, ...toolPages, ...blogPostPages];
 
 const layout = enTranslations.tool_layout || {};
 const FEATURE_KEYS = ['interface', 'processing', 'options', 'unlimited', 'security'];
@@ -273,6 +324,141 @@ function getBodyHtml(route) {
           <article style="padding: 32px; line-height: 1.8; background: #ffffff; border-radius: 12px; border: 1px solid #e5e7eb;">
             <p style="color: #4b5563; margin-bottom: 24px;">${pr.intro || ''}</p>
             ${sectionsHtml}
+          </article>
+        </div>
+      </main>
+    `;
+  }
+
+  // ─── TERMS ───
+  if (route.path === '/terms') {
+    const tr = enTranslations.terms || {};
+    let sectionsHtml = '';
+    for (let i = 1; i <= 12; i++) {
+      const title = tr[`title${i}`];
+      const body = tr[`p${i}`];
+      if (title && body) {
+        sectionsHtml += `
+          <section>
+            <h2 style="font-size: 1.3rem; margin: 24px 0 12px; color: #1f2937;">${title}</h2>
+            <p style="margin-bottom: 16px; color: #4b5563; line-height: 1.8;">${body}</p>
+          </section>
+        `;
+      }
+    }
+
+    return `
+      <main class="tool-page main-content" style="font-family: system-ui, -apple-system, sans-serif;">
+        <div class="container" style="max-width: 800px; margin: 0 auto; padding: 24px;">
+          <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> <span>/</span> <span>Terms</span></nav>
+          <h1 style="font-size: 2.5rem; margin-bottom: 12px; color: #111827;">${tr.title || 'Terms of Service'}</h1>
+          <p style="color: #6b7280; margin-bottom: 24px;">${tr.updated ? tr.updated.replace('{{year}}', new Date().getFullYear()) : ''}</p>
+          <article style="padding: 32px; line-height: 1.8; background: #ffffff; border-radius: 12px; border: 1px solid #e5e7eb;">
+            <p style="color: #4b5563; margin-bottom: 24px;">${tr.intro || ''}</p>
+            ${sectionsHtml}
+          </article>
+        </div>
+      </main>
+    `;
+  }
+
+  // ─── CONTACT ───
+  if (route.path === '/contact') {
+    const ct = enTranslations.contact || {};
+    const infoItems = ct.info_items || [];
+    const infoHtml = infoItems.map(item => `<li style="margin-bottom: 12px; color: #4b5563;">✓ ${esc(item)}</li>`).join('');
+
+    return `
+      <main class="tool-page main-content" style="font-family: system-ui, -apple-system, sans-serif;">
+        <div class="container" style="max-width: 900px; margin: 0 auto; padding: 24px;">
+          <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> <span>/</span> <span>Contact</span></nav>
+          <div style="text-align: center; margin-bottom: 48px;">
+            <h1 style="font-size: 2.5rem; margin-bottom: 12px; color: #111827;">${ct.heading || 'Contact Us'}</h1>
+            <p style="color: #4b5563; font-size: 1.1rem; max-width: 650px; margin: 0 auto;">${ct.desc || ''}</p>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px;">
+            <div style="background: #ffffff; padding: 28px; border-radius: 16px; border: 1px solid #e5e7eb;">
+              <h3 style="font-size: 1.25rem; margin-bottom: 12px;">${ct.email_title || 'Email'}</h3>
+              <p style="color: #4b5563; line-height: 1.6; font-size: 0.95rem; margin-bottom: 20px;">${ct.email_desc || ''}</p>
+              <div style="background: #f9fafb; padding: 16px; border-radius: 12px; border: 1px solid #e5e7eb;">
+                <span style="display: block; font-size: 0.8rem; color: #6b7280; text-transform: uppercase; margin-bottom: 4px;">${ct.email_label || ''}</span>
+                <a href="mailto:HelloZeroTools@outlook.com" style="font-size: 1.1rem; font-weight: 600; color: #6366f1; text-decoration: none;">HelloZeroTools@outlook.com</a>
+              </div>
+              <div style="margin-top: 16px; display: inline-block; background: rgba(99, 102, 241, 0.08); color: #6366f1; font-weight: 600; font-size: 0.85rem; padding: 6px 12px; border-radius: 20px;">
+                ${ct.response_time || ''}
+              </div>
+            </div>
+            <div style="background: #ffffff; padding: 28px; border-radius: 16px; border: 1px solid #e5e7eb;">
+              <h3 style="font-size: 1.25rem; margin-bottom: 12px;">${ct.info_title || 'Information'}</h3>
+              <ul style="list-style: none; padding: 0; margin: 0;">
+                ${infoHtml}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
+    `;
+  }
+
+  // ─── BLOG LIST ───
+  if (route.path === '/blog') {
+    const bl = enTranslations.blog || {};
+    const posts = bl.posts || [];
+    const postsHtml = posts.map(post => `
+      <article style="background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); margin-bottom: 24px;">
+        <div style="padding: 24px; display: flex; flex-direction: column; flex-grow: 1;">
+          <div style="display: flex; gap: 12px; font-size: 0.85rem; color: #6b7280; margin-bottom: 12px;">
+            <time>${post.date}</time>
+            <span>•</span>
+            <span>${post.readTime} ${bl.read_time || 'min read'}</span>
+          </div>
+          <h2 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 12px;"><a href="/blog/${post.slug}" style="color: #111827; text-decoration: none;">${esc(post.title)}</a></h2>
+          <p style="color: #4b5563; font-size: 0.95rem; line-height: 1.6; margin-bottom: 20px; flex-grow: 1;">${esc(post.excerpt)}</p>
+          <a href="/blog/${post.slug}" style="font-weight: 600; color: #6366f1; text-decoration: none;">${bl.read_more || 'Read More'} →</a>
+        </div>
+      </article>
+    `).join('');
+
+    return `
+      <main class="tool-page main-content" style="font-family: system-ui, -apple-system, sans-serif; padding: 60px 0;">
+        <div class="container" style="max-width: 1000px; margin: 0 auto; padding: 24px;">
+          <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> <span>/</span> <span>Blog</span></nav>
+          <div style="text-align: center; margin-bottom: 56px;">
+            <h1 style="font-size: 2.5rem; margin-bottom: 12px; color: #111827;">${bl.title || 'Blog'}</h1>
+            <p style="color: #4b5563; font-size: 1.15rem;">${bl.subtitle || ''}</p>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 32px;">
+            ${postsHtml}
+          </div>
+        </div>
+      </main>
+    `;
+  }
+
+  // ─── BLOG POST DETAIL ───
+  if (route.path.startsWith('/blog/')) {
+    const post = route.postData;
+    if (!post) return '';
+    const bl = enTranslations.blog || {};
+
+    return `
+      <main class="tool-page main-content" style="font-family: system-ui, -apple-system, sans-serif; padding: 60px 0;">
+        <div class="container" style="max-width: 800px; margin: 0 auto; padding: 24px;">
+          <a href="/blog" style="display: inline-flex; align-items: center; gap: 8px; color: #6366f1; text-decoration: none; font-weight: 600; margin-bottom: 32px;">← ${bl.back || 'Back to Blog'}</a>
+          <article style="background: #ffffff; padding: 32px; border-radius: 16px; border: 1px solid #e5e7eb; line-height: 1.8;">
+            <header style="text-align: center; margin-bottom: 32px;">
+              <h1 style="font-size: 2.25rem; line-height: 1.3; color: #111827; margin-bottom: 16px;">${esc(post.title)}</h1>
+              <div style="color: #6b7280; font-size: 0.9rem;">
+                <span>${bl.written_by || 'Written by'} <strong>${esc(post.author)}</strong></span>
+                <span style="margin: 0 8px;">•</span>
+                <span>${bl.published || 'Published on'} <time>${post.date}</time></span>
+                <span style="margin: 0 8px;">•</span>
+                <span>${post.readTime} ${bl.read_time || 'min read'}</span>
+              </div>
+            </header>
+            <div style="font-size: 1.1rem; line-height: 1.8; color: #374151;">
+              ${post.content}
+            </div>
           </article>
         </div>
       </main>

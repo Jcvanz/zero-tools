@@ -9,6 +9,10 @@ import Home from './pages/Home';
 import FAQ from './pages/FAQ';
 import Privacy from './pages/Privacy';
 import About from './pages/About';
+import Terms from './pages/Terms';
+import Contact from './pages/Contact';
+import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
 
 // Tools
 import HashtagGenerator from './pages/tools/HashtagGenerator';
@@ -34,7 +38,11 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/privacy" element={<Privacy />} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
         
         {/* Tool Routes */}
         <Route path="/tools/hashtag-generator" element={<HashtagGenerator />} />

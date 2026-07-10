@@ -1,0 +1,245 @@
+.blog-page {
+  color: var(--clr-text-1, #1f2937);
+}
+
+.blog-header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.blog-header h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 12px;
+  background: linear-gradient(135deg, var(--clr-brand, #6366f1) 0%, var(--clr-brand-dark, #4f46e5) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blog-header p {
+  font-size: 1.15rem;
+  color: var(--clr-text-2, #4b5563);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+
+@media (min-width: 768px) {
+  .blog-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .blog-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.post-card {
+  background: var(--clr-surface, #ffffff);
+  border: 1px solid var(--clr-border, #e5e7eb);
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+.post-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.post-card-content {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.post-meta {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-size: 0.85rem;
+  color: var(--clr-text-3, #6b7280);
+  margin-bottom: 12px;
+}
+
+.post-card h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 12px;
+  color: var(--clr-text-1, #111827);
+}
+
+.post-card h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.post-card h2 a:hover {
+  color: var(--clr-brand, #6366f1);
+}
+
+.post-excerpt {
+  font-size: 0.95rem;
+  color: var(--clr-text-2, #4b5563);
+  line-height: 1.6;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.read-more-link {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--clr-brand, #6366f1);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: auto;
+}
+
+.read-more-link:hover {
+  color: var(--clr-brand-dark, #4f46e5);
+}
+
+/* Post view styling */
+.post-view {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.post-view-header {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.post-view-header h1 {
+  font-size: 2.25rem;
+  line-height: 1.3;
+  margin-bottom: 16px;
+  color: var(--clr-text-1, #111827);
+}
+
+.post-view-meta {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  color: var(--clr-text-3, #6b7280);
+  font-size: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.post-body {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--clr-text-2, #374151);
+}
+
+.post-body p {
+  margin-bottom: 24px;
+}
+
+.post-body h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  color: var(--clr-text-1, #111827);
+}
+
+.post-body h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  color: var(--clr-text-1, #1f2937);
+}
+
+.post-body ul, .post-body ol {
+  margin-bottom: 24px;
+  padding-left: 24px;
+}
+
+.post-body li {
+  margin-bottom: 8px;
+}
+
+.post-body strong {
+  color: var(--clr-text-1, #111827);
+}
+
+.back-to-blog {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--clr-brand, #6366f1);
+  text-decoration: none;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+.back-to-blog:hover {
+  text-decoration: underline;
+}
+
+.related-tool-box {
+  margin-top: 48px;
+  padding: 24px;
+  background: var(--clr-surface-2, #f9fafb);
+  border: 1px solid var(--clr-border, #e5e7eb);
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.related-tool-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.related-tool-icon {
+  font-size: 2rem;
+}
+
+.related-tool-name {
+  font-weight: 700;
+  color: var(--clr-text-1, #111827);
+  display: block;
+}
+
+.related-tool-label {
+  font-size: 0.85rem;
+  color: var(--clr-text-3, #6b7280);
+}
+
+.use-tool-btn {
+  background: var(--clr-brand, #6366f1);
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: background-color 150ms ease;
+}
+
+.use-tool-btn:hover {
+  background: var(--clr-brand-dark, #4f46e5);
+}
