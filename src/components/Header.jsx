@@ -96,6 +96,14 @@ export default function Header() {
               )}
             </div>
 
+            <NavLink to="/blog" className={({isActive}) => isActive ? 'nav-link active' : 'nav-link'}>
+              {t('blog.title', 'Blog')}
+            </NavLink>
+
+            <NavLink to="/contact" className={({isActive}) => isActive ? 'nav-link active' : 'nav-link'}>
+              {t('contact.title', 'Contact')}
+            </NavLink>
+
             <NavLink to="/about" className={({isActive}) => isActive ? 'nav-link active' : 'nav-link'}>
               {t('header.about', 'About Us')}
             </NavLink>
@@ -169,9 +177,12 @@ export default function Header() {
               </Link>
             ))}
             <div className="mobile-divider"/>
+            <NavLink to="/blog" className="mobile-link">{t('blog.title', 'Blog')}</NavLink>
+            <NavLink to="/contact" className="mobile-link">{t('contact.title', 'Contact')}</NavLink>
             <NavLink to="/about" className="mobile-link">{t('header.about', 'About Us')}</NavLink>
             <NavLink to="/faq" className="mobile-link">{t('header.faq')}</NavLink>
             <NavLink to="/privacy" className="mobile-link">{t('header.privacy')}</NavLink>
+            <NavLink to="/terms" className="mobile-link">{t('terms.title', 'Terms of Use')}</NavLink>
             <div className="mobile-divider">{t('header.language')}</div>
             <div style={{display: 'flex', gap: '8px', padding: '12px 0'}}>
                <button onClick={() => i18n.changeLanguage('en')} style={{flex: 1, padding: '10px', borderRadius: '8px', border: '1px solid var(--clr-border)', background: i18n.language.startsWith('en') ? 'var(--clr-brand-light)' : 'transparent', cursor: 'pointer', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>

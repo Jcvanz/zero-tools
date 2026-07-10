@@ -39,8 +39,11 @@ export default function Footer() {
               <ul>
                 <li><Link to="/">{t('header.home')}</Link></li>
                 <li><Link to="/about">{t('header.about', 'About Us')}</Link></li>
+                <li><Link to="/blog">{t('blog.title', 'Blog')}</Link></li>
+                <li><Link to="/contact">{t('contact.title', 'Contact')}</Link></li>
                 <li><Link to="/faq">{t('header.faq')}</Link></li>
                 <li><Link to="/privacy">{t('header.privacy')}</Link></li>
+                <li><Link to="/terms">{t('terms.title', 'Terms of Use')}</Link></li>
               </ul>
             </div>
           </div>
@@ -50,6 +53,7 @@ export default function Footer() {
           <p>&copy; {year} ZeroTools. {t('footer.rights')}</p>
           <div className="footer-bottom-links">
             <Link to="/privacy">{t('header.privacy')}</Link>
+            <Link to="/terms">{t('terms.title', 'Terms of Use')}</Link>
             <Link to="/faq">{t('header.faq')}</Link>
           </div>
         </div>
