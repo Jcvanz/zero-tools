@@ -19,21 +19,17 @@ export default function ToolLayout({ tool, children, seo = {} }) {
   const toolFaqs = i18n.exists(`tools.${tool.id}.faq`)
     ? t(`tools.${tool.id}.faq`, { returnObjects: true })
     : [];
+  const toolSteps = i18n.exists(`tools.${tool.id}.steps`)
+    ? t(`tools.${tool.id}.steps`, { returnObjects: true })
+    : [];
   const hasFeatures = i18n.exists(`tools.${tool.id}.features`);
 
   const categoryTools = tools.filter(tItem => tItem.category === tool.category && tItem.id !== tool.id);
-  let recommendedTools = [];
-  let recommendationTitleKey = '';
-
-  if (categoryTools.length >= 2) {
-    recommendedTools = categoryTools;
-    recommendationTitleKey = 'tool_layout.related_tools';
-  } else {
-    recommendationTitleKey = 'tool_layout.other_tools';
-    const baseList = [...categoryTools];
-    const padding = tools.filter(tItem => tItem.id !== tool.id && !baseList.some(b => b.id === tItem.id));
-    recommendedTools = [...baseList, ...padding].slice(0, 3);
-  }
+  const isCategoryMatch = categoryTools.length >= 2;
+  const recommendationTitleKey = isCategoryMatch ? 'tool_layout.related_tools' : 'tool_layout.other_tools';
+  const recommendedTools = isCategoryMatch
+    ? categoryTools
+    : [...categoryTools, ...tools.filter(tItem => tItem.id !== tool.id && !categoryTools.some(b => b.id === tItem.id))].slice(0, 3);
 
   return (
     <>
@@ -62,6 +58,22 @@ export default function ToolLayout({ tool, children, seo = {} }) {
             }
           })}
         </script>
+        {Array.isArray(toolSteps) && toolSteps.length > 0 && (
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "HowTo",
+              "name": `How to use ${translatedName}`,
+              "description": pageDesc,
+              "step": toolSteps.map((step, idx) => ({
+                "@type": "HowToStep",
+                "position": idx + 1,
+                "name": typeof step === 'string' ? step : step.title,
+                "text": typeof step === 'string' ? step : (step.desc || step.title)
+              }))
+            })}
+          </script>
+        )}
       </Helmet>
 
       <AdSlot slot="Top Leaderboard 728×90" />
@@ -124,6 +136,21 @@ export default function ToolLayout({ tool, children, seo = {} }) {
               <div className="tool-article-section">
                 <h2>{t('tool_layout.about')} {translatedName}</h2>
                 <p>{translatedName} {t('tool_layout.about_sub')}</p>
+              </div>
+            )}
+
+            {/* Section 2.5: How to use step-by-step */}
+            {Array.isArray(toolSteps) && toolSteps.length > 0 && (
+              <div className="tool-article-section tool-steps-section">
+                <h2>{t('tool_layout.how_to_title', 'Como Usar')} {translatedName}</h2>
+                <ol className="tool-steps-list" style={{ paddingLeft: '24px', lineHeight: '1.8', margin: '16px 0' }}>
+                  {toolSteps.map((s, idx) => (
+                    <li key={idx} style={{ marginBottom: '12px', fontSize: '1.05rem' }}>
+                      <strong style={{ color: 'var(--clr-text-1)' }}>{typeof s === 'string' ? s : s.title}</strong>
+                      {typeof s !== 'string' && s.desc && <span style={{ color: 'var(--clr-text-2)' }}> — {s.desc}</span>}
+                    </li>
+                  ))}
+                </ol>
               </div>
             )}
 
