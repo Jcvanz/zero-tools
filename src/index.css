@@ -321,21 +321,23 @@ input[type="checkbox"] {
   .tool-grid-2 { grid-template-columns: 1fr 1fr; }
 }
 
-/* ===== AD SLOTS ===== */
+/* ===== AD SLOTS (CLS PREVENTION) ===== */
 .ad-slot {
   width: 100%;
   display: none;
   align-items: center;
   justify-content: center;
   padding-block: 12px;
+  margin-block: 16px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .ad-slot:has(.adsbygoogle) {
   display: flex;
-}
-
-.ad-placeholder {
-  display: none;
+  background-color: var(--clr-surface-2, rgba(0, 0, 0, 0.02));
+  border: 1px dashed var(--clr-border, #e2e8f0);
+  border-radius: 12px;
 }
 
 /* ===== SECTION TITLES ===== */

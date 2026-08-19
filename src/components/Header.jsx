@@ -13,10 +13,12 @@ export default function Header() {
   const menuRef = useRef(null);
   const location = useLocation();
 
-  useEffect(() => {
+  const [prevLocation, setPrevLocation] = useState(location.pathname);
+  if (prevLocation !== location.pathname) {
+    setPrevLocation(location.pathname);
     setMenuOpen(false);
     setToolsOpen(false);
-  }, [location]);
+  }
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);

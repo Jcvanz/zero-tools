@@ -33,6 +33,11 @@ const staticPages = [
     desc: enTranslations.about.meta_desc
   },
   { 
+    path: '/sobre', 
+    title: `${enTranslations.about.title} — ZeroTools`, 
+    desc: enTranslations.about.meta_desc
+  },
+  { 
     path: '/faq', 
     title: `${enTranslations.faq_page.title} | ZeroTools`, 
     desc: enTranslations.faq_page.meta_desc
@@ -43,12 +48,27 @@ const staticPages = [
     desc: enTranslations.privacy.meta_desc
   },
   { 
+    path: '/politica-de-privacidade', 
+    title: `${enTranslations.privacy.title} — ZeroTools`, 
+    desc: enTranslations.privacy.meta_desc
+  },
+  { 
     path: '/terms', 
     title: `${enTranslations.terms.title} — ZeroTools`, 
     desc: enTranslations.terms.meta_desc
   },
   { 
+    path: '/termos-de-uso', 
+    title: `${enTranslations.terms.title} — ZeroTools`, 
+    desc: enTranslations.terms.meta_desc
+  },
+  { 
     path: '/contact', 
+    title: `${enTranslations.contact.title} — ZeroTools`, 
+    desc: enTranslations.contact.meta_desc
+  },
+  { 
+    path: '/contato', 
     title: `${enTranslations.contact.title} — ZeroTools`, 
     desc: enTranslations.contact.meta_desc
   },

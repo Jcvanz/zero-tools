@@ -9,7 +9,7 @@ import '../css/home.css';
 import '../css/faq.css';
 
 export default function Home() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const homeFaqs = t('home_faq.faqs', { returnObjects: true });
   const [activeCategory, setActiveCategory] = useState('All');
   const [search, setSearch] = useState('');

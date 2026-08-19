@@ -47,7 +47,7 @@ export default function Contact() {
       } else {
         setError(true);
       }
-    } catch (err) {
+    } catch {
       setError(true);
     } finally {
       setLoading(false);

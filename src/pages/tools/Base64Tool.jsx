@@ -21,7 +21,7 @@ export default function Base64Tool() {
       } else {
         setOutput(decodeURIComponent(escape(atob(input))));
       }
-    } catch(e) {
+    } catch {
       setError(t('b64.err'));
       setOutput('');
     }
