@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import { QRCodeCanvas } from 'qrcode.react';
 import { useTranslation } from 'react-i18next';
 import ToolLayout from '../../components/ToolLayout';
@@ -13,7 +13,6 @@ export default function QRCodeGenerator() {
   const [fg, setFg]       = useState('#111827');
   const [bg, setBg]       = useState('#ffffff');
   const [type, setType]   = useState('url');
-  const canvasRef = useRef(null);
 
   const templates = {
     url:  'https://',
