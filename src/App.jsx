@@ -38,9 +38,13 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/privacy" element={<Privacy />} />
+        <Route path="/politica-de-privacidade" element={<Privacy />} />
         <Route path="/terms" element={<Terms />} />
+        <Route path="/termos-de-uso" element={<Terms />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/contato" element={<Contact />} />
         <Route path="/about" element={<About />} />
+        <Route path="/sobre" element={<About />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
         
