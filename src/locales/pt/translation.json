@@ -90,75 +90,151 @@
     "hashtag-generator": {
       "name": "Gerador de Hashtag",
       "desc": "Gere hashtags em alta para Instagram, TikTok e Twitter.",
-      "article": "<h2>Como o Gerador de Hashtags funciona?</h2><p>O <strong>Gerador de Hashtags</strong> ajuda você a descobrir as melhores tags para suas postagens. Usar as palavras-chave corretas é essencial para aumentar o alcance orgânico.</p><h3>Passo a passo de como usar:</h3><ol><li>Escolha a categoria principal da sua postagem nas opções disponíveis na tela (Ex: Moda, Comida, Fitness).</li><li>A ferramenta processará e exibirá instantaneamente uma nuvem com as hashtags mais engajadas para esse nicho.</li><li>Clique no botão 'Copiar Todas' no rodapé da caixa de resultados.</li><li>Cole no final da legenda do seu post do Instagram, TikTok ou Twitter e pronto!</li></ol><h3>Vantagens</h3><p>Não exagere! Embora o Instagram permita até 30 hashtags, especialistas recomendam usar entre 5 a 15 hashtags hiper-relevantes para um engajamento melhor.</p>",
+      "article": "<h2>Como o Algoritmo das Redes Sociais Utiliza Hashtags</h2>\n<p>As redes sociais modernas (especialmente o Instagram e o TikTok) utilizam inteligência artificial para categorizar conteúdos e entregá-los na aba 'Explorar' e na página 'Para Você' (FYP). As hashtags fornecem sinais contextuais claros sobre o tema da publicação (moda, fitness, tecnologia, culinária, viagens, etc.).</p>\n\n<h3>Estratégia Recomendada para Uso de Hashtags</h3>\n<ul>\n  <li><strong>Quantidade Ideal no Instagram:</strong> Embora o Instagram permita até 30 hashtags, estudos de engajamento mostram que utilizar entre 5 e 15 hashtags hiper-relevantes gera melhores resultados do que usar tags genéricas de spam.</li>\n  <li><strong>Quantidade Ideal no TikTok:</strong> No TikTok, o espaço de legenda é mais curto; recomenda-se usar de 3 a 5 hashtags misturando a hashtag da tendência (#FYP, #ForYou) com tags de nicho específico.</li>\n  <li><strong>Mistura de Alcance (Grandes e Médias):</strong> Combine hashtags de alto volume (com mais de 1 milhão de posts) com hashtags de nicho médio (entre 50 mil e 500 mil posts) para garantir visibilidade contínua.</li>\n</ul>\n\n<h3>Cópia Rápida em Lote</h3>\n<p>O Gerador de Hashtags do ZeroTools organiza conjuntos de tags atualizadas por categorias populares. Basta selecionar o seu nicho, revisar as sugestões e clicar em 'Copiar Todas' para colá-las diretamente na legenda do seu post ou no primeiro comentário.</p><h3>Engajamento Orgânico e Evitação de Shadowban nas Redes Sociais</h3>\n<p>Usar hashtags proibidas (banned hashtags) ou repetitivas pode resultar em restrições de alcance (shadowban). O Gerador de Hashtags do ZeroTools fornece um mix diversificado de tags ativas para manter sua conta saudável e relevante no algoritmo.</p><h3>Dicas de Otimização, Compatibilidade e Dúvidas Frequentes de Uso</h3><p>Para extrair o máximo desempenho das ferramentas do ZeroTools, certifique-se de manter seu navegador web (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari ou Opera) devidamente atualizado. Todas as nossas aplicações utilizam recursos nativos de última geração como WebAssembly, Canvas 2D Context e Web Crypto API, que oferecem desempenho comparável a programas profissionais instalados no computador, mas com a vantagem da portabilidade total e ausência de instalação de softwares ou drivers adicionais.</p>\n<p>Se você utiliza nossas ferramentas no seu trabalho diário de marketing, desenvolvimento ou criação de conteúdo, recomendamos adicionar o ZeroTools aos favoritos do seu navegador (Ctrl+D ou Cmd+D) para acesso instantâneo em apenas um clique. Como não exigimos criação de conta, login ou senha, seu fluxo de trabalho permanece contínuo e sem interrupções.</p>",
       "seoTitle": "Gerador de Hashtags para Instagram e TikTok Grátis — ZeroTools",
-      "seoDesc": "Gere as melhores hashtags para Instagram, TikTok e Twitter por categoria. Copie todas de uma vez e aumente o alcance das suas publicações. Gratuito e online.",
-      "keywords": "gerador de hashtags instagram gratis, hashtags para tiktok, melhores hashtags para instagram, hashtags por nicho, gerar hashtags online, hashtags para reels",
-      "whatIs": "O Gerador de Hashtags é uma ferramenta online gratuita projetada para criadores de conteúdo, gerentes de redes sociais e influenciadores que desejam maximizar seu alcance em plataformas como Instagram, TikTok e Twitter (X). Ao selecionar uma categoria que combina com o nicho do seu conteúdo, a ferramenta gera instantaneamente um conjunto curado de hashtags de alto engajamento otimizadas para aumentar a visibilidade das suas publicações, atrair mais seguidores e aumentar as interações orgânicas.",
+      "seoDesc": "Gere as melhores hashtags em alta para Instagram, TikTok e Twitter por categoria. Copie em 1 clique e aumente o alcance das suas postagens online.",
+      "keywords": "gerador de hashtags instagram gratis, hashtags para tiktok em alta, melhores hashtags para instagram, hashtags por nicho, gerar hashtags online",
+      "whatIs": "O Gerador de Hashtags do ZeroTools é uma ferramenta essencial para influenciadores digitais, gerentes de mídias sociais, marcas, profissionais de marketing e criadores de conteúdo no Instagram, TikTok, Twitter (X) e LinkedIn. As hashtags funcionam como sistema de indexação e descoberta nas redes sociais. Usar o conjunto correto de hashtags categorizadas por nicho ajuda o algoritmo a entregar seu post para usuários genuinamente interessados no seu tema, aumentando as visualizações orgânicas, curtidas e novos seguidores.",
       "features": {
-        "interface": "Nosso Gerador de Hashtags possui uma interface limpa e minimalista. Basta escolher uma categoria no seletor visual e suas hashtags aparecem instantaneamente. Sem menus confusos ou processos de múltiplas etapas — apenas escolha e copie.",
-        "processing": "Toda a geração de hashtags acontece instantaneamente no seu navegador. Nosso algoritmo inteligente seleciona as melhores tags para a categoria escolhida sem nenhum atraso de servidor, tela de carregamento ou fila.",
-        "options": "Escolha entre mais de 8 categorias em alta, incluindo Moda, Comida, Viagem, Fitness, Negócios, Fotografia, TikTok e Shopify. Adicione palavras-chave personalizadas para criar um mix personalizado sob medida para seu conteúdo.",
-        "unlimited": "Gere conjuntos ilimitados de hashtags — sem limites diários, sem restrições de conta, sem paywall. Use a ferramenta quantas vezes quiser para cada post que publicar.",
-        "security": "Suas palavras-chave e hashtags geradas nunca são enviadas para nenhum servidor. Tudo acontece localmente no seu navegador, mantendo sua estratégia de conteúdo 100% privada."
+        "interface": "Nuvem visual de hashtags organizadas por nichos populares com seleção instantânea.",
+        "processing": "Geração local imediata no navegador sem telas de carregamento ou limites.",
+        "options": "Categorias cobrindo Moda, Gastronomia, Fitness, Tecnologia, Viagens, Negócios, Fotografia e TikTok.",
+        "unlimited": "Gere e copie conjuntos de hashtags ilimitados para todas as suas postagens diárias.",
+        "security": "Suas estratégias e palavras-chave permanecem 100% privadas no seu próprio dispositivo."
       },
       "faq": [
         {
-          "q": "Quantas hashtags devo usar por post?",
-          "a": "O Instagram permite até 30 hashtags, mas especialistas recomendam de 5 a 15 hashtags altamente relevantes para engajamento ideal. O TikTok funciona melhor com 3-5 hashtags, enquanto o Twitter recomenda 1-2. Nosso gerador permite que você escolha o número exato."
+          "q": "Quantas hashtags devo colocar por post no Instagram?",
+          "a": "O Instagram aceita até 30 hashtags, mas colocar entre 8 e 15 hashtags focadas no seu nicho é a melhor prática para evitar que a publicação seja interpretada como spam."
         },
         {
-          "q": "Posso adicionar minhas próprias palavras-chave?",
-          "a": "Sim! Além de selecionar uma categoria, você pode digitar suas próprias palavras-chave personalizadas (como o nome da sua marca ou produto) para gerar um mix personalizado que combina tags em alta com seus termos específicos."
+          "q": "Devo colocar as hashtags na legenda ou nos comentários?",
+          "a": "Ambas as opções funcionam igualmente para a busca orgânica do algoritmo. Colocar nos comentários mantém a legenda com visual mais limpo."
         },
         {
-          "q": "Essas hashtags funcionam em todas as redes sociais?",
-          "a": "Sim. As hashtags geradas pelo ZeroTools funcionam no Instagram, TikTok, Twitter (X), LinkedIn, Facebook, Pinterest e YouTube. Basta copiar e colar na legenda ou nos comentários do seu post."
+          "q": "Essas hashtags funcionam no TikTok e Twitter?",
+          "a": "Sim! As hashtags geradas funcionam perfeitamente no TikTok, Instagram (Posts e Reels), Twitter (X), LinkedIn, Facebook e Pinterest."
         },
         {
-          "q": "Preciso de conta para usar o Gerador de Hashtags?",
-          "a": "Não. O Gerador de Hashtags é 100% gratuito e não requer conta, cadastro ou e-mail. Basta visitar a página, selecionar sua categoria e começar a gerar hashtags imediatamente."
+          "q": "Preciso pagar ou criar conta?",
+          "a": "Não. O Gerador de Hashtags é 100% gratuito, sem anúncios bloqueantes e não exige nenhum tipo de cadastro."
+        },
+        {
+          "q": "As hashtags ajudam a aumentar visualizações no Reels?",
+          "a": "Sim! Hashtags de nicho ajudam a IA do Instagram a entender o tema do seu Reels e recomendá-lo para usuários com interesses similares."
+        },
+        {
+          "q": "Posso salvar meus grupos de hashtags favoritos?",
+          "a": "Você pode copiar os grupos gerados com 1 clique e salvá-los no bloco de notas do seu celular ou gerenciador de conteúdo."
+        },
+        {
+          "q": "O ZeroTools guarda algum tipo de log ou histórico de uso?",
+          "a": "Absolutamente não! O ZeroTools é construído com arquitetura 100% focada em privacidade client-side. Nenhum texto colado, arquivo enviado ou imagem processada passa por nossos servidores ou fica registrado em bancos de dados."
+        },
+        {
+          "q": "É possível usar as ferramentas sem conexão com a internet (Offline)?",
+          "a": "Após a primeira carga da página no seu navegador, a maioria das ferramentas continua funcionando normalmente mesmo se você perder a conexão com a internet, pois todo o código de execução já reside na memória local do seu dispositivo."
+        },
+        {
+          "q": "Posso recomendar ou usar o ZeroTools na minha empresa/agência?",
+          "a": "Com certeza! O ZeroTools é 100% gratuito e liberado para uso comercial, corporativo e acadêmico sem qualquer necessidade de licença ou pagamento."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Escolha a Categoria",
+          "desc": "Selecione a categoria do seu post no menu (Moda, Comida, Fitness, Viagem, Tech, etc.)."
+        },
+        {
+          "title": "Visualize a Nuvem de Tags",
+          "desc": "A ferramenta gerará instantaneamente um conjunto otimizado de hashtags em alta para esse nicho."
+        },
+        {
+          "title": "Adicione Tags Personalizadas",
+          "desc": "Se desejar, digite palavras-chave personalizadas da sua marca para mesclar ao grupo."
+        },
+        {
+          "title": "Copie com 1 Clique",
+          "desc": "Clique no botão 'Copiar Todas' e cole na legenda do seu post do Instagram ou TikTok."
         }
       ]
     },
     "qr-code": {
       "name": "Gerador de QR Code",
       "desc": "Crie QR codes para URLs, texto e WiFi. Baixe em PNG ou SVG.",
-      "article": "<h2>O que é o Gerador de QR Code?</h2><p>O <strong>Gerador de QR Code</strong> é uma utilidade simples e rápida para converter textos, URLs ou informações de WiFi em um código escaneável. QR Codes são amplamente utilizados em cardápios de restaurantes, cartões de visita e marketing digital para conectar o mundo físico ao digital instantaneamente.</p><h3>Passo a passo de como usar:</h3><ol><li>Escolha o tipo de conteúdo (URL, Texto, ou WiFi) selecionando a aba correspondente.</li><li>Preencha o campo principal com o link do seu site, o texto desejado ou os dados da rede WiFi.</li><li>Ajuste as cores do código e do fundo utilizando os seletores de cor para combinar com sua marca.</li><li>O código será gerado automaticamente na tela em tempo real.</li><li>Clique nos botões de Download para salvar a imagem no formato PNG ou SVG de alta qualidade.</li></ol><h3>Vantagens</h3><ul><li><strong>100% Offline:</strong> Os códigos são gerados diretamente no seu navegador, sem envio de dados.</li><li><strong>Formatos Vetoriais:</strong> Exporte em PNG ou SVG para garantir máxima qualidade na impressão.</li></ul>",
-      "seoTitle": "Gerador de QR Code Grátis Online — Criar QR Code para Link e WiFi",
-      "seoDesc": "Crie QR Codes personalizados para URLs, textos e redes WiFi. Baixe em PNG ou SVG de alta qualidade. 100% gratuito, sem cadastro, direto no navegador.",
-      "keywords": "gerador de qr code gratis, criar qr code online, qr code para link, qr code wifi, gerar qr code personalizado, qr code download png, criar qr code gratis",
-      "whatIs": "O Gerador de QR Code é uma ferramenta gratuita baseada no navegador que permite criar códigos QR personalizados para URLs, texto e redes WiFi. Códigos QR são amplamente usados em cartões de visita, cardápios de restaurantes, embalagens, campanhas de marketing digital e eventos. Nossa ferramenta gera códigos de alta qualidade em tempo real com cores personalizáveis, e permite baixá-los em formato PNG ou SVG.",
+      "article": "<h2>Como Funcionam os QR Codes e Níveis de Correção de Erro</h2>\n<p>Um QR Code é uma matriz bidimensional de pontos pretos e brancos que armazena informações codificadas. Os QR Codes possuem tecnologia integrada de **Correção de Erros Reed-Solomon**, o que permite que o código seja lido com sucesso pela câmera do celular mesmo que até 30% da imagem esteja danificada, rasurada ou coberta por um logotipo.</p>\n\n<h3>Principais Tipos de QR Code Disponíveis</h3>\n<ul>\n  <li><strong>QR Code para URL (Link de Site):</strong> Redirecione clientes para seu site, landing page, perfil do Instagram, canal do YouTube ou formulário de pesquisa.</li>\n  <li><strong>QR Code para WiFi:</strong> Permita que visitantes e clientes se conectem à sua rede WiFi instantaneamente sem precisar digitar senhas complexas.</li>\n  <li><strong>QR Code para Texto / Cartão de Visita:</strong> Exiba dados de contato, instruções ou mensagens diretas ao escanear.</li>\n</ul>\n\n<h3>Formatos de Exportação: PNG vs SVG Vetorial</h3>\n<p>O ZeroTools oferece download nos dois formatos mais importantes do mercado. O formato **PNG** é ideal para uso digital em redes sociais, e-mails e apresentações. O formato **SVG (Scalable Vector Graphics)** é um arquivo vetorial indispensável para profissionais de gráfica e impressão, pois permite ampliar o QR Code para qualquer tamanho (de cartões de visita a outdoors gigantes) sem perder nitidez.</p><h3>Contraste de Cor e Testes de Leitura de QR Code</h3>\n<p>Para garantir que qualquer câmera de celular consiga escanear seu QR Code sem falhas, mantenha um alto contraste entre a cor dos pontos e a cor do fundo (por exemplo, pontos escuros sobre fundo claro). Evite inverter as cores (pontos claros sobre fundo escuro), pois alguns leitores antigos podem ter dificuldade de foco.</p><h3>Dicas de Otimização, Compatibilidade e Dúvidas Frequentes de Uso</h3><p>Para extrair o máximo desempenho das ferramentas do ZeroTools, certifique-se de manter seu navegador web (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari ou Opera) devidamente atualizado. Todas as nossas aplicações utilizam recursos nativos de última geração como WebAssembly, Canvas 2D Context e Web Crypto API, que oferecem desempenho comparável a programas profissionais instalados no computador, mas com a vantagem da portabilidade total e ausência de instalação de softwares ou drivers adicionais.</p>\n<p>Se você utiliza nossas ferramentas no seu trabalho diário de marketing, desenvolvimento ou criação de conteúdo, recomendamos adicionar o ZeroTools aos favoritos do seu navegador (Ctrl+D ou Cmd+D) para acesso instantâneo em apenas um clique. Como não exigimos criação de conta, login ou senha, seu fluxo de trabalho permanece contínuo e sem interrupções.</p>",
+      "seoTitle": "Gerador de QR Code Online Grátis — Criar QR Code para Link e WiFi",
+      "seoDesc": "Crie QR Codes personalizados para links (URLs), texto e redes WiFi. Baixe em alta resolução PNG ou vetor SVG. 100% gratuito e privado no navegador.",
+      "keywords": "gerador de qr code gratis, criar qr code online, qr code wifi gratis, gerador qr code png svg, criar qr code personalizado, qr code para site",
+      "whatIs": "O Gerador de QR Code do ZeroTools é uma ferramenta rápida e versátil que converte links (URLs), textos simples e credenciais de redes WiFi em códigos QR escaneáveis por qualquer smartphone. QR Codes (Quick Response Codes) são amplamente utilizados em cartões de visita, cardápios de restaurantes, embalagens de produtos, cartazes de eventos e campanhas de marketing digital para conectar o mundo físico ao ambiente online instantaneamente. Com o ZeroTools, você personaliza as cores do código e do fundo e exporta os arquivos em PNG ou vetor SVG de alta qualidade.",
       "features": {
-        "interface": "Criar um QR code leva segundos. Digite seu conteúdo, escolha suas cores e veja o código atualizar em tempo real. A pré-visualização ao vivo garante que você saiba exatamente como ficará antes de baixar.",
-        "processing": "QR codes são gerados diretamente no seu navegador usando JavaScript — sem requisições ao servidor, sem espera. As mudanças são refletidas instantaneamente conforme você digita.",
-        "options": "Escolha entre tipos de conteúdo URL, Texto e WiFi. Personalize as cores do código e do fundo para combinar com sua marca. Exporte em PNG de alta qualidade (para web) ou SVG vetorial (para impressão).",
-        "unlimited": "Crie quantos QR codes precisar sem restrições. Sem limites diários, sem marcas d'água nos downloads e sem necessidade de conta. Todos os códigos são livres para uso comercial.",
-        "security": "Suas URLs, credenciais WiFi e texto são processados inteiramente no seu navegador. Nada é enviado para nossos servidores, mantendo informações sensíveis como senhas WiFi completamente privadas."
+        "interface": "Interface intuitiva com pré-visualização ao vivo do código QR atualizado em tempo real.",
+        "processing": "Geração vetorial instantânea no próprio navegador via biblioteca JavaScript local.",
+        "options": "Suporte a URLs, texto simples, rede WiFi, personalização de cores e exportação PNG/SVG.",
+        "unlimited": "Crie quantos QR Codes precisar sem limite de leituras, expiração de código ou taxas.",
+        "security": "Seus dados (como senhas de WiFi) não são enviados para nenhum servidor. Privacidade 100% mantida."
       },
       "faq": [
         {
-          "q": "Que tipos de conteúdo posso colocar em um QR code?",
-          "a": "Nosso gerador suporta URLs (links de sites), mensagens de texto simples e credenciais de redes WiFi (nome da rede, senha e tipo de criptografia). Cada tipo tem seu próprio formulário otimizado."
+          "q": "Os QR Codes gerados expiraram algum dia?",
+          "a": "Não! Os QR Codes criados no ZeroTools são estáticos e permanentes. Eles funcionam para sempre sem prazo de validade."
         },
         {
-          "q": "Posso personalizar as cores do meu QR code?",
-          "a": "Sim! Você pode alterar as cores do código e do fundo usando os seletores de cor integrados. Isso permite combinar o QR code com as cores da sua marca ou estética de design."
+          "q": "Existe limite de leituras para o QR Code?",
+          "a": "Não há nenhum limite. O código pode ser escaneado ilimitadas vezes por qualquer número de pessoas."
         },
         {
-          "q": "Qual a diferença entre PNG e SVG?",
-          "a": "PNG é um formato raster ideal para uso digital (sites, redes sociais). SVG é um formato vetorial que escala infinitamente sem perder qualidade, perfeito para impressão em cartões de visita, pôsteres e embalagens."
+          "q": "Por que escolher o formato SVG?",
+          "a": "O formato SVG é vetorial, ou seja, pode ser redimensionado para qualquer tamanho na impressão gráfica sem ficar pixelado ou embaçado."
         },
         {
-          "q": "Posso usar os QR codes comercialmente?",
-          "a": "Com certeza. Todos os QR codes gerados com o ZeroTools são seus para usar para qualquer finalidade — pessoal, comercial, educacional. Não há restrições de uso ou requisitos de atribuição."
+          "q": "Como funciona o QR Code de WiFi?",
+          "a": "Ao escanear um QR Code de WiFi, o sistema operacional do smartphone (Android ou iPhone) exibe uma notificação para conectar à rede sem pedir digitação manual de senha."
+        },
+        {
+          "q": "Como testar se o meu QR Code está funcionando antes de imprimir?",
+          "a": "Abra a câmera do seu smartphone (Android ou iPhone) e aponte para a tela do computador. Se o link ou rede WiFi aparecer instantaneamente na tela, o código está perfeito para uso."
+        },
+        {
+          "q": "Qual a resolução do arquivo PNG baixado?",
+          "a": "O arquivo PNG é gerado em alta resolução (256x256 até 1024x1024 pixels), perfeito para impressão de cartões de visita e cartazes."
+        },
+        {
+          "q": "O ZeroTools guarda algum tipo de log ou histórico de uso?",
+          "a": "Absolutamente não! O ZeroTools é construído com arquitetura 100% focada em privacidade client-side. Nenhum texto colado, arquivo enviado ou imagem processada passa por nossos servidores ou fica registrado em bancos de dados."
+        },
+        {
+          "q": "É possível usar as ferramentas sem conexão com a internet (Offline)?",
+          "a": "Após a primeira carga da página no seu navegador, a maioria das ferramentas continua funcionando normalmente mesmo se você perder a conexão com a internet, pois todo o código de execução já reside na memória local do seu dispositivo."
+        },
+        {
+          "q": "Posso recomendar ou usar o ZeroTools na minha empresa/agência?",
+          "a": "Com certeza! O ZeroTools é 100% gratuito e liberado para uso comercial, corporativo e acadêmico sem qualquer necessidade de licença ou pagamento."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Escolha o Tipo de Conteúdo",
+          "desc": "Selecione a aba desejada (URL, Texto ou WiFi) conforme a sua necessidade."
+        },
+        {
+          "title": "Insira os Dados",
+          "desc": "Digite o link do site, o texto ou o nome e senha da sua rede WiFi."
+        },
+        {
+          "title": "Personalize as Cores",
+          "desc": "Ajuste a cor do código e a cor do fundo usando o seletor visual."
+        },
+        {
+          "title": "Baixe em PNG ou SVG",
+          "desc": "Clique no botão 'Baixar PNG' para uso digital ou 'Baixar SVG' para impressão gráfica."
         }
       ]
     },
     "image-compressor": {
       "name": "Compressor de Imagem",
       "desc": "Comprima imagens JPG, PNG e WebP sem perder qualidade.",
-      "article": "<h2>Sobre o Compressor de Imagem</h2><p>O <strong>Compressor de Imagem</strong> ajuda você a reduzir drasticamente o tamanho dos seus arquivos de imagem sem perder qualidade visual. Isso é vital para melhorar a velocidade de carregamento de sites (SEO) e economizar espaço de armazenamento.</p><h3>Passo a passo de como usar:</h3><ol><li>Clique na área pontilhada ou arraste e solte uma imagem (JPG, PNG ou WebP) do seu computador.</li><li>Observe a pré-visualização da imagem original e seu peso em megabytes ou kilobytes.</li><li>Ajuste o controle deslizante de Qualidade (de 0% a 100%) até encontrar o equilíbrio perfeito entre tamanho e nitidez.</li><li>O tamanho final estimado será atualizado na tela instantaneamente.</li><li>Clique em 'Baixar Imagem Comprimida' para salvar o novo arquivo otimizado.</li></ol><h3>Privacidade Garantida</h3><p>Diferente de outras ferramentas online, nós usamos compressão no cliente (via Canvas). Suas fotos pessoais nunca são enviadas para servidores em nuvem, garantindo segurança total.</p>",
+      "article": "<h2>Sobre o Compressor de Imagem</h2><p>O <strong>Compressor de Imagem</strong> ajuda você a reduzir drasticamente o tamanho dos seus arquivos de imagem sem perder qualidade visual. Isso é vital para melhorar a velocidade de carregamento de sites (SEO) e economizar espaço de armazenamento.</p><h3>Passo a passo de como usar:</h3><ol><li>Clique na área pontilhada ou arraste e solte uma imagem (JPG, PNG ou WebP) do seu computador.</li><li>Observe a pré-visualização da imagem original e seu peso em megabytes ou kilobytes.</li><li>Ajuste o controle deslizante de Qualidade (de 0% a 100%) até encontrar o equilíbrio perfeito entre tamanho e nitidez.</li><li>O tamanho final estimado será atualizado na tela instantaneamente.</li><li>Clique em 'Baixar Imagem Comprimida' para salvar o novo arquivo otimizado.</li></ol><h3>Privacidade Garantida</h3><p>Diferente de outras ferramentas online, nós usamos compressão no cliente (via Canvas). Suas fotos pessoais nunca são enviadas para servidores em nuvem, garantindo segurança total.</p><h3>Matrizes de Quantização e Compressão Visualmente Imperceptível</h3>\n<p>O compressor de imagem do ZeroTools utiliza algoritmos de subamostragem de crominância (Chroma Subsampling) e matrizes de quantização avançadas. Essa técnica reduz dados de cor que a retina humana possui menor sensibilidade para detectar, preservando a nitidez de luminância (brilho) das fotos.</p><h3>Dicas de Otimização, Compatibilidade e Dúvidas Frequentes de Uso</h3><p>Para extrair o máximo desempenho das ferramentas do ZeroTools, certifique-se de manter seu navegador web (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari ou Opera) devidamente atualizado. Todas as nossas aplicações utilizam recursos nativos de última geração como WebAssembly, Canvas 2D Context e Web Crypto API, que oferecem desempenho comparável a programas profissionais instalados no computador, mas com a vantagem da portabilidade total e ausência de instalação de softwares ou drivers adicionais.</p>\n<p>Se você utiliza nossas ferramentas no seu trabalho diário de marketing, desenvolvimento ou criação de conteúdo, recomendamos adicionar o ZeroTools aos favoritos do seu navegador (Ctrl+D ou Cmd+D) para acesso instantâneo em apenas um clique. Como não exigimos criação de conta, login ou senha, seu fluxo de trabalho permanece contínuo e sem interrupções.</p>",
       "seoTitle": "Compressor de Imagem Online Grátis — Reduzir Tamanho de Foto",
       "seoDesc": "Comprima imagens JPG, PNG e WebP sem perder qualidade. Reduza o tamanho do arquivo para e-mail e web. Gratuito, sem cadastro e 100% no seu navegador.",
       "keywords": "comprimir imagem online gratis, reduzir tamanho de foto, compressor de imagem, diminuir tamanho de imagem, compress image online, otimizar imagem para web",
@@ -186,13 +262,33 @@
         {
           "q": "Existe um limite de tamanho de arquivo?",
           "a": "Como todo o processamento acontece no seu navegador, o único limite é a memória do seu dispositivo. A maioria dos dispositivos modernos pode facilmente processar imagens de até 50MB ou mais."
+        },
+        {
+          "q": "Por que converter PNGs pesados para WebP?",
+          "a": "O WebP suporta a mesma transparência do PNG porém reduz o tamanho do arquivo em até 70%, acelerando consideravelmente o carregamento do seu site."
+        },
+        {
+          "q": "A compressão substitui meu arquivo original?",
+          "a": "Não. A imagem comprimida é baixada como um novo arquivo otimizado, mantendo seu arquivo original intacto na pasta do computador."
+        },
+        {
+          "q": "O ZeroTools guarda algum tipo de log ou histórico de uso?",
+          "a": "Absolutamente não! O ZeroTools é construído com arquitetura 100% focada em privacidade client-side. Nenhum texto colado, arquivo enviado ou imagem processada passa por nossos servidores ou fica registrado em bancos de dados."
+        },
+        {
+          "q": "É possível usar as ferramentas sem conexão com a internet (Offline)?",
+          "a": "Após a primeira carga da página no seu navegador, a maioria das ferramentas continua funcionando normalmente mesmo se você perder a conexão com a internet, pois todo o código de execução já reside na memória local do seu dispositivo."
+        },
+        {
+          "q": "Posso recomendar ou usar o ZeroTools na minha empresa/agência?",
+          "a": "Com certeza! O ZeroTools é 100% gratuito e liberado para uso comercial, corporativo e acadêmico sem qualquer necessidade de licença ou pagamento."
         }
       ]
     },
     "image-cropper": {
       "name": "Cortador de Imagem",
       "desc": "Corte, redimensione e mude a proporção das suas imagens.",
-      "article": "<h2>Sobre o Cortador e Redimensionador de Imagens</h2><p>O <strong>Cortador de Imagens</strong> ajuda você a ajustar o tamanho e mudar a proporção das suas fotos sem precisar instalar nenhum software. Ideal para redes sociais.</p><h3>Passo a passo de como usar:</h3><ol><li>Clique em 'Procurar Imagem' ou simplesmente arraste e solte o arquivo (JPG/PNG) na área de upload.</li><li>Escolha uma das proporções automáticas sugeridas (ex: 1:1 Quadrado, 16:9 YouTube) ou clique em 'Livre' para desenhar seu próprio corte.</li><li>Mova a grade de marcação em cima da imagem para focar apenas na parte que deseja manter.</li><li>Para dimensões exatas, digite a Altura e Largura em pixels nos campos da aba lateral.</li><li>Clique no botão 'Cortar e Baixar' e uma nova imagem otimizada será salva no seu computador imediatamente.</li></ol><h3>Privacidade Garantida</h3><p>A grande vantagem do ZeroTools é a privacidade. Quando você carrega sua foto, ela nunca é enviada para servidores.</p>",
+      "article": "<h2>Sobre o Cortador e Redimensionador de Imagens</h2><p>O <strong>Cortador de Imagens</strong> ajuda você a ajustar o tamanho e mudar a proporção das suas fotos sem precisar instalar nenhum software. Ideal para redes sociais.</p><h3>Passo a passo de como usar:</h3><ol><li>Clique em 'Procurar Imagem' ou simplesmente arraste e solte o arquivo (JPG/PNG) na área de upload.</li><li>Escolha uma das proporções automáticas sugeridas (ex: 1:1 Quadrado, 16:9 YouTube) ou clique em 'Livre' para desenhar seu próprio corte.</li><li>Mova a grade de marcação em cima da imagem para focar apenas na parte que deseja manter.</li><li>Para dimensões exatas, digite a Altura e Largura em pixels nos campos da aba lateral.</li><li>Clique no botão 'Cortar e Baixar' e uma nova imagem otimizada será salva no seu computador imediatamente.</li></ol><h3>Privacidade Garantida</h3><p>A grande vantagem do ZeroTools é a privacidade. Quando você carrega sua foto, ela nunca é enviada para servidores.</p><h3>Preservação de Pontos Focais em Cortes para Mídias Sociais</h3>\n<p>Ao recortar fotografias de retratos ou produtos para redes sociais, mantenha a *Regra dos Terços* posicionando os elementos principais nas intersecções da grade visual. Isso gera composições dinâmicas que prendem a atenção do usuário durante a rolagem do feed.</p><h3>Dicas de Otimização, Compatibilidade e Dúvidas Frequentes de Uso</h3><p>Para extrair o máximo desempenho das ferramentas do ZeroTools, certifique-se de manter seu navegador web (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari ou Opera) devidamente atualizado. Todas as nossas aplicações utilizam recursos nativos de última geração como WebAssembly, Canvas 2D Context e Web Crypto API, que oferecem desempenho comparável a programas profissionais instalados no computador, mas com a vantagem da portabilidade total e ausência de instalação de softwares ou drivers adicionais.</p>\n<p>Se você utiliza nossas ferramentas no seu trabalho diário de marketing, desenvolvimento ou criação de conteúdo, recomendamos adicionar o ZeroTools aos favoritos do seu navegador (Ctrl+D ou Cmd+D) para acesso instantâneo em apenas um clique. Como não exigimos criação de conta, login ou senha, seu fluxo de trabalho permanece contínuo e sem interrupções.</p>",
       "seoTitle": "Cortar e Redimensionar Imagem Online Grátis — ZeroTools",
       "seoDesc": "Corte, redimensione e mude a proporção das suas fotos online. Suporta 1:1 Instagram, 16:9 YouTube, 9:16 TikTok e medidas personalizadas. Gratuito e sem cadastro.",
       "keywords": "cortar imagem online gratis, redimensionar foto, mudar proporção de imagem, crop image online, recortar foto, tamanho imagem instagram, redimensionar imagem pixels",
@@ -220,47 +316,105 @@
         {
           "q": "Quais formatos de imagem são suportados?",
           "a": "Você pode fazer upload de imagens JPG e PNG. A ferramenta permite exportar sua imagem cortada como JPG, PNG ou WebP, oferecendo flexibilidade dependendo do seu caso de uso."
+        },
+        {
+          "q": "Qual a melhor proporção de corte para o TikTok e Reels?",
+          "a": "A proporção 9:16 (1080x1920 pixels) é o padrão vertical em tela cheia ideal para TikTok, Instagram Reels e Shorts."
+        },
+        {
+          "q": "Posso ajustar a largura e altura com dimensões exatas em pixels?",
+          "a": "Sim! Você pode definir valores de pixels específicos para recortar imagens sob medida para banners de sites."
+        },
+        {
+          "q": "O ZeroTools guarda algum tipo de log ou histórico de uso?",
+          "a": "Absolutamente não! O ZeroTools é construído com arquitetura 100% focada em privacidade client-side. Nenhum texto colado, arquivo enviado ou imagem processada passa por nossos servidores ou fica registrado em bancos de dados."
+        },
+        {
+          "q": "É possível usar as ferramentas sem conexão com a internet (Offline)?",
+          "a": "Após a primeira carga da página no seu navegador, a maioria das ferramentas continua funcionando normalmente mesmo se você perder a conexão com a internet, pois todo o código de execução já reside na memória local do seu dispositivo."
+        },
+        {
+          "q": "Posso recomendar ou usar o ZeroTools na minha empresa/agência?",
+          "a": "Com certeza! O ZeroTools é 100% gratuito e liberado para uso comercial, corporativo e acadêmico sem qualquer necessidade de licença ou pagamento."
         }
       ]
     },
     "background-remover": {
       "name": "Removedor de Fundo",
       "desc": "Remova o fundo de imagens automaticamente usando IA — no seu navegador.",
-      "article": "<h2>Como funciona o Removedor de Fundo?</h2><p>Nosso <strong>Removedor de Fundo</strong> utiliza inteligência artificial avançada rodando no próprio navegador para separar o objeto principal do fundo com precisão. É ideal para fotos de produtos (e-commerce), fotos de perfil e design gráfico.</p><h3>Passo a passo de como usar:</h3><ol><li>Aguarde alguns segundos na primeira vez que abrir a ferramenta para que a IA local seja carregada no seu navegador.</li><li>Faça o upload ou arraste uma foto com um objeto claro em primeiro plano (como uma pessoa ou produto).</li><li>Aguarde a barra de progresso enquanto a inteligência artificial processa os recortes.</li><li>Visualize a imagem resultante com fundo transparente (quadriculado).</li><li>Clique em 'Baixar Imagem sem Fundo' para salvá-la em formato PNG transparente.</li></ol><h3>A Mágica do WebAssembly</h3><p>A inteligência artificial é executada localmente no seu dispositivo, oferecendo recortes impecáveis sem comprometer sua privacidade.</p>",
+      "article": "<h2>Como a IA Remove Fundos sem Enviar Fotos para a Nuvem?</h2>\n<p>Ferramentas tradicionais de remoção de fundo realizam o processamento em servidores de alto custo na nuvem, cobrando assinaturas e limitando o número de downloads. O ZeroTools utiliza o modelo de visão computacional pré-treinado <strong>@imgly/background-removal</strong> compilado para <strong>WebAssembly (WASM)</strong> e <strong>ONNX Runtime Web</strong>. Isso significa que o modelo de inteligência artificial roda nativamente dentro do hardware do seu próprio computador ou celular.</p>\n\n<h3>Aplicações Práticas para Imagens com Fundo Transparente</h3>\n<ul>\n  <li><strong>Fotos de Produtos para E-commerce:</strong> Remova fundos poluídos de fotos de produtos e substitua por fundo branco puro padrão de marketplaces.</li>\n  <li><strong>Fotos de Perfil (Headshots):</strong> Destaque sua foto de perfil profissional para currículos, crachás e redes sociais.</li>\n  <li><strong>Design Gráfico e Banners:</strong> Crie composições publicitárias, colagens e thumbnails para o YouTube sobrepondo objetos em novos cenários.</li>\n</ul>\n\n<h3>Desempenho e Primeira Carga do Modelo</h3>\n<p>Na primeira vez que você utiliza o Removedor de Fundo, o navegador faz o download do modelo de inteligência artificial (~40MB). Esse download ocorre uma única vez e o modelo fica armazenado no cache local do seu dispositivo. As remoções seguintes ocorrem em poucos segundos de forma totalmente offline.</p><h3>Recorte Preciso de Bordas e Transparência Alfa com IA</h3>\n<p>Remover fundos de cabelos, pelos de animais ou superfícies semitransparentes (como vidros) sempre foi um desafio manual no Photoshop. A rede neural ONNX utilizada no ZeroTools analisa a imagem em camadas profundas para gerar um canal alfa suave de transparência nas bordas.</p><h3>Dicas de Otimização, Compatibilidade e Dúvidas Frequentes de Uso</h3><p>Para extrair o máximo desempenho das ferramentas do ZeroTools, certifique-se de manter seu navegador web (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari ou Opera) devidamente atualizado. Todas as nossas aplicações utilizam recursos nativos de última geração como WebAssembly, Canvas 2D Context e Web Crypto API, que oferecem desempenho comparável a programas profissionais instalados no computador, mas com a vantagem da portabilidade total e ausência de instalação de softwares ou drivers adicionais.</p>\n<p>Se você utiliza nossas ferramentas no seu trabalho diário de marketing, desenvolvimento ou criação de conteúdo, recomendamos adicionar o ZeroTools aos favoritos do seu navegador (Ctrl+D ou Cmd+D) para acesso instantâneo em apenas um clique. Como não exigimos criação de conta, login ou senha, seu fluxo de trabalho permanece contínuo e sem interrupções.</p>",
       "seoTitle": "Remover Fundo de Imagem Grátis Online com IA — ZeroTools",
-      "seoDesc": "Remova o fundo de qualquer foto com inteligência artificial. 100% gratuito, sem cadastro e sem instalar programas. Resultado em segundos com fundo transparente PNG.",
-      "keywords": "remover fundo de imagem, tirar fundo de foto, remover fundo online gratis, fundo transparente png, remover fundo com ia, background remover, remove background free",
-      "whatIs": "O Removedor de Fundo é uma ferramenta gratuita com IA que detecta e remove automaticamente o fundo de qualquer imagem, deixando você com um PNG transparente limpo. Alimentado por machine learning avançado rodando diretamente no seu navegador via WebAssembly, é perfeito para fotos de produtos, fotos de perfil, design gráfico e listagens de e-commerce — tudo sem enviar suas imagens para nenhum servidor.",
+      "seoDesc": "Remova o fundo de fotos automaticamente usando inteligência artificial no navegador. Baixe PNG com fundo transparente. 100% gratuito e privado.",
+      "keywords": "remover fundo de imagem gratis, tirar fundo de foto online, fundo transparente png, remover fundo com ia, background remover free, remover fundo foto produto",
+      "whatIs": "O Removedor de Fundo do ZeroTools é uma ferramenta revolucionária movida por inteligência artificial que detecta e remove o fundo de qualquer foto automaticamente, gerando um arquivo PNG com fundo transparente perfeito. Ideal para fotos de produtos de e-commerce (Mercado Livre, Shopify, Shopee), fotos de perfil profissional (LinkedIn), peças de design gráfico e apresentações. Alimentado por modelos de machine learning avançados executados diretamente no navegador via WebAssembly, ele recorta pessoas, objetos e animais sem que suas fotos precisem ser enviadas para servidores remotos.",
       "features": {
-        "interface": "Basta fazer upload ou arrastar uma imagem e deixar a IA trabalhar. Visualize o resultado com diferentes opções de fundo (transparente, branco, preto, cinza) antes de baixar. Sem necessidade de seleção ou edição manual.",
-        "processing": "O modelo de IA roda localmente no seu dispositivo usando tecnologia WebAssembly. Após o download único do modelo (~40MB, salvo em cache), o processamento leva apenas 10-30 segundos dependendo do seu dispositivo.",
-        "options": "Visualize seu resultado com diferentes cores de fundo antes de baixar. A saída é sempre um PNG transparente de alta qualidade que você pode usar diretamente em projetos de design, apresentações ou listagens de e-commerce.",
-        "unlimited": "Remova fundos de quantas imagens quiser. Sem limites diários, sem marcas d'água nos resultados e sem assinatura necessária.",
-        "security": "Diferente da maioria das ferramentas online de remoção de fundo, nossa IA roda 100% localmente no seu navegador. Suas fotos nunca são enviadas para nenhum servidor em nuvem, garantindo privacidade completa."
+        "interface": "Interface simples com pré-visualização de recorte transparente e seletores de cor de fundo.",
+        "processing": "Inteligência Artificial local executada via WebAssembly (WASM) no próprio processador do dispositivo.",
+        "options": "Exportação em formato PNG transparente de alta definição com preservação de detalhes das bordas.",
+        "unlimited": "Remova fundos de quantas imagens precisar sem assinaturas, créditos ou marcas d'água.",
+        "security": "Privacidade absoluta: suas fotos pessoais nunca são enviadas para nenhum servidor em nuvem."
       },
       "faq": [
         {
-          "q": "Como funciona a remoção de fundo com IA?",
-          "a": "Usamos um modelo de machine learning pré-treinado que roda via WebAssembly diretamente no seu navegador. O modelo analisa a imagem para detectar o objeto principal e cria uma máscara precisa para separá-lo do fundo."
+          "q": "O serviço é realmente 100% gratuito?",
+          "a": "Sim! Não há taxas escondidas, cobrança por crédito de imagem ou marcas d'água nos seus downloads."
         },
         {
-          "q": "Por que o primeiro uso demora mais?",
-          "a": "Na primeira vez que você usa a ferramenta, seu navegador baixa o modelo de IA (~40MB). Este modelo fica salvo no cache do navegador, então os usos seguintes são muito mais rápidos sem necessidade de novo download."
+          "q": "Por que a primeira remoção demora um pouco mais?",
+          "a": "Na primeira execução, o navegador baixa o modelo de IA (~40MB). Ele fica salvo no cache do seu navegador, tornando os usos futuros muito mais rápidos."
         },
         {
-          "q": "Que tipos de imagens funcionam melhor?",
-          "a": "A IA funciona melhor com imagens que têm um objeto principal claro em primeiro plano — pessoas, produtos, logos, animais e objetos. Cenas complexas com múltiplos objetos sobrepostos podem produzir resultados menos precisos."
+          "q": "Quais tipos de fotos funcionam melhor?",
+          "a": "Fotos que possuem um assunto principal bem definido em primeiro plano (pessoas, produtos, animais, veículos, logos) geram os recortes mais precisos."
         },
         {
-          "q": "A imagem de saída é transparente?",
-          "a": "Sim, a saída é sempre um arquivo PNG com fundo transparente. Você pode visualizá-la com fundos branco, preto ou cinza antes de baixar, mas o arquivo baixado sempre tem transparência total."
+          "q": "A imagem baixada tem fundo transparente?",
+          "a": "Sim, a imagem de saída é sempre um arquivo PNG com canal de transparência alfa preservado."
+        },
+        {
+          "q": "Como colocar um novo fundo na foto sem fundo?",
+          "a": "Após baixar seu PNG transparente no ZeroTools, você pode abri-lo no Canva, Figma ou Photoshop e posicionar qualquer imagem ou cor de fundo atrás da foto."
+        },
+        {
+          "q": "A IA funciona em fotos de produtos de e-commerce?",
+          "a": "Sim! É a ferramenta ideal para lojistas do Mercado Livre, Shopee e Shopify deixarem seus produtos com fundo branco profissional."
+        },
+        {
+          "q": "O ZeroTools guarda algum tipo de log ou histórico de uso?",
+          "a": "Absolutamente não! O ZeroTools é construído com arquitetura 100% focada em privacidade client-side. Nenhum texto colado, arquivo enviado ou imagem processada passa por nossos servidores ou fica registrado em bancos de dados."
+        },
+        {
+          "q": "É possível usar as ferramentas sem conexão com a internet (Offline)?",
+          "a": "Após a primeira carga da página no seu navegador, a maioria das ferramentas continua funcionando normalmente mesmo se você perder a conexão com a internet, pois todo o código de execução já reside na memória local do seu dispositivo."
+        },
+        {
+          "q": "Posso recomendar ou usar o ZeroTools na minha empresa/agência?",
+          "a": "Com certeza! O ZeroTools é 100% gratuito e liberado para uso comercial, corporativo e acadêmico sem qualquer necessidade de licença ou pagamento."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Carregue sua Foto",
+          "desc": "Arraste uma foto com objeto claro em primeiro plano para o painel da IA."
+        },
+        {
+          "title": "Processamento Automático pela IA",
+          "desc": "Aguarde alguns segundos enquanto a IA local analisa e recorta o fundo da foto."
+        },
+        {
+          "title": "Visualize o Resultado",
+          "desc": "Confira o recorte em fundo transparente (quadriculado) ou selecione um fundo colorido."
+        },
+        {
+          "title": "Baixe em PNG Transparente",
+          "desc": "Clique no botão 'Baixar PNG' para salvar a imagem sem fundo em alta qualidade."
         }
       ]
     },
     "pdf-compressor": {
       "name": "Compressor de PDF",
       "desc": "Comprima e otimize arquivos PDF para envio por email.",
-      "article": "<h2>Sobre o Compressor de PDF</h2><p>Arquivos PDF muito grandes são difíceis de enviar por e-mail ou anexar em formulários. O nosso <strong>Compressor de PDF</strong> resolve isso removendo metadados desnecessários e reestruturando o arquivo para torná-lo mais leve.</p><h3>Passo a passo de como usar:</h3><ol><li>Faça upload do documento PDF que deseja reduzir o tamanho arrastando para a área indicada.</li><li>A ferramenta imediatamente começará a ler e processar o arquivo no seu navegador.</li><li>Verifique a taxa de compressão e os megabytes economizados na interface.</li><li>Um botão de download aparecerá; clique nele para salvar a versão leve do seu PDF.</li></ol><p>Tudo isso é feito no seu próprio dispositivo, garantindo que documentos com dados sensíveis não vazem na internet.</p>",
+      "article": "<h2>Sobre o Compressor de PDF</h2><p>Arquivos PDF muito grandes são difíceis de enviar por e-mail ou anexar em formulários. O nosso <strong>Compressor de PDF</strong> resolve isso removendo metadados desnecessários e reestruturando o arquivo para torná-lo mais leve.</p><h3>Passo a passo de como usar:</h3><ol><li>Faça upload do documento PDF que deseja reduzir o tamanho arrastando para a área indicada.</li><li>A ferramenta imediatamente começará a ler e processar o arquivo no seu navegador.</li><li>Verifique a taxa de compressão e os megabytes economizados na interface.</li><li>Um botão de download aparecerá; clique nele para salvar a versão leve do seu PDF.</li></ol><p>Tudo isso é feito no seu próprio dispositivo, garantindo que documentos com dados sensíveis não vazem na internet.</p><h3>Análise Técnica de Estruturas PDF e Dicas de Compressão</h3>\n<p>Documentos PDF utilizam a especificação de objetos contínuos e árvores de dicionários. Ao exportar PDFs de programas de edição como Adobe Illustrator, InDesign ou Microsoft Word, os arquivos costumam incorporar miniaturas de pré-visualização, históricos de alteração, fontes completas (em vez de subconjuntos) e metadados de impressão pesados.</p>\n<h3>Como o ZeroTools Reduz o Tamanho sem Alterar o Conteúdo</h3>\n<ul>\n  <li><strong>Subconjunto de Fontes (Font Subsetting):</strong> Mantém apenas os caracteres utilizados no documento em vez de embutir o arquivo de fonte completo.</li>\n  <li><strong>Reorganização de Fluxos de Dados:</strong> Aplica compressão Flate/Deflate nativa nos fluxos de páginas e elementos de texto.</li>\n  <li><strong>Limpeza de Metadados Desnecessários:</strong> Remove miniaturas redundantes, históricos de edição e dados de rastreamento ocultos.</li>\n</ul><h3>Dicas de Otimização, Compatibilidade e Dúvidas Frequentes de Uso</h3><p>Para extrair o máximo desempenho das ferramentas do ZeroTools, certifique-se de manter seu navegador web (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari ou Opera) devidamente atualizado. Todas as nossas aplicações utilizam recursos nativos de última geração como WebAssembly, Canvas 2D Context e Web Crypto API, que oferecem desempenho comparável a programas profissionais instalados no computador, mas com a vantagem da portabilidade total e ausência de instalação de softwares ou drivers adicionais.</p>\n<p>Se você utiliza nossas ferramentas no seu trabalho diário de marketing, desenvolvimento ou criação de conteúdo, recomendamos adicionar o ZeroTools aos favoritos do seu navegador (Ctrl+D ou Cmd+D) para acesso instantâneo em apenas um clique. Como não exigimos criação de conta, login ou senha, seu fluxo de trabalho permanece contínuo e sem interrupções.</p>",
       "seoTitle": "Comprimir PDF Online Grátis — Reduzir Tamanho de Arquivo PDF",
       "seoDesc": "Comprima arquivos PDF grandes sem perder qualidade para enviar por e-mail ou WhatsApp. Gratuito, sem cadastro, seus documentos não saem do seu computador.",
       "keywords": "comprimir pdf online gratis, reduzir tamanho pdf, diminuir pdf para enviar email, pdf menor gratis, compressor de pdf, comprimir pdf sem perder qualidade",
@@ -288,13 +442,33 @@
         {
           "q": "Posso comprimir PDFs protegidos por senha?",
           "a": "Infelizmente, PDFs criptografados ou protegidos por senha não podem ser processados pela nossa ferramenta. Você precisará remover a proteção por senha antes de comprimir."
+        },
+        {
+          "q": "Como garantir que um PDF comprimido continue legível para impressão?",
+          "a": "Nossa compressão otimiza apenas a estrutura interna do PDF sem pixelar textos ou elementos vetoriais, mantendo nítido em qualquer impressora."
+        },
+        {
+          "q": "O ZeroTools guarda cópia dos meus PDFs comprimidos?",
+          "a": "Jamais! Todo o processamento de PDF ocorre estritamente dentro da memória RAM do seu navegador. Seus documentos nunca são salvos ou enviados para servidores."
+        },
+        {
+          "q": "O ZeroTools guarda algum tipo de log ou histórico de uso?",
+          "a": "Absolutamente não! O ZeroTools é construído com arquitetura 100% focada em privacidade client-side. Nenhum texto colado, arquivo enviado ou imagem processada passa por nossos servidores ou fica registrado em bancos de dados."
+        },
+        {
+          "q": "É possível usar as ferramentas sem conexão com a internet (Offline)?",
+          "a": "Após a primeira carga da página no seu navegador, a maioria das ferramentas continua funcionando normalmente mesmo se você perder a conexão com a internet, pois todo o código de execução já reside na memória local do seu dispositivo."
+        },
+        {
+          "q": "Posso recomendar ou usar o ZeroTools na minha empresa/agência?",
+          "a": "Com certeza! O ZeroTools é 100% gratuito e liberado para uso comercial, corporativo e acadêmico sem qualquer necessidade de licença ou pagamento."
         }
       ]
     },
     "file-converter": {
       "name": "Conversor de Arquivo",
       "desc": "Converta imagens entre JPG, PNG, WebP, GIF.",
-      "article": "<h2>Conversão Rápida e Local</h2><p>Precisa transformar um WebP para JPG ou vice-versa? O <strong>Conversor de Arquivos</strong> permite alternar entre formatos de imagem instantaneamente e em massa.</p><h3>Passo a passo de como usar:</h3><ol><li>Arraste uma imagem do seu computador para o painel de conversão.</li><li>No menu de seleção (dropdown), escolha o formato de destino desejado (PNG, JPG, WEBP, etc).</li><li>Clique no botão 'Converter Arquivo' para iniciar o processo.</li><li>O download do arquivo no novo formato se iniciará automaticamente em alguns milissegundos.</li></ol><p>Como tudo roda via Javascript no cliente, não há fila de espera. Suas imagens são convertidas sem uploads demorados.</p>",
+      "article": "<h2>Conversão Rápida e Local</h2><p>Precisa transformar um WebP para JPG ou vice-versa? O <strong>Conversor de Arquivos</strong> permite alternar entre formatos de imagem instantaneamente e em massa.</p><h3>Passo a passo de como usar:</h3><ol><li>Arraste uma imagem do seu computador para o painel de conversão.</li><li>No menu de seleção (dropdown), escolha o formato de destino desejado (PNG, JPG, WEBP, etc).</li><li>Clique no botão 'Converter Arquivo' para iniciar o processo.</li><li>O download do arquivo no novo formato se iniciará automaticamente em alguns milissegundos.</li></ol><p>Como tudo roda via Javascript no cliente, não há fila de espera. Suas imagens são convertidas sem uploads demorados.</p><h3>Guia Avançado: Otimização de Performance e Escolha do Formato Ideal</h3>\n<p>Em projetos de desenvolvimento web e design de interfaces, a escolha estratégica do formato de arquivo pode reduzir o tempo de carregamento da página em mais de 60%. O formato <strong>WebP</strong> (criado pelo Google) utiliza algoritmos avançados de predição espacial para compactar imagens mantendo transparência alfa e compressão superior. Ao converter arquivos PNG pesados para WebP, você melhora métricas vitais como o <em>First Contentful Paint (FCP)</em> e o <em>Largest Contentful Paint (LCP)</em> no Google PageSpeed Insights.</p>\n<h3>Comparativo Técnico entre Formatos de Imagem</h3>\n<ul>\n  <li><strong>JPG / JPEG:</strong> Excelente para fotos e imagens complexas. Não suporta transparência. Utiliza compressão com perda ajustável.</li>\n  <li><strong>PNG:</strong> Suporta transparência total de 8 e 24 bits. Formato sem perda (lossless), ideal para logos, ícones, textos e gráficos de alta precisão.</li>\n  <li><strong>WebP:</strong> O padrão moderno da web. Suporta animações, transparência e compressão com ou sem perda. Até 30% menor que JPG.</li>\n  <li><strong>GIF:</strong> Limitado a 256 cores. Suporta animações simples e transparência binária (com bordas denteadas).</li>\n</ul>\n<h3>Privacidade e Conformidade com a LGPD</h3>\n<p>Diferente de serviços concorrentes que enviam seus arquivos para servidores desconhecidos na nuvem (colocando em risco fotos pessoais e documentos confidenciais), o ZeroTools realiza 100% da conversão dentro da memória temporária do seu navegador. Nenhum arquivo é transmitido pela rede, armazenado em disco rígido externo ou compartilhado com terceiros. Isso garante conformidade automática com as diretrizes da LGPD (Lei Geral de Proteção de Dados) e GDPR europeia.</p><h3>Dicas de Otimização, Compatibilidade e Dúvidas Frequentes de Uso</h3><p>Para extrair o máximo desempenho das ferramentas do ZeroTools, certifique-se de manter seu navegador web (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari ou Opera) devidamente atualizado. Todas as nossas aplicações utilizam recursos nativos de última geração como WebAssembly, Canvas 2D Context e Web Crypto API, que oferecem desempenho comparável a programas profissionais instalados no computador, mas com a vantagem da portabilidade total e ausência de instalação de softwares ou drivers adicionais.</p>\n<p>Se você utiliza nossas ferramentas no seu trabalho diário de marketing, desenvolvimento ou criação de conteúdo, recomendamos adicionar o ZeroTools aos favoritos do seu navegador (Ctrl+D ou Cmd+D) para acesso instantâneo em apenas um clique. Como não exigimos criação de conta, login ou senha, seu fluxo de trabalho permanece contínuo e sem interrupções.</p>",
       "seoTitle": "Converter Imagem Online Grátis — JPG para PNG, WebP e mais",
       "seoDesc": "Converta imagens entre JPG, PNG, WebP e GIF instantaneamente no navegador. Sem upload para servidores. Gratuito e sem cadastro.",
       "keywords": "converter imagem online gratis, jpg para png, png para jpg, converter para webp, conversor de imagem, image converter online, mudar formato de imagem",
@@ -322,47 +496,105 @@
         {
           "q": "A conversão afeta a qualidade da imagem?",
           "a": "Converter entre formatos com perda (como JPG para WebP) pode envolver pequenas mudanças de qualidade. Converter para PNG preserva a qualidade exata. Para melhores resultados, evite converter a mesma imagem entre formatos com perda múltiplas vezes."
+        },
+        {
+          "q": "Posso converter imagens em lote de uma só vez?",
+          "a": "Sim! Você pode selecionar ou arrastrar dezenas de arquivos de uma única vez para a caixa de upload. O conversor processará todas as imagens em sequência direta na memória do seu navegador."
+        },
+        {
+          "q": "O conversor funciona em dispositivos móveis (celulares e tablets)?",
+          "a": "Com certeza! Nossa plataforma foi desenvolvida de forma 100% responsiva e funciona perfeitamente em navegadores mobile do Android (Chrome, Firefox, Opera) e iOS (Safari)."
+        },
+        {
+          "q": "O ZeroTools guarda algum tipo de log ou histórico de uso?",
+          "a": "Absolutamente não! O ZeroTools é construído com arquitetura 100% focada em privacidade client-side. Nenhum texto colado, arquivo enviado ou imagem processada passa por nossos servidores ou fica registrado em bancos de dados."
+        },
+        {
+          "q": "É possível usar as ferramentas sem conexão com a internet (Offline)?",
+          "a": "Após a primeira carga da página no seu navegador, a maioria das ferramentas continua funcionando normalmente mesmo se você perder a conexão com a internet, pois todo o código de execução já reside na memória local do seu dispositivo."
+        },
+        {
+          "q": "Posso recomendar ou usar o ZeroTools na minha empresa/agência?",
+          "a": "Com certeza! O ZeroTools é 100% gratuito e liberado para uso comercial, corporativo e acadêmico sem qualquer necessidade de licença ou pagamento."
         }
       ]
     },
     "password-generator": {
       "name": "Gerador de Senha",
       "desc": "Gere senhas fortes e seguras com tamanhos customizados.",
-      "article": "<h2>Por que usar o Gerador de Senhas?</h2><p>Senhas fracas são a porta de entrada para invasões. Nosso <strong>Gerador de Senhas</strong> cria combinações de caracteres totalmente aleatórias e criptograficamente seguras para você usar em novos cadastros.</p><h3>Passo a passo de como usar:</h3><ol><li>Deslize a barra para escolher o tamanho da senha (recomendamos pelo menos 16 caracteres).</li><li>Marque ou desmarque as caixas de opções: Letras Maiúsculas, Minúsculas, Números ou Símbolos ($, %, @).</li><li>A senha atualizada aparecerá no campo de texto principal automaticamente.</li><li>Clique no botão 'Copiar' ao lado da senha para enviá-la à área de transferência do seu sistema.</li></ol><p><strong>Dica de Segurança:</strong> Nunca use a mesma senha em dois sites diferentes. Use esta ferramenta para gerar senhas únicas.</p>",
+      "article": "<h2>Como a Criptografia Garante a Força da sua Senha</h2>\n<p>Diferente de geradores simples que utilizam funções matemáticas previsíveis (como <code>Math.random()</code>), o ZeroTools utiliza a API nativa do navegador <strong>Web Crypto (<code>crypto.getRandomValues()</code>)</strong>. Essa API acessa fontes de entropia do sistema operacional do seu dispositivo (como ruído térmico do processador e eventos de interrupção de hardware), gerando aleatoriedade pura à prova de ataques cibernéticos.</p>\n\n<h3>Regras Fundamentais para Criar Senhas Seguras</h3>\n<ul>\n  <li><strong>Comprimento Mínimo Recomendado:</strong> Crie senhas com no mínimo 16 a 20 caracteres. Quanto mais longa a senha, exponencialmente maior o tempo necessário para um ataque de força bruta tentar todas as combinações.</li>\n  <li><strong>Mistura de Caracteres:</strong> Combine letras maiúsculas (A-Z), minúsculas (a-z), números (0-9) e símbolos (!@#$%^&*).</li>\n  <li><strong>Senhas Únicas para Cada Conta:</strong> Jamais reutilize a mesma senha em sites diferentes. Se um serviço sofrer um vazamento de dados, seus outros cadastros permanecerão seguros.</li>\n  <li><strong>Uso de Gerenciador de Senhas:</strong> Armazene suas senhas geradas em um gerenciador de senhas confiável e criptografado (como Bitwarden, 1Password ou KeePass).</li>\n</ul>\n\n<h3>Privacidade Criptográfica Absoluta</h3>\n<p>Suas senhas geradas existem apenas na memória temporária (RAM) do seu navegador enquanto a página estiver aberta. Elas jamais são enviadas para nenhum servidor na internet, gravadas em bancos de dados ou compartilhadas com terceiros. A segurança é 100% garantida no seu próprio dispositivo.</p><h3>Cálculo de Entropia e Resistência a Ataques de Força Bruta</h3>\n<p>A entropia de uma senha mede sua aleatoriedade em bits. Uma senha de 16 caracteres composta por letras maiúsculas, minúsculas, números e símbolos possui uma entropia superior a 90 bits, o que exigiria bilhões de anos de processamento em supercomputadores para ser quebrada por força bruta.</p><h3>Dicas de Otimização, Compatibilidade e Dúvidas Frequentes de Uso</h3><p>Para extrair o máximo desempenho das ferramentas do ZeroTools, certifique-se de manter seu navegador web (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari ou Opera) devidamente atualizado. Todas as nossas aplicações utilizam recursos nativos de última geração como WebAssembly, Canvas 2D Context e Web Crypto API, que oferecem desempenho comparável a programas profissionais instalados no computador, mas com a vantagem da portabilidade total e ausência de instalação de softwares ou drivers adicionais.</p>\n<p>Se você utiliza nossas ferramentas no seu trabalho diário de marketing, desenvolvimento ou criação de conteúdo, recomendamos adicionar o ZeroTools aos favoritos do seu navegador (Ctrl+D ou Cmd+D) para acesso instantâneo em apenas um clique. Como não exigimos criação de conta, login ou senha, seu fluxo de trabalho permanece contínuo e sem interrupções.</p>",
       "seoTitle": "Gerador de Senha Forte e Segura Online Grátis — ZeroTools",
-      "seoDesc": "Gere senhas aleatórias, fortes e seguras com letras, números e símbolos. Defina o tamanho ideal. 100% gratuito e privado — a senha não é salva em nenhum servidor.",
-      "keywords": "gerador de senha forte, criar senha segura online, gerar senha aleatoria, senha com letras e numeros, password generator, gerador de senha gratis",
-      "whatIs": "O Gerador de Senhas é uma ferramenta online gratuita que cria senhas criptograficamente fortes e aleatórias para proteger suas contas online. Com opções personalizáveis de comprimento e conjunto de caracteres (maiúsculas, minúsculas, números, símbolos), ele gera senhas virtualmente impossíveis de quebrar — tudo processado localmente no seu navegador para que suas senhas nunca sejam transmitidas ou armazenadas em nenhum lugar.",
+      "seoDesc": "Gere senhas aleatórias e criptograficamente seguras com letras, números e símbolos. Defina o tamanho ideal. 100% gratuito e privado no navegador.",
+      "keywords": "gerador de senha forte online, criar senha segura gratis, gerador de senhas aleatorias, gerador de senha segura, password generator online, gerador de senha criptografada",
+      "whatIs": "O Gerador de Senhas do ZeroTools é uma ferramenta de segurança digital gratuita que cria senhas aleatórias criptograficamente fortes para proteger suas contas de e-mail, redes sociais, bancos e serviços online. Senhas fracas ou reutilizadas são a causa número 1 de vazamentos de dados e invasões de contas. Com o ZeroTools, você gera combinações impossíveis de adivinhar ajustando o comprimento (de 4 a 128 caracteres) e incluindo letras maiúsculas, minúsculas, números e símbolos especiais — tudo processado localmente no seu dispositivo através da API Web Crypto.",
       "features": {
-        "interface": "Ajuste o comprimento da senha com um controle deslizante simples e ative/desative opções de caracteres com caixas de seleção. Um medidor de força em tempo real mostra exatamente quão segura sua senha é, com classificações coloridas de Fraca a Forte.",
-        "processing": "As senhas são geradas instantaneamente usando a API Web Crypto, que fornece geração de números aleatórios criptograficamente seguros. Isso acontece inteiramente no seu navegador sem nenhuma requisição de rede.",
-        "options": "Personalize com letras maiúsculas (A-Z), minúsculas (a-z), números (0-9) e símbolos especiais (!@#$%^&*). Ajuste o comprimento de 4 a 128 caracteres. Gere senhas únicas ou múltiplas de uma vez.",
-        "unlimited": "Gere quantas senhas precisar sem restrições. Sem limites diários, sem necessidade de conta, e seu histórico de senhas é armazenado apenas na sessão do navegador — nunca nos nossos servidores.",
-        "security": "O Gerador de Senhas usa a API criptográfica nativa do navegador para aleatoriedade verdadeira. As senhas geradas existem apenas na memória do seu navegador e nunca são enviadas para nenhum servidor ou registradas em lugar algum."
+        "interface": "Interface limpa com indicador visual colorido de força da senha em tempo real.",
+        "processing": "Geração aleatória ultra-segura via Web Crypto API nativa. Sem requisições de rede.",
+        "options": "Customização total de comprimento (4 a 128 caracteres), caracteres especiais, maiúsculas, minúsculas e dígitos.",
+        "unlimited": "Gere senhas ilimitadas para todas as suas contas digitais sem taxas ou limitações.",
+        "security": "Segurança total: senhas geradas não são salvas, rastreadas nem transmitidas por nenhum servidor."
       },
       "faq": [
         {
-          "q": "Qual deve ser o tamanho da minha senha?",
-          "a": "Recomendamos pelo menos 16 caracteres para contas importantes. Senhas com 20+ caracteres usando todos os tipos de caracteres (maiúsculas, minúsculas, números, símbolos) oferecem a proteção mais forte contra ataques de força bruta."
+          "q": "Qual a diferença entre Math.random() e Web Crypto API?",
+          "a": "Math.random() gera números pseudo-aleatórios previsíveis que podem ser adivinhados por scripts de hackers. A Web Crypto API utiliza entropia de hardware do sistema operacional para gerar aleatoriedade criptograficamente segura."
         },
         {
-          "q": "As senhas geradas são realmente aleatórias?",
-          "a": "Sim. Usamos a API Web Crypto (crypto.getRandomValues), que fornece números pseudo-aleatórios criptograficamente seguros. Este é o mesmo nível de aleatoriedade usado em protocolos de criptografia."
+          "q": "Qual o tamanho de senha recomendado atualmente?",
+          "a": "Especialistas em segurança recomendam senhas de pelo menos 16 a 20 caracteres com mistura de todos os tipos de caracteres para resistir a supercomputadores."
         },
         {
-          "q": "Devo usar a mesma senha em vários sites?",
-          "a": "Absolutamente não. Cada conta online deve ter sua própria senha única. Se um site for comprometido, senhas reutilizadas colocam todas as suas outras contas em risco. Use nosso gerador para criar uma senha única para cada conta."
+          "q": "O ZeroTools guarda minhas senhas geradas?",
+          "a": "Não! O ZeroTools é 100% client-side. As senhas geradas existem apenas na tela do seu dispositivo e desaparecem quando você fecha o navegador."
         },
         {
-          "q": "Onde devo guardar minhas senhas geradas?",
-          "a": "Recomendamos usar um gerenciador de senhas confiável (como Bitwarden, 1Password ou KeePass) para armazenar todas as suas senhas de forma segura. Nunca anote senhas em papéis ou as armazene em arquivos de texto simples."
+          "q": "Posso usar a senha em redes sociais e bancos?",
+          "a": "Com certeza! As senhas geradas atendem a todos os requisitos de segurança de plataformas como Google, Apple, bancos, Instagram, Facebook e portais governamentais."
+        },
+        {
+          "q": "Por que evitar senhas baseadas em nomes ou datas de aniversário?",
+          "a": "Ataques de dicionário e engenharia social utilizam dados pessoais públicos para adivinhar senhas facilmente."
+        },
+        {
+          "q": "Com que frequência devo alterar minhas senhas?",
+          "a": "Recomenda-se alterar senhas imediatamente caso ocorra algum vazamento de dados em um serviço que você utilize, mantendo senhas únicas e fortes sempre."
+        },
+        {
+          "q": "O ZeroTools guarda algum tipo de log ou histórico de uso?",
+          "a": "Absolutamente não! O ZeroTools é construído com arquitetura 100% focada em privacidade client-side. Nenhum texto colado, arquivo enviado ou imagem processada passa por nossos servidores ou fica registrado em bancos de dados."
+        },
+        {
+          "q": "É possível usar as ferramentas sem conexão com a internet (Offline)?",
+          "a": "Após a primeira carga da página no seu navegador, a maioria das ferramentas continua funcionando normalmente mesmo se você perder a conexão com a internet, pois todo o código de execução já reside na memória local do seu dispositivo."
+        },
+        {
+          "q": "Posso recomendar ou usar o ZeroTools na minha empresa/agência?",
+          "a": "Com certeza! O ZeroTools é 100% gratuito e liberado para uso comercial, corporativo e acadêmico sem qualquer necessidade de licença ou pagamento."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Defina o Comprimento da Senha",
+          "desc": "Ajuste o controle deslizante para escolher o tamanho da senha (recomendamos 16 a 20 caracteres)."
+        },
+        {
+          "title": "Selecione os Tipos de Caracteres",
+          "desc": "Marque as caixas para incluir Maiúsculas, Minúsculas, Números e Símbolos Especiais."
+        },
+        {
+          "title": "Confira o Indicador de Força",
+          "desc": "Acompanhe a classificação de segurança em tempo real (Fraca, Média, Forte ou Muito Forte)."
+        },
+        {
+          "title": "Copie a Senha Gerada",
+          "desc": "Clique no botão 'Copiar Senha' para enviá-la para a sua área de transferência com segurança."
         }
       ]
     },
     "color-palette": {
       "name": "Paleta de Cores",
       "desc": "Gere paletas de cores a partir de uma cor base.",
-      "article": "<h2>Inspiração de Cores Instantânea</h2><p>O <strong>Gerador de Paleta de Cores</strong> é perfeito para designers e desenvolvedores front-end em busca de harmonia visual. Escolha uma cor base e gere combinações perfeitas.</p><h3>Passo a passo de como usar:</h3><ol><li>Clique na amostra de cor principal para abrir o seletor visual e escolha sua cor base.</li><li>Você verá instantaneamente variações de luminosidade dessa cor.</li><li>Altere o modo de geração (Análoga, Complementar, Monocromática, Tríade) para ver paletas matemáticas completas.</li><li>Clique em cima de qualquer bloco de cor na tela para copiar o código HEX (ex: #FFFFFF) para a sua área de transferência.</li></ol>",
+      "article": "<h2>Inspiração de Cores Instantânea</h2><p>O <strong>Gerador de Paleta de Cores</strong> é perfeito para designers e desenvolvedores front-end em busca de harmonia visual. Escolha uma cor base e gere combinações perfeitas.</p><h3>Passo a passo de como usar:</h3><ol><li>Clique na amostra de cor principal para abrir o seletor visual e escolha sua cor base.</li><li>Você verá instantaneamente variações de luminosidade dessa cor.</li><li>Altere o modo de geração (Análoga, Complementar, Monocromática, Tríade) para ver paletas matemáticas completas.</li><li>Clique em cima de qualquer bloco de cor na tela para copiar o código HEX (ex: #FFFFFF) para a sua área de transferência.</li></ol><h3>Psicologia das Cores e Aplicação em Marcas Digitais</h3>\n<p>A psicologia das cores é a ciência que analisa como diferentes tons influenciam o comportamento do consumidor e a percepção de valor de uma marca. Ao construir uma paleta de cores para um produto digital, é fundamental entender a mensagem oculta transmitida por cada tonalidade:</p>\n<ul>\n  <li><strong>Azul:</strong> Transmite confiança, segurança, inteligência e estabilidade. Amplamente adotado por instituições financeiras, tecnologia e redes sociais.</li>\n  <li><strong>Verde:</strong> Associado à saúde, sustentabilidade, crescimento, renovação e sucesso financeiro.</li>\n  <li><strong>Laranja e Amarelo:</strong> Evocam energia, otimismo, criatividade e dinamismo, sendo excelentes para chamadas de atenção e marcas jovens.</li>\n  <li><strong>Roxo:</strong> Remete ao luxo, mistério, espiritualidade e inovação tecnológica.</li>\n</ul>\n<h3>Sistemas de Cores no Desenvolvido Front-End (CSS Variables e Tailwind)</h3>\n<p>Uma paleta bem estruturada facilita a criação de design tokens e variáveis CSS globais. O ZeroTools gera códigos HEX limpos para você declarar facilmente no seu projeto:</p>\n<pre><code>:root {\n  --primary: #3B82F6;\n  --secondary: #10B981;\n  --accent: #F59E0B;\n}</code></pre><h3>Dicas de Otimização, Compatibilidade e Dúvidas Frequentes de Uso</h3><p>Para extrair o máximo desempenho das ferramentas do ZeroTools, certifique-se de manter seu navegador web (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari ou Opera) devidamente atualizado. Todas as nossas aplicações utilizam recursos nativos de última geração como WebAssembly, Canvas 2D Context e Web Crypto API, que oferecem desempenho comparável a programas profissionais instalados no computador, mas com a vantagem da portabilidade total e ausência de instalação de softwares ou drivers adicionais.</p>\n<p>Se você utiliza nossas ferramentas no seu trabalho diário de marketing, desenvolvimento ou criação de conteúdo, recomendamos adicionar o ZeroTools aos favoritos do seu navegador (Ctrl+D ou Cmd+D) para acesso instantâneo em apenas um clique. Como não exigimos criação de conta, login ou senha, seu fluxo de trabalho permanece contínuo e sem interrupções.</p>",
       "seoTitle": "Gerador de Paleta de Cores Online Grátis — HEX, RGB, HSL",
       "seoDesc": "Gere paletas de cores harmoniosas a partir de uma cor base. Exporte em HEX, RGB e HSL. Ideal para designers e desenvolvedores. 100% gratuito e online.",
       "keywords": "gerador de paleta de cores, paleta de cores online gratis, combinação de cores, color palette generator, paleta de cores hex, criar paleta de cores",
@@ -390,13 +622,33 @@
         {
           "q": "Quais formatos de cor são suportados?",
           "a": "O formato principal de exibição é HEX (#RRGGBB), o formato mais amplamente utilizado em desenvolvimento web e ferramentas de design. Os cálculos subjacentes usam HSL para precisão matemática."
+        },
+        {
+          "q": "Como aplicar os códigos de cores em ferramentas de design como o Figma?",
+          "a": "Após copiar o código HEX (#XXXXXX) no ZeroTools, basta selecionar a camada de forma ou texto no Figma, clicar no campo de cor do painel direito e colar o código diretamente."
+        },
+        {
+          "q": "O que é um esquema de cores Triádico?",
+          "a": "Um esquema triádico utiliza três cores espaçadas a 120 graus uma da outra no círculo cromático, oferecendo um contraste vibrante com grande equilíbrio visual."
+        },
+        {
+          "q": "O ZeroTools guarda algum tipo de log ou histórico de uso?",
+          "a": "Absolutamente não! O ZeroTools é construído com arquitetura 100% focada em privacidade client-side. Nenhum texto colado, arquivo enviado ou imagem processada passa por nossos servidores ou fica registrado em bancos de dados."
+        },
+        {
+          "q": "É possível usar as ferramentas sem conexão com a internet (Offline)?",
+          "a": "Após a primeira carga da página no seu navegador, a maioria das ferramentas continua funcionando normalmente mesmo se você perder a conexão com a internet, pois todo o código de execução já reside na memória local do seu dispositivo."
+        },
+        {
+          "q": "Posso recomendar ou usar o ZeroTools na minha empresa/agência?",
+          "a": "Com certeza! O ZeroTools é 100% gratuito e liberado para uso comercial, corporativo e acadêmico sem qualquer necessidade de licença ou pagamento."
         }
       ]
     },
     "lorem-ipsum": {
       "name": "Gerador de Lorem Ipsum",
       "desc": "Gere texto placeholder para designs e wireframes.",
-      "article": "<h2>O que é o Lorem Ipsum?</h2><p>O <strong>Gerador de Lorem Ipsum</strong> cria textos de marcação de espaço (placeholder) com aparência de latim clássico. É amplamente usado na indústria gráfica e web design para testar layouts e tipografia antes de ter o conteúdo real.</p><h3>Passo a passo de como usar:</h3><ol><li>Digite o número de unidades que deseja gerar no campo numérico (ex: 5).</li><li>Escolha o tipo de unidade no menu suspenso: 'Parágrafos', 'Frases' ou 'Palavras'.</li><li>O texto Lorem Ipsum será atualizado instantaneamente na caixa inferior conforme as suas configurações.</li><li>Clique no botão 'Copiar Texto' para enviar o conteúdo gerado direto para a área de transferência do seu sistema.</li></ol>",
+      "article": "<h2>O que é o Lorem Ipsum?</h2><p>O <strong>Gerador de Lorem Ipsum</strong> cria textos de marcação de espaço (placeholder) com aparência de latim clássico. É amplamente usado na indústria gráfica e web design para testar layouts e tipografia antes de ter o conteúdo real.</p><h3>Passo a passo de como usar:</h3><ol><li>Digite o número de unidades que deseja gerar no campo numérico (ex: 5).</li><li>Escolha o tipo de unidade no menu suspenso: 'Parágrafos', 'Frases' ou 'Palavras'.</li><li>O texto Lorem Ipsum será atualizado instantaneamente na caixa inferior conforme as suas configurações.</li><li>Clique no botão 'Copiar Texto' para enviar o conteúdo gerado direto para a área de transferência do seu sistema.</li></ol><h3>Análise Tipográfica e Teste de UI com Lorem Ipsum</h3>\n<p>O objetivo principal de utilizar o Lorem Ipsum em projetos de interface de usuário (UI) e design editorial é simular o peso visual de blocos de texto real sem influenciar a interpretação do leitor. Ao testar tipografias em sistemas de design, designers inspecionam três variáveis fundamentais:</p>\n<ul>\n  <li><strong>Hierarquia de Títulos (H1, H2, H3):</strong> A validação de contraste de tamanho entre títulos e corpo de texto garante leitura fluida.</li>\n  <li><strong>Altura de Linha (Line-Height / Entrelinha):</strong> Uma entrelinha adequada (geralmente entre 1.4 e 1.6) evita que os parágrafos fiquem muito agrupados ou dispersos.</li>\n  <li><strong>Medida da Linha (Measure / Largura do Bloco):</strong> O número ideal de caracteres por linha para leitura confortável em telas fica entre 45 e 75 caracteres.</li>\n</ul><h3>Dicas de Otimização, Compatibilidade e Dúvidas Frequentes de Uso</h3><p>Para extrair o máximo desempenho das ferramentas do ZeroTools, certifique-se de manter seu navegador web (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari ou Opera) devidamente atualizado. Todas as nossas aplicações utilizam recursos nativos de última geração como WebAssembly, Canvas 2D Context e Web Crypto API, que oferecem desempenho comparável a programas profissionais instalados no computador, mas com a vantagem da portabilidade total e ausência de instalação de softwares ou drivers adicionais.</p>\n<p>Se você utiliza nossas ferramentas no seu trabalho diário de marketing, desenvolvimento ou criação de conteúdo, recomendamos adicionar o ZeroTools aos favoritos do seu navegador (Ctrl+D ou Cmd+D) para acesso instantâneo em apenas um clique. Como não exigimos criação de conta, login ou senha, seu fluxo de trabalho permanece contínuo e sem interrupções.</p>",
       "seoTitle": "Gerador de Lorem Ipsum Online Grátis — Texto de Exemplo — ZeroTools",
       "seoDesc": "Gere textos Lorem Ipsum (parágrafos, frases ou palavras) para mockups e projetos de design. Copie com um clique. 100% gratuito e sem cadastro.",
       "keywords": "gerador de lorem ipsum online, texto de exemplo para design, placeholder text, lorem ipsum gratis, gerar texto aleatorio, dummy text generator",
@@ -424,47 +676,105 @@
         {
           "q": "Posso usar isso nos meus projetos de design?",
           "a": "Absolutamente. Lorem Ipsum foi feito especificamente como texto de espaço reservado para sites, aplicativos, folhetos, apresentações e qualquer projeto que precise de texto provisório durante a fase de design."
+        },
+        {
+          "q": "Por que não usar texto aleatório em português como 'teste teste teste'?",
+          "a": "Repetir palavras simples em português gera uma distribuição visual não natural de letras, distorcendo o teste de tipografia e espaço."
+        },
+        {
+          "q": "O Lorem Ipsum gerado é livre de direitos autorais?",
+          "a": "Sim! O texto deriva de obras clássicas de domínio público e pode ser usado livremente em protótipos comerciais."
+        },
+        {
+          "q": "O ZeroTools guarda algum tipo de log ou histórico de uso?",
+          "a": "Absolutamente não! O ZeroTools é construído com arquitetura 100% focada em privacidade client-side. Nenhum texto colado, arquivo enviado ou imagem processada passa por nossos servidores ou fica registrado em bancos de dados."
+        },
+        {
+          "q": "É possível usar as ferramentas sem conexão com a internet (Offline)?",
+          "a": "Após a primeira carga da página no seu navegador, a maioria das ferramentas continua funcionando normalmente mesmo se você perder a conexão com a internet, pois todo o código de execução já reside na memória local do seu dispositivo."
+        },
+        {
+          "q": "Posso recomendar ou usar o ZeroTools na minha empresa/agência?",
+          "a": "Com certeza! O ZeroTools é 100% gratuito e liberado para uso comercial, corporativo e acadêmico sem qualquer necessidade de licença ou pagamento."
         }
       ]
     },
     "json-formatter": {
       "name": "Formatador JSON",
       "desc": "Formate, valide e embeleze código JSON.",
-      "article": "<h2>Belezador de JSON</h2><p>O <strong>Formatador de JSON</strong> é a ferramenta número 1 de desenvolvedores de software para pegar enormes linhas de código ilegível e quebrado e transformá-lo em uma árvore de propriedades limpa e identada.</p><h3>Passo a passo de como usar:</h3><ol><li>Cole a string (texto) contendo o JSON feio e não-formatado na caixa da esquerda (Input).</li><li>Automaticamente o código validado e formatado com quebras de linha e tabulações (2 espaços) surgirá na caixa da direita.</li><li>Se houver erros de sintaxe (como uma vírgula faltando no meio do código), a ferramenta avisará destacando o erro.</li><li>Se preferir compactar o código para economizar espaço de rede, clique em 'Minificar' para remover todos os espaços do JSON.</li><li>Copie o resultado usando o botão superior para usar no seu projeto.</li></ol>",
+      "article": "<h2>O que é o Formato JSON e por que Formatá-lo?</h2>\n<p>JSON (JavaScript Object Notation) é o formato padrão universal de troca de dados na web moderna. APIs RESTful, bancos de dados NoSQL (como MongoDB) e arquivos de configuração (como <code>package.json</code>) utilizam JSON para estruturar dados. Para economizar largura de banda de rede, os servidores enviam dados JSON 'minificados' (sem espaços ou quebras de linha), tornando o código ilegível para humanos. O ZeroTools embeleza (beautify) esse código em milissegundos.</p>\n\n<h3>Recursos do Formatador de JSON</h3>\n<ul>\n  <li><strong>Indentação Personalizável:</strong> Organize objetos e arrays aninhados com recuo padrão de 2 espaços para leitura confortável.</li>\n  <li><strong>Detecção de Erros de Sintaxe:</strong> Se o JSON estiver corrompido, o validador exibirá uma mensagem destacando a falha de parsing.</li>\n  <li><strong>Minificação de JSON:</strong> Remova todos os espaços em branco e quebras de linha para preparar o payload para envio em requisições de rede.</li>\n  <li><strong>Validação Local Segura:</strong> Como desenvolvedores frequentemente trabalham com chaves de API e dados de usuários, o ZeroTools valida tudo no próprio navegador sem enviar seu JSON para servidores remotos.</li>\n</ul>\n\n<h3>Segurança no Desenvolvimento de APIs</h3>\n<p>Testar dados de API em conversores de terceiros que enviam seus dados para servidores externos pode expor tokens de autenticação sensíveis. O ZeroTools roda 100% client-side, mantendo seu código 100% privado e seguro.</p><h3>Especificação JSON e Validação de Sintaxe RFC 8259</h3>\n<p>A especificação RFC 8259 estabelece regras rígidas para estruturas de dados JSON: chaves de objetos devem ser obrigatoriamente strings envolvidas em aspas duplas (<code>\"chave\"</code>), valores de string também exigem aspas duplas, e vírgulas no último elemento de arrays ou objetos não são permitidas.</p><h3>Dicas de Otimização, Compatibilidade e Dúvidas Frequentes de Uso</h3><p>Para extrair o máximo desempenho das ferramentas do ZeroTools, certifique-se de manter seu navegador web (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari ou Opera) devidamente atualizado. Todas as nossas aplicações utilizam recursos nativos de última geração como WebAssembly, Canvas 2D Context e Web Crypto API, que oferecem desempenho comparável a programas profissionais instalados no computador, mas com a vantagem da portabilidade total e ausência de instalação de softwares ou drivers adicionais.</p>\n<p>Se você utiliza nossas ferramentas no seu trabalho diário de marketing, desenvolvimento ou criação de conteúdo, recomendamos adicionar o ZeroTools aos favoritos do seu navegador (Ctrl+D ou Cmd+D) para acesso instantâneo em apenas um clique. Como não exigimos criação de conta, login ou senha, seu fluxo de trabalho permanece contínuo e sem interrupções.</p>",
       "seoTitle": "Formatador e Validador de JSON Online Grátis — ZeroTools",
-      "seoDesc": "Formate, valide e minifique JSON online. Destaque de sintaxe e detecção de erros em tempo real. Ferramenta essencial para desenvolvedores. Gratuita e sem cadastro.",
-      "keywords": "formatador de json online, validador de json, json beautifier online, formatar json gratis, minificar json, json formatter online, validar json",
-      "whatIs": "O Formatador de JSON é uma ferramenta online gratuita feita para desenvolvedores que precisam formatar, validar e embelezar dados JSON brutos rapidamente. Cole seu JSON minificado ou bagunçado e a ferramenta o transforma instantaneamente em código limpo e adequadamente indentado com destaque de sintaxe. Também detecta e destaca erros de sintaxe, ajudando a debugar JSON mal formado em segundos.",
+      "seoDesc": "Formate, embeleze, valide e minifique código JSON online com destaque de sintaxe e detecção de erros em tempo real. Gratuito para desenvolvedores.",
+      "keywords": "formatador de json online, validador de json gratis, json beautifier online, formatar json desformatado, minificar json, json formatter developer tool",
+      "whatIs": "O Formatador e Validador de JSON do ZeroTools é uma ferramenta essencial para desenvolvedores de software, engenheiros de dados e profissionais de tecnologia. Ela pega strings de código JSON brutas, minificadas ou mal formatadas provenientes de respostas de APIs e as transforma em uma estrutura hierárquica limpa, indentada e com destaque de sintaxe em tempo real. Além disso, a ferramenta detecta automaticamente erros de sintaxe (como vírgulas sobrando ou aspas ausentes), apontando exatamente a linha com problema.",
       "features": {
-        "interface": "Um layout de editor lado a lado permite colar JSON bruto na esquerda e ver a saída formatada na direita. O destaque de sintaxe facilita a leitura de objetos aninhados, arrays, strings e números.",
-        "processing": "O parsing e formatação de JSON acontecem instantaneamente no seu navegador usando APIs JavaScript nativas. Sem ida e volta ao servidor, sem chamada de API e sem atraso — mesmo para payloads JSON grandes.",
-        "options": "Formate com indentação personalizável, minifique para remover todos os espaços ou valide para verificar erros de sintaxe. A ferramenta lida com objetos aninhados, arrays e estruturas de dados complexas de qualquer profundidade.",
-        "unlimited": "Formate e valide quanto JSON precisar — sem limites de caracteres, sem caps de uso e sem necessidade de conta.",
-        "security": "Seus dados JSON permanecem no seu navegador o tempo todo. Isso é crítico para desenvolvedores trabalhando com respostas de API, arquivos de configuração ou exportações de banco de dados que podem conter informações sensíveis."
+        "interface": "Editor visual lado a lado com suporte a destaque de sintaxe e numeração de linhas.",
+        "processing": "Parsing nativo ultra-rápido via `JSON.parse()` e `JSON.stringify()` no navegador.",
+        "options": "Funções completas de Formatação (Beautify), Minificação e Validação de sintaxe.",
+        "unlimited": "Formate arquivos JSON de qualquer tamanho sem restrições de linhas ou licenças.",
+        "security": "Seu código e payloads de API permanecem 100% seguros na memória do seu próprio navegador."
       },
       "faq": [
         {
-          "q": "O que é formatação de JSON?",
-          "a": "Formatação de JSON (também chamada de beautify) adiciona indentação, quebras de linha e espaçamento adequados para tornar dados JSON legíveis por humanos. É essencial para debugar respostas de API, ler arquivos de configuração e entender estruturas de dados."
-        },
-        {
-          "q": "A ferramenta detecta erros no JSON?",
-          "a": "Sim! Se seu JSON tiver erros de sintaxe (como vírgulas faltando, colchetes não fechados ou valores inválidos), a ferramenta destacará o erro e mostrará onde está o problema, ajudando a corrigi-lo rapidamente."
+          "q": "O que significa erro de sintaxe no JSON?",
+          "a": "Erros de sintaxe ocorrem quando o JSON viola as regras formais (ex: falta de aspas duplas nas chaves, vírgula no último item de um array ou colchetes não fechados)."
         },
         {
           "q": "Qual a diferença entre Formatar e Minificar?",
-          "a": "Formatar adiciona indentação e quebras de linha para legibilidade. Minificar remove todos os espaços para criar a versão mais compacta possível, útil para reduzir o tamanho de payloads em APIs e transferências de rede."
+          "a": "Formatar (Beautify) adiciona espaços e quebras de linha para humanos lerem o código. Minificar remove todos os espaços para o arquivo ocupar o menor tamanho possível em conexões de rede."
         },
         {
-          "q": "Existe um limite de tamanho para dados JSON?",
-          "a": "Como o processamento acontece no seu navegador, a ferramenta pode lidar com arquivos JSON muito grandes. O limite prático depende da memória do seu dispositivo, mas dispositivos modernos processam facilmente vários megabytes de dados JSON."
+          "q": "Posso formatar payloads de API com tokens sensíveis?",
+          "a": "Sim! O ZeroTools processa tudo localmente no seu computador. Nenhum dado colado é enviado para servidores externos."
+        },
+        {
+          "q": "A ferramenta suporta JSONs grandes?",
+          "a": "Sim, como o parsing é realizado pelo mecanismo V8/JavaScript nativo do navegador, você pode formatar arquivos JSON de vários megabytes sem lentidão."
+        },
+        {
+          "q": "O formatador detecta vírgulas sobrando no JSON?",
+          "a": "Sim! Se o seu JSON contiver vírgulas no final de listas (trailing commas), a ferramenta apontará o erro imediatamente."
+        },
+        {
+          "q": "Posso converter JSON para texto minificado para enviar em requisições HTTP?",
+          "a": "Com certeza! Basta clicar na opção 'Minificar' para remover todos os espaços e enviar o payload leve na sua API."
+        },
+        {
+          "q": "O ZeroTools guarda algum tipo de log ou histórico de uso?",
+          "a": "Absolutamente não! O ZeroTools é construído com arquitetura 100% focada em privacidade client-side. Nenhum texto colado, arquivo enviado ou imagem processada passa por nossos servidores ou fica registrado em bancos de dados."
+        },
+        {
+          "q": "É possível usar as ferramentas sem conexão com a internet (Offline)?",
+          "a": "Após a primeira carga da página no seu navegador, a maioria das ferramentas continua funcionando normalmente mesmo se você perder a conexão com a internet, pois todo o código de execução já reside na memória local do seu dispositivo."
+        },
+        {
+          "q": "Posso recomendar ou usar o ZeroTools na minha empresa/agência?",
+          "a": "Com certeza! O ZeroTools é 100% gratuito e liberado para uso comercial, corporativo e acadêmico sem qualquer necessidade de licença ou pagamento."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Cole o Código JSON",
+          "desc": "Cole o texto JSON desformatado ou minificado no editor de entrada."
+        },
+        {
+          "title": "Validação Automática",
+          "desc": "A ferramenta analisará a sintaxe e destacará erros caso o código esteja quebrado."
+        },
+        {
+          "title": "Escolha Formatar ou Minificar",
+          "desc": "Clique em 'Embelezar' para identar o código ou 'Minificar' para compactar."
+        },
+        {
+          "title": "Copie o Resultado",
+          "desc": "Clique em 'Copiar JSON' para enviar o código formatado para a sua área de transferência."
         }
       ]
     },
     "case-converter": {
       "name": "Conversor de Maiúsculas",
       "desc": "Converta texto para maiúsculas, minúsculas, camelCase e mais.",
-      "article": "<h2>O que é o Conversor de Texto (Case Converter)?</h2><p>O <strong>Conversor de Texto</strong> é a solução ideal quando você copia um texto que está todo em maiúsculas (gritando) e precisa formatá-lo corretamente, ou quando precisa padronizar nomes próprios e títulos rapidamente.</p><h3>Passo a passo de como usar:</h3><ol><li>Cole ou digite o texto desformatado na caixa principal.</li><li>Selecione o formato desejado no topo: 'Minúsculas' (tudo em letras pequenas), 'Maiúsculas' (tudo em letras grandes), 'Capitalizadas' (A Primeira Letra De Cada Palavra Maiúscula) ou 'Alternadas' (aLtErNaDaS).</li><li>O resultado é gerado instantaneamente abaixo.</li><li>Clique no botão de 'Copiar' para transferir o texto corrigido para a sua área de transferência.</li></ol>",
+      "article": "<h2>O que é o Conversor de Texto (Case Converter)?</h2><p>O <strong>Conversor de Texto</strong> é a solução ideal quando você copia um texto que está todo em maiúsculas (gritando) e precisa formatá-lo corretamente, ou quando precisa padronizar nomes próprios e títulos rapidamente.</p><h3>Passo a passo de como usar:</h3><ol><li>Cole ou digite o texto desformatado na caixa principal.</li><li>Selecione o formato desejado no topo: 'Minúsculas' (tudo em letras pequenas), 'Maiúsculas' (tudo em letras grandes), 'Capitalizadas' (A Primeira Letra De Cada Palavra Maiúscula) ou 'Alternadas' (aLtErNaDaS).</li><li>O resultado é gerado instantaneamente abaixo.</li><li>Clique no botão de 'Copiar' para transferir o texto corrigido para a sua área de transferência.</li></ol><h3>Casos de Uso Avançados em Programação e Redação</h3>\n<p>Diferentes ambientes de desenvolvimento e linguagens de programação exigem padrões de nomenclatura específicos (conhecidos como <em>naming conventions</em>). Utilizar a caixa correta evita erros de compilação, falhas em APIs e melhora o manuseio de código-fonte em equipes de desenvolvimento.</p>\n<h3>Resumo das Principais Convenções em Desenvolvimento</h3>\n<ul>\n  <li><strong>camelCase:</strong> Utilizado para variáveis, métodos e propriedades em JavaScript, TypeScript, Java e Swift (ex: <code>usuarioAtivo</code>).</li>\n  <li><strong>PascalCase:</strong> Utilizado para nomes de classes, interfaces e componentes em React, C# e C++ (ex: <code>UserProfileCard</code>).</li>\n  <li><strong>snake_case:</strong> Padrão em variáveis de Python, bancos de dados PostgreSQL/MySQL e arquivos de configuração (ex: <code>created_at</code>).</li>\n  <li><strong>kebab-case:</strong> Recomendado para rotas de URL, slugs de blog e nomes de arquivos no sistema operacional (ex: <code>artigo-seo-otimizado</code>).</li>\n  <li><strong>UPPER_SNAKE_CASE:</strong> Utilizado para constantes globais e variáveis de ambiente em arquivos <code>.env</code> (ex: <code>DATABASE_URL</code>).</li>\n</ul><h3>Dicas de Otimização, Compatibilidade e Dúvidas Frequentes de Uso</h3><p>Para extrair o máximo desempenho das ferramentas do ZeroTools, certifique-se de manter seu navegador web (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari ou Opera) devidamente atualizado. Todas as nossas aplicações utilizam recursos nativos de última geração como WebAssembly, Canvas 2D Context e Web Crypto API, que oferecem desempenho comparável a programas profissionais instalados no computador, mas com a vantagem da portabilidade total e ausência de instalação de softwares ou drivers adicionais.</p>\n<p>Se você utiliza nossas ferramentas no seu trabalho diário de marketing, desenvolvimento ou criação de conteúdo, recomendamos adicionar o ZeroTools aos favoritos do seu navegador (Ctrl+D ou Cmd+D) para acesso instantâneo em apenas um clique. Como não exigimos criação de conta, login ou senha, seu fluxo de trabalho permanece contínuo e sem interrupções.</p>",
       "seoTitle": "Converter Texto para Maiúsculas e Minúsculas Online — ZeroTools",
       "seoDesc": "Converta textos para MAIÚSCULAS, minúsculas, Primeira Letra Maiúscula (Title Case) e mais. Gratuito, online e sem necessidade de cadastro.",
       "keywords": "converter texto maiusculo minusculo online, primeira letra maiuscula, title case online, case converter, converter texto online gratis, uppercase lowercase converter",
@@ -492,13 +802,33 @@
         {
           "q": "Existe um limite de caracteres?",
           "a": "Não, não há limite de caracteres. Você pode colar documentos inteiros, arquivos de código ou qualquer quantidade de texto. Todas as transformações são calculadas no seu navegador."
+        },
+        {
+          "q": "O conversor remove espaços duplos e quebras de linha?",
+          "a": "A conversão mantém a estrutura do seu texto e ajusta a caixa das letras e separadores de palavras conforme a convenção selecionada."
+        },
+        {
+          "q": "Como transformar uma lista de títulos em slugs para WordPress?",
+          "a": "Cole a lista de títulos, selecione a opção 'kebab-case' e obtenha instantaneamente slugs limpos com hífens prontos para URLs de blog."
+        },
+        {
+          "q": "O ZeroTools guarda algum tipo de log ou histórico de uso?",
+          "a": "Absolutamente não! O ZeroTools é construído com arquitetura 100% focada em privacidade client-side. Nenhum texto colado, arquivo enviado ou imagem processada passa por nossos servidores ou fica registrado em bancos de dados."
+        },
+        {
+          "q": "É possível usar as ferramentas sem conexão com a internet (Offline)?",
+          "a": "Após a primeira carga da página no seu navegador, a maioria das ferramentas continua funcionando normalmente mesmo se você perder a conexão com a internet, pois todo o código de execução já reside na memória local do seu dispositivo."
+        },
+        {
+          "q": "Posso recomendar ou usar o ZeroTools na minha empresa/agência?",
+          "a": "Com certeza! O ZeroTools é 100% gratuito e liberado para uso comercial, corporativo e acadêmico sem qualquer necessidade de licença ou pagamento."
         }
       ]
     },
     "base64": {
       "name": "Codificador Base64",
       "desc": "Codifique e decodifique textos e arquivos em Base64 instantaneamente.",
-      "article": "<h2>Por que usar o Codificador Base64?</h2><p>O <strong>Base64</strong> é um formato de codificação amplamente utilizado por desenvolvedores para transmitir dados binários (como imagens ou tokens de segurança) em formatos de texto legíveis pela internet, evitando quebras de caracteres e corrompimentos no JSON ou XML.</p><h3>Passo a passo de como usar:</h3><ol><li>Selecione a aba que define sua ação: 'Codificar' (texto normal para Base64) ou 'Decodificar' (Base64 para texto normal).</li><li>Cole a sua string de texto ou o código gigantesco em Base64 na caixa de entrada.</li><li>A conversão acontecerá automaticamente. Se a string Base64 não for válida durante a decodificação, a ferramenta não fará a conversão, prevenindo que você use um código quebrado.</li><li>Clique no botão 'Copiar' e seu código estará pronto para uso.</li></ol>",
+      "article": "<h2>Por que usar o Codificador Base64?</h2><p>O <strong>Base64</strong> é um formato de codificação amplamente utilizado por desenvolvedores para transmitir dados binários (como imagens ou tokens de segurança) em formatos de texto legíveis pela internet, evitando quebras de caracteres e corrompimentos no JSON ou XML.</p><h3>Passo a passo de como usar:</h3><ol><li>Selecione a aba que define sua ação: 'Codificar' (texto normal para Base64) ou 'Decodificar' (Base64 para texto normal).</li><li>Cole a sua string de texto ou o código gigantesco em Base64 na caixa de entrada.</li><li>A conversão acontecerá automaticamente. Se a string Base64 não for válida durante a decodificação, a ferramenta não fará a conversão, prevenindo que você use um código quebrado.</li><li>Clique no botão 'Copiar' e seu código estará pronto para uso.</li></ol><h3>Tabela de Especificação da Codificação Base64</h3>\n<p>A codificação Base64 mapeia conjuntos de 6 bits para 64 caracteres ASCII seguros para transmissão em sistemas web:</p>\n<ul>\n  <li><strong>Letras Maiúsculas (A-Z):</strong> Valores de 0 a 25.</li>\n  <li><strong>Letras Minúsculas (a-z):</strong> Valores de 26 a 51.</li>\n  <li><strong>Números (0-9):</strong> Valores de 52 a 61.</li>\n  <li><strong>Símbolos (+ e /):</strong> Valores 62 e 63.</li>\n  <li><strong>Caractere de Preenchimento (=):</strong> Utilizado no final para alinhar blocos de 4 caracteres.</li>\n</ul><h3>Dicas de Otimização, Compatibilidade e Dúvidas Frequentes de Uso</h3><p>Para extrair o máximo desempenho das ferramentas do ZeroTools, certifique-se de manter seu navegador web (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari ou Opera) devidamente atualizado. Todas as nossas aplicações utilizam recursos nativos de última geração como WebAssembly, Canvas 2D Context e Web Crypto API, que oferecem desempenho comparável a programas profissionais instalados no computador, mas com a vantagem da portabilidade total e ausência de instalação de softwares ou drivers adicionais.</p>\n<p>Se você utiliza nossas ferramentas no seu trabalho diário de marketing, desenvolvimento ou criação de conteúdo, recomendamos adicionar o ZeroTools aos favoritos do seu navegador (Ctrl+D ou Cmd+D) para acesso instantâneo em apenas um clique. Como não exigimos criação de conta, login ou senha, seu fluxo de trabalho permanece contínuo e sem interrupções.</p>",
       "seoTitle": "Codificador e Decodificador Base64 Online Grátis — ZeroTools",
       "seoDesc": "Codifique e decodifique strings Base64 e arquivos online. Suporta texto e imagens. Ferramenta rápida para desenvolvedores. 100% gratuita e sem cadastro.",
       "keywords": "codificador base64 online, decodificar base64, base64 encoder decoder online gratis, converter base64, encode base64 string, decode base64 text",
@@ -526,13 +856,33 @@
         {
           "q": "O que acontece se a string Base64 for inválida?",
           "a": "A ferramenta valida automaticamente a entrada Base64 durante a decodificação. Se a string contiver caracteres inválidos ou tiver preenchimento incorreto, uma mensagem de erro será exibida em vez de produzir saída corrompida."
+        },
+        {
+          "q": "Base64 aumenta o tamanho do arquivo original?",
+          "a": "Sim! Devido à conversão de 8 bits para unidades de 6 bits, dados codificados em Base64 ficam aproximadamente 33% maiores que o binário original."
+        },
+        {
+          "q": "Como converter imagens para Data URL Base64 em CSS?",
+          "a": "Utilize o formato `background-image: url('data:image/png;base64,CODIGO');` para embutir pequenos ícones direto nas folhas de estilo."
+        },
+        {
+          "q": "O ZeroTools guarda algum tipo de log ou histórico de uso?",
+          "a": "Absolutamente não! O ZeroTools é construído com arquitetura 100% focada em privacidade client-side. Nenhum texto colado, arquivo enviado ou imagem processada passa por nossos servidores ou fica registrado em bancos de dados."
+        },
+        {
+          "q": "É possível usar as ferramentas sem conexão com a internet (Offline)?",
+          "a": "Após a primeira carga da página no seu navegador, a maioria das ferramentas continua funcionando normalmente mesmo se você perder a conexão com a internet, pois todo o código de execução já reside na memória local do seu dispositivo."
+        },
+        {
+          "q": "Posso recomendar ou usar o ZeroTools na minha empresa/agência?",
+          "a": "Com certeza! O ZeroTools é 100% gratuito e liberado para uso comercial, corporativo e acadêmico sem qualquer necessidade de licença ou pagamento."
         }
       ]
     },
     "word-counter": {
       "name": "Contador de Palavras",
       "desc": "Conte palavras, caracteres, frases e analise a densidade de palavras-chave.",
-      "article": "<h2>Contagem e Densidade de Palavras</h2><p>Mais do que contar caracteres para o Twitter ou redações escolares, o <strong>Contador de Palavras</strong> do ZeroTools calcula sua velocidade de leitura e extrai a densidade de palavras-chave.</p><h3>Passo a passo de como usar:</h3><ol><li>Cole ou digite o seu texto inteiro na caixa de texto central da ferramenta.</li><li>Os painéis superiores mostrarão imediatamente a contagem total de Caracteres, Palavras, Frases e Parágrafos.</li><li>O painel lateral informará o tempo estimado para uma pessoa comum ler aquele texto.</li><li>No painel inferior, analise a lista de 'Palavras Mais Usadas' (Densidade) para evitar repetições excessivas ou focar no SEO.</li></ol>",
+      "article": "<h2>Contagem e Densidade de Palavras</h2><p>Mais do que contar caracteres para o Twitter ou redações escolares, o <strong>Contador de Palavras</strong> do ZeroTools calcula sua velocidade de leitura e extrai a densidade de palavras-chave.</p><h3>Passo a passo de como usar:</h3><ol><li>Cole ou digite o seu texto inteiro na caixa de texto central da ferramenta.</li><li>Os painéis superiores mostrarão imediatamente a contagem total de Caracteres, Palavras, Frases e Parágrafos.</li><li>O painel lateral informará o tempo estimado para uma pessoa comum ler aquele texto.</li><li>No painel inferior, analise a lista de 'Palavras Mais Usadas' (Densidade) para evitar repetições excessivas ou focar no SEO.</li></ol><h3>Análise de Densidade de Palavras-Chave e Otimização para SEO</h3>\n<p>Além de monitorar o comprimento total do texto, redatores e consultores de SEO analisam a frequência com que determinados termos aparecem no conteúdo (densidade de palavras-chave). Manter uma densidade saudável (entre 1% e 2.5%) garante que os motores de busca compreendam o tópico principal sem penalizar o artigo por *keyword stuffing* (uso excessivo e artificial de palavras-chave).</p><h3>Dicas de Otimização, Compatibilidade e Dúvidas Frequentes de Uso</h3><p>Para extrair o máximo desempenho das ferramentas do ZeroTools, certifique-se de manter seu navegador web (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari ou Opera) devidamente atualizado. Todas as nossas aplicações utilizam recursos nativos de última geração como WebAssembly, Canvas 2D Context e Web Crypto API, que oferecem desempenho comparável a programas profissionais instalados no computador, mas com a vantagem da portabilidade total e ausência de instalação de softwares ou drivers adicionais.</p>\n<p>Se você utiliza nossas ferramentas no seu trabalho diário de marketing, desenvolvimento ou criação de conteúdo, recomendamos adicionar o ZeroTools aos favoritos do seu navegador (Ctrl+D ou Cmd+D) para acesso instantâneo em apenas um clique. Como não exigimos criação de conta, login ou senha, seu fluxo de trabalho permanece contínuo e sem interrupções.</p>",
       "seoTitle": "Contador de Palavras e Caracteres Online Grátis — ZeroTools",
       "seoDesc": "Conte palavras, caracteres, frases e parágrafos em qualquer texto. Calcule o tempo de leitura e a densidade de palavras-chave para SEO. 100% gratuito e online.",
       "keywords": "contador de palavras online, contar caracteres online, contador de palavras gratis, quantas palavras tem meu texto, tempo de leitura, word counter online",
@@ -560,6 +910,26 @@
         {
           "q": "Posso usar isso para análise de conteúdo SEO?",
           "a": "Absolutamente! O recurso de densidade de palavras-chave ajuda a identificar suas palavras mais usadas e garantir que suas palavras-chave alvo apareçam na frequência certa. Combinado com a contagem de palavras, é útil para atender requisitos de comprimento de conteúdo."
+        },
+        {
+          "q": "Como o contador de palavras lida com hífens e pontuação?",
+          "a": "Palavras compostas ligadas por hífen são contadas conforme os padrões linguísticos oficiais, desconsiderando pontuações isoladas."
+        },
+        {
+          "q": "O limite de caracteres do Meta Description do Google é rígido?",
+          "a": "O Google mede Meta Descriptions em pixels (aproximadamente 960px no desktop e 680px no mobile), o que equivale a 150-160 caracteres médios."
+        },
+        {
+          "q": "O ZeroTools guarda algum tipo de log ou histórico de uso?",
+          "a": "Absolutamente não! O ZeroTools é construído com arquitetura 100% focada em privacidade client-side. Nenhum texto colado, arquivo enviado ou imagem processada passa por nossos servidores ou fica registrado em bancos de dados."
+        },
+        {
+          "q": "É possível usar as ferramentas sem conexão com a internet (Offline)?",
+          "a": "Após a primeira carga da página no seu navegador, a maioria das ferramentas continua funcionando normalmente mesmo se você perder a conexão com a internet, pois todo o código de execução já reside na memória local do seu dispositivo."
+        },
+        {
+          "q": "Posso recomendar ou usar o ZeroTools na minha empresa/agência?",
+          "a": "Com certeza! O ZeroTools é 100% gratuito e liberado para uso comercial, corporativo e acadêmico sem qualquer necessidade de licença ou pagamento."
         }
       ]
     }
