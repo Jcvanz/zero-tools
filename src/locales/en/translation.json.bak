@@ -90,7 +90,7 @@
     "hashtag-generator": {
       "name": "Hashtag Generator",
       "desc": "Generate trending hashtags for Instagram, TikTok and Twitter.",
-      "article": "<h2>How does the Hashtag Generator work?</h2><p>The <strong>Hashtag Generator</strong> helps you discover the best tags for your posts. Using the right keywords is essential to increase organic reach.</p><h3>Step-by-step how to use:</h3><ol><li>Choose the main category of your post from the available options on the screen (e.g., Fashion, Food, Fitness).</li><li>The tool will process and instantly display a cloud with the most engaging hashtags for that niche.</li><li>Click the 'Copy All' button at the bottom of the results box.</li><li>Paste them at the end of your Instagram, TikTok, or Twitter caption, and you're done!</li></ol><h3>Advantages</h3><p>Don't overdo it! Although Instagram allows up to 30 hashtags, experts recommend using between 5 to 15 hyper-relevant hashtags for better engagement.</p><h3>Organic Reach Optimization & Shadowban Prevention</h3>\n<p>Using banned or overly repetitive hashtags can trigger account reach restrictions (shadowbans). ZeroTools generates diverse, active tag mixes to maintain healthy profile authority on social algorithms.</p>",
+      "article": "<h2>How does the Hashtag Generator work?</h2><p>The <strong>Hashtag Generator</strong> helps you discover the best tags for your posts. Using the right keywords is essential to increase organic reach.</p><h3>Step-by-step how to use:</h3><ol><li>Choose the main category of your post from the available options on the screen (e.g., Fashion, Food, Fitness).</li><li>The tool will process and instantly display a cloud with the most engaging hashtags for that niche.</li><li>Click the 'Copy All' button at the bottom of the results box.</li><li>Paste them at the end of your Instagram, TikTok, or Twitter caption, and you're done!</li></ol><h3>Advantages</h3><p>Don't overdo it! Although Instagram allows up to 30 hashtags, experts recommend using between 5 to 15 hyper-relevant hashtags for better engagement.</p><h3>Organic Reach Optimization & Shadowban Prevention</h3>\n<p>Using banned or overly repetitive hashtags can trigger account reach restrictions (shadowbans). ZeroTools generates diverse, active tag mixes to maintain healthy profile authority on social algorithms.</p><h3>Optimization Tips, Browser Compatibility, and FAQs</h3><p>To achieve maximum efficiency with ZeroTools, ensure your web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, or Opera) is updated to its latest version. Our tools leverage cutting-edge native web standards including WebAssembly, HTML5 Canvas, and Web Crypto APIs, matching desktop software performance without installations or drivers.</p>\n<p>If you rely on ZeroTools for daily marketing, design, or engineering workflows, bookmark our site (Ctrl+D / Cmd+D) for instant one-click access. With zero signup forms or passwords required, your productivity stays seamless.</p>",
       "seoTitle": "Hashtag Generator for Instagram & TikTok Free — ZeroTools",
       "seoDesc": "Generate the best hashtags for Instagram, TikTok, and Twitter by category. Copy them all at once and boost your post reach. Free online tool.",
       "keywords": "hashtag generator instagram free, tiktok hashtags, best hashtags for instagram, hashtags by niche, hashtag generator online, hashtags for reels",
@@ -128,19 +128,23 @@
           "a": "You can copy generated tag groups with one click and save them directly into your content management notes or scheduling tools."
         },
         {
-          "q": "How do I find which hashtags are currently banned or shadowbanned?",
-          "a": "Search the hashtag directly on Instagram. If you see a notice saying \"posts hidden due to community reports,\" that tag is currently restricted and will suppress your post reach. Also avoid tags with billions of posts — your content will be buried immediately. Stick to mid-range tags (10K–500K posts) for the best chance of reaching the Explore page."
+          "q": "Does ZeroTools store any usage logs or file data?",
+          "a": "Absolutely not! ZeroTools is built on a 100% client-side privacy architecture. No pasted strings, uploaded files, or processed assets ever touch external servers or databases."
         },
         {
-          "q": "Should I put hashtags in the caption or the first comment on Instagram?",
-          "a": "Both methods index identically on Instagram's algorithm — there's no ranking difference. Placing hashtags in the first comment keeps your caption cleaner and more readable. If you use a scheduling tool like Buffer or Later, check whether it supports auto-commenting, as that's the preferred workflow for brands managing multiple accounts."
+          "q": "Can I use ZeroTools offline without internet?",
+          "a": "After the initial page load, most tools remain fully functional even if your internet disconnects, as execution logic runs entirely in local browser memory."
+        },
+        {
+          "q": "Can I use ZeroTools inside my business or agency workflow?",
+          "a": "Yes! ZeroTools is 100% free for commercial, corporate, agency, and educational use without licenses or payments."
         }
       ]
     },
     "qr-code": {
       "name": "QR Code Generator",
       "desc": "Create QR codes for URLs, text, WiFi, and vCards. Download as PNG or SVG.",
-      "article": "<h2>What is the QR Code Generator?</h2><p>The <strong>QR Code Generator</strong> is a simple and fast utility to convert texts, URLs, or WiFi information into a scannable code. QR Codes are widely used in restaurant menus, business cards, and digital marketing to connect the physical world to the digital instantly.</p><h3>Step-by-step how to use:</h3><ol><li>Choose the content type (URL, Text, or WiFi) by selecting the corresponding tab.</li><li>Fill in the main field with your website link, desired text, or WiFi network data.</li><li>Adjust the code and background colors using the color pickers to match your brand.</li><li>The code will be generated automatically on the screen in real-time.</li><li>Click the Download buttons to save the image in high-quality PNG or SVG format.</li></ol><h3>Advantages</h3><ul><li><strong>100% Offline:</strong> Codes are generated directly in your browser, with no data sent over the network.</li><li><strong>Vector Formats:</strong> Export as PNG or SVG to ensure maximum quality for printing.</li></ul><h3>Color Contrast Ratios & QR Scan Verification Best Practices</h3>\n<p>To ensure high scan reliability across all smartphone camera sensors, maintain strong contrast between foreground modules and background fills (dark modules on light backgrounds). Avoid inverted colors on print assets.</p>",
+      "article": "<h2>What is the QR Code Generator?</h2><p>The <strong>QR Code Generator</strong> is a simple and fast utility to convert texts, URLs, or WiFi information into a scannable code. QR Codes are widely used in restaurant menus, business cards, and digital marketing to connect the physical world to the digital instantly.</p><h3>Step-by-step how to use:</h3><ol><li>Choose the content type (URL, Text, or WiFi) by selecting the corresponding tab.</li><li>Fill in the main field with your website link, desired text, or WiFi network data.</li><li>Adjust the code and background colors using the color pickers to match your brand.</li><li>The code will be generated automatically on the screen in real-time.</li><li>Click the Download buttons to save the image in high-quality PNG or SVG format.</li></ol><h3>Advantages</h3><ul><li><strong>100% Offline:</strong> Codes are generated directly in your browser, with no data sent over the network.</li><li><strong>Vector Formats:</strong> Export as PNG or SVG to ensure maximum quality for printing.</li></ul><h3>Color Contrast Ratios & QR Scan Verification Best Practices</h3>\n<p>To ensure high scan reliability across all smartphone camera sensors, maintain strong contrast between foreground modules and background fills (dark modules on light backgrounds). Avoid inverted colors on print assets.</p><h3>Optimization Tips, Browser Compatibility, and FAQs</h3><p>To achieve maximum efficiency with ZeroTools, ensure your web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, or Opera) is updated to its latest version. Our tools leverage cutting-edge native web standards including WebAssembly, HTML5 Canvas, and Web Crypto APIs, matching desktop software performance without installations or drivers.</p>\n<p>If you rely on ZeroTools for daily marketing, design, or engineering workflows, bookmark our site (Ctrl+D / Cmd+D) for instant one-click access. With zero signup forms or passwords required, your productivity stays seamless.</p>",
       "seoTitle": "Free QR Code Generator Online — Create QR Codes for URLs & WiFi",
       "seoDesc": "Create custom QR codes for URLs, text, and WiFi networks. Download as high-quality PNG or SVG. 100% free, no signup required, works directly in your browser.",
       "keywords": "free qr code generator, create qr code online, qr code for website, qr code wifi, custom qr code generator, qr code download png, make qr code free",
@@ -178,19 +182,23 @@
           "a": "PNG exports are rendered in crisp high resolution (256x256 up to 1024x1024 pixels), perfect for business cards and flyers."
         },
         {
-          "q": "Can I add a logo to the center of my QR Code without breaking it?",
-          "a": "Yes. QR Codes use Reed-Solomon error correction, which allows up to 30% of the code area to be obscured. To add a logo: download your QR Code as SVG, open it in Figma or Illustrator, and overlay your logo centered in the middle. Keep the logo covering no more than 20-25% of the total area. Always test scannability with multiple smartphones before printing at scale."
+          "q": "Does ZeroTools store any usage logs or file data?",
+          "a": "Absolutely not! ZeroTools is built on a 100% client-side privacy architecture. No pasted strings, uploaded files, or processed assets ever touch external servers or databases."
         },
         {
-          "q": "What's the minimum size a QR Code should be for reliable scanning?",
-          "a": "The minimum recommended size is 2cm × 2cm (about 0.8 × 0.8 inches) for close-range scanning. For larger materials, follow the 1:10 rule: the scanning distance should be no more than 10 times the QR Code size. A billboard viewed from 10 meters needs a 1-meter QR Code. Always leave a white quiet zone of at least 4 modules around the code border."
+          "q": "Can I use ZeroTools offline without internet?",
+          "a": "After the initial page load, most tools remain fully functional even if your internet disconnects, as execution logic runs entirely in local browser memory."
+        },
+        {
+          "q": "Can I use ZeroTools inside my business or agency workflow?",
+          "a": "Yes! ZeroTools is 100% free for commercial, corporate, agency, and educational use without licenses or payments."
         }
       ]
     },
     "image-compressor": {
       "name": "Image Compressor",
       "desc": "Compress JPG, PNG and WebP images. Reduce file size without losing quality.",
-      "article": "<h2>About the Image Compressor</h2><p>The <strong>Image Compressor</strong> helps you drastically reduce your image file sizes without losing visual quality. This is vital for improving website loading speed (SEO) and saving storage space.</p><h3>Step-by-step how to use:</h3><ol><li>Click on the dotted area or drag and drop an image (JPG, PNG, or WebP) from your computer.</li><li>Observe the preview of the original image and its weight in megabytes or kilobytes.</li><li>Adjust the Quality slider (from 0% to 100%) until you find the perfect balance between size and sharpness.</li><li>The estimated final size will be updated on the screen instantly.</li><li>Click on 'Download Compressed Image' to save the new optimized file.</li></ol><h3>Privacy Guaranteed</h3><p>Unlike other online tools, we use client-side compression (via Canvas). Your personal photos are never sent to cloud servers, ensuring total security.</p><h3>Quantization Matrices and Visually Lossless Compression</h3>\n<p>ZeroTools image compression leverages chroma subsampling and adaptive quantization matrices. This removes color frequency data less perceptible to the human eye while preserving sharp luminance details.</p>",
+      "article": "<h2>About the Image Compressor</h2><p>The <strong>Image Compressor</strong> helps you drastically reduce your image file sizes without losing visual quality. This is vital for improving website loading speed (SEO) and saving storage space.</p><h3>Step-by-step how to use:</h3><ol><li>Click on the dotted area or drag and drop an image (JPG, PNG, or WebP) from your computer.</li><li>Observe the preview of the original image and its weight in megabytes or kilobytes.</li><li>Adjust the Quality slider (from 0% to 100%) until you find the perfect balance between size and sharpness.</li><li>The estimated final size will be updated on the screen instantly.</li><li>Click on 'Download Compressed Image' to save the new optimized file.</li></ol><h3>Privacy Guaranteed</h3><p>Unlike other online tools, we use client-side compression (via Canvas). Your personal photos are never sent to cloud servers, ensuring total security.</p><h3>Quantization Matrices and Visually Lossless Compression</h3>\n<p>ZeroTools image compression leverages chroma subsampling and adaptive quantization matrices. This removes color frequency data less perceptible to the human eye while preserving sharp luminance details.</p><h3>Optimization Tips, Browser Compatibility, and FAQs</h3><p>To achieve maximum efficiency with ZeroTools, ensure your web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, or Opera) is updated to its latest version. Our tools leverage cutting-edge native web standards including WebAssembly, HTML5 Canvas, and Web Crypto APIs, matching desktop software performance without installations or drivers.</p>\n<p>If you rely on ZeroTools for daily marketing, design, or engineering workflows, bookmark our site (Ctrl+D / Cmd+D) for instant one-click access. With zero signup forms or passwords required, your productivity stays seamless.</p>",
       "seoTitle": "Free Online Image Compressor — Reduce Photo Size Without Quality Loss",
       "seoDesc": "Compress JPG, PNG and WebP images without losing quality. Reduce file size for email and web. Free, no signup required, runs 100% in your browser.",
       "keywords": "compress image online free, reduce image file size, image compressor, shrink photo size, optimize image for web, compress png jpg free",
@@ -228,19 +236,23 @@
           "a": "No. The optimized file downloads as a new file, leaving your original image file untouched in your downloads folder."
         },
         {
-          "q": "Does compressing images remove EXIF metadata like GPS location?",
-          "a": "Yes. The HTML5 Canvas API strips EXIF metadata when re-encoding the image, including GPS coordinates, camera model, shooting date, and copyright info. This is actually a privacy benefit — you won't accidentally share location data when uploading to social media. If you need to preserve EXIF (for stock photography or professional archiving), always keep a copy of the original file before compressing."
+          "q": "Does ZeroTools store any usage logs or file data?",
+          "a": "Absolutely not! ZeroTools is built on a 100% client-side privacy architecture. No pasted strings, uploaded files, or processed assets ever touch external servers or databases."
         },
         {
-          "q": "What quality level should I use for web images and e-commerce product photos?",
-          "a": "For e-commerce product shots (white background): 80-85% quality delivers excellent sharpness with small file sizes. For lifestyle and editorial images: 75-80% is virtually indistinguishable from the original. Below 70%, compression artifacts (blocky edges, banding in gradients) become visible. WebP at 80% produces files roughly 30% smaller than JPEG at the same quality — use it whenever browser compatibility allows."
+          "q": "Can I use ZeroTools offline without internet?",
+          "a": "After the initial page load, most tools remain fully functional even if your internet disconnects, as execution logic runs entirely in local browser memory."
+        },
+        {
+          "q": "Can I use ZeroTools inside my business or agency workflow?",
+          "a": "Yes! ZeroTools is 100% free for commercial, corporate, agency, and educational use without licenses or payments."
         }
       ]
     },
     "image-cropper": {
       "name": "Image Cropper",
       "desc": "Crop, resize, and scale your images. Choose custom aspect ratios and dimensions.",
-      "article": "<h2>About the Image Cropper & Resizer</h2><p>The <strong>Image Cropper</strong> helps you adjust the size and change the aspect ratio of your photos without needing to install any software. Ideal for social media.</p><h3>Step-by-step how to use:</h3><ol><li>Click on 'Browse Image' or simply drag and drop the file (JPG/PNG) into the upload area.</li><li>Choose one of the suggested automatic ratios (e.g., 1:1 Square, 16:9 YouTube) or click 'Free' to draw your own crop.</li><li>Move the marking grid over the image to focus only on the part you want to keep.</li><li>For exact dimensions, type the Height and Width in pixels in the sidebar fields.</li><li>Click the 'Crop & Download' button and a new optimized image will be saved to your computer immediately.</li></ol><h3>Privacy Guaranteed</h3><p>The great advantage of ZeroTools is privacy. When you upload your photo, it is never sent to servers.</p><h3>Focal Point Preservation & Composition Rules</h3>\n<p>When cropping portraits or product shots for digital media, applying the *Rule of Thirds* grid positioning creates dynamic visual balance that captures user feed attention.</p>",
+      "article": "<h2>About the Image Cropper & Resizer</h2><p>The <strong>Image Cropper</strong> helps you adjust the size and change the aspect ratio of your photos without needing to install any software. Ideal for social media.</p><h3>Step-by-step how to use:</h3><ol><li>Click on 'Browse Image' or simply drag and drop the file (JPG/PNG) into the upload area.</li><li>Choose one of the suggested automatic ratios (e.g., 1:1 Square, 16:9 YouTube) or click 'Free' to draw your own crop.</li><li>Move the marking grid over the image to focus only on the part you want to keep.</li><li>For exact dimensions, type the Height and Width in pixels in the sidebar fields.</li><li>Click the 'Crop & Download' button and a new optimized image will be saved to your computer immediately.</li></ol><h3>Privacy Guaranteed</h3><p>The great advantage of ZeroTools is privacy. When you upload your photo, it is never sent to servers.</p><h3>Focal Point Preservation & Composition Rules</h3>\n<p>When cropping portraits or product shots for digital media, applying the *Rule of Thirds* grid positioning creates dynamic visual balance that captures user feed attention.</p><h3>Optimization Tips, Browser Compatibility, and FAQs</h3><p>To achieve maximum efficiency with ZeroTools, ensure your web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, or Opera) is updated to its latest version. Our tools leverage cutting-edge native web standards including WebAssembly, HTML5 Canvas, and Web Crypto APIs, matching desktop software performance without installations or drivers.</p>\n<p>If you rely on ZeroTools for daily marketing, design, or engineering workflows, bookmark our site (Ctrl+D / Cmd+D) for instant one-click access. With zero signup forms or passwords required, your productivity stays seamless.</p>",
       "seoTitle": "Crop & Resize Image Online Free — Custom Aspect Ratio — ZeroTools",
       "seoDesc": "Crop, resize, and change the aspect ratio of your photos online. Supports 1:1 Instagram, 16:9 YouTube, 9:16 TikTok and custom sizes. Free, no signup needed.",
       "keywords": "crop image online free, resize photo online, change image aspect ratio, image resizer, crop photo for instagram, resize image without quality loss",
@@ -278,19 +290,23 @@
           "a": "Yes! You can specify precise width and height pixel values to generate custom banner crop outputs."
         },
         {
-          "q": "What are the correct image dimensions for each social media platform in 2026?",
-          "a": "Key sizes: Instagram Feed Square = 1080×1080px (1:1), Instagram Portrait = 1080×1350px (4:5), Instagram/TikTok Stories = 1080×1920px (9:16), Twitter/X post = 1200×675px (16:9), LinkedIn personal cover = 1584×396px, YouTube thumbnail = 1280×720px (16:9), Facebook cover = 820×312px. Pre-cropping before upload prevents platforms from applying aggressive auto-compression."
+          "q": "Does ZeroTools store any usage logs or file data?",
+          "a": "Absolutely not! ZeroTools is built on a 100% client-side privacy architecture. No pasted strings, uploaded files, or processed assets ever touch external servers or databases."
         },
         {
-          "q": "What does DPI mean and does it matter for web images?",
-          "a": "DPI (dots per inch) is a printing concept — it describes ink dot density on physical paper. For web and screen images, DPI is completely irrelevant. Monitors render images based purely on pixel dimensions (width × height). A 72 DPI vs 300 DPI image with identical pixel dimensions will look exactly the same on screen. Only set 300 DPI if you're preparing files for professional printing."
+          "q": "Can I use ZeroTools offline without internet?",
+          "a": "After the initial page load, most tools remain fully functional even if your internet disconnects, as execution logic runs entirely in local browser memory."
+        },
+        {
+          "q": "Can I use ZeroTools inside my business or agency workflow?",
+          "a": "Yes! ZeroTools is 100% free for commercial, corporate, agency, and educational use without licenses or payments."
         }
       ]
     },
     "background-remover": {
       "name": "Background Remover",
       "desc": "Remove image backgrounds automatically using AI — 100% in your browser.",
-      "article": "<h2>How does the Background Remover work?</h2><p>Our <strong>Background Remover</strong> uses advanced artificial intelligence running directly in your browser to accurately separate the main subject from the background. It is ideal for product photos (e-commerce), profile pictures, and graphic design.</p><h3>Step-by-step how to use:</h3><ol><li>Wait a few seconds the first time you open the tool so the local AI can load in your browser.</li><li>Upload or drag a photo with a clear object in the foreground (like a person or product).</li><li>Wait for the progress bar while the artificial intelligence processes the cutouts.</li><li>Preview the resulting image with a transparent background (checkered pattern).</li><li>Click on 'Download Image without Background' to save it in transparent PNG format.</li></ol><h3>The Magic of WebAssembly</h3><p>The artificial intelligence runs locally on your device, offering flawless cutouts without compromising your privacy.</p><h3>Precision Edge Alpha Matting via WebAssembly Neural Nets</h3>\n<p>Removing background detail around hair, fur, or semi-transparent objects used to require manual masking. The ONNX neural engine on ZeroTools evaluates deep image layers to build smooth alpha transparency masks.</p>",
+      "article": "<h2>How does the Background Remover work?</h2><p>Our <strong>Background Remover</strong> uses advanced artificial intelligence running directly in your browser to accurately separate the main subject from the background. It is ideal for product photos (e-commerce), profile pictures, and graphic design.</p><h3>Step-by-step how to use:</h3><ol><li>Wait a few seconds the first time you open the tool so the local AI can load in your browser.</li><li>Upload or drag a photo with a clear object in the foreground (like a person or product).</li><li>Wait for the progress bar while the artificial intelligence processes the cutouts.</li><li>Preview the resulting image with a transparent background (checkered pattern).</li><li>Click on 'Download Image without Background' to save it in transparent PNG format.</li></ol><h3>The Magic of WebAssembly</h3><p>The artificial intelligence runs locally on your device, offering flawless cutouts without compromising your privacy.</p><h3>Precision Edge Alpha Matting via WebAssembly Neural Nets</h3>\n<p>Removing background detail around hair, fur, or semi-transparent objects used to require manual masking. The ONNX neural engine on ZeroTools evaluates deep image layers to build smooth alpha transparency masks.</p><h3>Optimization Tips, Browser Compatibility, and FAQs</h3><p>To achieve maximum efficiency with ZeroTools, ensure your web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, or Opera) is updated to its latest version. Our tools leverage cutting-edge native web standards including WebAssembly, HTML5 Canvas, and Web Crypto APIs, matching desktop software performance without installations or drivers.</p>\n<p>If you rely on ZeroTools for daily marketing, design, or engineering workflows, bookmark our site (Ctrl+D / Cmd+D) for instant one-click access. With zero signup forms or passwords required, your productivity stays seamless.</p>",
       "seoTitle": "Remove Image Background Free Online with AI — ZeroTools",
       "seoDesc": "Remove the background from any photo using AI. 100% free, no sign up, no software install. Get transparent PNG results in seconds, directly in your browser.",
       "keywords": "remove image background free, background remover online, remove bg online, transparent background png, ai background remover, remove background without signup",
@@ -328,19 +344,23 @@
           "a": "Yes! It is perfect for Shopify, Amazon, and eBay sellers looking to produce clean white background product images instantly."
         },
         {
-          "q": "Why does the first background removal take longer than subsequent ones?",
-          "a": "On your first visit, the AI model (~40MB ONNX file) needs to download and cache in your browser. This takes 10-60 seconds depending on your connection. After that, the model is stored in your browser's local cache, and all future removals start almost instantly without any additional downloads. The AI runs entirely on your device — your photos never leave your computer."
+          "q": "Does ZeroTools store any usage logs or file data?",
+          "a": "Absolutely not! ZeroTools is built on a 100% client-side privacy architecture. No pasted strings, uploaded files, or processed assets ever touch external servers or databases."
         },
         {
-          "q": "What image types work best with AI background removal?",
-          "a": "Best results: subjects with clear contrast against a uniform background (white or solid-color studio backgrounds), good lighting without harsh shadows, and minimum 500×500px resolution. Challenging cases: fine hair against complex backgrounds, transparent objects (glass, veils), subjects whose color closely matches the background, and very low-resolution images. For best quality, shoot with a dedicated background or use natural daylight."
+          "q": "Can I use ZeroTools offline without internet?",
+          "a": "After the initial page load, most tools remain fully functional even if your internet disconnects, as execution logic runs entirely in local browser memory."
+        },
+        {
+          "q": "Can I use ZeroTools inside my business or agency workflow?",
+          "a": "Yes! ZeroTools is 100% free for commercial, corporate, agency, and educational use without licenses or payments."
         }
       ]
     },
     "pdf-compressor": {
       "name": "PDF Compressor",
       "desc": "Compress and optimize PDF files. Reduce size for email and web sharing.",
-      "article": "<h2>About the PDF Compressor</h2><p>Large PDF files are hard to email or attach to web forms. Our <strong>PDF Compressor</strong> solves this by removing unnecessary metadata and restructuring the file to make it lighter.</p><h3>Step-by-step how to use:</h3><ol><li>Upload the PDF document you want to shrink by dragging it into the indicated area.</li><li>The tool will immediately start reading and processing the file in your browser.</li><li>Check the compression rate and the megabytes saved in the interface.</li><li>A download button will appear; click it to save the lightweight version of your PDF.</li></ol><p>All of this is done locally on your device, ensuring that documents containing sensitive data do not leak onto the internet.</p><h3>Technical PDF Architecture & Compression Breakdown</h3>\n<p>PDF documents store page elements within dictionary object trees. Exporting PDFs from software like Adobe Illustrator or MS Word embeds full font files, edit history streams, and high-density metadata.</p>\n<h3>How ZeroTools Shrinks PDFs Client-Side</h3>\n<ul>\n  <li><strong>Font Subsetting:</strong> Preserves only used font glyphs rather than embedding entire font families.</li>\n  <li><strong>Stream Re-Compression:</strong> Applies native Flate/Deflate algorithms to page and text streams.</li>\n  <li><strong>Metadata Stripping:</strong> Removes unreferenced thumbnails, revision histories, and legacy application metadata.</li>\n</ul>",
+      "article": "<h2>About the PDF Compressor</h2><p>Large PDF files are hard to email or attach to web forms. Our <strong>PDF Compressor</strong> solves this by removing unnecessary metadata and restructuring the file to make it lighter.</p><h3>Step-by-step how to use:</h3><ol><li>Upload the PDF document you want to shrink by dragging it into the indicated area.</li><li>The tool will immediately start reading and processing the file in your browser.</li><li>Check the compression rate and the megabytes saved in the interface.</li><li>A download button will appear; click it to save the lightweight version of your PDF.</li></ol><p>All of this is done locally on your device, ensuring that documents containing sensitive data do not leak onto the internet.</p><h3>Technical PDF Architecture & Compression Breakdown</h3>\n<p>PDF documents store page elements within dictionary object trees. Exporting PDFs from software like Adobe Illustrator or MS Word embeds full font files, edit history streams, and high-density metadata.</p>\n<h3>How ZeroTools Shrinks PDFs Client-Side</h3>\n<ul>\n  <li><strong>Font Subsetting:</strong> Preserves only used font glyphs rather than embedding entire font families.</li>\n  <li><strong>Stream Re-Compression:</strong> Applies native Flate/Deflate algorithms to page and text streams.</li>\n  <li><strong>Metadata Stripping:</strong> Removes unreferenced thumbnails, revision histories, and legacy application metadata.</li>\n</ul><h3>Optimization Tips, Browser Compatibility, and FAQs</h3><p>To achieve maximum efficiency with ZeroTools, ensure your web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, or Opera) is updated to its latest version. Our tools leverage cutting-edge native web standards including WebAssembly, HTML5 Canvas, and Web Crypto APIs, matching desktop software performance without installations or drivers.</p>\n<p>If you rely on ZeroTools for daily marketing, design, or engineering workflows, bookmark our site (Ctrl+D / Cmd+D) for instant one-click access. With zero signup forms or passwords required, your productivity stays seamless.</p>",
       "seoTitle": "Compress PDF Online Free — Reduce PDF File Size Instantly",
       "seoDesc": "Compress large PDF files without quality loss to share by email or WhatsApp. Free, no signup, your documents never leave your computer.",
       "keywords": "compress pdf online free, reduce pdf file size, make pdf smaller, pdf compressor online, shrink pdf free, compress pdf without losing quality",
@@ -378,19 +398,23 @@
           "a": "Never! All PDF processing occurs inside your device memory. No files are uploaded or saved remotely."
         },
         {
-          "q": "Why didn't my PDF shrink much after compression?",
-          "a": "PDFs created from scanned physical documents are essentially collections of high-resolution bitmap photos of each page. These images are already compressed by the scanner, so structural optimization has minimal impact. PDFs created digitally (from Word, InDesign, Keynote) contain embedded fonts, redundant objects, and revision history — these reduce dramatically. If your scanned PDF needs to be smaller, consider reducing the scanner resolution before creating the file."
+          "q": "Does ZeroTools store any usage logs or file data?",
+          "a": "Absolutely not! ZeroTools is built on a 100% client-side privacy architecture. No pasted strings, uploaded files, or processed assets ever touch external servers or databases."
         },
         {
-          "q": "Is it safe to compress confidential or legally sensitive PDFs here?",
-          "a": "Completely safe. The entire compression process happens inside your browser using local JavaScript libraries — your PDF files are never uploaded to any server, never stored in any cloud, and never transmitted over the internet. This makes ZeroTools ideal for sensitive documents like contracts, financial reports, medical records, and legal filings. You can verify this yourself: open DevTools (F12), go to the Network tab, and you'll see zero file uploads while processing."
+          "q": "Can I use ZeroTools offline without internet?",
+          "a": "After the initial page load, most tools remain fully functional even if your internet disconnects, as execution logic runs entirely in local browser memory."
+        },
+        {
+          "q": "Can I use ZeroTools inside my business or agency workflow?",
+          "a": "Yes! ZeroTools is 100% free for commercial, corporate, agency, and educational use without licenses or payments."
         }
       ]
     },
     "file-converter": {
       "name": "File Converter",
       "desc": "Convert images between JPG, PNG, WebP, GIF formats instantly.",
-      "article": "<h2>Fast and Local Conversion</h2><p>Need to turn a WebP into JPG or vice-versa? The <strong>File Converter</strong> lets you switch between image formats instantly and in bulk.</p><h3>Step-by-step how to use:</h3><ol><li>Drag an image from your computer to the conversion panel.</li><li>In the selection menu (dropdown), choose the desired target format (PNG, JPG, WEBP, etc).</li><li>Click the 'Convert File' button to start the process.</li><li>The download of the file in the new format will start automatically in a few milliseconds.</li></ol><p>Since everything runs via client-side JavaScript, there is no wait queue. Your images are converted without time-consuming uploads.</p><h3>Advanced Guide: Performance Optimization and Format Selection</h3>\n<p>In web development and UI/UX design, strategic file format selection can cut page load times by over 60%. The <strong>WebP</strong> format uses spatial prediction algorithms to compress images while maintaining alpha transparency and superior compression. Converting heavy PNG files to WebP drastically improves Core Web Vitals such as <em>First Contentful Paint (FCP)</em> and <em>Largest Contentful Paint (LCP)</em> on Google PageSpeed Insights.</p>\n<h3>Technical Format Comparison</h3>\n<ul>\n  <li><strong>JPG / JPEG:</strong> Ideal for photography and complex gradients. Lossy compression. Does not support transparency.</li>\n  <li><strong>PNG:</strong> Lossless compression with 8-bit and 24-bit alpha transparency. Essential for logos, vector graphics, and text overlays.</li>\n  <li><strong>WebP:</strong> The modern web standard supporting animation, transparency, and lossy/lossless compression. Up to 30% smaller than JPG.</li>\n  <li><strong>GIF:</strong> Restricted to 256 colors. Best for simple legacy animations.</li>\n</ul>\n<h3>Client-Side Privacy and Data Protection Compliance</h3>\n<p>Unlike third-party converters that upload your files to remote cloud servers (exposing sensitive photos and documents), ZeroTools executes 100% of conversion logic inside your local browser memory. Zero network requests carry your file data, ensuring compliance with GDPR and global privacy standards.</p>",
+      "article": "<h2>Fast and Local Conversion</h2><p>Need to turn a WebP into JPG or vice-versa? The <strong>File Converter</strong> lets you switch between image formats instantly and in bulk.</p><h3>Step-by-step how to use:</h3><ol><li>Drag an image from your computer to the conversion panel.</li><li>In the selection menu (dropdown), choose the desired target format (PNG, JPG, WEBP, etc).</li><li>Click the 'Convert File' button to start the process.</li><li>The download of the file in the new format will start automatically in a few milliseconds.</li></ol><p>Since everything runs via client-side JavaScript, there is no wait queue. Your images are converted without time-consuming uploads.</p><h3>Advanced Guide: Performance Optimization and Format Selection</h3>\n<p>In web development and UI/UX design, strategic file format selection can cut page load times by over 60%. The <strong>WebP</strong> format uses spatial prediction algorithms to compress images while maintaining alpha transparency and superior compression. Converting heavy PNG files to WebP drastically improves Core Web Vitals such as <em>First Contentful Paint (FCP)</em> and <em>Largest Contentful Paint (LCP)</em> on Google PageSpeed Insights.</p>\n<h3>Technical Format Comparison</h3>\n<ul>\n  <li><strong>JPG / JPEG:</strong> Ideal for photography and complex gradients. Lossy compression. Does not support transparency.</li>\n  <li><strong>PNG:</strong> Lossless compression with 8-bit and 24-bit alpha transparency. Essential for logos, vector graphics, and text overlays.</li>\n  <li><strong>WebP:</strong> The modern web standard supporting animation, transparency, and lossy/lossless compression. Up to 30% smaller than JPG.</li>\n  <li><strong>GIF:</strong> Restricted to 256 colors. Best for simple legacy animations.</li>\n</ul>\n<h3>Client-Side Privacy and Data Protection Compliance</h3>\n<p>Unlike third-party converters that upload your files to remote cloud servers (exposing sensitive photos and documents), ZeroTools executes 100% of conversion logic inside your local browser memory. Zero network requests carry your file data, ensuring compliance with GDPR and global privacy standards.</p><h3>Optimization Tips, Browser Compatibility, and FAQs</h3><p>To achieve maximum efficiency with ZeroTools, ensure your web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, or Opera) is updated to its latest version. Our tools leverage cutting-edge native web standards including WebAssembly, HTML5 Canvas, and Web Crypto APIs, matching desktop software performance without installations or drivers.</p>\n<p>If you rely on ZeroTools for daily marketing, design, or engineering workflows, bookmark our site (Ctrl+D / Cmd+D) for instant one-click access. With zero signup forms or passwords required, your productivity stays seamless.</p>",
       "seoTitle": "Free Image Converter Online — JPG to PNG, WebP & More",
       "seoDesc": "Convert images between JPG, PNG, WebP, and GIF formats instantly in your browser. No server uploads. Free, no signup required.",
       "keywords": "image converter online free, jpg to png converter, png to jpg, convert to webp, image format converter, change image format online",
@@ -428,19 +452,23 @@
           "a": "Yes! The converter is fully responsive and functions smoothly across Android (Chrome, Firefox) and iOS (Safari) mobile browsers."
         },
         {
-          "q": "Does converting PNG to WebP preserve transparency?",
-          "a": "Yes. WebP supports full 8-bit alpha channel transparency, identical to PNG. Your transparent backgrounds are preserved perfectly in PNG → WebP conversions. The advantage is that WebP transparent images are typically 25-35% smaller than equivalent PNGs. Modern browsers (Chrome, Firefox, Safari, Edge) all support WebP natively. For older software compatibility, keep a PNG copy as fallback."
+          "q": "Does ZeroTools store any usage logs or file data?",
+          "a": "Absolutely not! ZeroTools is built on a 100% client-side privacy architecture. No pasted strings, uploaded files, or processed assets ever touch external servers or databases."
         },
         {
-          "q": "How does this conversion affect image quality compared to desktop software?",
-          "a": "The HTML5 Canvas API used by this tool produces results equivalent to browser-based rendering. For lossy formats (JPEG, WebP with lossy compression), converting between lossy formats multiple times degrades quality cumulatively — always start from a lossless source (PNG or original) when possible. Converting PNG → WebP losslessly produces a pixel-perfect result with no quality loss whatsoever."
+          "q": "Can I use ZeroTools offline without internet?",
+          "a": "After the initial page load, most tools remain fully functional even if your internet disconnects, as execution logic runs entirely in local browser memory."
+        },
+        {
+          "q": "Can I use ZeroTools inside my business or agency workflow?",
+          "a": "Yes! ZeroTools is 100% free for commercial, corporate, agency, and educational use without licenses or payments."
         }
       ]
     },
     "password-generator": {
       "name": "Password Generator",
       "desc": "Generate strong, secure passwords with custom length and character sets.",
-      "article": "<h2>Why use the Password Generator?</h2><p>Weak passwords are the gateway for hacks. Our <strong>Password Generator</strong> creates fully random and cryptographically secure character combinations for you to use in new registrations.</p><h3>Step-by-step how to use:</h3><ol><li>Slide the bar to choose the password length (we recommend at least 16 characters).</li><li>Check or uncheck the option boxes: Uppercase letters, Lowercase, Numbers, or Symbols ($, %, @).</li><li>The updated password will appear in the main text field automatically.</li><li>Click the 'Copy' button next to the password to send it to your system clipboard.</li></ol><p><strong>Security Tip:</strong> Never use the same password on two different websites. Use this tool to generate unique passwords.</p><h3>Entropy Calculations & Brute-Force Attack Resistance</h3>\n<p>Password entropy measures randomness in bits. A 16-character password combining uppercase, lowercase, numbers, and symbols possesses over 90 bits of entropy, requiring billions of compute years to crack via brute force.</p>",
+      "article": "<h2>Why use the Password Generator?</h2><p>Weak passwords are the gateway for hacks. Our <strong>Password Generator</strong> creates fully random and cryptographically secure character combinations for you to use in new registrations.</p><h3>Step-by-step how to use:</h3><ol><li>Slide the bar to choose the password length (we recommend at least 16 characters).</li><li>Check or uncheck the option boxes: Uppercase letters, Lowercase, Numbers, or Symbols ($, %, @).</li><li>The updated password will appear in the main text field automatically.</li><li>Click the 'Copy' button next to the password to send it to your system clipboard.</li></ol><p><strong>Security Tip:</strong> Never use the same password on two different websites. Use this tool to generate unique passwords.</p><h3>Entropy Calculations & Brute-Force Attack Resistance</h3>\n<p>Password entropy measures randomness in bits. A 16-character password combining uppercase, lowercase, numbers, and symbols possesses over 90 bits of entropy, requiring billions of compute years to crack via brute force.</p><h3>Optimization Tips, Browser Compatibility, and FAQs</h3><p>To achieve maximum efficiency with ZeroTools, ensure your web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, or Opera) is updated to its latest version. Our tools leverage cutting-edge native web standards including WebAssembly, HTML5 Canvas, and Web Crypto APIs, matching desktop software performance without installations or drivers.</p>\n<p>If you rely on ZeroTools for daily marketing, design, or engineering workflows, bookmark our site (Ctrl+D / Cmd+D) for instant one-click access. With zero signup forms or passwords required, your productivity stays seamless.</p>",
       "seoTitle": "Strong Password Generator Online Free — Secure Random Passwords",
       "seoDesc": "Generate random, strong, and secure passwords with letters, numbers, and symbols. Set the ideal length. 100% free and private — passwords are never stored.",
       "keywords": "strong password generator, random password generator free, secure password online, generate password with symbols, password maker, create strong password",
@@ -478,19 +506,23 @@
           "a": "Change passwords immediately if a service you use experiences a data breach, and maintain unique high-entropy passwords across all accounts."
         },
         {
-          "q": "How is this generator different from browser built-in password suggestions?",
-          "a": "Both use cryptographically secure random generation, but this tool gives you full control: choose exact length, which character types to include, and exclude visually ambiguous characters (0/O, l/1/I) that cause manual entry errors. Browser suggestions are tied to their password manager ecosystem. Passwords generated here work with any password manager (Bitwarden, 1Password, KeePass) or can be used directly."
+          "q": "Does ZeroTools store any usage logs or file data?",
+          "a": "Absolutely not! ZeroTools is built on a 100% client-side privacy architecture. No pasted strings, uploaded files, or processed assets ever touch external servers or databases."
         },
         {
-          "q": "How long should a password be in 2026?",
-          "a": "Security guidelines recommend minimum 16 characters for important accounts (email, banking, work). For less critical accounts, 12 characters is acceptable. Length matters more than complexity: a random 20-character lowercase-only password (26²⁰ combinations) is harder to brute-force than a complex 8-character password (95⁸ combinations). If memorization is required, use a 5-word passphrase ('cloud-river-piano-mango-42') — long, memorable, and very strong."
+          "q": "Can I use ZeroTools offline without internet?",
+          "a": "After the initial page load, most tools remain fully functional even if your internet disconnects, as execution logic runs entirely in local browser memory."
+        },
+        {
+          "q": "Can I use ZeroTools inside my business or agency workflow?",
+          "a": "Yes! ZeroTools is 100% free for commercial, corporate, agency, and educational use without licenses or payments."
         }
       ]
     },
     "color-palette": {
       "name": "Color Palette",
       "desc": "Generate beautiful color palettes from a base color. Export HEX, RGB, HSL.",
-      "article": "<h2>Instant Color Inspiration</h2><p>The <strong>Color Palette Generator</strong> is perfect for designers and front-end developers looking for visual harmony. Choose a base color and generate perfect combinations.</p><h3>Step-by-step how to use:</h3><ol><li>Click on the main color swatch to open the visual picker and choose your base color.</li><li>You will instantly see lightness variations of that color.</li><li>Change the generation mode (Analogous, Complementary, Monochromatic, Triadic) to see full mathematical palettes.</li><li>Click on any color block on the screen to copy the HEX code (e.g., #FFFFFF) to your clipboard.</li></ol><h3>Color Psychology and Digital Brand Application</h3>\n<p>Color psychology studies how hues influence human behavior and brand perception. When constructing color design systems, understanding the emotional impact of each color family is essential:</p>\n<ul>\n  <li><strong>Blue:</strong> Conveys trust, security, and stability. Favored by tech companies and financial institutions.</li>\n  <li><strong>Green:</strong> Associated with health, growth, renewal, and prosperity.</li>\n  <li><strong>Orange & Yellow:</strong> Evokes energy, optimism, and creativity. Excellent for call-to-action elements.</li>\n  <li><strong>Purple:</strong> Represents luxury, wisdom, and technological innovation.</li>\n</ul>\n<h3>Front-End Design Tokens & CSS Integration</h3>\n<p>ZeroTools supplies clean HEX and RGB values for building scalable CSS custom properties and Tailwind color palettes effortlessly.</p>",
+      "article": "<h2>Instant Color Inspiration</h2><p>The <strong>Color Palette Generator</strong> is perfect for designers and front-end developers looking for visual harmony. Choose a base color and generate perfect combinations.</p><h3>Step-by-step how to use:</h3><ol><li>Click on the main color swatch to open the visual picker and choose your base color.</li><li>You will instantly see lightness variations of that color.</li><li>Change the generation mode (Analogous, Complementary, Monochromatic, Triadic) to see full mathematical palettes.</li><li>Click on any color block on the screen to copy the HEX code (e.g., #FFFFFF) to your clipboard.</li></ol><h3>Color Psychology and Digital Brand Application</h3>\n<p>Color psychology studies how hues influence human behavior and brand perception. When constructing color design systems, understanding the emotional impact of each color family is essential:</p>\n<ul>\n  <li><strong>Blue:</strong> Conveys trust, security, and stability. Favored by tech companies and financial institutions.</li>\n  <li><strong>Green:</strong> Associated with health, growth, renewal, and prosperity.</li>\n  <li><strong>Orange & Yellow:</strong> Evokes energy, optimism, and creativity. Excellent for call-to-action elements.</li>\n  <li><strong>Purple:</strong> Represents luxury, wisdom, and technological innovation.</li>\n</ul>\n<h3>Front-End Design Tokens & CSS Integration</h3>\n<p>ZeroTools supplies clean HEX and RGB values for building scalable CSS custom properties and Tailwind color palettes effortlessly.</p><h3>Optimization Tips, Browser Compatibility, and FAQs</h3><p>To achieve maximum efficiency with ZeroTools, ensure your web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, or Opera) is updated to its latest version. Our tools leverage cutting-edge native web standards including WebAssembly, HTML5 Canvas, and Web Crypto APIs, matching desktop software performance without installations or drivers.</p>\n<p>If you rely on ZeroTools for daily marketing, design, or engineering workflows, bookmark our site (Ctrl+D / Cmd+D) for instant one-click access. With zero signup forms or passwords required, your productivity stays seamless.</p>",
       "seoTitle": "Free Color Palette Generator Online — HEX, RGB, HSL Colors",
       "seoDesc": "Generate beautiful color palettes from a base color. Export as HEX, RGB, and HSL. Perfect for designers and developers. 100% free online color tool.",
       "keywords": "color palette generator free, online color palette, color scheme generator, hex color picker, color combinations, create color palette online",
@@ -528,19 +560,23 @@
           "a": "A triadic color scheme selects three colors evenly spaced at 120-degree intervals on the color wheel, delivering rich contrast with high visual stability."
         },
         {
-          "q": "How do I check if my color palette meets WCAG accessibility standards?",
-          "a": "Copy the HEX values from your generated palette and test them at WebAIM's Contrast Checker (webaim.org/resources/contrastchecker). WCAG 2.1 Level AA requires a contrast ratio of at least 4.5:1 for normal text and 3:1 for large text (18pt+). In Chrome DevTools, the color picker in the Styles panel shows contrast ratios automatically. Complementary color schemes naturally produce higher contrast, making them a safe starting point."
+          "q": "Does ZeroTools store any usage logs or file data?",
+          "a": "Absolutely not! ZeroTools is built on a 100% client-side privacy architecture. No pasted strings, uploaded files, or processed assets ever touch external servers or databases."
         },
         {
-          "q": "How do I use the generated HSL values in CSS and design systems?",
-          "a": "HSL is ideal for creating systematic design tokens. Example: `--color-primary: hsl(245, 82%, 61%);` then `--color-primary-light: hsl(245, 82%, 75%);` and `--color-primary-dark: hsl(245, 82%, 45%);` — you only change the lightness value while keeping the hue consistent. In Tailwind CSS, add HSL values to `tailwind.config.js` under `theme.extend.colors`. In Figma, use Color Styles to share the palette across your design system."
+          "q": "Can I use ZeroTools offline without internet?",
+          "a": "After the initial page load, most tools remain fully functional even if your internet disconnects, as execution logic runs entirely in local browser memory."
+        },
+        {
+          "q": "Can I use ZeroTools inside my business or agency workflow?",
+          "a": "Yes! ZeroTools is 100% free for commercial, corporate, agency, and educational use without licenses or payments."
         }
       ]
     },
     "lorem-ipsum": {
       "name": "Lorem Ipsum",
       "desc": "Generate placeholder text for mockups, designs and wireframes.",
-      "article": "<h2>What is Lorem Ipsum?</h2><p>The <strong>Lorem Ipsum Generator</strong> creates placeholder texts that look like classical Latin. It is widely used in the publishing and web design industry to test layouts and typography before having the actual content.</p><h3>Step-by-step how to use:</h3><ol><li>Enter the number of units you want to generate in the numeric field (e.g., 5).</li><li>Choose the type of unit from the dropdown menu: 'Paragraphs', 'Sentences', or 'Words'.</li><li>The Lorem Ipsum text will instantly update in the lower box according to your settings.</li><li>Click the 'Copy Text' button to send the generated content straight to your system clipboard.</li></ol><h3>Typography & UI Layout Testing Principles</h3>\n<p>The core objective of using Lorem Ipsum in UI/UX and print design is evaluating visual typographic weight without content bias. Designers evaluate three critical layout variables:</p>\n<ul>\n  <li><strong>Visual Hierarchy:</strong> Validating size contrast between H1 headings and body paragraphs.</li>\n  <li><strong>Line-Height (Leading):</strong> Establishing comfortable paragraph line height ratios (typically 1.4 to 1.6x font size).</li>\n  <li><strong>Line Length (Measure):</strong> Maintaining optimal line measures (45 to 75 characters per line) for responsive reading.</li>\n</ul>",
+      "article": "<h2>What is Lorem Ipsum?</h2><p>The <strong>Lorem Ipsum Generator</strong> creates placeholder texts that look like classical Latin. It is widely used in the publishing and web design industry to test layouts and typography before having the actual content.</p><h3>Step-by-step how to use:</h3><ol><li>Enter the number of units you want to generate in the numeric field (e.g., 5).</li><li>Choose the type of unit from the dropdown menu: 'Paragraphs', 'Sentences', or 'Words'.</li><li>The Lorem Ipsum text will instantly update in the lower box according to your settings.</li><li>Click the 'Copy Text' button to send the generated content straight to your system clipboard.</li></ol><h3>Typography & UI Layout Testing Principles</h3>\n<p>The core objective of using Lorem Ipsum in UI/UX and print design is evaluating visual typographic weight without content bias. Designers evaluate three critical layout variables:</p>\n<ul>\n  <li><strong>Visual Hierarchy:</strong> Validating size contrast between H1 headings and body paragraphs.</li>\n  <li><strong>Line-Height (Leading):</strong> Establishing comfortable paragraph line height ratios (typically 1.4 to 1.6x font size).</li>\n  <li><strong>Line Length (Measure):</strong> Maintaining optimal line measures (45 to 75 characters per line) for responsive reading.</li>\n</ul><h3>Optimization Tips, Browser Compatibility, and FAQs</h3><p>To achieve maximum efficiency with ZeroTools, ensure your web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, or Opera) is updated to its latest version. Our tools leverage cutting-edge native web standards including WebAssembly, HTML5 Canvas, and Web Crypto APIs, matching desktop software performance without installations or drivers.</p>\n<p>If you rely on ZeroTools for daily marketing, design, or engineering workflows, bookmark our site (Ctrl+D / Cmd+D) for instant one-click access. With zero signup forms or passwords required, your productivity stays seamless.</p>",
       "seoTitle": "Free Lorem Ipsum Generator Online — Placeholder Text for Design",
       "seoDesc": "Generate Lorem Ipsum text (paragraphs, sentences, or words) for mockups and design projects. Copy with one click. 100% free, no signup required.",
       "keywords": "lorem ipsum generator online free, placeholder text generator, dummy text, random text generator, lorem ipsum paragraphs, design placeholder text",
@@ -578,19 +614,23 @@
           "a": "Yes! Lorem Ipsum originates from public domain classical literature and is completely free for commercial and client use."
         },
         {
-          "q": "What's the origin of 'Lorem ipsum dolor sit amet'?",
-          "a": "Lorem ipsum is derived from Cicero's philosophical treatise 'De Finibus Bonorum et Malorum' (On the Ends of Good and Evil), written in 45 BC. The text was scrambled by an unknown printer in the 1500s to create a type specimen book. It became the default placeholder text in the 1960s with Letraset sheets and later with desktop publishing software like Aldus PageMaker and Adobe InDesign."
+          "q": "Does ZeroTools store any usage logs or file data?",
+          "a": "Absolutely not! ZeroTools is built on a 100% client-side privacy architecture. No pasted strings, uploaded files, or processed assets ever touch external servers or databases."
         },
         {
-          "q": "When should I use Lorem Ipsum vs actual content in prototypes?",
-          "a": "Use Lorem Ipsum in: early wireframes and internal design reviews (keeps focus on layout, not copy). Switch to real or representative content for: client presentations (stakeholders make poor decisions when reading placeholder text), usability tests (participants are confused by nonsense text), and any prototype that will be used for accessibility testing. A good rule: the closer to a real deliverable, the more real your content should be."
+          "q": "Can I use ZeroTools offline without internet?",
+          "a": "After the initial page load, most tools remain fully functional even if your internet disconnects, as execution logic runs entirely in local browser memory."
+        },
+        {
+          "q": "Can I use ZeroTools inside my business or agency workflow?",
+          "a": "Yes! ZeroTools is 100% free for commercial, corporate, agency, and educational use without licenses or payments."
         }
       ]
     },
     "json-formatter": {
       "name": "JSON Formatter",
       "desc": "Format, validate and prettify JSON code natively.",
-      "article": "<h2>JSON Beautifier</h2><p>The <strong>JSON Formatter</strong> is the number 1 tool for software developers to take huge lines of unreadable and broken code and transform them into a clean, indented property tree.</p><h3>Step-by-step how to use:</h3><ol><li>Paste the string (text) containing the ugly, unformatted JSON into the left box (Input).</li><li>Automatically, the validated code formatted with line breaks and tabs (2 spaces) will appear in the right box.</li><li>If there are syntax errors (like a missing comma in the code), the tool will warn you by highlighting the error.</li><li>If you prefer to compress the code to save network space, click 'Minify' to remove all spaces from the JSON.</li><li>Copy the result using the top button to use in your project.</li></ol><h3>JSON Specification & RFC 8259 Syntax Compliance</h3>\n<p>The RFC 8259 JSON specification enforces strict formatting standards: object keys must be double-quoted strings (<code>\"key\"</code>), string values require double quotes, and trailing commas are invalid.</p>",
+      "article": "<h2>JSON Beautifier</h2><p>The <strong>JSON Formatter</strong> is the number 1 tool for software developers to take huge lines of unreadable and broken code and transform them into a clean, indented property tree.</p><h3>Step-by-step how to use:</h3><ol><li>Paste the string (text) containing the ugly, unformatted JSON into the left box (Input).</li><li>Automatically, the validated code formatted with line breaks and tabs (2 spaces) will appear in the right box.</li><li>If there are syntax errors (like a missing comma in the code), the tool will warn you by highlighting the error.</li><li>If you prefer to compress the code to save network space, click 'Minify' to remove all spaces from the JSON.</li><li>Copy the result using the top button to use in your project.</li></ol><h3>JSON Specification & RFC 8259 Syntax Compliance</h3>\n<p>The RFC 8259 JSON specification enforces strict formatting standards: object keys must be double-quoted strings (<code>\"key\"</code>), string values require double quotes, and trailing commas are invalid.</p><h3>Optimization Tips, Browser Compatibility, and FAQs</h3><p>To achieve maximum efficiency with ZeroTools, ensure your web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, or Opera) is updated to its latest version. Our tools leverage cutting-edge native web standards including WebAssembly, HTML5 Canvas, and Web Crypto APIs, matching desktop software performance without installations or drivers.</p>\n<p>If you rely on ZeroTools for daily marketing, design, or engineering workflows, bookmark our site (Ctrl+D / Cmd+D) for instant one-click access. With zero signup forms or passwords required, your productivity stays seamless.</p>",
       "seoTitle": "Free Online JSON Formatter & Validator — Beautify & Minify JSON",
       "seoDesc": "Format, validate and minify JSON online. Real-time syntax highlighting and error detection. Essential tool for developers. Free, no signup, works in your browser.",
       "keywords": "json formatter online free, json validator, json beautifier, format json online, minify json, json checker, beautify json free",
@@ -628,19 +668,23 @@
           "a": "Yes! Click the 'Minify' button to strip whitespace characters and generate compact payloads for production APIs."
         },
         {
-          "q": "What causes 'Unexpected token' errors in JSON?",
-          "a": "The most common causes: (1) Trailing commas — `[1, 2, 3,]` or `{\"a\": 1,}` are invalid JSON (valid in JavaScript, but not JSON); (2) Single quotes — JSON requires double quotes for all strings; (3) Unquoted keys — `{name: \"John\"}` must be `{\"name\": \"John\"}`; (4) Comments — JSON doesn't support `//` or `/* */` comments; (5) NaN or Infinity values — use null instead. The built-in validator highlights the exact line and position of the error."
+          "q": "Does ZeroTools store any usage logs or file data?",
+          "a": "Absolutely not! ZeroTools is built on a 100% client-side privacy architecture. No pasted strings, uploaded files, or processed assets ever touch external servers or databases."
         },
         {
-          "q": "Can this tool handle very large JSON files (over 100MB)?",
-          "a": "Yes — processing is limited only by your device's available RAM, not by server upload limits. The tool runs entirely in your browser, so a 500MB JSON file processes the same way as a 1KB file. For very large files (1GB+), close other browser tabs first to free memory. If your browser freezes, consider command-line tools like `jq` or `fx` which are optimized for streaming large JSON files without loading the entire file into memory."
+          "q": "Can I use ZeroTools offline without internet?",
+          "a": "After the initial page load, most tools remain fully functional even if your internet disconnects, as execution logic runs entirely in local browser memory."
+        },
+        {
+          "q": "Can I use ZeroTools inside my business or agency workflow?",
+          "a": "Yes! ZeroTools is 100% free for commercial, corporate, agency, and educational use without licenses or payments."
         }
       ]
     },
     "case-converter": {
       "name": "Case Converter",
       "desc": "Convert text to uppercase, lowercase, camelCase, and more.",
-      "article": "<h2>What is the Case Converter?</h2><p>The <strong>Case Converter</strong> is the ideal solution when you copy text that is all in uppercase (shouting) and need to format it correctly, or when you need to standardize proper nouns and titles quickly.</p><h3>Step-by-step how to use:</h3><ol><li>Paste or type the unformatted text into the main box.</li><li>Select the desired format at the top: 'Lowercase' (all small letters), 'Uppercase' (all capital letters), 'Capitalized' (The First Letter Of Each Word Capitalized), or 'Alternating' (aLtErNaTiNg).</li><li>The result is generated instantly below.</li><li>Click the 'Copy' button to transfer the corrected text to your clipboard.</li></ol><h3>Advanced Engineering & Writing Use Cases</h3>\n<p>Software development environments enforce strict naming conventions to maintain code readability across team repositories. Utilizing the proper casing prevents API bugs and compilation warnings.</p>\n<h3>Developer Naming Convention Reference</h3>\n<ul>\n  <li><strong>camelCase:</strong> Standard for variables and function methods in JavaScript, Java, and TypeScript (e.g. <code>fetchUserData</code>).</li>\n  <li><strong>PascalCase:</strong> Standard for classes, React components, and C# types (e.g. <code>UserProfileContainer</code>).</li>\n  <li><strong>snake_case:</strong> Standard for Python variables, SQL database columns, and data pipelines (e.g. <code>user_account_id</code>).</li>\n  <li><strong>kebab-case:</strong> Recommended for SEO-friendly URL slugs, CSS class names, and file paths (e.g. <code>blog-post-title</code>).</li>\n</ul>",
+      "article": "<h2>What is the Case Converter?</h2><p>The <strong>Case Converter</strong> is the ideal solution when you copy text that is all in uppercase (shouting) and need to format it correctly, or when you need to standardize proper nouns and titles quickly.</p><h3>Step-by-step how to use:</h3><ol><li>Paste or type the unformatted text into the main box.</li><li>Select the desired format at the top: 'Lowercase' (all small letters), 'Uppercase' (all capital letters), 'Capitalized' (The First Letter Of Each Word Capitalized), or 'Alternating' (aLtErNaTiNg).</li><li>The result is generated instantly below.</li><li>Click the 'Copy' button to transfer the corrected text to your clipboard.</li></ol><h3>Advanced Engineering & Writing Use Cases</h3>\n<p>Software development environments enforce strict naming conventions to maintain code readability across team repositories. Utilizing the proper casing prevents API bugs and compilation warnings.</p>\n<h3>Developer Naming Convention Reference</h3>\n<ul>\n  <li><strong>camelCase:</strong> Standard for variables and function methods in JavaScript, Java, and TypeScript (e.g. <code>fetchUserData</code>).</li>\n  <li><strong>PascalCase:</strong> Standard for classes, React components, and C# types (e.g. <code>UserProfileContainer</code>).</li>\n  <li><strong>snake_case:</strong> Standard for Python variables, SQL database columns, and data pipelines (e.g. <code>user_account_id</code>).</li>\n  <li><strong>kebab-case:</strong> Recommended for SEO-friendly URL slugs, CSS class names, and file paths (e.g. <code>blog-post-title</code>).</li>\n</ul><h3>Optimization Tips, Browser Compatibility, and FAQs</h3><p>To achieve maximum efficiency with ZeroTools, ensure your web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, or Opera) is updated to its latest version. Our tools leverage cutting-edge native web standards including WebAssembly, HTML5 Canvas, and Web Crypto APIs, matching desktop software performance without installations or drivers.</p>\n<p>If you rely on ZeroTools for daily marketing, design, or engineering workflows, bookmark our site (Ctrl+D / Cmd+D) for instant one-click access. With zero signup forms or passwords required, your productivity stays seamless.</p>",
       "seoTitle": "Text Case Converter Online Free — UPPERCASE, lowercase, Title Case",
       "seoDesc": "Convert text to UPPERCASE, lowercase, Title Case, camelCase, and more. Free online tool, no signup required, works instantly in your browser.",
       "keywords": "text case converter online free, uppercase lowercase converter, title case online, camelcase converter, change text case, text transformer free",
@@ -678,19 +722,23 @@
           "a": "Paste your titles, select the 'kebab-case' option, and instantly get clean hyphenated slugs ideal for URLs."
         },
         {
-          "q": "When should I use camelCase vs PascalCase vs snake_case in code?",
-          "a": "By convention: camelCase → JavaScript/TypeScript variables and functions (`getUserName`), Java methods. PascalCase → class names, React components, TypeScript interfaces (`UserProfile`, `<Button />`). snake_case → Python variables and functions (`get_user_name`), database column names, URL slugs. kebab-case → CSS class names, HTML attributes, URL paths (`user-profile`). Stick to the style guide of your language ecosystem — consistency beats preference."
+          "q": "Does ZeroTools store any usage logs or file data?",
+          "a": "Absolutely not! ZeroTools is built on a 100% client-side privacy architecture. No pasted strings, uploaded files, or processed assets ever touch external servers or databases."
         },
         {
-          "q": "How do I generate URL slugs from titles with special characters?",
-          "a": "The standard URL slug algorithm: (1) convert to lowercase, (2) Unicode normalize to NFD (separate accent marks from base letters), (3) remove non-ASCII characters, (4) replace spaces and special characters with hyphens, (5) collapse multiple hyphens into one, (6) trim leading/trailing hyphens. Result: 'How to Use AI Tools in 2026!' → 'how-to-use-ai-tools-in-2026'. Use the kebab-case output from this converter as a starting point, then clean up remaining special characters."
+          "q": "Can I use ZeroTools offline without internet?",
+          "a": "After the initial page load, most tools remain fully functional even if your internet disconnects, as execution logic runs entirely in local browser memory."
+        },
+        {
+          "q": "Can I use ZeroTools inside my business or agency workflow?",
+          "a": "Yes! ZeroTools is 100% free for commercial, corporate, agency, and educational use without licenses or payments."
         }
       ]
     },
     "base64": {
       "name": "Base64 Encoder/Decoder",
       "desc": "Encode and decode Base64 strings and files instantly.",
-      "article": "<h2>Why use the Base64 Encoder?</h2><p><strong>Base64</strong> is an encoding format widely used by developers to transmit binary data (like images or security tokens) in readable text formats over the internet, preventing character breakage and corruption in JSON or XML.</p><h3>Step-by-step how to use:</h3><ol><li>Select the tab that defines your action: 'Encode' (normal text to Base64) or 'Decode' (Base64 to normal text).</li><li>Paste your text string or the giant Base64 code into the input box.</li><li>The conversion will happen automatically. If the Base64 string is invalid during decoding, the tool will not convert it, preventing you from using broken code.</li><li>Click the 'Copy' button and your code is ready to use.</li></ol><h3>Base64 Specification & Encoding Map</h3>\n<p>Base64 maps 6-bit binary sequences into 64 safe printable ASCII characters:</p>\n<ul>\n  <li><strong>Uppercase Letters (A-Z):</strong> Index values 0 to 25.</li>\n  <li><strong>Lowercase Letters (a-z):</strong> Index values 26 to 51.</li>\n  <li><strong>Digits (0-9):</strong> Index values 52 to 61.</li>\n  <li><strong>Symbols (+ and /):</strong> Index values 62 and 63.</li>\n  <li><strong>Padding (=):</strong> Aligns byte boundaries to 4-character blocks.</li>\n</ul>",
+      "article": "<h2>Why use the Base64 Encoder?</h2><p><strong>Base64</strong> is an encoding format widely used by developers to transmit binary data (like images or security tokens) in readable text formats over the internet, preventing character breakage and corruption in JSON or XML.</p><h3>Step-by-step how to use:</h3><ol><li>Select the tab that defines your action: 'Encode' (normal text to Base64) or 'Decode' (Base64 to normal text).</li><li>Paste your text string or the giant Base64 code into the input box.</li><li>The conversion will happen automatically. If the Base64 string is invalid during decoding, the tool will not convert it, preventing you from using broken code.</li><li>Click the 'Copy' button and your code is ready to use.</li></ol><h3>Base64 Specification & Encoding Map</h3>\n<p>Base64 maps 6-bit binary sequences into 64 safe printable ASCII characters:</p>\n<ul>\n  <li><strong>Uppercase Letters (A-Z):</strong> Index values 0 to 25.</li>\n  <li><strong>Lowercase Letters (a-z):</strong> Index values 26 to 51.</li>\n  <li><strong>Digits (0-9):</strong> Index values 52 to 61.</li>\n  <li><strong>Symbols (+ and /):</strong> Index values 62 and 63.</li>\n  <li><strong>Padding (=):</strong> Aligns byte boundaries to 4-character blocks.</li>\n</ul><h3>Optimization Tips, Browser Compatibility, and FAQs</h3><p>To achieve maximum efficiency with ZeroTools, ensure your web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, or Opera) is updated to its latest version. Our tools leverage cutting-edge native web standards including WebAssembly, HTML5 Canvas, and Web Crypto APIs, matching desktop software performance without installations or drivers.</p>\n<p>If you rely on ZeroTools for daily marketing, design, or engineering workflows, bookmark our site (Ctrl+D / Cmd+D) for instant one-click access. With zero signup forms or passwords required, your productivity stays seamless.</p>",
       "seoTitle": "Free Base64 Encoder & Decoder Online — Encode & Decode Instantly",
       "seoDesc": "Encode and decode Base64 strings and files online. Supports text and images. Fast developer tool. 100% free, no signup, works directly in your browser.",
       "keywords": "base64 encoder decoder online free, encode base64, decode base64, base64 to text, text to base64, base64 converter, base64 online tool",
@@ -728,19 +776,23 @@
           "a": "Use `background-image: url('data:image/png;base64,YOUR_DATA');` to inline small icon assets into stylesheets."
         },
         {
-          "q": "Why does Base64 encoding increase file size by about 33%?",
-          "a": "Base64 maps every 3 bytes (24 bits) of binary data to 4 ASCII characters (32 bits). The overhead ratio is 4/3 ≈ 1.33, meaning a 1MB file becomes ~1.33MB encoded. This overhead exists because Base64 was designed to transmit binary data over text-only channels (like email SMTP servers) that only handle ASCII characters. The `=` padding characters you see at the end fill incomplete 3-byte groups."
+          "q": "Does ZeroTools store any usage logs or file data?",
+          "a": "Absolutely not! ZeroTools is built on a 100% client-side privacy architecture. No pasted strings, uploaded files, or processed assets ever touch external servers or databases."
         },
         {
-          "q": "When should I inline images as Base64 in CSS or HTML?",
-          "a": "Inlining as Base64 makes sense only for very small images (under 5KB): it eliminates an HTTP request, which reduces latency on pages with many tiny assets. It's counterproductive for larger images because: Base64 data can't be cached independently by the browser (it reloads with the CSS/HTML on every visit), it increases initial parse time, and it bypasses HTTP/2 multiplexing benefits. Best practice: use inline SVG for icons, Base64 only for data URIs under 2KB."
+          "q": "Can I use ZeroTools offline without internet?",
+          "a": "After the initial page load, most tools remain fully functional even if your internet disconnects, as execution logic runs entirely in local browser memory."
+        },
+        {
+          "q": "Can I use ZeroTools inside my business or agency workflow?",
+          "a": "Yes! ZeroTools is 100% free for commercial, corporate, agency, and educational use without licenses or payments."
         }
       ]
     },
     "word-counter": {
       "name": "Word Counter",
       "desc": "Count words, characters, sentences and analyze keyword density.",
-      "article": "<h2>Word Count and Density</h2><p>More than just counting characters for Twitter or school essays, the ZeroTools <strong>Word Counter</strong> calculates your reading time and extracts keyword density.</p><h3>Step-by-step how to use:</h3><ol><li>Paste or type your entire text into the central text box of the tool.</li><li>The top panels will immediately show the total count of Characters, Words, Sentences, and Paragraphs.</li><li>The side panel will inform the estimated time for an average person to read that text.</li><li>In the bottom panel, analyze the list of 'Most Used Words' (Density) to avoid excessive repetitions or to focus on SEO.</li></ol><h3>Keyword Density Analysis & Content SEO Best Practices</h3>\n<p>Beyond tracking word counts, SEO copywriters monitor keyword frequency ratios. Maintaining healthy density (1% to 2.5%) helps search engines identify core topics without triggering keyword stuffing penalties.</p>",
+      "article": "<h2>Word Count and Density</h2><p>More than just counting characters for Twitter or school essays, the ZeroTools <strong>Word Counter</strong> calculates your reading time and extracts keyword density.</p><h3>Step-by-step how to use:</h3><ol><li>Paste or type your entire text into the central text box of the tool.</li><li>The top panels will immediately show the total count of Characters, Words, Sentences, and Paragraphs.</li><li>The side panel will inform the estimated time for an average person to read that text.</li><li>In the bottom panel, analyze the list of 'Most Used Words' (Density) to avoid excessive repetitions or to focus on SEO.</li></ol><h3>Keyword Density Analysis & Content SEO Best Practices</h3>\n<p>Beyond tracking word counts, SEO copywriters monitor keyword frequency ratios. Maintaining healthy density (1% to 2.5%) helps search engines identify core topics without triggering keyword stuffing penalties.</p><h3>Optimization Tips, Browser Compatibility, and FAQs</h3><p>To achieve maximum efficiency with ZeroTools, ensure your web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, or Opera) is updated to its latest version. Our tools leverage cutting-edge native web standards including WebAssembly, HTML5 Canvas, and Web Crypto APIs, matching desktop software performance without installations or drivers.</p>\n<p>If you rely on ZeroTools for daily marketing, design, or engineering workflows, bookmark our site (Ctrl+D / Cmd+D) for instant one-click access. With zero signup forms or passwords required, your productivity stays seamless.</p>",
       "seoTitle": "Free Online Word Counter & Character Counter — ZeroTools",
       "seoDesc": "Count words, characters, sentences, and paragraphs in any text. Calculate reading time and keyword density for SEO. 100% free, no signup, works offline.",
       "keywords": "word counter online free, character counter, count words in text, reading time calculator, word count tool, online word counter",
@@ -778,12 +830,16 @@
           "a": "Google evaluates SERP snippets in pixels (~960px desktop, ~680px mobile), which corresponds to roughly 150 to 160 characters."
         },
         {
-          "q": "How long should a blog post be to rank on Google in 2026?",
-          "a": "Google does not publish a word count requirement — quality and relevance matter more than length. That said, SERP analysis consistently shows: list posts and news articles = 800-1,200 words, how-to guides and tutorials = 1,500-2,500 words, comprehensive pillar content = 3,000-5,000+ words. The real question is: does your article fully satisfy the search intent? Count your words here, then compare to the top 3 Google results for your target keyword."
+          "q": "Does ZeroTools store any usage logs or file data?",
+          "a": "Absolutely not! ZeroTools is built on a 100% client-side privacy architecture. No pasted strings, uploaded files, or processed assets ever touch external servers or databases."
         },
         {
-          "q": "How is reading time calculated and why does it matter for SEO?",
-          "a": "Reading time uses an average adult reading speed of 200-250 words per minute for general prose. Technical content (code, instructions) is typically read at 150 wpm. The formula: `word count ÷ 200 = minutes`. Reading time matters indirectly for SEO: Google uses dwell time (how long users stay on your page) as a quality signal. Articles that match their estimated reading time with actual useful content tend to rank better over time."
+          "q": "Can I use ZeroTools offline without internet?",
+          "a": "After the initial page load, most tools remain fully functional even if your internet disconnects, as execution logic runs entirely in local browser memory."
+        },
+        {
+          "q": "Can I use ZeroTools inside my business or agency workflow?",
+          "a": "Yes! ZeroTools is 100% free for commercial, corporate, agency, and educational use without licenses or payments."
         }
       ]
     }
@@ -837,8 +893,7 @@
     "clear": "Clear",
     "generate": "Generate",
     "drop": "Drag & drop file here",
-    "options": "Options",
-    "ad_label": "Advertisement"
+    "options": "Options"
   },
   "pwd_gen": {
     "length": "Length:",
@@ -1060,9 +1115,7 @@
     "title11": "11. Changes to This Policy",
     "p11": "We reserve the right to update this Privacy Policy at any time. Any changes will be published on this page with a new last updated date. We recommend that you review this policy periodically to stay informed about how we protect your information. Substantial changes will be highlighted on the site for a reasonable period.",
     "title12": "12. Contact and Data Protection Officer (DPO)",
-    "p12": "For questions, requests, or complaints related to this Privacy Policy or the processing of your personal data, please contact our Data Protection Officer (DPO) at <a href='mailto:HelloZeroTools@outlook.com'>HelloZeroTools@outlook.com</a>. You also have the right to file a complaint with a <strong>Data Protection Authority</strong> if you believe that the processing of your data violates applicable data protection legislation.",
-    "title2b": "2b. Contact Form",
-    "p2b": "The ZeroTools Contact page includes an optional form processed by <strong>Formspree</strong> (Formspree, Inc., USA). When you submit the form, the information you provide — your name, email address, and message — is transmitted to Formspree's servers for delivery to our inbox. This information is used solely to respond to your inquiry and is not shared with any third parties beyond Formspree. For more details, see <a href=\"https://formspree.io/legal/privacy-policy/\" target=\"_blank\" rel=\"noopener noreferrer\">Formspree's Privacy Policy</a>. Alternatively, you can reach us directly at <a href=\"mailto:HelloZeroTools@outlook.com\">HelloZeroTools@outlook.com</a> without using the form."
+    "p12": "For questions, requests, or complaints related to this Privacy Policy or the processing of your personal data, please contact our Data Protection Officer (DPO) at <a href='mailto:HelloZeroTools@outlook.com'>HelloZeroTools@outlook.com</a>. You also have the right to file a complaint with a <strong>Data Protection Authority</strong> if you believe that the processing of your data violates applicable data protection legislation."
   },
   "home_faq": {
     "title": "Frequently Asked Questions",

@@ -2,6 +2,7 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
 import { tools } from '../data/tools';
+import AdSlot from '../components/AdSlot';
 import '../css/blog.css';
 
 export default function BlogPost() {
@@ -57,6 +58,8 @@ export default function BlogPost() {
               </header>
 
               <div className="post-body" dangerouslySetInnerHTML={{ __html: post.content }} />
+
+              <AdSlot slot="In-Article 336×280" />
 
               {relatedToolData && (
                 <div className="related-tool-box">
