@@ -112,14 +112,6 @@
         {
           "q": "¿Necesito una cuenta para usar el Generador de Hashtags?",
           "a": "No. El Generador de Hashtags es 100% gratuito y no requiere cuenta, registro ni correo electrónico. Simplemente visita la página, selecciona tu categoría y comienza a generar hashtags inmediatamente."
-        },
-        {
-          "q": "¿Cómo saber si un hashtag está en shadowban en Instagram?",
-          "a": "Busca el hashtag directamente en Instagram. Si aparece el aviso \"publicaciones ocultadas por denuncias de la comunidad\", esa etiqueta está restringida y puede suprimir el alcance de tu publicación. También evita hashtags con miles de millones de posts — tu contenido nuevo quedará enterrado. Apunta a etiquetas de rango medio (10K-500K publicaciones) para mayor visibilidad en la pestaña Explorar."
-        },
-        {
-          "q": "¿Cuántos hashtags debo usar en Instagram, TikTok y LinkedIn?",
-          "a": "Instagram: 5 a 15 hashtags muy relevantes (permite 30, pero la sobreabundancia puede reducir el alcance orgánico). TikTok: 3 a 5 hashtags — combina 1 tendencia masiva con 2-3 específicos de tu nicho. LinkedIn: 3 a 5 hashtags profesionales (más de 5 activa filtros de spam en algunos feeds). Twitter/X: 1 a 2 hashtags máximo — los tweets con muchas etiquetas tienen menor tasa de interacción."
         }
       ]
     },
@@ -154,14 +146,6 @@
         {
           "q": "¿Puedo usar los códigos QR comercialmente?",
           "a": "Absolutamente. Todos los códigos QR generados son tuyos para usar sin restricciones — personal, comercial o educativo."
-        },
-        {
-          "q": "¿Puedo personalizar los colores del QR Code sin afectar su lectura?",
-          "a": "Sí, pero con precaución. Mantén siempre un contraste alto entre los módulos (cuadraditos) y el fondo: módulos oscuros sobre fondo claro es lo más confiable. Nunca inviertas los colores (fondo negro con módulos blancos) sin probar en múltiples dispositivos, ya que algunos lectores no reconocen esta variante. Usa el selector de color de esta herramienta y prueba el resultado con la cámara de tu celular antes de imprimir."
-        },
-        {
-          "q": "¿Qué diferencia hay entre descargar el QR en PNG o SVG?",
-          "a": "PNG es un archivo de imagen de resolución fija — perfecto para uso digital (redes sociales, correos, presentaciones). SVG es un gráfico vectorial escalable que mantiene nitidez perfecta a cualquier tamaño de impresión, desde tarjetas de visita hasta vallas publicitarias. Para materiales impresos profesionales, siempre descarga en SVG. Para uso digital exclusivo, PNG a 1024px es más que suficiente."
         }
       ]
     },
@@ -196,14 +180,6 @@
         {
           "q": "¿Hay límite de tamaño de archivo?",
           "a": "El único límite es la memoria de tu dispositivo. La mayoría de dispositivos modernos manejan imágenes de hasta 50MB o más."
-        },
-        {
-          "q": "¿La compresión elimina los metadatos EXIF de mis fotos (ubicación GPS, etc.)?",
-          "a": "Sí. La API Canvas del HTML5 descarta los metadatos EXIF al re-exportar la imagen, incluyendo coordenadas GPS, modelo de cámara, fecha de captura y datos de copyright. Esto es una ventaja de privacidad: no compartirás tu ubicación accidentalmente al subir fotos a redes sociales. Si necesitas conservar los metadatos (para archivo profesional o derechos de autor), guarda siempre una copia del archivo original antes de comprimir."
-        },
-        {
-          "q": "¿Qué nivel de calidad recomiendan para imágenes de e-commerce y redes sociales?",
-          "a": "Para fotos de producto sobre fondo blanco: 80-85% de calidad — nitidez excelente con tamaño reducido. Para imágenes lifestyle y retratos: 75-80% — prácticamente indistinguible del original a simple vista. Por debajo del 70% empiezan a aparecer artefactos de compresión visibles, especialmente en bordes y áreas con texto. El formato WebP al 80% produce archivos un 30% más pequeños que JPEG equivalente — úsalo cuando la compatibilidad lo permita."
         }
       ]
     },
@@ -238,14 +214,6 @@
         {
           "q": "¿Qué formatos de imagen son compatibles?",
           "a": "Puedes subir JPG y PNG. La herramienta exporta como JPG, PNG o WebP."
-        },
-        {
-          "q": "¿Cuáles son las dimensiones correctas para cada red social en 2026?",
-          "a": "Medidas clave: Instagram Feed Cuadrado = 1080×1080px (1:1), Instagram Retrato = 1080×1350px (4:5), Stories/Reels/TikTok = 1080×1920px (9:16), Twitter/X = 1200×675px (16:9), LinkedIn personal = 1584×396px, YouTube miniatura = 1280×720px, Facebook portada = 820×312px. Recortar antes de subir evita que las plataformas apliquen compresión automática agresiva que reduce la calidad de la imagen."
-        },
-        {
-          "q": "¿Qué significa DPI y afecta a las imágenes para pantalla?",
-          "a": "DPI (puntos por pulgada) es un concepto de impresión — mide la densidad de puntos de tinta en papel físico. Para imágenes digitales y pantallas, el DPI es irrelevante. Los monitores renderizan imágenes únicamente según las dimensiones en píxeles (ancho × alto). Una imagen de 72 DPI y otra de 300 DPI con las mismas dimensiones en píxeles se ven exactamente igual en pantalla. Solo configura 300 DPI si preparas archivos para impresión profesional."
         }
       ]
     },
@@ -280,14 +248,6 @@
         {
           "q": "¿La imagen de salida es transparente?",
           "a": "Sí, siempre es un PNG con fondo transparente. Puedes previsualizarla con fondos de color antes de descargar."
-        },
-        {
-          "q": "¿Por qué el primer procesamiento tarda más que los siguientes?",
-          "a": "En tu primera visita, el modelo de IA (archivo ONNX de ~40MB) necesita descargarse y almacenarse en el caché de tu navegador. Este proceso toma entre 10 y 60 segundos según tu conexión. A partir de la segunda vez, el modelo ya está guardado localmente y el procesamiento comienza casi de inmediato sin descargas adicionales. La IA funciona completamente en tu dispositivo — tus fotos nunca salen de tu computadora o celular."
-        },
-        {
-          "q": "¿Qué tipo de imágenes dan mejores resultados con la eliminación de fondo?",
-          "a": "Mejores resultados: sujetos con contraste claro contra fondos uniformes (fondo blanco de estudio, pared lisa), buena iluminación sin sombras duras, y resolución mínima de 500×500px. Casos desafiantes: cabello muy fino o rizado contra fondos complejos, objetos semitransparentes (vidrio, tules), sujetos cuyo color se parece al fondo. Para e-commerce, fotografía sobre fondo blanco o gris neutro para resultados óptimos."
         }
       ]
     },
@@ -322,14 +282,6 @@
         {
           "q": "¿Puedo comprimir PDFs protegidos?",
           "a": "No, los PDFs cifrados o protegidos con contraseña no pueden procesarse. Debes quitar la protección primero."
-        },
-        {
-          "q": "¿Por qué mi PDF apenas redujo de tamaño después de comprimir?",
-          "a": "Los PDFs escaneados (digitalizados de documentos físicos) contienen imágenes bitmap de alta resolución ya comprimidas por el escáner. La optimización de estructura elimina metadatos y reorganiza objetos internos, pero no puede recomprimir imágenes sin pérdida adicional de calidad. Los PDFs creados digitalmente (Word, InDesign, Google Docs) se reducen mucho más porque contienen fuentes completas incrustadas, objetos duplicados e historial de revisiones eliminable."
-        },
-        {
-          "q": "¿Es seguro comprimir documentos confidenciales aquí?",
-          "a": "Sí, completamente seguro. Todo el proceso de compresión ocurre dentro de tu navegador usando librerías JavaScript locales — tu PDF nunca se sube a ningún servidor, nunca se almacena en la nube y nunca se transmite por internet. Puedes verificarlo tú mismo: abre las DevTools del navegador (F12), ve a la pestaña Red (Network) y verás que no se realiza ninguna carga de archivo mientras procesas. Ideal para contratos, declaraciones fiscales, historial médico y documentos legales."
         }
       ]
     },
@@ -364,14 +316,6 @@
         {
           "q": "¿La conversión afecta la calidad?",
           "a": "Entre formatos con pérdida puede haber cambios mínimos. Convertir a PNG preserva la calidad exacta."
-        },
-        {
-          "q": "¿La conversión de PNG a WebP conserva la transparencia del fondo?",
-          "a": "Sí. El formato WebP soporta canal alfa de 8 bits, idéntico al PNG. La transparencia se conserva perfectamente en conversiones PNG → WebP. La ventaja es que los archivos WebP con transparencia son típicamente 25-35% más pequeños que los PNG equivalentes. Los navegadores modernos (Chrome, Firefox, Safari, Edge) soportan WebP nativamente desde 2020. Para compatibilidad con software antiguo, conserva una copia PNG como respaldo."
-        },
-        {
-          "q": "¿Por qué el archivo WebP no abre en algunos programas o visualizadores antiguos?",
-          "a": "El soporte nativo de WebP llegó a Photoshop recién en la versión 23.2 (2022). Windows 10 sin la extensión \"Extensiones de imagen de webp\" tampoco puede abrir WebP en el Explorador. Para compatibilidad máxima con software legado, usa PNG. Para web moderna, WebP es el estándar recomendado por Google PageSpeed Insights y produce páginas hasta un 35% más rápidas que equivalentes con JPEG o PNG."
         }
       ]
     },
@@ -406,14 +350,6 @@
         {
           "q": "¿Dónde guardar mis contraseñas?",
           "a": "Recomendamos un gestor de contraseñas confiable como Bitwarden, 1Password o KeePass."
-        },
-        {
-          "q": "¿Las contraseñas generadas aquí son verdaderamente aleatorias?",
-          "a": "Sí. Usamos la Web Crypto API del navegador (`crypto.getRandomValues()`), que obtiene entropía de fuentes del sistema operativo: movimientos del mouse, temperatura del hardware, interrupciones del kernel. Es radicalmente diferente de `Math.random()`, que es pseudoaleatorio y predecible. La Web Crypto API es la misma tecnología que usan gestores de contraseñas profesionales como Bitwarden y 1Password, y sistemas bancarios en línea."
-        },
-        {
-          "q": "¿Debo activar todos los tipos de caracteres (mayúsculas, números, símbolos)?",
-          "a": "Para máxima seguridad, sí. Cada tipo adicional multiplica el espacio de búsqueda: solo minúsculas = 26 posibilidades por posición; con mayúsculas+números+símbolos = 95. Una contraseña de 16 caracteres con todos los tipos tiene 95¹⁶ ≈ 4×10³¹ combinaciones posibles. Excepción: algunos sistemas heredados (bancarios, gubernamentales) rechazan ciertos símbolos — en ese caso, compensa con mayor longitud (20+ caracteres)."
         }
       ]
     },
@@ -448,14 +384,6 @@
         {
           "q": "¿Qué formatos de color se soportan?",
           "a": "El formato principal es HEX. Los cálculos internos usan HSL para precisión matemática."
-        },
-        {
-          "q": "¿Cómo verifico si mi paleta de colores cumple los estándares WCAG de accesibilidad?",
-          "a": "Copia los valores HEX de tu paleta y pruébalos en el Contrast Checker de WebAIM. El estándar WCAG 2.1 Nivel AA exige una relación de contraste mínima de 4.5:1 para texto normal y 3:1 para texto grande (18pt+). En Chrome DevTools, el selector de color en el panel de Estilos muestra la relación de contraste automáticamente. Las paletas complementares generan contrastes más altos de forma natural, lo que las hace un punto de partida seguro para diseños accesibles."
-        },
-        {
-          "q": "¿Puedo usar los valores HSL generados directamente en CSS y Tailwind CSS?",
-          "a": "Sí. HSL es ideal para sistemas de diseño con variables CSS: `--color-primario: hsl(245, 82%, 61%);` y sus variantes `--color-primario-claro: hsl(245, 82%, 75%);` — solo cambias la luminosidad manteniendo el mismo tono. En Tailwind CSS, agrega los valores en `tailwind.config.js` bajo `theme.extend.colors`. En Figma, usa Estilos de Color para compartir la paleta en toda tu biblioteca de componentes y mantener consistencia visual."
         }
       ]
     },
@@ -490,14 +418,6 @@
         {
           "q": "¿Puedo usarlo en mis proyectos?",
           "a": "Absolutamente. Está diseñado específicamente como texto de relleno para cualquier proyecto de diseño."
-        },
-        {
-          "q": "¿Cuál es el origen del texto \"Lorem ipsum dolor sit amet\"?",
-          "a": "Lorem ipsum deriva del tratado filosófico \"De Finibus Bonorum et Malorum\" de Cicerón, escrito en el año 45 a.C. Un tipógrafo desconocido del siglo XVI reorganizó fragmentos del texto original para crear un libro de muestras tipográficas. Se popularizó mundialmente en los años 1960 con las hojas de transferencia Letraset y luego con software de autoedición como Aldus PageMaker y Adobe InDesign."
-        },
-        {
-          "q": "¿Cuándo usar Lorem Ipsum y cuándo usar texto real en prototipos?",
-          "a": "Usa Lorem Ipsum en: wireframes tempranos y revisiones internas de diseño (mantiene el foco en el layout, no en el contenido). Cambia a contenido real o representativo para: presentaciones al cliente (los stakeholders toman malas decisiones al leer texto ficticio), pruebas de usabilidad (los participantes se confunden), y cualquier prototipo que se usará para testing de accesibilidad. Regla práctica: cuanto más cerca esté del entregable final, más real debe ser el contenido."
         }
       ]
     },
@@ -532,14 +452,6 @@
         {
           "q": "¿Hay límite de tamaño?",
           "a": "El límite depende de la memoria de tu dispositivo. Los dispositivos modernos manejan fácilmente varios megabytes de JSON."
-        },
-        {
-          "q": "¿Qué causa el error \"Unexpected token\" en mi JSON?",
-          "a": "Las causas más comunes: (1) Coma final — `[1, 2, 3,]` o `{\"a\": 1,}` son inválidos en JSON (válidos en JS, no en JSON); (2) Comillas simples — JSON exige comillas dobles en todas las cadenas; (3) Claves sin comillas — `{nombre: \"Juan\"}` debe ser `{\"nombre\": \"Juan\"}`; (4) Comentarios — JSON no soporta `//` ni `/* */`; (5) Valores NaN o Infinity — usa null en su lugar. El validador integrado indica la línea y posición exacta del error."
-        },
-        {
-          "q": "¿Puede esta herramienta manejar archivos JSON muy grandes (más de 100MB)?",
-          "a": "Sí — el procesamiento está limitado únicamente por la RAM disponible en tu dispositivo, no por límites de carga en servidor. Todo ocurre en tu navegador, por lo que un JSON de 500MB se procesa igual que uno de 1KB. Para archivos muy grandes, cierra otras pestañas del navegador antes de procesar. Si el navegador se congela, considera herramientas de línea de comandos como `jq` o `fx`, optimizadas para procesar JSON de varios gigabytes por streaming."
         }
       ]
     },
@@ -574,14 +486,6 @@
         {
           "q": "¿Hay límite de caracteres?",
           "a": "No. Puedes pegar documentos enteros o archivos de código sin restricción."
-        },
-        {
-          "q": "¿Cuándo debo usar camelCase, PascalCase o snake_case en programación?",
-          "a": "Por convención: camelCase → variables y funciones en JavaScript/TypeScript (`obtenerUsuario`), métodos Java. PascalCase → nombres de clases, componentes React, interfaces TypeScript (`PerfilUsuario`, `<Botón />`). snake_case → Python variables y funciones (`obtener_usuario`), nombres de columnas de bases de datos, slugs de URLs. kebab-case → clases CSS, atributos HTML, rutas de URLs (`perfil-usuario`). Sigue la guía de estilo de tu ecosistema — la consistencia es más importante que la preferencia personal."
-        },
-        {
-          "q": "¿Cómo genero slugs de URL a partir de títulos con acentos y caracteres especiales?",
-          "a": "El algoritmo estándar para slugs: (1) convertir a minúsculas, (2) normalizar Unicode a NFD (separar tildes de las letras base), (3) eliminar caracteres no-ASCII, (4) reemplazar espacios y caracteres especiales con guiones, (5) colapsar guiones múltiples en uno solo, (6) eliminar guiones al inicio y al final. Ejemplo: \"Cómo Usar IA en 2026!\" → \"como-usar-ia-en-2026\". Usa la salida kebab-case de este convertidor como punto de partida y limpia manualmente los caracteres restantes."
         }
       ]
     },
@@ -616,14 +520,6 @@
         {
           "q": "¿Qué pasa si la cadena Base64 es inválida?",
           "a": "La herramienta valida automáticamente la entrada y muestra un mensaje de error en vez de producir salida corrupta."
-        },
-        {
-          "q": "¿Por qué la codificación Base64 aumenta el tamaño del archivo en un ~33%?",
-          "a": "Base64 mapea cada grupo de 3 bytes (24 bits) a 4 caracteres ASCII (32 bits). La razón es 4/3 ≈ 1.33, es decir, un 33% de overhead. Este overhead existe porque Base64 fue diseñado para transmitir datos binarios por canales de solo texto ASCII (como servidores SMTP de correo electrónico). Los caracteres `=` que ves al final son relleno para completar grupos de 3 bytes cuando el archivo no es divisible por 3."
-        },
-        {
-          "q": "¿Cuándo conviene incrustar imágenes en Base64 en CSS o HTML?",
-          "a": "Tiene sentido solo para imágenes muy pequeñas (menos de 5KB): elimina una petición HTTP, reduciendo la latencia en páginas con muchos activos pequeños. Es contraproducente para imágenes más grandes porque: el dato Base64 no puede cachearse independientemente (se recarga con el CSS en cada visita), aumenta el tamaño inicial del CSS y perjudica el tiempo de análisis. Mejor práctica: usa SVG inline para íconos; Base64 solo para URIs de datos menores de 2KB."
         }
       ]
     },
@@ -658,14 +554,6 @@
         {
           "q": "¿Puedo usarlo para análisis SEO?",
           "a": "¡Sí! La densidad de palabras clave te ayuda a optimizar la frecuencia de tus keywords objetivo."
-        },
-        {
-          "q": "¿Cuántas palabras debe tener un artículo de blog para posicionar en Google?",
-          "a": "Google no publica un número mínimo — la relevancia y la calidad importan más que la longitud. Dicho eso, el análisis de SERPs muestra consistentemente: artículos de lista = 800-1.200 palabras, guías y tutoriales = 1.500-2.500 palabras, contenido pilar completo = 3.000-5.000+ palabras. La pregunta real es: ¿tu artículo responde completamente la intención de búsqueda del usuario? Cuenta tus palabras aquí y compara con los 3 primeros resultados de Google para tu keyword objetivo."
-        },
-        {
-          "q": "¿Cómo se calcula el tiempo de lectura y por qué importa para el SEO?",
-          "a": "El cálculo usa la velocidad promedio de lectura de adultos: 200-250 palabras por minuto (ppm) en prosa general. Contenido técnico (código, instrucciones) se lee a unas 150 ppm. Fórmula: `número de palabras ÷ 200 = minutos`. El tiempo de lectura impacta al SEO de forma indirecta: Google usa el tiempo de permanencia en página como señal de calidad. Artículos que satisfacen completamente la búsqueda tienden a tener mayor \"dwell time\" y, con el tiempo, mejor posicionamiento."
         }
       ]
     }
@@ -719,8 +607,7 @@
     "clear": "Limpiar",
     "generate": "Generar",
     "drop": "Suelta el archivo aquí",
-    "options": "Opciones",
-    "ad_label": "Publicidad"
+    "options": "Opciones"
   },
   "pwd_gen": {
     "length": "Tamaño:",
@@ -932,9 +819,7 @@
     "title6": "6. Cambios",
     "p6": "Podemos actualizar esta política ocasionalmente. Los cambios se indicarán con una nueva fecha de última actualización en la parte superior.",
     "title7": "7. Contacto",
-    "p7": "¿Preguntas? Envíanos un correo a <a href='mailto:HelloZeroTools@outlook.com'>HelloZeroTools@outlook.com</a>",
-    "title2b": "2b. Formulario de Contacto",
-    "p2b": "La página de Contacto de ZeroTools ofrece un formulario opcional procesado por <strong>Formspree</strong> (Formspree, Inc., EE.UU.). Cuando envías el formulario, la información proporcionada — nombre, dirección de correo electrónico y mensaje — se transmite a los servidores de Formspree para su entrega a nuestro buzón. Esta información se utiliza únicamente para responder a tu consulta y no se comparte con terceros más allá de Formspree. Para más detalles, consulta la <a href=\"https://formspree.io/legal/privacy-policy/\" target=\"_blank\" rel=\"noopener noreferrer\">Política de Privacidad de Formspree</a>. También puedes contactarnos directamente en <a href=\"mailto:HelloZeroTools@outlook.com\">HelloZeroTools@outlook.com</a> sin usar el formulario."
+    "p7": "¿Preguntas? Envíanos un correo a <a href='mailto:HelloZeroTools@outlook.com'>HelloZeroTools@outlook.com</a>"
   },
   "home_faq": {
     "title": "Preguntas Frecuentes",
