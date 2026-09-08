@@ -37,11 +37,19 @@ export default function Privacy() {
             {SECTIONS.map(n => {
               const titleKey = `privacy.title${n}`;
               const pKey = `privacy.p${n}`;
+              const titleKeyB = `privacy.title${n}b`;
+              const pKeyB = `privacy.p${n}b`;
               if (!i18n.exists(titleKey)) return null;
               return (
                 <section key={n}>
                   <h2>{t(titleKey)}</h2>
                   <p dangerouslySetInnerHTML={{ __html: t(pKey) }} />
+                  {i18n.exists(titleKeyB) && (
+                    <div className="privacy-sub">
+                      <h3>{t(titleKeyB)}</h3>
+                      <p dangerouslySetInnerHTML={{ __html: t(pKeyB) }} />
+                    </div>
+                  )}
                 </section>
               );
             })}

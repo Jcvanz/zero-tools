@@ -30,6 +30,12 @@
     color: #111827;
 }
 
+.privacy-wrap h3 {
+    font-size: 1rem;
+    margin: 20px 0 8px;
+    color: #111827;
+}
+
 .privacy-wrap p {
     color: #4b5563;
     line-height: 1.8;
