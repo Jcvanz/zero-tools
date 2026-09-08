@@ -321,23 +321,40 @@ input[type="checkbox"] {
   .tool-grid-2 { grid-template-columns: 1fr 1fr; }
 }
 
-/* ===== AD SLOTS (CLS PREVENTION) ===== */
-.ad-slot {
+/* ===== AD SLOTS (AD COMPLIANCE & CLS PREVENTION) ===== */
+.ad-slot-wrapper {
   width: 100%;
-  display: none;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-block: 12px;
-  margin-block: 16px;
+  margin: 32px auto;
+  padding: 10px 0;
   box-sizing: border-box;
   overflow: hidden;
+  clear: both;
 }
 
-.ad-slot:has(.adsbygoogle) {
+.ad-slot-label {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--clr-text-2, #9ca3af);
+  opacity: 0.8;
+  margin-bottom: 8px;
+  text-align: center;
+  user-select: none;
+}
+
+.ad-slot-inner {
+  width: 100%;
+  max-width: 100%;
   display: flex;
-  background-color: var(--clr-surface-2, rgba(0, 0, 0, 0.02));
-  border: 1px dashed var(--clr-border, #e2e8f0);
-  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 /* ===== SECTION TITLES ===== */
