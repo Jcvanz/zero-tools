@@ -31,9 +31,50 @@ export default function Home() {
         <meta name="keywords" content="free online tools, qr code generator, hashtag generator, image compressor, background remover, pdf compressor, password generator" />
         <link rel="canonical" href="https://myzerotools.online/" />
         <meta property="og:title" content="ZeroTools — Free Online Tools" />
-        <meta property="og:description" content="14 free browser-based tools for creators, developers and marketers." />
+        <meta property="og:description" content="14 free browser-based tools for creators, developers and marketers. No signup, no upload — 100% private." />
         <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://myzerotools.online/" />
+        <meta property="og:image" content="https://myzerotools.online/og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:site_name" content="ZeroTools" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="ZeroTools — Free Online Tools" />
+        <meta name="twitter:description" content="14 free browser-based tools for creators, developers and marketers. No signup, no upload — 100% private." />
+        <meta name="twitter:image" content="https://myzerotools.online/og-image.jpg" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "ZeroTools",
+            "url": "https://myzerotools.online",
+            "logo": "https://myzerotools.online/favicon.svg",
+            "description": "Free online tools for creators, developers and marketers. No signup required — works entirely in your browser.",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "email": "HelloZeroTools@outlook.com",
+              "contactType": "customer support"
+            }
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "ZeroTools",
+            "url": "https://myzerotools.online",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://myzerotools.online/?search={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            }
+          })}
+        </script>
       </Helmet>
+
 
       <AdSlot slot="Top Leaderboard 728×90" />
 

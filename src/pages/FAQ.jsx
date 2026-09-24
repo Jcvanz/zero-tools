@@ -14,7 +14,36 @@ export default function FAQ() {
         <title>{t('faq_page.title')} | ZeroTools</title>
         <meta name="description" content={t('faq_page.meta_desc')} />
         <link rel="canonical" href="https://myzerotools.online/faq" />
+        <meta property="og:title" content={`${t('faq_page.title')} | ZeroTools`} />
+        <meta property="og:description" content={t('faq_page.meta_desc')} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://myzerotools.online/faq" />
+        <meta property="og:image" content="https://myzerotools.online/og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:site_name" content="ZeroTools" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={`${t('faq_page.title')} | ZeroTools`} />
+        <meta name="twitter:description" content={t('faq_page.meta_desc')} />
+        <meta name="twitter:image" content="https://myzerotools.online/og-image.jpg" />
+        {Array.isArray(faqs) && faqs.length > 0 && (
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": faqs.map(f => ({
+                "@type": "Question",
+                "name": f.q,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": f.a
+                }
+              }))
+            })}
+          </script>
+        )}
       </Helmet>
+
 
       <AdSlot slot="Top Leaderboard" />
 
