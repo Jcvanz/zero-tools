@@ -16,7 +16,36 @@ export default function About() {
         <meta property="og:description" content={t('about.meta_desc')} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://myzerotools.online/about" />
+        <meta property="og:image" content="https://myzerotools.online/og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:site_name" content="ZeroTools" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={`${t('about.title', 'About Us')} — ZeroTools`} />
+        <meta name="twitter:description" content={t('about.meta_desc')} />
+        <meta name="twitter:image" content="https://myzerotools.online/og-image.jpg" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "AboutPage",
+            "name": t('about.title', 'About ZeroTools'),
+            "url": "https://myzerotools.online/about",
+            "description": t('about.meta_desc'),
+            "publisher": {
+              "@type": "Organization",
+              "name": "ZeroTools",
+              "url": "https://myzerotools.online",
+              "logo": "https://myzerotools.online/favicon.svg",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "HelloZeroTools@outlook.com",
+                "contactType": "customer support"
+              }
+            }
+          })}
+        </script>
       </Helmet>
+
 
       <main className="tool-page main-content">
         <div className="container" style={{maxWidth: '800px', margin: '0 auto'}}>

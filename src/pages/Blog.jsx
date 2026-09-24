@@ -17,8 +17,26 @@ export default function Blog() {
         <link rel="canonical" href="https://myzerotools.online/blog" />
         <meta property="og:title" content={`${t('blog.title')} — ZeroTools`} />
         <meta property="og:description" content={t('blog.meta_desc')} />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="blog" />
         <meta property="og:url" content="https://myzerotools.online/blog" />
+        <meta property="og:image" content="https://myzerotools.online/og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:site_name" content="ZeroTools" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={`${t('blog.title')} — ZeroTools`} />
+        <meta name="twitter:description" content={t('blog.meta_desc')} />
+        <meta name="twitter:image" content="https://myzerotools.online/og-image.jpg" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://myzerotools.online/" },
+              { "@type": "ListItem", "position": 2, "name": t('blog.title'), "item": "https://myzerotools.online/blog" }
+            ]
+          })}
+        </script>
       </Helmet>
 
       <main className="main-content blog-page" style={{padding:'60px 0 80px'}}>
@@ -34,6 +52,18 @@ export default function Blog() {
             <p>{t('blog.subtitle')}</p>
           </div>
 
+          {/* Intro text block — helps AdSense understand the page value */}
+          <div className="blog-intro-text" style={{
+            maxWidth: '760px',
+            margin: '0 auto 48px',
+            color: 'var(--clr-text-2)',
+            lineHeight: '1.8',
+            fontSize: '1rem',
+            textAlign: 'center',
+          }}>
+            <p>{t('blog.intro_text')}</p>
+          </div>
+
           <div className="blog-grid">
             {Array.isArray(posts) && posts.map((post) => (
               <article key={post.slug} className="post-card">
@@ -42,6 +72,12 @@ export default function Blog() {
                     <time dateTime={post.date}>{post.date}</time>
                     <span>•</span>
                     <span>{post.readTime} {t('blog.read_time')}</span>
+                    {post.category && (
+                      <>
+                        <span>•</span>
+                        <span className="post-category-tag">{post.category}</span>
+                      </>
+                    )}
                   </div>
                   <h2>
                     <Link to={`/blog/${post.slug}`}>{post.title}</Link>
@@ -56,6 +92,7 @@ export default function Blog() {
           </div>
         </div>
       </main>
+
     </>
   );
 }

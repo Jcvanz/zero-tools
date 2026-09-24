@@ -18,6 +18,12 @@ export default function Privacy() {
         <meta property="og:description" content={t('privacy.meta_desc')} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://myzerotools.online/privacy" />
+        <meta property="og:image" content="https://myzerotools.online/og-image.jpg" />
+        <meta property="og:site_name" content="ZeroTools" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={`${t('privacy.title')} — ZeroTools`} />
+        <meta name="twitter:description" content={t('privacy.meta_desc')} />
+        <meta name="twitter:image" content="https://myzerotools.online/og-image.jpg" />
       </Helmet>
 
       <main className="main-content" style={{padding:'60px 0 80px'}}>

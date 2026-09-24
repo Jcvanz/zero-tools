@@ -42,6 +42,34 @@ export default function ToolLayout({ tool, children, seo = {} }) {
         <meta property="og:description" content={pageDesc} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={`https://myzerotools.online${tool.path}`} />
+        <meta property="og:image" content="https://myzerotools.online/og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:site_name" content="ZeroTools" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={pageTitle} />
+        <meta name="twitter:description" content={pageDesc} />
+        <meta name="twitter:image" content="https://myzerotools.online/og-image.jpg" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://myzerotools.online/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": translatedName,
+                "item": `https://myzerotools.online${tool.path}`
+              }
+            ]
+          })}
+        </script>
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -75,6 +103,7 @@ export default function ToolLayout({ tool, children, seo = {} }) {
           </script>
         )}
       </Helmet>
+
 
       <AdSlot slot="Top Leaderboard 728×90" />
 

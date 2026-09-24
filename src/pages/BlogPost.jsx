@@ -34,9 +34,59 @@ export default function BlogPost() {
         <meta property="og:description" content={post.excerpt} />
         <meta property="og:type" content="article" />
         <meta property="og:url" content={`https://myzerotools.online/blog/${post.slug}`} />
+        <meta property="og:image" content="https://myzerotools.online/og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:site_name" content="ZeroTools" />
         <meta property="article:published_time" content={post.date} />
         <meta property="article:author" content={post.author} />
+        <meta property="article:section" content={post.category || 'Technology'} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={`${post.title} — ZeroTools`} />
+        <meta name="twitter:description" content={post.excerpt} />
+        <meta name="twitter:image" content="https://myzerotools.online/og-image.jpg" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": post.title,
+            "description": post.excerpt,
+            "url": `https://myzerotools.online/blog/${post.slug}`,
+            "datePublished": post.date,
+            "dateModified": post.date,
+            "author": {
+              "@type": "Person",
+              "name": post.author || "ZeroTools Team"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "ZeroTools",
+              "url": "https://myzerotools.online",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://myzerotools.online/favicon.svg"
+              }
+            },
+            "image": "https://myzerotools.online/og-image.jpg",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": `https://myzerotools.online/blog/${post.slug}`
+            }
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://myzerotools.online/" },
+              { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://myzerotools.online/blog" },
+              { "@type": "ListItem", "position": 3, "name": post.title, "item": `https://myzerotools.online/blog/${post.slug}` }
+            ]
+          })}
+        </script>
       </Helmet>
+
 
       <main className="main-content blog-post-page" style={{padding:'60px 0 80px'}}>
         <div className="container">
