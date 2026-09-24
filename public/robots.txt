@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
+Disallow: /politica-de-privacidade
+Disallow: /termos-de-uso
+Disallow: /contato
+Disallow: /sobre
 
 Sitemap: https://myzerotools.online/sitemap.xml
