@@ -1260,7 +1260,9 @@
     "title": "Blog",
     "meta_desc": "Artigos, tutoriais e guias sobre ferramentas online, privacidade digital, produtividade e tecnologia web. Aprenda a usar as ferramentas do ZeroTools.",
     "subtitle": "Artigos, tutoriais e guias para aproveitar ao máximo nossas ferramentas",
+    "intro_text": "Bem-vindo ao blog do ZeroTools — seu guia prático de produtividade digital. Aqui você encontra tutoriais detalhados, dicas profissionais e guias completos sobre como usar nossas 14 ferramentas gratuitas, além de conteúdo aprofundado sobre temas como segurança de senhas, compressão de imagens, QR Codes, privacidade online e muito mais. Todos os artigos são escritos pela equipe ZeroTools com foco na aplicação prática e baseados em pesquisas atualizadas.",
     "read_more": "Ler artigo completo",
+
     "read_time": "min de leitura",
     "back": "← Voltar ao Blog",
     "written_by": "Escrito por",
