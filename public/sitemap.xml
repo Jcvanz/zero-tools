@@ -4,37 +4,37 @@
   <!-- Main pages -->
   <url>
     <loc>https://myzerotools.online/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/about</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/faq</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/privacy</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/terms</loc>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/contact</loc>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -42,182 +42,183 @@
   <!-- Tools — high priority -->
   <url>
     <loc>https://myzerotools.online/tools/background-remover</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/tools/image-compressor</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/tools/image-cropper</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/tools/pdf-compressor</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/tools/qr-code</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/tools/hashtag-generator</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/tools/password-generator</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/tools/file-converter</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/tools/color-palette</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/tools/lorem-ipsum</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/tools/json-formatter</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/tools/word-counter</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/tools/base64</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/tools/case-converter</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <!-- Blog -->
   <url>
     <loc>https://myzerotools.online/blog</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/blog/como-comprimir-imagens-sem-perder-qualidade</loc>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/blog/qr-code-guia-completo</loc>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/blog/seguranca-de-senhas-guia-completo</loc>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/blog/remover-fundo-imagem-ia-como-funciona</loc>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/blog/processamento-client-side-privacidade</loc>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/blog/guia-definitivo-hashtags-redes-sociais</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/blog/como-recortar-e-redimensionar-imagens-para-redes-sociais</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/blog/guia-completo-otimizacao-arquivos-pdf</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/blog/como-converter-formatos-de-imagem-webp-png-jpg</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/blog/psicologia-das-cores-e-design-com-paleta-de-cores</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/blog/lorem-ipsum-historia-e-boas-praticas-no-design-web</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/blog/como-formatar-e-validar-json-para-desenvolvedores</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/blog/contagem-de-palavras-e-seo-tamanho-ideal-de-conteudo</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/blog/o-que-e-codificacao-base64-e-como-funciona</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://myzerotools.online/blog/padroes-de-capitalizacao-camelcase-snakecase-kebabcase</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
